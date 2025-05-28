@@ -1,0 +1,92 @@
+import pandas as pd
+import os
+
+from data_handling import (find_tsv_files,
+                           extract_gene_lengths_from_gff)
+from visualization import (visualize_tpm_boxplot_only,
+                           visualize_tpm_boxplot_entitywise,
+                           visualize_pca_comparison)
+
+
+# TPM-Normalisierung mit berechneten Gen-Längen/ 1000, falls keine Gen-Länge gefunden werden kann
+def normalize_tpm(df, count_cols, feature_lengths):
+    # Schritt 1: RPK berechnen (Reads Per Kilobase)
+    rpk = pd.DataFrame()
+    for col in count_cols:
+        rpk[col] = df[col] / (feature_lengths / 1000)
+
+    # Schritt 2: Skalierungsfaktor pro Sample (Summe aller RPKs pro Spalte)
+    scaling_factors = rpk.sum(axis=0) / 1e6
+
+    # Schritt 3: TPM berechnen
+    tpm = rpk.divide(scaling_factors, axis=1)
+    return tpm
+
+
+def batch_normalize_tpm(input_dir, output_dir, gff_files_list, visual=True):
+    """
+    Führt TPM-Normalisierung für alle TSV-Dateien im Eingabeverzeichnis durch,
+    erstellt Visualisierungen und speichert die normalisierten Daten.
+
+    Args:
+        input_dir (str): Verzeichnis mit den Eingabedateien
+        output_dir (str): Verzeichnis für die Ausgabedateien
+        gff_files_list (list): Liste der GFF-Dateien für die Genlängen-Extraktion
+        visual (bool): Wenn True, werden Visualisierungen erstellt
+    """
+
+    os.makedirs(output_dir, exist_ok=True)
+    tsv_files = find_tsv_files(input_dir)
+
+    # Anwendung auf alle Dateien
+    for file_path in tsv_files:
+        try:
+            df = pd.read_csv(file_path, sep='\t')
+
+            gene_col = df.columns[0]
+            entity_col = df.columns[-2]
+            symbol_col = df.columns[-1]
+            count_cols = df.columns[1:-2]
+
+            print(f"\nVerarbeite: {os.path.basename(file_path)}")
+
+            # Gene-Längen aus der entsprechenden GFF-Datei extrahieren
+            gene_lengths = {}
+            for gff_file in gff_files_list:
+                gene_lengths.update(extract_gene_lengths_from_gff(gff_file))
+
+            # Füge Gene-Length Spalte hinzu
+            df['gene_length'] = df[gene_col].map(gene_lengths).fillna(1000)  # Default 1000 wenn keine Länge gefunden
+
+            # Kopie für Originaldaten zur Visualisierung (vor Normalisierung)
+            df_original = df.copy()
+
+            # TPM-Normalisierung mit tatsächlichen Gen-Längen
+            df_tpm = normalize_tpm(df, count_cols, df['gene_length'])
+
+            # Kombiniere mit Metadaten zur Speicherung
+            df_tpm[gene_col] = df[gene_col]
+            df_tpm['gene_length'] = df['gene_length']
+            df_tpm[entity_col] = df[entity_col]
+            df_tpm[symbol_col] = df[symbol_col]
+
+            # Spalten sortieren
+            ordered_cols = [gene_col] + list(count_cols) + ['gene_length', entity_col, symbol_col]
+            df_tpm = df_tpm[ordered_cols]
+
+            # Visualisierung 1
+            visualize_tpm_boxplot_only(df.copy(), df_tpm.copy(), count_cols, entity_col, file_path)
+
+            # Visualisierung 2
+            visualize_tpm_boxplot_entitywise(df_original.copy(), df_tpm.copy(), count_cols, entity_col, file_path)
+
+            # Visualisierung 3: PCA
+            visualize_pca_comparison(df_original.copy(), df_tpm.copy(), count_cols, entity_col, file_path)
+
+            # Speichern
+            out_path = os.path.join(output_dir, os.path.basename(file_path).replace('.tsv', '_TPM.tsv'))
+            df_tpm.to_csv(out_path, sep='\t', index=False)
+            print(f"Gespeichert: {out_path}")
+
+        except Exception as e:
+            print(f"Fehler bei Datei {file_path}: {e}")
