@@ -3,9 +3,12 @@ import pandas as pd
 import numpy as np
 import scipy.stats as stats
 from data_handling import find_tsv_files
+import seaborn as sns
+import matplotlib.pyplot as plt
+from visualization import visualize_outliers
 
-# Funktion zum Markieren von Ausreißern
-def mark_outliers(file_path, method='iqr', threshold=1.5):
+# Funktion zum Markieren von Ausreißern mit visual-Parameter
+def mark_outliers(file_path, method='iqr', threshold=1.5, visual=True):
 
     try:
         # Einlesen der TSV-Datei
@@ -31,7 +34,7 @@ def mark_outliers(file_path, method='iqr', threshold=1.5):
         # Anzahl der Host- und Phagen-Gene
         #print(f"Identifizierte Gene: {sum(host_mask)} Host-Gene, {sum(phage_mask)} Phagen-Gene")
 
-       # Ausreißer für Host-Gene identifizieren
+        # Ausreißer für Host-Gene identifizieren
         if sum(host_mask) > 0:
             host_outliers = detect_outliers(df[host_mask], count_cols, method, threshold)
             for idx in host_outliers:
@@ -44,6 +47,11 @@ def mark_outliers(file_path, method='iqr', threshold=1.5):
             for idx in phage_outliers:
                 results_df.loc[idx, 'is_outlier'] = True
                 results_df.loc[idx, 'outlier_info'] += "Phagen-Outlier; "
+
+        # Visualisierung nur erstellen, wenn visual=True ist
+        if visual:
+            fig = visualize_outliers(results_df, file_path, host_mask, phage_mask)
+            plt.show(fig)
 
         return results_df
 
@@ -89,11 +97,9 @@ def detect_outliers(df, count_cols, method='iqr', threshold=1.5):
 
     return outlier_indices
 
-import glob
-
-#Funktion zur Datenbereinigung
-def clean_outlier_samples(file_path, method='iqr', threshold=1.5, output_dir="../cleaned_data"):
-    cleaned_df = mark_outliers(file_path, method=method, threshold=threshold)
+# Funktion zur Datenbereinigung mit visual-Parameter
+def clean_outlier_samples(file_path, method='iqr', threshold=1.5, output_dir="../cleaned_data", visual=True):
+    cleaned_df = mark_outliers(file_path, method=method, threshold=threshold, visual=visual)
 
     if cleaned_df is None:
         print(f"Fehler beim Verarbeiten der Datei: {file_path}")
@@ -108,7 +114,7 @@ def clean_outlier_samples(file_path, method='iqr', threshold=1.5, output_dir="..
 
     # Save the cleaned file
     os.makedirs(output_dir, exist_ok=True)
-    file_name = os.path.basename(file_path).replace(".tsv", "_cleaned.tsv")
+    file_name = os.path.basename(file_path).replace("_full_raw_counts.tsv", "_cleaned.tsv")
     save_path = os.path.join(output_dir, file_name)
     cleaned_df.to_csv(save_path, sep='\t', index=False)
 
@@ -118,8 +124,8 @@ def clean_outlier_samples(file_path, method='iqr', threshold=1.5, output_dir="..
 
     return cleaned_df
 
-
-def batch_clean_all_tsv(input_dir, output_dir, method='iqr', threshold=1.5):
+# Batch-Funktion mit visual-Parameter
+def batch_clean_all_tsv(input_dir, output_dir, method='iqr', threshold=1.5, visual=True):
     tsv_files = find_tsv_files(input_dir)
 
     if not tsv_files:
@@ -132,6 +138,7 @@ def batch_clean_all_tsv(input_dir, output_dir, method='iqr', threshold=1.5):
             file_path=file_path,
             method=method,
             threshold=threshold,
-            output_dir=output_dir
+            output_dir=output_dir,
+            visual=visual  # Übergebe den visual-Parameter
         )
     print("\nAlle Dateien wurden verarbeitet.")

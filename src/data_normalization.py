@@ -2,7 +2,8 @@ import pandas as pd
 import os
 
 from data_handling import (find_tsv_files,
-                           extract_gene_lengths_from_gff)
+                           extract_gene_lengths_from_gff,
+                           find_gff_files)
 from visualization import (visualize_tpm_boxplot_only,
                            visualize_tpm_boxplot_entitywise,
                            visualize_pca_comparison)
@@ -23,7 +24,7 @@ def normalize_tpm(df, count_cols, feature_lengths):
     return tpm
 
 
-def batch_normalize_tpm(input_dir, output_dir, gff_files_list, visual=True):
+def batch_normalize_tpm(input_dir, output_dir, gff_dir, visual=True):
     """
     Führt TPM-Normalisierung für alle TSV-Dateien im Eingabeverzeichnis durch,
     erstellt Visualisierungen und speichert die normalisierten Daten.
@@ -34,6 +35,8 @@ def batch_normalize_tpm(input_dir, output_dir, gff_files_list, visual=True):
         gff_files_list (list): Liste der GFF-Dateien für die Genlängen-Extraktion
         visual (bool): Wenn True, werden Visualisierungen erstellt
     """
+
+    gff_files_list = find_gff_files(gff_dir)
 
     os.makedirs(output_dir, exist_ok=True)
     tsv_files = find_tsv_files(input_dir)
@@ -74,14 +77,16 @@ def batch_normalize_tpm(input_dir, output_dir, gff_files_list, visual=True):
             ordered_cols = [gene_col] + list(count_cols) + ['gene_length', entity_col, symbol_col]
             df_tpm = df_tpm[ordered_cols]
 
-            # Visualisierung 1
-            visualize_tpm_boxplot_only(df.copy(), df_tpm.copy(), count_cols, entity_col, file_path)
+            # Visualisierungen nur erstellen, wenn visual=True ist
+            if visual:
+                # Visualisierung 1
+                visualize_tpm_boxplot_only(df.copy(), df_tpm.copy(), count_cols, entity_col, file_path)
 
-            # Visualisierung 2
-            visualize_tpm_boxplot_entitywise(df_original.copy(), df_tpm.copy(), count_cols, entity_col, file_path)
+                # Visualisierung 2
+                visualize_tpm_boxplot_entitywise(df_original.copy(), df_tpm.copy(), count_cols, entity_col, file_path)
 
-            # Visualisierung 3: PCA
-            visualize_pca_comparison(df_original.copy(), df_tpm.copy(), count_cols, entity_col, file_path)
+                # Visualisierung 3: PCA
+                visualize_pca_comparison(df_original.copy(), df_tpm.copy(), count_cols, entity_col, file_path)
 
             # Speichern
             out_path = os.path.join(output_dir, os.path.basename(file_path).replace('.tsv', '_TPM.tsv'))
