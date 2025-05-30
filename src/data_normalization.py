@@ -89,7 +89,7 @@ def batch_normalize_tpm(input_dir, output_dir, gff_dir, visual=True):
                 visualize_pca_comparison(df_original.copy(), df_tpm.copy(), count_cols, entity_col, file_path)
 
             # Speichern
-            out_path = os.path.join(output_dir, os.path.basename(file_path).replace('.tsv', '_TPM.tsv'))
+            out_path = os.path.join(output_dir, os.path.basename(file_path).replace('_full_raw_counts_cleaned.tsv', '_normalized_TPM.tsv'))
             df_tpm.to_csv(out_path, sep='\t', index=False)
             print(f"Gespeichert: {out_path}")
 
