@@ -1,0 +1,115 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MK473382.1 1 35109
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2530171
+MK473382.1	Genbank	region	1	35109	.	+	.	ID=MK473382.1:1..35109;Dbxref=taxon:2530171;Is_circular=true;gbkey=Src;genome=proviral;mol_type=genomic DNA;nat-host=Clostridioides difficile TW69
+MK473382.1	Genbank	gene	54	347	.	-	.	ID=gene-JD032_1;Name=JD032_1;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_1
+MK473382.1	Genbank	CDS	54	347	.	-	0	ID=cds-QBJ05046.1;Parent=gene-JD032_1;Dbxref=NCBI_GP:QBJ05046.1;Name=QBJ05046.1;gbkey=CDS;locus_tag=JD032_1;product=HNH endonuclease;protein_id=QBJ05046.1;transl_table=11
+MK473382.1	Genbank	gene	347	637	.	-	.	ID=gene-JD032_2;Name=JD032_2;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_2
+MK473382.1	Genbank	CDS	347	637	.	-	0	ID=cds-QBJ05047.1;Parent=gene-JD032_2;Dbxref=NCBI_GP:QBJ05047.1;Name=QBJ05047.1;gbkey=CDS;locus_tag=JD032_2;product=hypothetical protein;protein_id=QBJ05047.1;transl_table=11
+MK473382.1	Genbank	gene	834	1337	.	-	.	ID=gene-JD032_3;Name=JD032_3;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_3
+MK473382.1	Genbank	CDS	834	1337	.	-	0	ID=cds-QBJ05048.1;Parent=gene-JD032_3;Dbxref=NCBI_GP:QBJ05048.1;Name=QBJ05048.1;Note=putative integrase/recombinase YoeC OS;gbkey=CDS;locus_tag=JD032_3;product=putative integrase/recombinase;protein_id=QBJ05048.1;transl_table=11
+MK473382.1	Genbank	gene	1581	2048	.	-	.	ID=gene-JD032_4;Name=JD032_4;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_4
+MK473382.1	Genbank	CDS	1581	2048	.	-	0	ID=cds-QBJ05049.1;Parent=gene-JD032_4;Dbxref=NCBI_GP:QBJ05049.1;Name=QBJ05049.1;gbkey=CDS;locus_tag=JD032_4;product=hypothetical protein;protein_id=QBJ05049.1;transl_table=11
+MK473382.1	Genbank	gene	2151	2612	.	-	.	ID=gene-JD032_5;Name=JD032_5;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_5
+MK473382.1	Genbank	CDS	2151	2612	.	-	0	ID=cds-QBJ05050.1;Parent=gene-JD032_5;Dbxref=NCBI_GP:QBJ05050.1;Name=QBJ05050.1;gbkey=CDS;locus_tag=JD032_5;product=hypothetical protein;protein_id=QBJ05050.1;transl_table=11
+MK473382.1	Genbank	gene	2860	3120	.	-	.	ID=gene-JD032_6;Name=JD032_6;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_6
+MK473382.1	Genbank	CDS	2860	3120	.	-	0	ID=cds-QBJ05051.1;Parent=gene-JD032_6;Dbxref=NCBI_GP:QBJ05051.1;Name=QBJ05051.1;gbkey=CDS;locus_tag=JD032_6;product=hypothetical protein;protein_id=QBJ05051.1;transl_table=11
+MK473382.1	Genbank	gene	3123	3407	.	-	.	ID=gene-JD032_7;Name=JD032_7;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_7
+MK473382.1	Genbank	CDS	3123	3407	.	-	0	ID=cds-QBJ05052.1;Parent=gene-JD032_7;Dbxref=NCBI_GP:QBJ05052.1;Name=QBJ05052.1;gbkey=CDS;locus_tag=JD032_7;product=hypothetical protein;protein_id=QBJ05052.1;transl_table=11
+MK473382.1	Genbank	gene	3397	3552	.	-	.	ID=gene-JD032_8;Name=JD032_8;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_8
+MK473382.1	Genbank	CDS	3397	3552	.	-	0	ID=cds-QBJ05053.1;Parent=gene-JD032_8;Dbxref=NCBI_GP:QBJ05053.1;Name=QBJ05053.1;gbkey=CDS;locus_tag=JD032_8;product=hypothetical protein;protein_id=QBJ05053.1;transl_table=11
+MK473382.1	Genbank	gene	3565	3945	.	-	.	ID=gene-JD032_9;Name=JD032_9;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_9
+MK473382.1	Genbank	CDS	3565	3945	.	-	0	ID=cds-QBJ05054.1;Parent=gene-JD032_9;Dbxref=NCBI_GP:QBJ05054.1;Name=QBJ05054.1;gbkey=CDS;locus_tag=JD032_9;product=single-stranded DNA-binding protein;protein_id=QBJ05054.1;transl_table=11
+MK473382.1	Genbank	gene	4003	4218	.	-	.	ID=gene-JD032_10;Name=JD032_10;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_10
+MK473382.1	Genbank	CDS	4003	4218	.	-	0	ID=cds-QBJ05055.1;Parent=gene-JD032_10;Dbxref=NCBI_GP:QBJ05055.1;Name=QBJ05055.1;gbkey=CDS;locus_tag=JD032_10;product=hypothetical protein;protein_id=QBJ05055.1;transl_table=11
+MK473382.1	Genbank	gene	4211	4486	.	-	.	ID=gene-JD032_11;Name=JD032_11;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_11
+MK473382.1	Genbank	CDS	4211	4486	.	-	0	ID=cds-QBJ05056.1;Parent=gene-JD032_11;Dbxref=NCBI_GP:QBJ05056.1;Name=QBJ05056.1;gbkey=CDS;locus_tag=JD032_11;product=hypothetical protein;protein_id=QBJ05056.1;transl_table=11
+MK473382.1	Genbank	gene	4498	4830	.	-	.	ID=gene-JD032_12;Name=JD032_12;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_12
+MK473382.1	Genbank	CDS	4498	4830	.	-	0	ID=cds-QBJ05057.1;Parent=gene-JD032_12;Dbxref=NCBI_GP:QBJ05057.1;Name=QBJ05057.1;gbkey=CDS;locus_tag=JD032_12;product=hypothetical protein;protein_id=QBJ05057.1;transl_table=11
+MK473382.1	Genbank	gene	4832	4993	.	-	.	ID=gene-JD032_13;Name=JD032_13;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_13
+MK473382.1	Genbank	CDS	4832	4993	.	-	0	ID=cds-QBJ05058.1;Parent=gene-JD032_13;Dbxref=NCBI_GP:QBJ05058.1;Name=QBJ05058.1;gbkey=CDS;locus_tag=JD032_13;product=hypothetical protein;protein_id=QBJ05058.1;transl_table=11
+MK473382.1	Genbank	gene	5091	5525	.	-	.	ID=gene-JD032_14;Name=JD032_14;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_14
+MK473382.1	Genbank	CDS	5091	5525	.	-	0	ID=cds-QBJ05059.1;Parent=gene-JD032_14;Dbxref=NCBI_GP:QBJ05059.1;Name=QBJ05059.1;gbkey=CDS;locus_tag=JD032_14;product=hypothetical protein;protein_id=QBJ05059.1;transl_table=11
+MK473382.1	Genbank	gene	5590	5838	.	-	.	ID=gene-JD032_15;Name=JD032_15;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_15
+MK473382.1	Genbank	CDS	5590	5838	.	-	0	ID=cds-QBJ05060.1;Parent=gene-JD032_15;Dbxref=NCBI_GP:QBJ05060.1;Name=QBJ05060.1;gbkey=CDS;locus_tag=JD032_15;product=hypothetical protein;protein_id=QBJ05060.1;transl_table=11
+MK473382.1	Genbank	gene	5873	6262	.	+	.	ID=gene-JD032_16;Name=JD032_16;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_16
+MK473382.1	Genbank	CDS	5873	6262	.	+	0	ID=cds-QBJ05061.1;Parent=gene-JD032_16;Dbxref=NCBI_GP:QBJ05061.1;Name=QBJ05061.1;gbkey=CDS;locus_tag=JD032_16;product=transcriptional regulator;protein_id=QBJ05061.1;transl_table=11
+MK473382.1	Genbank	gene	6283	6417	.	-	.	ID=gene-JD032_17;Name=JD032_17;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_17
+MK473382.1	Genbank	CDS	6283	6417	.	-	0	ID=cds-QBJ05062.1;Parent=gene-JD032_17;Dbxref=NCBI_GP:QBJ05062.1;Name=QBJ05062.1;gbkey=CDS;locus_tag=JD032_17;product=hypothetical protein;protein_id=QBJ05062.1;transl_table=11
+MK473382.1	Genbank	gene	6778	8925	.	-	.	ID=gene-JD032_18;Name=JD032_18;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_18
+MK473382.1	Genbank	CDS	6778	8925	.	-	0	ID=cds-QBJ05063.1;Parent=gene-JD032_18;Dbxref=NCBI_GP:QBJ05063.1;Name=QBJ05063.1;Note=DEAD/DEAH box helicase (Type III restriction enzyme);gbkey=CDS;locus_tag=JD032_18;product=DEAD/DEAH box helicase;protein_id=QBJ05063.1;transl_table=11
+MK473382.1	Genbank	gene	9369	10091	.	+	.	ID=gene-JD032_19;Name=JD032_19;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_19
+MK473382.1	Genbank	CDS	9369	10091	.	+	0	ID=cds-QBJ05064.1;Parent=gene-JD032_19;Dbxref=NCBI_GP:QBJ05064.1;Name=QBJ05064.1;Note=3'-5' exonuclease(DNA polymerase III PolC-type);gbkey=CDS;locus_tag=JD032_19;product=3'-5' exonuclease;protein_id=QBJ05064.1;transl_table=11
+MK473382.1	Genbank	gene	10937	11119	.	+	.	ID=gene-JD032_20;Name=JD032_20;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_20
+MK473382.1	Genbank	CDS	10937	11119	.	+	0	ID=cds-QBJ05065.1;Parent=gene-JD032_20;Dbxref=NCBI_GP:QBJ05065.1;Name=QBJ05065.1;gbkey=CDS;locus_tag=JD032_20;product=hypothetical protein;protein_id=QBJ05065.1;transl_table=11
+MK473382.1	Genbank	gene	11406	12215	.	+	.	ID=gene-JD032_21;Name=JD032_21;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_21
+MK473382.1	Genbank	CDS	11406	12215	.	+	0	ID=cds-QBJ05066.1;Parent=gene-JD032_21;Dbxref=NCBI_GP:QBJ05066.1;Name=QBJ05066.1;gbkey=CDS;locus_tag=JD032_21;product=ParA protein;protein_id=QBJ05066.1;transl_table=11
+MK473382.1	Genbank	gene	12216	12551	.	+	.	ID=gene-JD032_22;Name=JD032_22;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_22
+MK473382.1	Genbank	CDS	12216	12551	.	+	0	ID=cds-QBJ05067.1;Parent=gene-JD032_22;Dbxref=NCBI_GP:QBJ05067.1;Name=QBJ05067.1;gbkey=CDS;locus_tag=JD032_22;product=hypothetical protein;protein_id=QBJ05067.1;transl_table=11
+MK473382.1	Genbank	gene	12696	12995	.	+	.	ID=gene-JD032_23;Name=JD032_23;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_23
+MK473382.1	Genbank	CDS	12696	12995	.	+	0	ID=cds-QBJ05068.1;Parent=gene-JD032_23;Dbxref=NCBI_GP:QBJ05068.1;Name=QBJ05068.1;gbkey=CDS;locus_tag=JD032_23;product=hypothetical protein;protein_id=QBJ05068.1;transl_table=11
+MK473382.1	Genbank	gene	13239	13709	.	-	.	ID=gene-JD032_24;Name=JD032_24;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_24
+MK473382.1	Genbank	CDS	13239	13709	.	-	0	ID=cds-QBJ05069.1;Parent=gene-JD032_24;Dbxref=NCBI_GP:QBJ05069.1;Name=QBJ05069.1;gbkey=CDS;locus_tag=JD032_24;product=hypothetical protein;protein_id=QBJ05069.1;transl_table=11
+MK473382.1	Genbank	gene	13786	14421	.	-	.	ID=gene-JD032_25;Name=JD032_25;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_25
+MK473382.1	Genbank	CDS	13786	14421	.	-	0	ID=cds-QBJ05070.1;Parent=gene-JD032_25;Dbxref=NCBI_GP:QBJ05070.1;Name=QBJ05070.1;gbkey=CDS;locus_tag=JD032_25;product=regulatory protein;protein_id=QBJ05070.1;transl_table=11
+MK473382.1	Genbank	gene	14433	14882	.	-	.	ID=gene-JD032_26;Name=JD032_26;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_26
+MK473382.1	Genbank	CDS	14433	14882	.	-	0	ID=cds-QBJ05071.1;Parent=gene-JD032_26;Dbxref=NCBI_GP:QBJ05071.1;Name=QBJ05071.1;gbkey=CDS;locus_tag=JD032_26;product=hypothetical protein;protein_id=QBJ05071.1;transl_table=11
+MK473382.1	Genbank	gene	15032	15241	.	+	.	ID=gene-JD032_27;Name=JD032_27;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_27
+MK473382.1	Genbank	CDS	15032	15241	.	+	0	ID=cds-QBJ05072.1;Parent=gene-JD032_27;Dbxref=NCBI_GP:QBJ05072.1;Name=QBJ05072.1;gbkey=CDS;locus_tag=JD032_27;product=hypothetical protein;protein_id=QBJ05072.1;transl_table=11
+MK473382.1	Genbank	gene	15268	16107	.	-	.	ID=gene-JD032_28;Name=JD032_28;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_28
+MK473382.1	Genbank	CDS	15268	16107	.	-	0	ID=cds-QBJ05073.1;Parent=gene-JD032_28;Dbxref=NCBI_GP:QBJ05073.1;Name=QBJ05073.1;gbkey=CDS;locus_tag=JD032_28;product=endolysin protein;protein_id=QBJ05073.1;transl_table=11
+MK473382.1	Genbank	gene	16107	16364	.	-	.	ID=gene-JD032_29;Name=JD032_29;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_29
+MK473382.1	Genbank	CDS	16107	16364	.	-	0	ID=cds-QBJ05074.1;Parent=gene-JD032_29;Dbxref=NCBI_GP:QBJ05074.1;Name=QBJ05074.1;gbkey=CDS;locus_tag=JD032_29;product=holin protein;protein_id=QBJ05074.1;transl_table=11
+MK473382.1	Genbank	gene	16384	16614	.	-	.	ID=gene-JD032_30;Name=JD032_30;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_30
+MK473382.1	Genbank	CDS	16384	16614	.	-	0	ID=cds-QBJ05075.1;Parent=gene-JD032_30;Dbxref=NCBI_GP:QBJ05075.1;Name=QBJ05075.1;gbkey=CDS;locus_tag=JD032_30;product=membrane protein;protein_id=QBJ05075.1;transl_table=11
+MK473382.1	Genbank	gene	16653	16835	.	-	.	ID=gene-JD032_31;Name=JD032_31;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_31
+MK473382.1	Genbank	CDS	16653	16835	.	-	0	ID=cds-QBJ05076.1;Parent=gene-JD032_31;Dbxref=NCBI_GP:QBJ05076.1;Name=QBJ05076.1;gbkey=CDS;locus_tag=JD032_31;product=hypothetical protein;protein_id=QBJ05076.1;transl_table=11
+MK473382.1	Genbank	gene	16835	17128	.	-	.	ID=gene-JD032_32;Name=JD032_32;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_32
+MK473382.1	Genbank	CDS	16835	17128	.	-	0	ID=cds-QBJ05077.1;Parent=gene-JD032_32;Dbxref=NCBI_GP:QBJ05077.1;Name=QBJ05077.1;gbkey=CDS;locus_tag=JD032_32;product=hypothetical protein;protein_id=QBJ05077.1;transl_table=11
+MK473382.1	Genbank	gene	17142	18839	.	-	.	ID=gene-JD032_33;Name=JD032_33;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_33
+MK473382.1	Genbank	CDS	17142	18839	.	-	0	ID=cds-QBJ05078.1;Parent=gene-JD032_33;Dbxref=NCBI_GP:QBJ05078.1;Name=QBJ05078.1;gbkey=CDS;locus_tag=JD032_33;product=hypothetical protein;protein_id=QBJ05078.1;transl_table=11
+MK473382.1	Genbank	gene	18857	19636	.	-	.	ID=gene-JD032_34;Name=JD032_34;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_34
+MK473382.1	Genbank	CDS	18857	19636	.	-	0	ID=cds-QBJ05079.1;Parent=gene-JD032_34;Dbxref=NCBI_GP:QBJ05079.1;Name=QBJ05079.1;gbkey=CDS;locus_tag=JD032_34;product=putative tail fiber protein;protein_id=QBJ05079.1;transl_table=11
+MK473382.1	Genbank	gene	19637	20254	.	-	.	ID=gene-JD032_35;Name=JD032_35;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_35
+MK473382.1	Genbank	CDS	19637	20254	.	-	0	ID=cds-QBJ05080.1;Parent=gene-JD032_35;Dbxref=NCBI_GP:QBJ05080.1;Name=QBJ05080.1;Note=Phage-like element PBSX protein XkdU;gbkey=CDS;locus_tag=JD032_35;product=XkdU protein;protein_id=QBJ05080.1;transl_table=11
+MK473382.1	Genbank	gene	20254	21306	.	-	.	ID=gene-JD032_36;Name=JD032_36;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_36
+MK473382.1	Genbank	CDS	20254	21306	.	-	0	ID=cds-QBJ05081.1;Parent=gene-JD032_36;Dbxref=NCBI_GP:QBJ05081.1;Name=QBJ05081.1;gbkey=CDS;locus_tag=JD032_36;product=baseplate protein J;protein_id=QBJ05081.1;transl_table=11
+MK473382.1	Genbank	gene	21299	21727	.	-	.	ID=gene-JD032_37;Name=JD032_37;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_37
+MK473382.1	Genbank	CDS	21299	21727	.	-	0	ID=cds-QBJ05082.1;Parent=gene-JD032_37;Dbxref=NCBI_GP:QBJ05082.1;Name=QBJ05082.1;gbkey=CDS;locus_tag=JD032_37;product=DNA-packaging protein;protein_id=QBJ05082.1;transl_table=11
+MK473382.1	Genbank	gene	21727	22053	.	-	.	ID=gene-JD032_38;Name=JD032_38;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_38
+MK473382.1	Genbank	CDS	21727	22053	.	-	0	ID=cds-QBJ05083.1;Parent=gene-JD032_38;Dbxref=NCBI_GP:QBJ05083.1;Name=QBJ05083.1;gbkey=CDS;locus_tag=JD032_38;product=DUF2577 domain-containing protein;protein_id=QBJ05083.1;transl_table=11
+MK473382.1	Genbank	gene	22069	23616	.	-	.	ID=gene-JD032_39;Name=JD032_39;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_39
+MK473382.1	Genbank	CDS	22069	23616	.	-	0	ID=cds-QBJ05084.1;Parent=gene-JD032_39;Dbxref=NCBI_GP:QBJ05084.1;Name=QBJ05084.1;gbkey=CDS;locus_tag=JD032_39;product=cell wall hydrolase protein;protein_id=QBJ05084.1;transl_table=11
+MK473382.1	Genbank	gene	23829	24467	.	-	.	ID=gene-JD032_40;Name=JD032_40;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_40
+MK473382.1	Genbank	CDS	23829	24467	.	-	0	ID=cds-QBJ05085.1;Parent=gene-JD032_40;Dbxref=NCBI_GP:QBJ05085.1;Name=QBJ05085.1;Note=Peptidoglycan-binding protein LysM;gbkey=CDS;locus_tag=JD032_40;product=peptidoglycan-binding protein;protein_id=QBJ05085.1;transl_table=11
+MK473382.1	Genbank	gene	24467	26221	.	-	.	ID=gene-JD032_41;Name=JD032_41;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_41
+MK473382.1	Genbank	CDS	24467	26221	.	-	0	ID=cds-QBJ05086.1;Parent=gene-JD032_41;Dbxref=NCBI_GP:QBJ05086.1;Name=QBJ05086.1;gbkey=CDS;locus_tag=JD032_41;product=tail tape measure protein;protein_id=QBJ05086.1;transl_table=11
+MK473382.1	Genbank	gene	26214	26393	.	-	.	ID=gene-JD032_42;Name=JD032_42;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_42
+MK473382.1	Genbank	CDS	26214	26393	.	-	0	ID=cds-QBJ05087.1;Parent=gene-JD032_42;Dbxref=NCBI_GP:QBJ05087.1;Name=QBJ05087.1;gbkey=CDS;locus_tag=JD032_42;product=hypothetical protein;protein_id=QBJ05087.1;transl_table=11
+MK473382.1	Genbank	gene	26405	26788	.	-	.	ID=gene-JD032_43;Name=JD032_43;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_43
+MK473382.1	Genbank	CDS	26405	26788	.	-	0	ID=cds-QBJ05088.1;Parent=gene-JD032_43;Dbxref=NCBI_GP:QBJ05088.1;Name=QBJ05088.1;gbkey=CDS;locus_tag=JD032_43;product=XkdN-like family protein;protein_id=QBJ05088.1;transl_table=11
+MK473382.1	Genbank	gene	26835	27284	.	-	.	ID=gene-JD032_44;Name=JD032_44;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_44
+MK473382.1	Genbank	CDS	26835	27284	.	-	0	ID=cds-QBJ05089.1;Parent=gene-JD032_44;Dbxref=NCBI_GP:QBJ05089.1;Name=QBJ05089.1;gbkey=CDS;locus_tag=JD032_44;product=terminase;protein_id=QBJ05089.1;transl_table=11
+MK473382.1	Genbank	gene	27298	28365	.	-	.	ID=gene-JD032_45;Name=JD032_45;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_45
+MK473382.1	Genbank	CDS	27298	28365	.	-	0	ID=cds-QBJ05090.1;Parent=gene-JD032_45;Dbxref=NCBI_GP:QBJ05090.1;Name=QBJ05090.1;gbkey=CDS;locus_tag=JD032_45;product=tail sheath protein;protein_id=QBJ05090.1;transl_table=11
+MK473382.1	Genbank	gene	28382	28798	.	-	.	ID=gene-JD032_46;Name=JD032_46;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_46
+MK473382.1	Genbank	CDS	28382	28798	.	-	0	ID=cds-QBJ05091.1;Parent=gene-JD032_46;Dbxref=NCBI_GP:QBJ05091.1;Name=QBJ05091.1;gbkey=CDS;locus_tag=JD032_46;product=hypothetical protein;protein_id=QBJ05091.1;transl_table=11
+MK473382.1	Genbank	gene	28810	29223	.	-	.	ID=gene-JD032_47;Name=JD032_47;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_47
+MK473382.1	Genbank	CDS	28810	29223	.	-	0	ID=cds-QBJ05092.1;Parent=gene-JD032_47;Dbxref=NCBI_GP:QBJ05092.1;Name=QBJ05092.1;gbkey=CDS;locus_tag=JD032_47;product=hypothetical protein;protein_id=QBJ05092.1;transl_table=11
+MK473382.1	Genbank	gene	29216	29554	.	-	.	ID=gene-JD032_48;Name=JD032_48;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_48
+MK473382.1	Genbank	CDS	29216	29554	.	-	0	ID=cds-QBJ05093.1;Parent=gene-JD032_48;Dbxref=NCBI_GP:QBJ05093.1;Name=QBJ05093.1;gbkey=CDS;locus_tag=JD032_48;product=head-tail adaptor protein;protein_id=QBJ05093.1;transl_table=11
+MK473382.1	Genbank	gene	29558	29845	.	-	.	ID=gene-JD032_49;Name=JD032_49;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_49
+MK473382.1	Genbank	CDS	29558	29845	.	-	0	ID=cds-QBJ05094.1;Parent=gene-JD032_49;Dbxref=NCBI_GP:QBJ05094.1;Name=QBJ05094.1;Note=Phage gp6-like head-tail connector protein;gbkey=CDS;locus_tag=JD032_49;product=head-tail connector protein;protein_id=QBJ05094.1;transl_table=11
+MK473382.1	Genbank	gene	29855	31123	.	-	.	ID=gene-JD032_50;Name=JD032_50;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_50
+MK473382.1	Genbank	CDS	29855	31123	.	-	0	ID=cds-QBJ05095.1;Parent=gene-JD032_50;Dbxref=NCBI_GP:QBJ05095.1;Name=QBJ05095.1;gbkey=CDS;locus_tag=JD032_50;product=major capsid protein;protein_id=QBJ05095.1;transl_table=11
+MK473382.1	Genbank	gene	31116	31853	.	-	.	ID=gene-JD032_51;Name=JD032_51;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_51
+MK473382.1	Genbank	CDS	31116	31853	.	-	0	ID=cds-QBJ05096.1;Parent=gene-JD032_51;Dbxref=NCBI_GP:QBJ05096.1;Name=QBJ05096.1;gbkey=CDS;locus_tag=JD032_51;product=ATP-dependent Clp protease proteolytic subunit;protein_id=QBJ05096.1;transl_table=11
+MK473382.1	Genbank	gene	31859	33013	.	-	.	ID=gene-JD032_52;Name=JD032_52;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_52
+MK473382.1	Genbank	CDS	31859	33013	.	-	0	ID=cds-QBJ05097.1;Parent=gene-JD032_52;Dbxref=NCBI_GP:QBJ05097.1;Name=QBJ05097.1;gbkey=CDS;locus_tag=JD032_52;product=portal protein;protein_id=QBJ05097.1;transl_table=11
+MK473382.1	Genbank	gene	33029	34678	.	-	.	ID=gene-JD032_53;Name=JD032_53;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_53
+MK473382.1	Genbank	CDS	33029	34678	.	-	0	ID=cds-QBJ05098.1;Parent=gene-JD032_53;Dbxref=NCBI_GP:QBJ05098.1;Name=QBJ05098.1;gbkey=CDS;locus_tag=JD032_53;product=terminase large subunit;protein_id=QBJ05098.1;transl_table=11
+MK473382.1	Genbank	gene	34675	34914	.	-	.	ID=gene-JD032_54;Name=JD032_54;gbkey=Gene;gene_biotype=protein_coding;locus_tag=JD032_54
+MK473382.1	Genbank	CDS	34675	34914	.	-	0	ID=cds-QBJ05099.1;Parent=gene-JD032_54;Dbxref=NCBI_GP:QBJ05099.1;Name=QBJ05099.1;gbkey=CDS;locus_tag=JD032_54;product=hypothetical protein;protein_id=QBJ05099.1;transl_table=11
+

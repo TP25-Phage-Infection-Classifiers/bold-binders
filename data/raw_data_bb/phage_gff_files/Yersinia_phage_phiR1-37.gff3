@@ -1,0 +1,1294 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region AJ972879.2 1 262391
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=331278
+AJ972879.2	EMBL	region	1	262391	.	+	.	ID=AJ972879.2:1..262391;Dbxref=taxon:331278;Is_circular=true;country=Finland;gbkey=Src;mol_type=genomic DNA;nat-host=Yersinia enterocolitica
+AJ972879.2	EMBL	gene	103	375	.	+	.	ID=gene-g001;Name=g001;gbkey=Gene;gene=g001;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	103	375	.	+	0	ID=cds-CCE26025.1;Parent=gene-g001;Dbxref=UniProtKB/TrEMBL:G4KJU0,NCBI_GP:CCE26025.1;Name=CCE26025.1;gbkey=CDS;gene=g001;product=CCE26025.1;protein_id=CCE26025.1;transl_table=11
+AJ972879.2	EMBL	region	317	320	.	+	.	ID=id-g001;Note=TGAT 317;gbkey=RBS;gene=g001
+AJ972879.2	EMBL	gene	326	577	.	+	.	ID=gene-g002;Name=g002;gbkey=Gene;gene=g002;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	326	577	.	+	0	ID=cds-CCE26026.1;Parent=gene-g002;Dbxref=UniProtKB/TrEMBL:G4KJU1,NCBI_GP:CCE26026.1;Name=CCE26026.1;gbkey=CDS;gene=g002;product=CCE26026.1;protein_id=CCE26026.1;transl_table=11
+AJ972879.2	EMBL	region	556	559	.	+	.	ID=id-g002;Note=GGTG 556;gbkey=RBS;gene=g002
+AJ972879.2	EMBL	gene	564	812	.	+	.	ID=gene-g003;Name=g003;gbkey=Gene;gene=g003;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	564	812	.	+	0	ID=cds-CCE26027.1;Parent=gene-g003;Dbxref=UniProtKB/TrEMBL:G4KJU2,NCBI_GP:CCE26027.1;Name=CCE26027.1;gbkey=CDS;gene=g003;product=CCE26027.1;protein_id=CCE26027.1;transl_table=11
+AJ972879.2	EMBL	region	768	772	.	+	.	ID=id-g003;Note=GAGGT 768;gbkey=RBS;gene=g003
+AJ972879.2	EMBL	gene	784	1002	.	+	.	ID=gene-g004;Name=g004;gbkey=Gene;gene=g004;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	784	1002	.	+	0	ID=cds-CCE26028.1;Parent=gene-g004;Dbxref=UniProtKB/TrEMBL:G4KJU3,NCBI_GP:CCE26028.1;Name=CCE26028.1;gbkey=CDS;gene=g004;product=CCE26028.1;protein_id=CCE26028.1;transl_table=11
+AJ972879.2	EMBL	region	987	990	.	+	.	ID=id-g004;Note=TAAG 987;gbkey=RBS;gene=g004
+AJ972879.2	EMBL	gene	999	1187	.	+	.	ID=gene-g005;Name=g005;gbkey=Gene;gene=g005;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	999	1187	.	+	0	ID=cds-CCE26029.1;Parent=gene-g005;Dbxref=UniProtKB/TrEMBL:G4KJU4,NCBI_GP:CCE26029.1;Name=CCE26029.1;gbkey=CDS;gene=g005;product=CCE26029.1;protein_id=CCE26029.1;transl_table=11
+AJ972879.2	EMBL	region	1175	1178	.	+	.	ID=id-g005;Note=TGAT 1175;gbkey=RBS;gene=g005
+AJ972879.2	EMBL	gene	1181	1534	.	+	.	ID=gene-g006;Name=g006;gbkey=Gene;gene=g006;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	1181	1534	.	+	0	ID=cds-CCE26030.1;Parent=gene-g006;Dbxref=UniProtKB/TrEMBL:G4KJU5,NCBI_GP:CCE26030.1;Name=CCE26030.1;gbkey=CDS;gene=g006;product=CCE26030.1;protein_id=CCE26030.1;transl_table=11
+AJ972879.2	EMBL	region	1522	1524	.	+	.	ID=id-g006;gbkey=RBS;gene=g006
+AJ972879.2	EMBL	gene	1531	1749	.	+	.	ID=gene-g007;Name=g007;gbkey=Gene;gene=g007;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	1531	1749	.	+	0	ID=cds-CCE26031.1;Parent=gene-g007;Dbxref=UniProtKB/TrEMBL:G4KJU6,NCBI_GP:CCE26031.1;Name=CCE26031.1;gbkey=CDS;gene=g007;product=CCE26031.1;protein_id=CCE26031.1;transl_table=11
+AJ972879.2	EMBL	region	1731	1734	.	+	.	ID=id-g007;gbkey=RBS;gene=g007
+AJ972879.2	EMBL	gene	1736	1924	.	+	.	ID=gene-g008;Name=g008;gbkey=Gene;gene=g008;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	1736	1924	.	+	0	ID=cds-CCE26032.1;Parent=gene-g008;Dbxref=UniProtKB/TrEMBL:G4KJU7,NCBI_GP:CCE26032.1;Name=CCE26032.1;gbkey=CDS;gene=g008;product=CCE26032.1;protein_id=CCE26032.1;transl_table=11
+AJ972879.2	EMBL	region	1905	1910	.	+	.	ID=id-g008;gbkey=RBS;gene=g008
+AJ972879.2	EMBL	gene	1918	2166	.	+	.	ID=gene-g009;Name=g009;gbkey=Gene;gene=g009;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	1918	2166	.	+	0	ID=cds-CCE26033.1;Parent=gene-g009;Dbxref=UniProtKB/TrEMBL:G4KJU8,NCBI_GP:CCE26033.1;Name=CCE26033.1;gbkey=CDS;gene=g009;product=CCE26033.1;protein_id=CCE26033.1;transl_table=11
+AJ972879.2	EMBL	region	2129	2131	.	+	.	ID=id-g009;gbkey=RBS;gene=g009
+AJ972879.2	EMBL	gene	2135	2341	.	+	.	ID=gene-g010;Name=g010;gbkey=Gene;gene=g010;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	2135	2341	.	+	0	ID=cds-CCE26034.1;Parent=gene-g010;Dbxref=UniProtKB/TrEMBL:G4KJU9,NCBI_GP:CCE26034.1;Name=CCE26034.1;gbkey=CDS;gene=g010;product=CCE26034.1;protein_id=CCE26034.1;transl_table=11
+AJ972879.2	EMBL	promoter	2340	2364	.	+	.	ID=id-AJ972879.2:2340..2364;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	2374	2378	.	+	.	ID=id-AJ972879.2:2374..2378;Note=AGGAG 2374;gbkey=RBS
+AJ972879.2	EMBL	gene	2386	2595	.	+	.	ID=gene-g011;Name=g011;gbkey=Gene;gene=g011;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	2386	2595	.	+	0	ID=cds-CCE26035.1;Parent=gene-g011;Dbxref=UniProtKB/TrEMBL:G4KJV0,NCBI_GP:CCE26035.1;Name=CCE26035.1;gbkey=CDS;gene=g011;product=CCE26035.1;protein_id=CCE26035.1;transl_table=11
+AJ972879.2	EMBL	region	2581	2584	.	+	.	ID=id-g011;gbkey=RBS;gene=g011
+AJ972879.2	EMBL	gene	2592	2801	.	+	.	ID=gene-g012;Name=g012;gbkey=Gene;gene=g012;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	2592	2801	.	+	0	ID=cds-CCE26036.1;Parent=gene-g012;Dbxref=UniProtKB/TrEMBL:G4KJV1,NCBI_GP:CCE26036.1;Name=CCE26036.1;gbkey=CDS;gene=g012;product=CCE26036.1;protein_id=CCE26036.1;transl_table=11
+AJ972879.2	EMBL	region	2782	2785	.	+	.	ID=id-g012;gbkey=RBS;gene=g012
+AJ972879.2	EMBL	gene	2798	3043	.	+	.	ID=gene-g013;Name=g013;gbkey=Gene;gene=g013;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	2798	3043	.	+	0	ID=cds-CCE26037.1;Parent=gene-g013;Dbxref=UniProtKB/TrEMBL:G4KJV2,NCBI_GP:CCE26037.1;Name=CCE26037.1;gbkey=CDS;gene=g013;product=CCE26037.1;protein_id=CCE26037.1;transl_table=11
+AJ972879.2	EMBL	region	3017	3020	.	+	.	ID=id-g013;gbkey=RBS;gene=g013
+AJ972879.2	EMBL	gene	3028	3264	.	+	.	ID=gene-g014;Name=g014;gbkey=Gene;gene=g014;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	3028	3264	.	+	0	ID=cds-CCE26038.1;Parent=gene-g014;Dbxref=UniProtKB/TrEMBL:G4KJV3,NCBI_GP:CCE26038.1;Name=CCE26038.1;gbkey=CDS;gene=g014;product=CCE26038.1;protein_id=CCE26038.1;transl_table=11
+AJ972879.2	EMBL	region	3236	3239	.	+	.	ID=id-g014;gbkey=RBS;gene=g014
+AJ972879.2	EMBL	gene	3245	3496	.	+	.	ID=gene-g015;Name=g015;gbkey=Gene;gene=g015;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	3245	3496	.	+	0	ID=cds-CCE26039.1;Parent=gene-g015;Dbxref=UniProtKB/TrEMBL:G4KJV4,NCBI_GP:CCE26039.1;Name=CCE26039.1;gbkey=CDS;gene=g015;product=CCE26039.1;protein_id=CCE26039.1;transl_table=11
+AJ972879.2	EMBL	region	3482	3484	.	+	.	ID=id-g015;gbkey=RBS;gene=g015
+AJ972879.2	EMBL	gene	3493	3750	.	+	.	ID=gene-g016;Name=g016;gbkey=Gene;gene=g016;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	3493	3750	.	+	0	ID=cds-CCE26040.1;Parent=gene-g016;Dbxref=UniProtKB/TrEMBL:G4KJV5,NCBI_GP:CCE26040.1;Name=CCE26040.1;gbkey=CDS;gene=g016;product=CCE26040.1;protein_id=CCE26040.1;transl_table=11
+AJ972879.2	EMBL	region	3730	3732	.	+	.	ID=id-g016;gbkey=RBS;gene=g016
+AJ972879.2	EMBL	gene	3738	4070	.	+	.	ID=gene-g017;Name=g017;gbkey=Gene;gene=g017;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	3738	4070	.	+	0	ID=cds-CCE26041.1;Parent=gene-g017;Dbxref=UniProtKB/TrEMBL:G4KJV6,NCBI_GP:CCE26041.1;Name=CCE26041.1;gbkey=CDS;gene=g017;product=CCE26041.1;protein_id=CCE26041.1;transl_table=11
+AJ972879.2	EMBL	region	3926	3930	.	+	.	ID=id-g017;Note=AGGAG 3926;gbkey=RBS;gene=g017
+AJ972879.2	EMBL	gene	3934	4251	.	+	.	ID=gene-g018;Name=g018;gbkey=Gene;gene=g018;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	3934	4251	.	+	0	ID=cds-CCE26042.1;Parent=gene-g018;Dbxref=UniProtKB/TrEMBL:G4KJV7,NCBI_GP:CCE26042.1;Name=CCE26042.1;gbkey=CDS;gene=g018;product=CCE26042.1;protein_id=CCE26042.1;transl_table=11
+AJ972879.2	EMBL	region	4235	4239	.	+	.	ID=id-g018;gbkey=RBS;gene=g018
+AJ972879.2	EMBL	gene	4248	4526	.	+	.	ID=gene-g019;Name=g019;gbkey=Gene;gene=g019;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	4248	4526	.	+	0	ID=cds-CCE26043.1;Parent=gene-g019;Dbxref=UniProtKB/TrEMBL:G4KJV8,NCBI_GP:CCE26043.1;Name=CCE26043.1;gbkey=CDS;gene=g019;product=CCE26043.1;protein_id=CCE26043.1;transl_table=11
+AJ972879.2	EMBL	region	4478	4481	.	+	.	ID=id-g019;gbkey=RBS;gene=g019
+AJ972879.2	EMBL	gene	4489	4725	.	+	.	ID=gene-g020;Name=g020;gbkey=Gene;gene=g020;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	4489	4725	.	+	0	ID=cds-CCE26044.1;Parent=gene-g020;Dbxref=UniProtKB/TrEMBL:G4KJV9,NCBI_GP:CCE26044.1;Name=CCE26044.1;gbkey=CDS;gene=g020;product=CCE26044.1;protein_id=CCE26044.1;transl_table=11
+AJ972879.2	EMBL	region	4723	4726	.	+	.	ID=id-AJ972879.2:4723..4726;gbkey=RBS
+AJ972879.2	EMBL	gene	4736	4927	.	+	.	ID=gene-g021;Name=g021;gbkey=Gene;gene=g021;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	4736	4927	.	+	0	ID=cds-CCE26045.1;Parent=gene-g021;Dbxref=UniProtKB/TrEMBL:G4KJW0,NCBI_GP:CCE26045.1;Name=CCE26045.1;gbkey=CDS;gene=g021;product=CCE26045.1;protein_id=CCE26045.1;transl_table=11
+AJ972879.2	EMBL	region	4909	4913	.	+	.	ID=id-g021;gbkey=RBS;gene=g021
+AJ972879.2	EMBL	gene	4924	5181	.	+	.	ID=gene-g022;Name=g022;gbkey=Gene;gene=g022;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	4924	5181	.	+	0	ID=cds-CCE26046.1;Parent=gene-g022;Dbxref=UniProtKB/TrEMBL:G4KJW1,NCBI_GP:CCE26046.1;Name=CCE26046.1;gbkey=CDS;gene=g022;product=CCE26046.1;protein_id=CCE26046.1;transl_table=11
+AJ972879.2	EMBL	region	5169	5172	.	+	.	ID=id-g022;gbkey=RBS;gene=g022
+AJ972879.2	EMBL	gene	5178	5405	.	+	.	ID=gene-g023;Name=g023;gbkey=Gene;gene=g023;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	5178	5405	.	+	0	ID=cds-CCE26047.1;Parent=gene-g023;Dbxref=UniProtKB/TrEMBL:G4KJW2,NCBI_GP:CCE26047.1;Name=CCE26047.1;gbkey=CDS;gene=g023;product=CCE26047.1;protein_id=CCE26047.1;transl_table=11
+AJ972879.2	EMBL	region	5393	5396	.	+	.	ID=id-g023;gbkey=RBS;gene=g023
+AJ972879.2	EMBL	gene	5405	5608	.	+	.	ID=gene-g024;Name=g024;gbkey=Gene;gene=g024;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	5405	5608	.	+	0	ID=cds-CCE26048.1;Parent=gene-g024;Dbxref=UniProtKB/TrEMBL:G4KJW3,NCBI_GP:CCE26048.1;Name=CCE26048.1;gbkey=CDS;gene=g024;product=CCE26048.1;protein_id=CCE26048.1;transl_table=11
+AJ972879.2	EMBL	region	5593	5595	.	+	.	ID=id-g024;gbkey=RBS;gene=g024
+AJ972879.2	EMBL	gene	5605	5799	.	+	.	ID=gene-g025;Name=g025;gbkey=Gene;gene=g025;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	5605	5799	.	+	0	ID=cds-CCE26049.1;Parent=gene-g025;Dbxref=UniProtKB/TrEMBL:G4KJW4,NCBI_GP:CCE26049.1;Name=CCE26049.1;gbkey=CDS;gene=g025;product=CCE26049.1;protein_id=CCE26049.1;transl_table=11
+AJ972879.2	EMBL	region	5772	5777	.	+	.	ID=id-g025;gbkey=RBS;gene=g025
+AJ972879.2	EMBL	gene	5787	6092	.	+	.	ID=gene-g026;Name=g026;gbkey=Gene;gene=g026;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	5787	6092	.	+	0	ID=cds-CCE26050.1;Parent=gene-g026;Dbxref=UniProtKB/TrEMBL:G4KJW5,NCBI_GP:CCE26050.1;Name=CCE26050.1;gbkey=CDS;gene=g026;product=CCE26050.1;protein_id=CCE26050.1;transl_table=11
+AJ972879.2	EMBL	region	6081	6084	.	+	.	ID=id-g026;gbkey=RBS;gene=g026
+AJ972879.2	EMBL	gene	6092	6343	.	+	.	ID=gene-g027;Name=g027;gbkey=Gene;gene=g027;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	6092	6343	.	+	0	ID=cds-CCE26051.1;Parent=gene-g027;Dbxref=UniProtKB/TrEMBL:G4KJW6,NCBI_GP:CCE26051.1;Name=CCE26051.1;gbkey=CDS;gene=g027;product=CCE26051.1;protein_id=CCE26051.1;transl_table=11
+AJ972879.2	EMBL	region	6324	6327	.	+	.	ID=id-g027;gbkey=RBS;gene=g027
+AJ972879.2	EMBL	gene	6334	6579	.	+	.	ID=gene-g028;Name=g028;gbkey=Gene;gene=g028;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	6334	6579	.	+	0	ID=cds-CCE26052.1;Parent=gene-g028;Dbxref=UniProtKB/TrEMBL:G4KJW7,NCBI_GP:CCE26052.1;Name=CCE26052.1;gbkey=CDS;gene=g028;product=CCE26052.1;protein_id=CCE26052.1;transl_table=11
+AJ972879.2	EMBL	terminator	6581	6608	.	+	.	ID=id-AJ972879.2:6581..6608;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	promoter	6616	6640	.	+	.	ID=id-AJ972879.2:6616..6640;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	6635	6639	.	+	.	ID=id-AJ972879.2:6635..6639;gbkey=RBS
+AJ972879.2	EMBL	gene	6648	6905	.	+	.	ID=gene-g029;Name=g029;gbkey=Gene;gene=g029;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	6648	6905	.	+	0	ID=cds-CCE26053.1;Parent=gene-g029;Dbxref=UniProtKB/TrEMBL:G4KJW8,NCBI_GP:CCE26053.1;Name=CCE26053.1;gbkey=CDS;gene=g029;product=CCE26053.1;protein_id=CCE26053.1;transl_table=11
+AJ972879.2	EMBL	region	6905	6908	.	+	.	ID=id-AJ972879.2:6905..6908;gbkey=RBS
+AJ972879.2	EMBL	gene	6914	7273	.	+	.	ID=gene-g030;Name=g030;gbkey=Gene;gene=g030;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	6914	7273	.	+	0	ID=cds-CCE26054.1;Parent=gene-g030;Dbxref=UniProtKB/TrEMBL:G4KJW9,NCBI_GP:CCE26054.1;Name=CCE26054.1;gbkey=CDS;gene=g030;product=CCE26054.1;protein_id=CCE26054.1;transl_table=11
+AJ972879.2	EMBL	region	7220	7223	.	+	.	ID=id-g030;Note=AAGAT 7220;gbkey=RBS;gene=g030
+AJ972879.2	EMBL	gene	7230	7772	.	+	.	ID=gene-g031;Name=g031;gbkey=Gene;gene=g031;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	7230	7772	.	+	0	ID=cds-CCE26055.1;Parent=gene-g031;Dbxref=UniProtKB/TrEMBL:G4KJX0,NCBI_GP:CCE26055.1;Name=CCE26055.1;gbkey=CDS;gene=g031;product=CCE26055.1;protein_id=CCE26055.1;transl_table=11
+AJ972879.2	EMBL	region	7774	7776	.	+	.	ID=id-AJ972879.2:7774..7776;gbkey=RBS
+AJ972879.2	EMBL	gene	7782	8063	.	+	.	ID=gene-g032;Name=g032;gbkey=Gene;gene=g032;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	7782	8063	.	+	0	ID=cds-CCE26056.1;Parent=gene-g032;Dbxref=UniProtKB/TrEMBL:G4KJX1,NCBI_GP:CCE26056.1;Name=CCE26056.1;gbkey=CDS;gene=g032;product=CCE26056.1;protein_id=CCE26056.1;transl_table=11
+AJ972879.2	EMBL	region	8049	8053	.	+	.	ID=id-g032;gbkey=RBS;gene=g032
+AJ972879.2	EMBL	gene	8063	8428	.	+	.	ID=gene-g033;Name=g033;gbkey=Gene;gene=g033;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	8063	8428	.	+	0	ID=cds-CCE26057.1;Parent=gene-g033;Dbxref=UniProtKB/TrEMBL:G4KJX2,NCBI_GP:CCE26057.1;Name=CCE26057.1;gbkey=CDS;gene=g033;product=CCE26057.1;protein_id=CCE26057.1;transl_table=11
+AJ972879.2	EMBL	region	8403	8406	.	+	.	ID=id-g033;gbkey=RBS;gene=g033
+AJ972879.2	EMBL	gene	8415	8825	.	+	.	ID=gene-g034;Name=g034;gbkey=Gene;gene=g034;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	8415	8825	.	+	0	ID=cds-CCE26058.1;Parent=gene-g034;Dbxref=UniProtKB/TrEMBL:G4KJX3,NCBI_GP:CCE26058.1;Name=CCE26058.1;gbkey=CDS;gene=g034;product=CCE26058.1;protein_id=CCE26058.1;transl_table=11
+AJ972879.2	EMBL	region	8809	8813	.	+	.	ID=id-g034;gbkey=RBS;gene=g034
+AJ972879.2	EMBL	gene	8822	9064	.	+	.	ID=gene-g035;Name=g035;gbkey=Gene;gene=g035;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	8822	9064	.	+	0	ID=cds-CCE26059.1;Parent=gene-g035;Dbxref=UniProtKB/TrEMBL:G4KJX4,NCBI_GP:CCE26059.1;Name=CCE26059.1;gbkey=CDS;gene=g035;product=CCE26059.1;protein_id=CCE26059.1;transl_table=11
+AJ972879.2	EMBL	region	9022	9024	.	+	.	ID=id-g035;Note=GGT 9022;gbkey=RBS;gene=g035
+AJ972879.2	EMBL	gene	9039	9326	.	+	.	ID=gene-g036;Name=g036;gbkey=Gene;gene=g036;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	9039	9326	.	+	0	ID=cds-CCE26060.1;Parent=gene-g036;Dbxref=UniProtKB/TrEMBL:G4KJX5,NCBI_GP:CCE26060.1;Name=CCE26060.1;gbkey=CDS;gene=g036;product=CCE26060.1;protein_id=CCE26060.1;transl_table=11
+AJ972879.2	EMBL	region	9310	9315	.	+	.	ID=id-g036;gbkey=RBS;gene=g036
+AJ972879.2	EMBL	gene	9323	9568	.	+	.	ID=gene-g037;Name=g037;gbkey=Gene;gene=g037;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	9323	9568	.	+	0	ID=cds-CCE26061.1;Parent=gene-g037;Dbxref=UniProtKB/TrEMBL:G4KJX6,NCBI_GP:CCE26061.1;Name=CCE26061.1;gbkey=CDS;gene=g037;product=CCE26061.1;protein_id=CCE26061.1;transl_table=11
+AJ972879.2	EMBL	region	9557	9560	.	+	.	ID=id-g037;gbkey=RBS;gene=g037
+AJ972879.2	EMBL	gene	9568	9870	.	+	.	ID=gene-g038;Name=g038;gbkey=Gene;gene=g038;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	9568	9870	.	+	0	ID=cds-CCE26062.1;Parent=gene-g038;Dbxref=UniProtKB/TrEMBL:G4KJX7,NCBI_GP:CCE26062.1;Name=CCE26062.1;gbkey=CDS;gene=g038;product=CCE26062.1;protein_id=CCE26062.1;transl_table=11
+AJ972879.2	EMBL	region	9849	9852	.	+	.	ID=id-g038;gbkey=RBS;gene=g038
+AJ972879.2	EMBL	gene	9867	10124	.	+	.	ID=gene-g039;Name=g039;gbkey=Gene;gene=g039;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	9867	10124	.	+	0	ID=cds-CCE26063.1;Parent=gene-g039;Dbxref=UniProtKB/TrEMBL:G4KJX8,NCBI_GP:CCE26063.1;Name=CCE26063.1;gbkey=CDS;gene=g039;product=CCE26063.1;protein_id=CCE26063.1;transl_table=11
+AJ972879.2	EMBL	region	10096	10098	.	+	.	ID=id-g039;gbkey=RBS;gene=g039
+AJ972879.2	EMBL	gene	10111	10377	.	+	.	ID=gene-g040;Name=g040;gbkey=Gene;gene=g040;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	10111	10377	.	+	0	ID=cds-CCE26064.1;Parent=gene-g040;Dbxref=UniProtKB/TrEMBL:G4KJX9,NCBI_GP:CCE26064.1;Name=CCE26064.1;gbkey=CDS;gene=g040;product=CCE26064.1;protein_id=CCE26064.1;transl_table=11
+AJ972879.2	EMBL	region	10336	10338	.	+	.	ID=id-g040;gbkey=RBS;gene=g040
+AJ972879.2	EMBL	gene	10349	10558	.	+	.	ID=gene-g041;Name=g041;gbkey=Gene;gene=g041;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	10349	10558	.	+	0	ID=cds-CCE26065.1;Parent=gene-g041;Dbxref=UniProtKB/TrEMBL:G4KJY0,NCBI_GP:CCE26065.1;Name=CCE26065.1;gbkey=CDS;gene=g041;product=CCE26065.1;protein_id=CCE26065.1;transl_table=11
+AJ972879.2	EMBL	region	10554	10559	.	+	.	ID=id-AJ972879.2:10554..10559;gbkey=RBS
+AJ972879.2	EMBL	gene	10562	10948	.	+	.	ID=gene-g042;Name=g042;gbkey=Gene;gene=g042;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	10562	10948	.	+	0	ID=cds-CCE26066.1;Parent=gene-g042;Dbxref=UniProtKB/TrEMBL:G4KJY1,NCBI_GP:CCE26066.1;Name=CCE26066.1;gbkey=CDS;gene=g042;product=CCE26066.1;protein_id=CCE26066.1;transl_table=11
+AJ972879.2	EMBL	region	10899	10902	.	+	.	ID=id-g042;Note=AAGA 10880;gbkey=RBS;gene=g042
+AJ972879.2	EMBL	gene	10926	11177	.	+	.	ID=gene-g043;Name=g043;gbkey=Gene;gene=g043;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	10926	11177	.	+	0	ID=cds-CCE26067.1;Parent=gene-g043;Dbxref=UniProtKB/TrEMBL:G4KJY2,NCBI_GP:CCE26067.1;Name=CCE26067.1;gbkey=CDS;gene=g043;product=CCE26067.1;protein_id=CCE26067.1;transl_table=11
+AJ972879.2	EMBL	region	11166	11169	.	+	.	ID=id-g043;gbkey=RBS;gene=g043
+AJ972879.2	EMBL	gene	11177	11446	.	+	.	ID=gene-g044;Name=g044;gbkey=Gene;gene=g044;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	11177	11446	.	+	0	ID=cds-CCE26068.1;Parent=gene-g044;Dbxref=UniProtKB/TrEMBL:G4KJY3,NCBI_GP:CCE26068.1;Name=CCE26068.1;gbkey=CDS;gene=g044;product=CCE26068.1;protein_id=CCE26068.1;transl_table=11
+AJ972879.2	EMBL	region	11535	11539	.	+	.	ID=id-AJ972879.2:11535..11539;gbkey=RBS
+AJ972879.2	EMBL	gene	11548	12654	.	+	.	ID=gene-g045;Name=g045;gbkey=Gene;gene=g045;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	11548	12654	.	+	0	ID=cds-CCE26069.1;Parent=gene-g045;Dbxref=UniProtKB/TrEMBL:G4KJY4,NCBI_GP:CCE26069.1;Name=CCE26069.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g045;product=CCE26069.1;protein_id=CCE26069.1;transl_table=11
+AJ972879.2	EMBL	region	12645	12649	.	+	.	ID=id-g045;gbkey=RBS;gene=g045
+AJ972879.2	EMBL	gene	12654	13262	.	+	.	ID=gene-g046;Name=g046;gbkey=Gene;gene=g046;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	12654	13262	.	+	0	ID=cds-CCE26070.1;Parent=gene-g046;Dbxref=UniProtKB/TrEMBL:G4KJY5,NCBI_GP:CCE26070.1;Name=CCE26070.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g046;product=CCE26070.1;protein_id=CCE26070.1;transl_table=11
+AJ972879.2	EMBL	region	13248	13251	.	+	.	ID=id-g046;gbkey=RBS;gene=g046
+AJ972879.2	EMBL	gene	13259	13723	.	+	.	ID=gene-g047;Name=g047;gbkey=Gene;gene=g047;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	13259	13723	.	+	0	ID=cds-CCE26071.1;Parent=gene-g047;Dbxref=UniProtKB/TrEMBL:G4KJY6,NCBI_GP:CCE26071.1;Name=CCE26071.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g047;product=CCE26071.1;protein_id=CCE26071.1;transl_table=11
+AJ972879.2	EMBL	region	13789	13792	.	+	.	ID=id-AJ972879.2:13789..13792;gbkey=RBS
+AJ972879.2	EMBL	gene	13800	14438	.	+	.	ID=gene-g048;Name=g048;gbkey=Gene;gene=g048;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	13800	14438	.	+	0	ID=cds-CCE26072.1;Parent=gene-g048;Dbxref=UniProtKB/TrEMBL:G4KJY7,NCBI_GP:CCE26072.1;Name=CCE26072.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g048;product=CCE26072.1;protein_id=CCE26072.1;transl_table=11
+AJ972879.2	EMBL	terminator	14453	14484	.	-	.	ID=id-AJ972879.2:14453..14484;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	terminator	14453	14484	.	+	.	ID=id-AJ972879.2:14453..14484-2;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	14491	15276	.	-	.	ID=gene-g049;Name=g049;gbkey=Gene;gene=g049;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	14491	15276	.	-	0	ID=cds-CCE26073.1;Parent=gene-g049;Dbxref=GOA:G4KJY8,InterPro:IPR003714,UniProtKB/TrEMBL:G4KJY8,NCBI_GP:CCE26073.1;Name=CCE26073.1;gbkey=CDS;gene=g049;inference=similar to AA sequence:RefSeq:YP_001009873.1;product=PhoH-like phosphate starvation-inducible protein;protein_id=CCE26073.1;transl_table=11
+AJ972879.2	EMBL	region	15285	15288	.	-	.	ID=id-AJ972879.2:15285..15288;gbkey=RBS
+AJ972879.2	EMBL	gene	15305	15646	.	-	.	ID=gene-g050;Name=g050;gbkey=Gene;gene=g050;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	15305	15646	.	-	0	ID=cds-CCE26074.1;Parent=gene-g050;Dbxref=UniProtKB/TrEMBL:G4KJY9,NCBI_GP:CCE26074.1;Name=CCE26074.1;gbkey=CDS;gene=g050;product=CCE26074.1;protein_id=CCE26074.1;transl_table=11
+AJ972879.2	EMBL	gene	15634	15987	.	-	.	ID=gene-g051;Name=g051;gbkey=Gene;gene=g051;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	15634	15987	.	-	0	ID=cds-CCE26075.1;Parent=gene-g051;Dbxref=UniProtKB/TrEMBL:G4KJZ0,NCBI_GP:CCE26075.1;Name=CCE26075.1;gbkey=CDS;gene=g051;product=CCE26075.1;protein_id=CCE26075.1;transl_table=11
+AJ972879.2	EMBL	region	15653	15658	.	-	.	ID=id-g051;Note=AAGGAG 15658;gbkey=RBS;gene=g051
+AJ972879.2	EMBL	gene	15944	16387	.	-	.	ID=gene-g052;Name=g052;gbkey=Gene;gene=g052;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	15944	16387	.	-	0	ID=cds-CCE26076.1;Parent=gene-g052;Dbxref=UniProtKB/TrEMBL:G4KJZ1,NCBI_GP:CCE26076.1;Name=CCE26076.1;gbkey=CDS;gene=g052;product=CCE26076.1;protein_id=CCE26076.1;transl_table=11
+AJ972879.2	EMBL	region	15998	16004	.	-	.	ID=id-g052;gbkey=RBS;gene=g052
+AJ972879.2	EMBL	gene	16362	16754	.	-	.	ID=gene-g053;Name=g053;gbkey=Gene;gene=g053;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	16362	16754	.	-	0	ID=cds-CCE26077.1;Parent=gene-g053;Dbxref=UniProtKB/TrEMBL:G4KJZ2,NCBI_GP:CCE26077.1;Name=CCE26077.1;gbkey=CDS;gene=g053;product=CCE26077.1;protein_id=CCE26077.1;transl_table=11
+AJ972879.2	EMBL	region	16393	16397	.	-	.	ID=id-g053;Note=AGGGT 16397;gbkey=RBS;gene=g053
+AJ972879.2	EMBL	gene	16726	17031	.	-	.	ID=gene-g054;Name=g054;gbkey=Gene;gene=g054;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	16726	17031	.	-	0	ID=cds-CCE26078.1;Parent=gene-g054;Dbxref=UniProtKB/TrEMBL:G4KJZ3,NCBI_GP:CCE26078.1;Name=CCE26078.1;gbkey=CDS;gene=g054;product=CCE26078.1;protein_id=CCE26078.1;transl_table=11
+AJ972879.2	EMBL	region	16767	16772	.	-	.	ID=id-g054;gbkey=RBS;gene=g054
+AJ972879.2	EMBL	region	17039	17044	.	-	.	ID=id-AJ972879.2:17039..17044;gbkey=RBS
+AJ972879.2	EMBL	terminator	17055	17082	.	-	.	ID=id-AJ972879.2:17055..17082;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	17092	17982	.	-	.	ID=gene-g055;Name=g055;gbkey=Gene;gene=g055;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	17092	17982	.	-	0	ID=cds-CCE26079.1;Parent=gene-g055;Dbxref=UniProtKB/TrEMBL:G4KJZ4,NCBI_GP:CCE26079.1;Name=CCE26079.1;gbkey=CDS;gene=g055;product=CCE26079.1;protein_id=CCE26079.1;transl_table=11
+AJ972879.2	EMBL	region	17988	17991	.	-	.	ID=id-AJ972879.2:17988..17991;gbkey=RBS
+AJ972879.2	EMBL	gene	17989	18531	.	-	.	ID=gene-g056;Name=g056;gbkey=Gene;gene=g056;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	17989	18531	.	-	0	ID=cds-CCE26080.1;Parent=gene-g056;Dbxref=GOA:G4KJZ5,InterPro:IPR008144,InterPro:IPR020590,UniProtKB/TrEMBL:G4KJZ5,NCBI_GP:CCE26080.1;Name=CCE26080.1;gbkey=CDS;gene=g056;inference=similar to AA sequence:RefSeq:ZP_01018099.1;product=guanylate kinase;protein_id=CCE26080.1;transl_table=11
+AJ972879.2	EMBL	gene	18524	19195	.	-	.	ID=gene-g057;Name=g057;gbkey=Gene;gene=g057;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	18524	19195	.	-	0	ID=cds-CCE26081.1;Parent=gene-g057;Dbxref=UniProtKB/TrEMBL:G4KJZ6,NCBI_GP:CCE26081.1;Name=CCE26081.1;gbkey=CDS;gene=g057;product=CCE26081.1;protein_id=CCE26081.1;transl_table=11
+AJ972879.2	EMBL	region	18539	18545	.	-	.	ID=id-g057;gbkey=RBS;gene=g057
+AJ972879.2	EMBL	region	19201	19206	.	-	.	ID=id-AJ972879.2:19201..19206;gbkey=RBS
+AJ972879.2	EMBL	gene	19214	19972	.	-	.	ID=gene-g058;Name=g058;gbkey=Gene;gene=g058;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	19214	19972	.	-	0	ID=cds-CCE26082.1;Parent=gene-g058;Dbxref=UniProtKB/TrEMBL:G4KJZ7,NCBI_GP:CCE26082.1;Name=CCE26082.1;gbkey=CDS;gene=g058;product=CCE26082.1;protein_id=CCE26082.1;transl_table=11
+AJ972879.2	EMBL	region	19982	19986	.	-	.	ID=id-AJ972879.2:19982..19986;gbkey=RBS
+AJ972879.2	EMBL	gene	19988	21310	.	-	.	ID=gene-g059;Name=g059;gbkey=Gene;gene=g059;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	19988	21310	.	-	0	ID=cds-CCE26083.1;Parent=gene-g059;Dbxref=UniProtKB/TrEMBL:G4KJZ8,NCBI_GP:CCE26083.1;Name=CCE26083.1;gbkey=CDS;gene=g059;product=CCE26083.1;protein_id=CCE26083.1;transl_table=11
+AJ972879.2	EMBL	region	21317	21320	.	-	.	ID=id-AJ972879.2:21317..21320;gbkey=RBS
+AJ972879.2	EMBL	promoter	21355	21379	.	-	.	ID=id-AJ972879.2:21355..21379;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	promoter	21472	21496	.	+	.	ID=id-AJ972879.2:21472..21496;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	21515	21518	.	+	.	ID=id-AJ972879.2:21515..21518;gbkey=RBS
+AJ972879.2	EMBL	gene	21527	21964	.	+	.	ID=gene-g060;Name=g060;gbkey=Gene;gene=g060;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	21527	21964	.	+	0	ID=cds-CCE26084.1;Parent=gene-g060;Dbxref=GOA:G4KJZ9,InterPro:IPR000086,InterPro:IPR015797,UniProtKB/TrEMBL:G4KJZ9,NCBI_GP:CCE26084.1;Name=CCE26084.1;gbkey=CDS;gene=g060;product=CCE26084.1;protein_id=CCE26084.1;transl_table=11
+AJ972879.2	EMBL	terminator	21973	22000	.	+	.	ID=id-AJ972879.2:21973..22000;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	22013	22016	.	+	.	ID=id-AJ972879.2:22013..22016;gbkey=RBS
+AJ972879.2	EMBL	gene	22024	24813	.	+	.	ID=gene-g061;Name=g061;gbkey=Gene;gene=g061;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	22024	24813	.	+	0	ID=cds-CCE26085.1;Parent=gene-g061;Dbxref=GOA:G4KK00,InterPro:IPR007406,UniProtKB/TrEMBL:G4KK00,NCBI_GP:CCE26085.1;Name=CCE26085.1;gbkey=CDS;gene=g061;product=CCE26085.1;protein_id=CCE26085.1;transl_table=11
+AJ972879.2	EMBL	region	24807	24809	.	+	.	ID=id-g061;gbkey=RBS;gene=g061
+AJ972879.2	EMBL	gene	24816	24974	.	+	.	ID=gene-g062;Name=g062;gbkey=Gene;gene=g062;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	24816	24974	.	+	0	ID=cds-CCE26086.1;Parent=gene-g062;Dbxref=UniProtKB/TrEMBL:G4KK01,NCBI_GP:CCE26086.1;Name=CCE26086.1;gbkey=CDS;gene=g062;product=CCE26086.1;protein_id=CCE26086.1;transl_table=11
+AJ972879.2	EMBL	terminator	24980	25009	.	+	.	ID=id-AJ972879.2:24980..25009;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	promoter	25026	25050	.	+	.	ID=id-AJ972879.2:25026..25050;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	25075	25080	.	+	.	ID=id-AJ972879.2:25075..25080;gbkey=RBS
+AJ972879.2	EMBL	gene	25084	25635	.	+	.	ID=gene-g063;Name=g063;gbkey=Gene;gene=g063;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	25084	25635	.	+	0	ID=cds-CCE26087.1;Parent=gene-g063;Dbxref=UniProtKB/TrEMBL:G4KK02,NCBI_GP:CCE26087.1;Name=CCE26087.1;gbkey=CDS;gene=g063;product=CCE26087.1;protein_id=CCE26087.1;transl_table=11
+AJ972879.2	EMBL	terminator	25644	25674	.	+	.	ID=id-AJ972879.2:25644..25674;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	promoter	25691	25715	.	+	.	ID=id-AJ972879.2:25691..25715;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	25725	25731	.	+	.	ID=id-AJ972879.2:25725..25731;gbkey=RBS
+AJ972879.2	EMBL	gene	25740	26180	.	+	.	ID=gene-g064;Name=g064;gbkey=Gene;gene=g064;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	25740	26180	.	+	0	ID=cds-CCE26088.1;Parent=gene-g064;Dbxref=UniProtKB/TrEMBL:G4KK03,NCBI_GP:CCE26088.1;Name=CCE26088.1;gbkey=CDS;gene=g064;product=CCE26088.1;protein_id=CCE26088.1;transl_table=11
+AJ972879.2	EMBL	region	26171	26174	.	+	.	ID=id-g064;gbkey=RBS;gene=g064
+AJ972879.2	EMBL	gene	26182	26346	.	+	.	ID=gene-g065;Name=g065;gbkey=Gene;gene=g065;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	26182	26346	.	+	0	ID=cds-CCE26089.1;Parent=gene-g065;Dbxref=UniProtKB/TrEMBL:G4KK04,NCBI_GP:CCE26089.1;Name=CCE26089.1;gbkey=CDS;gene=g065;product=CCE26089.1;protein_id=CCE26089.1;transl_table=11
+AJ972879.2	EMBL	region	26319	26323	.	+	.	ID=id-g065;Note=AGGTG 26319;gbkey=RBS;gene=g065
+AJ972879.2	EMBL	gene	26334	26690	.	+	.	ID=gene-g066;Name=g066;gbkey=Gene;gene=g066;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	26334	26690	.	+	0	ID=cds-CCE26090.1;Parent=gene-g066;Dbxref=UniProtKB/TrEMBL:G4KK05,NCBI_GP:CCE26090.1;Name=CCE26090.1;gbkey=CDS;gene=g066;product=CCE26090.1;protein_id=CCE26090.1;transl_table=11
+AJ972879.2	EMBL	region	26674	26678	.	+	.	ID=id-g066;gbkey=RBS;gene=g066
+AJ972879.2	EMBL	gene	26687	26779	.	+	.	ID=gene-g067;Name=g067;gbkey=Gene;gene=g067;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	26687	26779	.	+	0	ID=cds-CCE26091.1;Parent=gene-g067;Dbxref=UniProtKB/TrEMBL:G4KK06,NCBI_GP:CCE26091.1;Name=CCE26091.1;gbkey=CDS;gene=g067;product=CCE26091.1;protein_id=CCE26091.1;transl_table=11
+AJ972879.2	EMBL	region	26777	26782	.	+	.	ID=id-AJ972879.2:26777..26782;gbkey=RBS
+AJ972879.2	EMBL	gene	26791	27615	.	+	.	ID=gene-g068;Name=g068;gbkey=Gene;gene=g068;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	26791	27615	.	+	0	ID=cds-CCE26092.1;Parent=gene-g068;Dbxref=GOA:G4KK07,InterPro:IPR000836,InterPro:IPR005946,UniProtKB/TrEMBL:G4KK07,NCBI_GP:CCE26092.1;Name=CCE26092.1;gbkey=CDS;gene=g068;inference=similar to AA sequence:RefSeq:NP_945016.1;product=ribose-phosphate pyrophosphokinase;protein_id=CCE26092.1;transl_table=11
+AJ972879.2	EMBL	region	27606	27609	.	+	.	ID=id-g068;gbkey=RBS;gene=g068
+AJ972879.2	EMBL	gene	27615	28268	.	+	.	ID=gene-g069;Name=g069;gbkey=Gene;gene=g069;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	27615	28268	.	+	0	ID=cds-CCE26093.1;Parent=gene-g069;Dbxref=UniProtKB/TrEMBL:G4KK08,NCBI_GP:CCE26093.1;Name=CCE26093.1;gbkey=CDS;gene=g069;product=CCE26093.1;protein_id=CCE26093.1;transl_table=11
+AJ972879.2	EMBL	region	28259	28264	.	+	.	ID=id-g069;gbkey=RBS;gene=g069
+AJ972879.2	EMBL	gene	28272	30026	.	+	.	ID=gene-g070;Name=g070;gbkey=Gene;gene=g070;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	28272	30026	.	+	0	ID=cds-CCE26094.1;Parent=gene-g070;Dbxref=GOA:G4KK09,InterPro:IPR002638,InterPro:IPR015977,InterPro:IPR016471,UniProtKB/TrEMBL:G4KK09,NCBI_GP:CCE26094.1;Name=CCE26094.1;gbkey=CDS;gene=g070;inference=similar to AA sequence:RefSeq:NP_945019.1;product=nicotinate phosphoribosyltransferase;protein_id=CCE26094.1;transl_table=11
+AJ972879.2	EMBL	terminator	30034	30063	.	+	.	ID=id-AJ972879.2:30034..30063;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	30082	30087	.	+	.	ID=id-AJ972879.2:30082..30087;gbkey=RBS
+AJ972879.2	EMBL	gene	30091	30267	.	+	.	ID=gene-g071;Name=g071;gbkey=Gene;gene=g071;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	30091	30267	.	+	0	ID=cds-CCE26095.1;Parent=gene-g071;Dbxref=UniProtKB/TrEMBL:G4KK10,NCBI_GP:CCE26095.1;Name=CCE26095.1;gbkey=CDS;gene=g071;product=CCE26095.1;protein_id=CCE26095.1;transl_table=11
+AJ972879.2	EMBL	region	30265	30269	.	+	.	ID=id-AJ972879.2:30265..30269;gbkey=RBS
+AJ972879.2	EMBL	gene	30279	30788	.	+	.	ID=gene-g072;Name=g072;gbkey=Gene;gene=g072;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	30279	30788	.	+	0	ID=cds-CCE26096.1;Parent=gene-g072;Dbxref=UniProtKB/TrEMBL:G4KK11,NCBI_GP:CCE26096.1;Name=CCE26096.1;gbkey=CDS;gene=g072;product=CCE26096.1;protein_id=CCE26096.1;transl_table=11
+AJ972879.2	EMBL	terminator	30796	30818	.	+	.	ID=id-AJ972879.2:30796..30818;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	promoter	30837	30861	.	+	.	ID=id-AJ972879.2:30837..30861;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	30879	30883	.	+	.	ID=id-AJ972879.2:30879..30883;Note=AAGAG 30879;gbkey=RBS
+AJ972879.2	EMBL	gene	30890	31249	.	+	.	ID=gene-g073;Name=g073;gbkey=Gene;gene=g073;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	30890	31249	.	+	0	ID=cds-CCE26097.1;Parent=gene-g073;Dbxref=UniProtKB/TrEMBL:G4KK12,NCBI_GP:CCE26097.1;Name=CCE26097.1;gbkey=CDS;gene=g073;product=CCE26097.1;protein_id=CCE26097.1;transl_table=11
+AJ972879.2	EMBL	region	31230	31233	.	+	.	ID=id-g073;gbkey=RBS;gene=g073
+AJ972879.2	EMBL	gene	31242	31736	.	+	.	ID=gene-g074;Name=g074;gbkey=Gene;gene=g074;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	31242	31736	.	+	0	ID=cds-CCE26098.1;Parent=gene-g074;Dbxref=UniProtKB/TrEMBL:G4KK13,NCBI_GP:CCE26098.1;Name=CCE26098.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g074;product=CCE26098.1;protein_id=CCE26098.1;transl_table=11
+AJ972879.2	EMBL	region	31724	31726	.	+	.	ID=id-g074;gbkey=RBS;gene=g074
+AJ972879.2	EMBL	gene	31736	32044	.	+	.	ID=gene-g075;Name=g075;gbkey=Gene;gene=g075;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	31736	32044	.	+	0	ID=cds-CCE26099.1;Parent=gene-g075;Dbxref=UniProtKB/TrEMBL:G4KK14,NCBI_GP:CCE26099.1;Name=CCE26099.1;gbkey=CDS;gene=g075;product=CCE26099.1;protein_id=CCE26099.1;transl_table=11
+AJ972879.2	EMBL	region	32031	32034	.	+	.	ID=id-g075;gbkey=RBS;gene=g075
+AJ972879.2	EMBL	gene	32044	32409	.	+	.	ID=gene-g076;Name=g076;gbkey=Gene;gene=g076;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	32044	32409	.	+	0	ID=cds-CCE26100.1;Parent=gene-g076;Dbxref=UniProtKB/TrEMBL:G4KK15,NCBI_GP:CCE26100.1;Name=CCE26100.1;gbkey=CDS;gene=g076;product=CCE26100.1;protein_id=CCE26100.1;transl_table=11
+AJ972879.2	EMBL	terminator	32414	32443	.	+	.	ID=id-AJ972879.2:32414..32443;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	promoter	32476	32500	.	+	.	ID=id-AJ972879.2:32476..32500;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	32512	32516	.	+	.	ID=id-AJ972879.2:32512..32516;gbkey=RBS
+AJ972879.2	EMBL	gene	32526	32921	.	+	.	ID=gene-g077;Name=g077;gbkey=Gene;gene=g077;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	32526	32921	.	+	0	ID=cds-CCE26101.1;Parent=gene-g077;Dbxref=UniProtKB/TrEMBL:G4KK16,NCBI_GP:CCE26101.1;Name=CCE26101.1;gbkey=CDS;gene=g077;product=CCE26101.1;protein_id=CCE26101.1;transl_table=11
+AJ972879.2	EMBL	terminator	32926	32955	.	+	.	ID=id-AJ972879.2:32926..32955;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	promoter	33165	33189	.	+	.	ID=id-AJ972879.2:33165..33189;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	33213	33217	.	+	.	ID=id-AJ972879.2:33213..33217;Note=AGGAG 33213;gbkey=RBS
+AJ972879.2	EMBL	gene	33225	33767	.	+	.	ID=gene-g078;Name=g078;gbkey=Gene;gene=g078;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	33225	33767	.	+	0	ID=cds-CCE26102.1;Parent=gene-g078;Dbxref=UniProtKB/TrEMBL:G4KK17,NCBI_GP:CCE26102.1;Name=CCE26102.1;gbkey=CDS;gene=g078;product=CCE26102.1;protein_id=CCE26102.1;transl_table=11
+AJ972879.2	EMBL	terminator	33804	33831	.	-	.	ID=id-AJ972879.2:33804..33831;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	33839	34639	.	-	.	ID=gene-g079;Name=g079;gbkey=Gene;gene=g079;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	33839	34639	.	-	0	ID=cds-CCE26103.1;Parent=gene-g079;Dbxref=InterPro:IPR005082,UniProtKB/TrEMBL:G4KK18,NCBI_GP:CCE26103.1;Name=CCE26103.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g079;product=CCE26103.1;protein_id=CCE26103.1;transl_table=11
+AJ972879.2	EMBL	region	34649	34653	.	-	.	ID=id-AJ972879.2:34649..34653;gbkey=RBS
+AJ972879.2	EMBL	gene	34674	35429	.	-	.	ID=gene-g080;Name=g080;gbkey=Gene;gene=g080;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	34674	35429	.	-	0	ID=cds-CCE26104.1;Parent=gene-g080;Dbxref=UniProtKB/TrEMBL:G4KK19,NCBI_GP:CCE26104.1;Name=CCE26104.1;gbkey=CDS;gene=g080;product=CCE26104.1;protein_id=CCE26104.1;transl_table=11
+AJ972879.2	EMBL	gene	35431	36822	.	-	.	ID=gene-g081;Name=g081;gbkey=Gene;gene=g081;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	35431	36822	.	-	0	ID=cds-CCE26105.1;Parent=gene-g081;Dbxref=UniProtKB/TrEMBL:G4KK20,NCBI_GP:CCE26105.1;Name=CCE26105.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g081;product=CCE26105.1;protein_id=CCE26105.1;transl_table=11
+AJ972879.2	EMBL	region	35436	35439	.	-	.	ID=id-g081;gbkey=RBS;gene=g081
+AJ972879.2	EMBL	region	36833	36836	.	-	.	ID=id-AJ972879.2:36833..36836;gbkey=RBS
+AJ972879.2	EMBL	region	36908	36911	.	+	.	ID=id-AJ972879.2:36908..36911;gbkey=RBS
+AJ972879.2	EMBL	gene	36917	37495	.	+	.	ID=gene-g082;Name=g082;gbkey=Gene;gene=g082;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	36917	37495	.	+	0	ID=cds-CCE26106.1;Parent=gene-g082;Dbxref=UniProtKB/TrEMBL:G4KK21,NCBI_GP:CCE26106.1;Name=CCE26106.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g082;product=CCE26106.1;protein_id=CCE26106.1;transl_table=11
+AJ972879.2	EMBL	region	37484	37488	.	+	.	ID=id-g082;gbkey=RBS;gene=g082
+AJ972879.2	EMBL	gene	37498	45159	.	+	.	ID=gene-g083;Name=g083;gbkey=Gene;gene=g083;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	37498	45159	.	+	0	ID=cds-CCE26107.1;Parent=gene-g083;Dbxref=InterPro:IPR008258,InterPro:IPR023346,UniProtKB/TrEMBL:G4KK22,NCBI_GP:CCE26107.1;Name=CCE26107.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g083;product=putative tape measure tail fibre protein;protein_id=CCE26107.1;transl_table=11
+AJ972879.2	EMBL	terminator	45186	45211	.	+	.	ID=id-AJ972879.2:45186..45211;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	45231	45236	.	+	.	ID=id-AJ972879.2:45231..45236;gbkey=RBS
+AJ972879.2	EMBL	gene	45243	45602	.	+	.	ID=gene-g084;Name=g084;gbkey=Gene;gene=g084;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	45243	45602	.	+	0	ID=cds-CCE26108.1;Parent=gene-g084;Dbxref=InterPro:IPR009045,InterPro:IPR013230,UniProtKB/TrEMBL:G4KK23,NCBI_GP:CCE26108.1;Name=CCE26108.1;gbkey=CDS;gene=g084;inference=similar to AA sequence:RefSeq:YP_425023.1;product=phage K1E myramoyl peptidase;protein_id=CCE26108.1;transl_table=11
+AJ972879.2	EMBL	region	45603	45607	.	+	.	ID=id-AJ972879.2:45603..45607;gbkey=RBS
+AJ972879.2	EMBL	gene	45613	46986	.	+	.	ID=gene-g085;Name=g085;gbkey=Gene;gene=g085;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	45613	46986	.	+	0	ID=cds-CCE26109.1;Parent=gene-g085;Dbxref=UniProtKB/TrEMBL:G4KK24,NCBI_GP:CCE26109.1;Name=CCE26109.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g085;product=CCE26109.1;protein_id=CCE26109.1;transl_table=11
+AJ972879.2	EMBL	region	47019	47022	.	+	.	ID=id-AJ972879.2:47019..47022;gbkey=RBS
+AJ972879.2	EMBL	gene	47029	47565	.	+	.	ID=gene-g086;Name=g086;gbkey=Gene;gene=g086;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	47029	47565	.	+	0	ID=cds-CCE26110.1;Parent=gene-g086;Dbxref=GOA:G4KK25,InterPro:IPR008822,UniProtKB/TrEMBL:G4KK25,NCBI_GP:CCE26110.1;Name=CCE26110.1;gbkey=CDS;gene=g086;inference=similar to AA sequence:RefSeq:YP_358797.1;product=Holliday junction resolvase%2Cendodeoxyribonuclease;protein_id=CCE26110.1;transl_table=11
+AJ972879.2	EMBL	region	47557	47560	.	+	.	ID=id-g086;gbkey=RBS;gene=g086
+AJ972879.2	EMBL	gene	47567	48997	.	+	.	ID=gene-g087;Name=g087;gbkey=Gene;gene=g087;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	47567	48997	.	+	0	ID=cds-CCE26111.1;Parent=gene-g087;Dbxref=UniProtKB/TrEMBL:G4KK26,NCBI_GP:CCE26111.1;Name=CCE26111.1;gbkey=CDS;gene=g087;product=CCE26111.1;protein_id=CCE26111.1;transl_table=11
+AJ972879.2	EMBL	region	48987	48991	.	+	.	ID=id-g087;Note=AGGTG 48987;gbkey=RBS;gene=g087
+AJ972879.2	EMBL	gene	48997	49257	.	+	.	ID=gene-g088;Name=g088;gbkey=Gene;gene=g088;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	48997	49257	.	+	0	ID=cds-CCE26112.1;Parent=gene-g088;Dbxref=UniProtKB/TrEMBL:G4KK27,NCBI_GP:CCE26112.1;Name=CCE26112.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g088;product=CCE26112.1;protein_id=CCE26112.1;transl_table=11
+AJ972879.2	EMBL	region	49234	49238	.	+	.	ID=id-g088;gbkey=RBS;gene=g088
+AJ972879.2	EMBL	gene	49250	50344	.	+	.	ID=gene-g089;Name=g089;gbkey=Gene;gene=g089;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	49250	50344	.	+	0	ID=cds-CCE26113.1;Parent=gene-g089;Dbxref=UniProtKB/TrEMBL:G4KK28,NCBI_GP:CCE26113.1;Name=CCE26113.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g089;product=CCE26113.1;protein_id=CCE26113.1;transl_table=11
+AJ972879.2	EMBL	region	50389	50392	.	+	.	ID=id-AJ972879.2:50389..50392;gbkey=RBS
+AJ972879.2	EMBL	gene	50400	51002	.	+	.	ID=gene-g090;Name=g090;gbkey=Gene;gene=g090;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	50400	51002	.	+	0	ID=cds-CCE26114.1;Parent=gene-g090;Dbxref=UniProtKB/TrEMBL:G4KK29,NCBI_GP:CCE26114.1;Name=CCE26114.1;gbkey=CDS;gene=g090;product=CCE26114.1;protein_id=CCE26114.1;transl_table=11
+AJ972879.2	EMBL	terminator	51008	51035	.	+	.	ID=id-AJ972879.2:51008..51035;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	promoter	51054	51078	.	+	.	ID=id-AJ972879.2:51054..51078;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	51112	51115	.	+	.	ID=id-AJ972879.2:51112..51115;gbkey=RBS
+AJ972879.2	EMBL	gene	51124	51738	.	+	.	ID=gene-g091;Name=g091;gbkey=Gene;gene=g091;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	51124	51738	.	+	0	ID=cds-CCE26115.1;Parent=gene-g091;Dbxref=UniProtKB/TrEMBL:G4KK30,NCBI_GP:CCE26115.1;Name=CCE26115.1;gbkey=CDS;gene=g091;product=CCE26115.1;protein_id=CCE26115.1;transl_table=11
+AJ972879.2	EMBL	region	51715	51719	.	+	.	ID=id-g091;Note=GAGGT 51715;gbkey=RBS;gene=g091
+AJ972879.2	EMBL	gene	51728	52423	.	+	.	ID=gene-g092;Name=g092;gbkey=Gene;gene=g092;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	51728	52423	.	+	0	ID=cds-CCE26116.1;Parent=gene-g092;Dbxref=UniProtKB/TrEMBL:G4KK31,NCBI_GP:CCE26116.1;Name=CCE26116.1;gbkey=CDS;gene=g092;product=CCE26116.1;protein_id=CCE26116.1;transl_table=11
+AJ972879.2	EMBL	promoter	52443	52467	.	+	.	ID=id-AJ972879.2:52443..52467;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	52499	52504	.	+	.	ID=id-AJ972879.2:52499..52504;gbkey=RBS
+AJ972879.2	EMBL	gene	52512	53009	.	+	.	ID=gene-g093;Name=g093;gbkey=Gene;gene=g093;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	52512	53009	.	+	0	ID=cds-CCE26117.1;Parent=gene-g093;Dbxref=UniProtKB/TrEMBL:G4KK32,NCBI_GP:CCE26117.1;Name=CCE26117.1;gbkey=CDS;gene=g093;product=CCE26117.1;protein_id=CCE26117.1;transl_table=11
+AJ972879.2	EMBL	terminator	53016	53044	.	-	.	ID=id-AJ972879.2:53016..53044;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	terminator	53016	53044	.	+	.	ID=id-AJ972879.2:53016..53044-2;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	53055	53420	.	-	.	ID=gene-g094;Name=g094;gbkey=Gene;gene=g094;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	53055	53420	.	-	0	ID=cds-CCE26118.1;Parent=gene-g094;Dbxref=UniProtKB/TrEMBL:G4KK33,NCBI_GP:CCE26118.1;Name=CCE26118.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g094;product=CCE26118.1;protein_id=CCE26118.1;transl_table=11
+AJ972879.2	EMBL	region	53427	53432	.	-	.	ID=id-AJ972879.2:53427..53432;gbkey=RBS
+AJ972879.2	EMBL	region	53541	53544	.	+	.	ID=id-AJ972879.2:53541..53544;gbkey=RBS
+AJ972879.2	EMBL	gene	53555	54064	.	+	.	ID=gene-g095;Name=g095;gbkey=Gene;gene=g095;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	53555	54064	.	+	0	ID=cds-CCE26119.1;Parent=gene-g095;Dbxref=UniProtKB/TrEMBL:G4KK34,NCBI_GP:CCE26119.1;Name=CCE26119.1;gbkey=CDS;gene=g095;product=CCE26119.1;protein_id=CCE26119.1;transl_table=11
+AJ972879.2	EMBL	terminator	54072	54099	.	+	.	ID=id-AJ972879.2:54072..54099;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	promoter	54119	54143	.	+	.	ID=id-AJ972879.2:54119..54143;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	54155	54158	.	+	.	ID=id-AJ972879.2:54155..54158;gbkey=RBS
+AJ972879.2	EMBL	gene	54169	56241	.	+	.	ID=gene-g096;Name=g096;gbkey=Gene;gene=g096;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	54169	56241	.	+	0	ID=cds-CCE26120.1;Parent=gene-g096;Dbxref=GOA:G4KK35,InterPro:IPR000477,UniProtKB/TrEMBL:G4KK35,NCBI_GP:CCE26120.1;Name=CCE26120.1;gbkey=CDS;gene=g096;product=CCE26120.1;protein_id=CCE26120.1;transl_table=11
+AJ972879.2	EMBL	terminator	56250	56263	.	+	.	ID=id-AJ972879.2:56250..56263;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	56325	56329	.	+	.	ID=id-AJ972879.2:56325..56329;gbkey=RBS
+AJ972879.2	EMBL	gene	56337	56996	.	+	.	ID=gene-g097;Name=g097;gbkey=Gene;gene=g097;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	56337	56996	.	+	0	ID=cds-CCE26121.1;Parent=gene-g097;Dbxref=GOA:G4KK36,InterPro:IPR001907,UniProtKB/TrEMBL:G4KK36,NCBI_GP:CCE26121.1;Name=CCE26121.1;gbkey=CDS;gene=g097;product=CCE26121.1;protein_id=CCE26121.1;transl_table=11
+AJ972879.2	EMBL	region	56988	56991	.	+	.	ID=id-g097;Note=GAGG 56988;gbkey=RBS;gene=g097
+AJ972879.2	EMBL	gene	56998	57396	.	+	.	ID=gene-g098;Name=g098;gbkey=Gene;gene=g098;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	56998	57396	.	+	0	ID=cds-CCE26122.1;Parent=gene-g098;Dbxref=UniProtKB/TrEMBL:G4KK37,NCBI_GP:CCE26122.1;Name=CCE26122.1;gbkey=CDS;gene=g098;product=CCE26122.1;protein_id=CCE26122.1;transl_table=11
+AJ972879.2	EMBL	terminator	57404	57432	.	-	.	ID=id-AJ972879.2:57404..57432;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	terminator	57404	57432	.	+	.	ID=id-AJ972879.2:57404..57432-2;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	57452	61633	.	-	.	ID=gene-g099;Name=g099;gbkey=Gene;gene=g099;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	57452	61633	.	-	0	ID=cds-CCE26123.1;Parent=gene-g099;Dbxref=GOA:G4KK38,InterPro:IPR007120,UniProtKB/TrEMBL:G4KK38,NCBI_GP:CCE26123.1;Name=CCE26123.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g099;product=putative RNA-polymerase beta-subunit;protein_id=CCE26123.1;transl_table=11
+AJ972879.2	EMBL	region	61637	61640	.	-	.	ID=id-AJ972879.2:61637..61640;gbkey=RBS
+AJ972879.2	EMBL	region	62206	62208	.	+	.	ID=id-AJ972879.2:62206..62208;gbkey=RBS
+AJ972879.2	EMBL	gene	62220	63296	.	+	.	ID=gene-g100;Name=g100;gbkey=Gene;gene=g100;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	62220	63296	.	+	0	ID=cds-CCE26124.1;Parent=gene-g100;Dbxref=GOA:G4KK39,InterPro:IPR002637,UniProtKB/TrEMBL:G4KK39,NCBI_GP:CCE26124.1;Name=CCE26124.1;gbkey=CDS;gene=g100;inference=similar to AA sequence:RefSeq:YP_001093262.1;product=non-canonical purine NTP pyrophosphatase;protein_id=CCE26124.1;transl_table=11
+AJ972879.2	EMBL	promoter	63405	63429	.	+	.	ID=id-AJ972879.2:63405..63429;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	63478	63482	.	+	.	ID=id-AJ972879.2:63478..63482;gbkey=RBS
+AJ972879.2	EMBL	gene	63492	64535	.	+	.	ID=gene-g101;Name=g101;gbkey=Gene;gene=g101;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	63492	64535	.	+	0	ID=cds-CCE26125.1;Parent=gene-g101;Dbxref=UniProtKB/TrEMBL:G4KK40,NCBI_GP:CCE26125.1;Name=CCE26125.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g101;product=CCE26125.1;protein_id=CCE26125.1;transl_table=11
+AJ972879.2	EMBL	terminator	64568	64595	.	+	.	ID=id-AJ972879.2:64568..64595;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	64626	64629	.	+	.	ID=id-AJ972879.2:64626..64629;gbkey=RBS
+AJ972879.2	EMBL	gene	64634	66445	.	+	.	ID=gene-g102;Name=g102;gbkey=Gene;gene=g102;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	64634	66445	.	+	0	ID=cds-CCE26126.1;Parent=gene-g102;Dbxref=GOA:G4KK41,UniProtKB/TrEMBL:G4KK41,NCBI_GP:CCE26126.1;Name=CCE26126.1;gbkey=CDS;gene=g102;inference=similar to AA sequence:RefSeq:YP_892467.1;product=DNA-directed RNA polymerase%2C beta' subunit;protein_id=CCE26126.1;transl_table=11
+AJ972879.2	EMBL	region	66457	66461	.	+	.	ID=id-AJ972879.2:66457..66461;Note=AGGGA 66457;gbkey=RBS
+AJ972879.2	EMBL	gene	66467	66982	.	+	.	ID=gene-g103;Name=g103;gbkey=Gene;gene=g103;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	66467	66982	.	+	0	ID=cds-CCE26127.1;Parent=gene-g103;Dbxref=GOA:G4KK42,InterPro:IPR002125,InterPro:IPR015517,InterPro:IPR016192,InterPro:IPR016193,UniProtKB/TrEMBL:G4KK42,NCBI_GP:CCE26127.1;Name=CCE26127.1;gbkey=CDS;gene=g103;inference=similar to AA sequence:RefSeq:YP_001192884.1;product=CDP/dCDP deaminase%2Czinc-binding;protein_id=CCE26127.1;transl_table=11
+AJ972879.2	EMBL	region	66974	66976	.	+	.	ID=id-g103;gbkey=RBS;gene=g103
+AJ972879.2	EMBL	gene	66984	67211	.	+	.	ID=gene-g104;Name=g104;gbkey=Gene;gene=g104;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	66984	67211	.	+	0	ID=cds-CCE26128.1;Parent=gene-g104;Dbxref=UniProtKB/TrEMBL:G4KK43,NCBI_GP:CCE26128.1;Name=CCE26128.1;gbkey=CDS;gene=g104;product=CCE26128.1;protein_id=CCE26128.1;transl_table=11
+AJ972879.2	EMBL	region	67210	67213	.	+	.	ID=id-AJ972879.2:67210..67213;Note=AGGT 67210;gbkey=RBS
+AJ972879.2	EMBL	gene	67220	67480	.	+	.	ID=gene-g105;Name=g105;gbkey=Gene;gene=g105;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	67220	67480	.	+	0	ID=cds-CCE26129.1;Parent=gene-g105;Dbxref=UniProtKB/TrEMBL:G4KK44,NCBI_GP:CCE26129.1;Name=CCE26129.1;gbkey=CDS;gene=g105;product=CCE26129.1;protein_id=CCE26129.1;transl_table=11
+AJ972879.2	EMBL	terminator	67551	67574	.	+	.	ID=id-AJ972879.2:67551..67574;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	promoter	67594	67618	.	+	.	ID=id-AJ972879.2:67594..67618;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	gene	67659	67732	.	+	.	ID=gene-tRNA-Arg (UCU);Name=tRNA-Arg (UCU);gbkey=Gene;gene=tRNA-Arg (UCU);gene_biotype=tRNA
+AJ972879.2	EMBL	tRNA	67659	67732	.	+	.	ID=rna-tRNA-Arg (UCU);Parent=gene-tRNA-Arg (UCU);gbkey=tRNA;gene=tRNA-Arg (UCU);product=tRNA-Arg
+AJ972879.2	EMBL	exon	67659	67732	.	+	.	ID=exon-tRNA-Arg (UCU)-1;Parent=rna-tRNA-Arg (UCU);gbkey=tRNA;gene=tRNA-Arg (UCU);product=tRNA-Arg
+AJ972879.2	EMBL	gene	67747	67828	.	+	.	ID=gene-tRNA-Leu (UAG);Name=tRNA-Leu (UAG);gbkey=Gene;gene=tRNA-Leu (UAG);gene_biotype=tRNA
+AJ972879.2	EMBL	tRNA	67747	67828	.	+	.	ID=rna-tRNA-Leu (UAG);Parent=gene-tRNA-Leu (UAG);gbkey=tRNA;gene=tRNA-Leu (UAG);product=tRNA-Leu
+AJ972879.2	EMBL	exon	67747	67828	.	+	.	ID=exon-tRNA-Leu (UAG)-1;Parent=rna-tRNA-Leu (UAG);gbkey=tRNA;gene=tRNA-Leu (UAG);product=tRNA-Leu
+AJ972879.2	EMBL	gene	67838	67922	.	+	.	ID=gene-tRNA-Leu (UAA);Name=tRNA-Leu (UAA);gbkey=Gene;gene=tRNA-Leu (UAA);gene_biotype=tRNA
+AJ972879.2	EMBL	tRNA	67838	67922	.	+	.	ID=rna-tRNA-Leu (UAA);Parent=gene-tRNA-Leu (UAA);gbkey=tRNA;gene=tRNA-Leu (UAA);product=tRNA-Leu
+AJ972879.2	EMBL	exon	67838	67922	.	+	.	ID=exon-tRNA-Leu (UAA)-1;Parent=rna-tRNA-Leu (UAA);gbkey=tRNA;gene=tRNA-Leu (UAA);product=tRNA-Leu
+AJ972879.2	EMBL	region	67931	67934	.	+	.	ID=id-AJ972879.2:67931..67934;gbkey=RBS
+AJ972879.2	EMBL	gene	67943	68035	.	+	.	ID=gene-g106;Name=g106;gbkey=Gene;gene=g106;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	67943	68035	.	+	0	ID=cds-CCE26130.1;Parent=gene-g106;Dbxref=UniProtKB/TrEMBL:G4KK45,NCBI_GP:CCE26130.1;Name=CCE26130.1;gbkey=CDS;gene=g106;product=CCE26130.1;protein_id=CCE26130.1;transl_table=11
+AJ972879.2	EMBL	gene	68043	68117	.	+	.	ID=gene-tRNA-Met (CAU);Name=tRNA-Met (CAU);gbkey=Gene;gene=tRNA-Met (CAU);gene_biotype=tRNA
+AJ972879.2	EMBL	tRNA	68043	68117	.	+	.	ID=rna-tRNA-Met (CAU);Parent=gene-tRNA-Met (CAU);gbkey=tRNA;gene=tRNA-Met (CAU);product=tRNA-Met
+AJ972879.2	EMBL	exon	68043	68117	.	+	.	ID=exon-tRNA-Met (CAU)-1;Parent=rna-tRNA-Met (CAU);gbkey=tRNA;gene=tRNA-Met (CAU);product=tRNA-Met
+AJ972879.2	EMBL	terminator	68134	68161	.	+	.	ID=id-AJ972879.2:68134..68161;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	promoter	68180	68204	.	+	.	ID=id-AJ972879.2:68180..68204;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	68212	68215	.	+	.	ID=id-AJ972879.2:68212..68215;gbkey=RBS
+AJ972879.2	EMBL	gene	68223	68750	.	+	.	ID=gene-g107;Name=g107;gbkey=Gene;gene=g107;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	68223	68750	.	+	0	ID=cds-CCE26131.1;Parent=gene-g107;Dbxref=UniProtKB/TrEMBL:G4KK46,NCBI_GP:CCE26131.1;Name=CCE26131.1;gbkey=CDS;gene=g107;product=CCE26131.1;protein_id=CCE26131.1;transl_table=11
+AJ972879.2	EMBL	region	68737	68740	.	+	.	ID=id-g107;gbkey=RBS;gene=g107
+AJ972879.2	EMBL	gene	68750	69037	.	+	.	ID=gene-g108;Name=g108;gbkey=Gene;gene=g108;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	68750	69037	.	+	0	ID=cds-CCE26132.1;Parent=gene-g108;Dbxref=UniProtKB/TrEMBL:G4KK47,NCBI_GP:CCE26132.1;Name=CCE26132.1;gbkey=CDS;gene=g108;product=CCE26132.1;protein_id=CCE26132.1;transl_table=11
+AJ972879.2	EMBL	region	68996	68998	.	+	.	ID=id-g108;gbkey=RBS;gene=g108
+AJ972879.2	EMBL	gene	69009	69218	.	+	.	ID=gene-g109;Name=g109;gbkey=Gene;gene=g109;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	69009	69218	.	+	0	ID=cds-CCE26133.1;Parent=gene-g109;Dbxref=UniProtKB/TrEMBL:G4KK48,NCBI_GP:CCE26133.1;Name=CCE26133.1;gbkey=CDS;gene=g109;product=CCE26133.1;protein_id=CCE26133.1;transl_table=11
+AJ972879.2	EMBL	region	69193	69195	.	+	.	ID=id-g109;gbkey=RBS;gene=g109
+AJ972879.2	EMBL	gene	69206	69445	.	+	.	ID=gene-g110;Name=g110;gbkey=Gene;gene=g110;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	69206	69445	.	+	0	ID=cds-CCE26134.1;Parent=gene-g110;Dbxref=UniProtKB/TrEMBL:G4KK49,NCBI_GP:CCE26134.1;Name=CCE26134.1;gbkey=CDS;gene=g110;product=CCE26134.1;protein_id=CCE26134.1;transl_table=11
+AJ972879.2	EMBL	region	69518	69521	.	+	.	ID=id-AJ972879.2:69518..69521;gbkey=RBS
+AJ972879.2	EMBL	gene	69531	69965	.	+	.	ID=gene-g111;Name=g111;gbkey=Gene;gene=g111;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	69531	69965	.	+	0	ID=cds-CCE26135.1;Parent=gene-g111;Dbxref=UniProtKB/TrEMBL:G4KK50,NCBI_GP:CCE26135.1;Name=CCE26135.1;gbkey=CDS;gene=g111;product=CCE26135.1;protein_id=CCE26135.1;transl_table=11
+AJ972879.2	EMBL	terminator	69994	70021	.	+	.	ID=id-AJ972879.2:69994..70021;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	promoter	70055	70079	.	+	.	ID=id-AJ972879.2:70055..70079;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	70134	70136	.	+	.	ID=id-AJ972879.2:70134..70136;gbkey=RBS
+AJ972879.2	EMBL	gene	70144	70431	.	+	.	ID=gene-g112;Name=g112;gbkey=Gene;gene=g112;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	70144	70431	.	+	0	ID=cds-CCE26136.1;Parent=gene-g112;Dbxref=UniProtKB/TrEMBL:G4KK51,NCBI_GP:CCE26136.1;Name=CCE26136.1;gbkey=CDS;gene=g112;product=CCE26136.1;protein_id=CCE26136.1;transl_table=11
+AJ972879.2	EMBL	terminator	70443	70458	.	+	.	ID=id-AJ972879.2:70443..70458;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	70473	70476	.	+	.	ID=id-AJ972879.2:70473..70476;Note=AGGA 70473;gbkey=RBS
+AJ972879.2	EMBL	gene	70483	70689	.	+	.	ID=gene-g113;Name=g113;gbkey=Gene;gene=g113;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	70483	70689	.	+	0	ID=cds-CCE26137.1;Parent=gene-g113;Dbxref=UniProtKB/TrEMBL:G4KK52,NCBI_GP:CCE26137.1;Name=CCE26137.1;gbkey=CDS;gene=g113;product=CCE26137.1;protein_id=CCE26137.1;transl_table=11
+AJ972879.2	EMBL	region	70652	70656	.	+	.	ID=id-g113;gbkey=RBS;gene=g113
+AJ972879.2	EMBL	gene	70664	70873	.	+	.	ID=gene-g114;Name=g114;gbkey=Gene;gene=g114;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	70664	70873	.	+	0	ID=cds-CCE26138.1;Parent=gene-g114;Dbxref=UniProtKB/TrEMBL:G4KK53,NCBI_GP:CCE26138.1;Name=CCE26138.1;gbkey=CDS;gene=g114;product=CCE26138.1;protein_id=CCE26138.1;transl_table=11
+AJ972879.2	EMBL	region	70857	70859	.	+	.	ID=id-g114;gbkey=RBS;gene=g114
+AJ972879.2	EMBL	gene	70867	71133	.	+	.	ID=gene-g115;Name=g115;gbkey=Gene;gene=g115;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	70867	71133	.	+	0	ID=cds-CCE26139.1;Parent=gene-g115;Dbxref=UniProtKB/TrEMBL:G4KK54,NCBI_GP:CCE26139.1;Name=CCE26139.1;gbkey=CDS;gene=g115;product=CCE26139.1;protein_id=CCE26139.1;transl_table=11
+AJ972879.2	EMBL	terminator	71235	71265	.	+	.	ID=id-AJ972879.2:71235..71265;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	71536	71610	.	+	.	ID=gene-tRNA-Asn (GUU);Name=tRNA-Asn (GUU);gbkey=Gene;gene=tRNA-Asn (GUU);gene_biotype=tRNA
+AJ972879.2	EMBL	tRNA	71536	71610	.	+	.	ID=rna-tRNA-Asn (GUU);Parent=gene-tRNA-Asn (GUU);gbkey=tRNA;gene=tRNA-Asn (GUU);product=tRNA-Asn
+AJ972879.2	EMBL	exon	71536	71610	.	+	.	ID=exon-tRNA-Asn (GUU)-1;Parent=rna-tRNA-Asn (GUU);gbkey=tRNA;gene=tRNA-Asn (GUU);product=tRNA-Asn
+AJ972879.2	EMBL	gene	72088	72246	.	-	.	ID=gene-g116;Name=g116;gbkey=Gene;gene=g116;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	72088	72246	.	-	0	ID=cds-CCE26140.1;Parent=gene-g116;Dbxref=UniProtKB/TrEMBL:G4KK55,NCBI_GP:CCE26140.1;Name=CCE26140.1;gbkey=CDS;gene=g116;product=CCE26140.1;protein_id=CCE26140.1;transl_table=11
+AJ972879.2	EMBL	region	72251	72255	.	-	.	ID=id-AJ972879.2:72251..72255;gbkey=RBS
+AJ972879.2	EMBL	region	72574	72579	.	+	.	ID=id-AJ972879.2:72574..72579;gbkey=RBS
+AJ972879.2	EMBL	gene	72586	72741	.	+	.	ID=gene-g117;Name=g117;gbkey=Gene;gene=g117;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	72586	72741	.	+	0	ID=cds-CCE26141.1;Parent=gene-g117;Dbxref=UniProtKB/TrEMBL:G4KK56,NCBI_GP:CCE26141.1;Name=CCE26141.1;gbkey=CDS;gene=g117;product=CCE26141.1;protein_id=CCE26141.1;transl_table=11
+AJ972879.2	EMBL	terminator	72748	72775	.	+	.	ID=id-AJ972879.2:72748..72775;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	promoter	72815	72839	.	+	.	ID=id-AJ972879.2:72815..72839;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	72895	72899	.	+	.	ID=id-AJ972879.2:72895..72899;gbkey=RBS
+AJ972879.2	EMBL	gene	72910	73338	.	+	.	ID=gene-g118;Name=g118;gbkey=Gene;gene=g118;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	72910	73338	.	+	0	ID=cds-CCE26142.1;Parent=gene-g118;Dbxref=UniProtKB/TrEMBL:G4KK57,NCBI_GP:CCE26142.1;Name=CCE26142.1;gbkey=CDS;gene=g118;product=CCE26142.1;protein_id=CCE26142.1;transl_table=11
+AJ972879.2	EMBL	region	73381	73383	.	+	.	ID=id-AJ972879.2:73381..73383;gbkey=RBS
+AJ972879.2	EMBL	gene	73393	73722	.	+	.	ID=gene-g119;Name=g119;gbkey=Gene;gene=g119;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	73393	73722	.	+	0	ID=cds-CCE26143.1;Parent=gene-g119;Dbxref=UniProtKB/TrEMBL:G4KK58,NCBI_GP:CCE26143.1;Name=CCE26143.1;gbkey=CDS;gene=g119;product=CCE26143.1;protein_id=CCE26143.1;transl_table=11
+AJ972879.2	EMBL	region	73725	73729	.	+	.	ID=id-AJ972879.2:73725..73729;gbkey=RBS
+AJ972879.2	EMBL	gene	73737	74111	.	+	.	ID=gene-g120;Name=g120;gbkey=Gene;gene=g120;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	73737	74111	.	+	0	ID=cds-CCE26144.1;Parent=gene-g120;Dbxref=UniProtKB/TrEMBL:G4KK59,NCBI_GP:CCE26144.1;Name=CCE26144.1;gbkey=CDS;gene=g120;product=CCE26144.1;protein_id=CCE26144.1;transl_table=11
+AJ972879.2	EMBL	terminator	74131	74144	.	+	.	ID=id-AJ972879.2:74131..74144;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	74238	74242	.	+	.	ID=id-AJ972879.2:74238..74242;Note=AGGAG 74238;gbkey=RBS
+AJ972879.2	EMBL	gene	74248	75783	.	+	.	ID=gene-g121;Name=g121;gbkey=Gene;gene=g121;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	74248	75783	.	+	0	ID=cds-CCE26145.1;Parent=gene-g121;Dbxref=GOA:G4KK60,InterPro:IPR001650,InterPro:IPR006935,InterPro:IPR014001,UniProtKB/TrEMBL:G4KK60,NCBI_GP:CCE26145.1;Name=CCE26145.1;gbkey=CDS;gene=g121;product=CCE26145.1;protein_id=CCE26145.1;transl_table=11
+AJ972879.2	EMBL	promoter	75804	75829	.	+	.	ID=id-AJ972879.2:75804..75829;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	75836	75840	.	+	.	ID=id-AJ972879.2:75836..75840;Note=AGGTG 75836;gbkey=RBS
+AJ972879.2	EMBL	gene	75847	76446	.	+	.	ID=gene-g122;Name=g122;gbkey=Gene;gene=g122;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	75847	76446	.	+	0	ID=cds-CCE26146.1;Parent=gene-g122;Dbxref=UniProtKB/TrEMBL:G4KK61,NCBI_GP:CCE26146.1;Name=CCE26146.1;gbkey=CDS;gene=g122;product=CCE26146.1;protein_id=CCE26146.1;transl_table=11
+AJ972879.2	EMBL	region	76439	76443	.	+	.	ID=id-g122;Note=AGGAG 76439;gbkey=RBS;gene=g122
+AJ972879.2	EMBL	gene	76449	77039	.	+	.	ID=gene-g123;Name=g123;gbkey=Gene;gene=g123;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	76449	77039	.	+	0	ID=cds-CCE26147.1;Parent=gene-g123;Dbxref=UniProtKB/TrEMBL:G4KK62,NCBI_GP:CCE26147.1;Name=CCE26147.1;gbkey=CDS;gene=g123;product=CCE26147.1;protein_id=CCE26147.1;transl_table=11
+AJ972879.2	EMBL	region	77215	77219	.	+	.	ID=id-AJ972879.2:77215..77219;gbkey=RBS
+AJ972879.2	EMBL	gene	77227	78012	.	+	.	ID=gene-g124;Name=g124;gbkey=Gene;gene=g124;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	77227	78012	.	+	0	ID=cds-CCE26148.1;Parent=gene-g124;Dbxref=UniProtKB/TrEMBL:G4KK63,NCBI_GP:CCE26148.1;Name=CCE26148.1;gbkey=CDS;gene=g124;product=CCE26148.1;protein_id=CCE26148.1;transl_table=11
+AJ972879.2	EMBL	gene	78028	79026	.	+	.	ID=gene-g125;Name=g125;gbkey=Gene;gene=g125;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	78028	79026	.	+	0	ID=cds-CCE26149.1;Parent=gene-g125;Dbxref=UniProtKB/TrEMBL:G4KK64,NCBI_GP:CCE26149.1;Name=CCE26149.1;gbkey=CDS;gene=g125;product=CCE26149.1;protein_id=CCE26149.1;transl_table=11
+AJ972879.2	EMBL	region	79015	79018	.	+	.	ID=id-g125;gbkey=RBS;gene=g125
+AJ972879.2	EMBL	gene	79027	79548	.	+	.	ID=gene-g126;Name=g126;gbkey=Gene;gene=g126;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	79027	79548	.	+	0	ID=cds-CCE26150.1;Parent=gene-g126;Dbxref=UniProtKB/TrEMBL:G4KK65,NCBI_GP:CCE26150.1;Name=CCE26150.1;gbkey=CDS;gene=g126;product=CCE26150.1;protein_id=CCE26150.1;transl_table=11
+AJ972879.2	EMBL	region	79571	79574	.	+	.	ID=id-AJ972879.2:79571..79574;gbkey=RBS
+AJ972879.2	EMBL	gene	79584	79754	.	+	.	ID=gene-g127;Name=g127;gbkey=Gene;gene=g127;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	79584	79754	.	+	0	ID=cds-CCE26151.1;Parent=gene-g127;Dbxref=UniProtKB/TrEMBL:G4KK66,NCBI_GP:CCE26151.1;Name=CCE26151.1;gbkey=CDS;gene=g127;product=CCE26151.1;protein_id=CCE26151.1;transl_table=11
+AJ972879.2	EMBL	terminator	79770	79801	.	+	.	ID=id-AJ972879.2:79770..79801;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	79866	79869	.	+	.	ID=id-AJ972879.2:79866..79869;Note=AAGG 79866;gbkey=RBS
+AJ972879.2	EMBL	gene	79877	81199	.	+	.	ID=gene-g128;Name=g128;gbkey=Gene;gene=g128;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	79877	81199	.	+	0	ID=cds-CCE26152.1;Parent=gene-g128;Dbxref=UniProtKB/TrEMBL:G4KK67,NCBI_GP:CCE26152.1;Name=CCE26152.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g128;product=CCE26152.1;protein_id=CCE26152.1;transl_table=11
+AJ972879.2	EMBL	region	81231	81234	.	+	.	ID=id-AJ972879.2:81231..81234;gbkey=RBS
+AJ972879.2	EMBL	gene	81243	81875	.	+	.	ID=gene-g129;Name=g129;gbkey=Gene;gene=g129;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	81243	81875	.	+	0	ID=cds-CCE26153.1;Parent=gene-g129;Dbxref=UniProtKB/TrEMBL:G4KK68,NCBI_GP:CCE26153.1;Name=CCE26153.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g129;product=CCE26153.1;protein_id=CCE26153.1;transl_table=11
+AJ972879.2	EMBL	terminator	81890	81919	.	+	.	ID=id-AJ972879.2:81890..81919;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	81936	81941	.	+	.	ID=id-AJ972879.2:81936..81941;gbkey=RBS
+AJ972879.2	EMBL	gene	81947	82552	.	+	.	ID=gene-g130;Name=g130;gbkey=Gene;gene=g130;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	81947	82552	.	+	0	ID=cds-CCE26154.1;Parent=gene-g130;Dbxref=UniProtKB/TrEMBL:G4KK69,NCBI_GP:CCE26154.1;Name=CCE26154.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g130;product=CCE26154.1;protein_id=CCE26154.1;transl_table=11
+AJ972879.2	EMBL	terminator	82569	82594	.	+	.	ID=id-AJ972879.2:82569..82594;gbkey=terminator
+AJ972879.2	EMBL	region	82715	82720	.	+	.	ID=id-AJ972879.2:82715..82720;gbkey=RBS
+AJ972879.2	EMBL	gene	82729	83091	.	+	.	ID=gene-g131;Name=g131;gbkey=Gene;gene=g131;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	82729	83091	.	+	0	ID=cds-CCE26155.1;Parent=gene-g131;Dbxref=GOA:G4KK70,InterPro:IPR000119,InterPro:IPR010992,InterPro:IPR023630,UniProtKB/TrEMBL:G4KK70,NCBI_GP:CCE26155.1;Name=CCE26155.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g131;inference=similar to AA sequence:RefSeq:YP_001878491.1;product=histone family DNA-binding protein;protein_id=CCE26155.1;transl_table=11
+AJ972879.2	EMBL	terminator	83119	83148	.	+	.	ID=id-AJ972879.2:83119..83148;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	promoter	83174	83198	.	+	.	ID=id-AJ972879.2:83174..83198;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	83208	83212	.	+	.	ID=id-AJ972879.2:83208..83212;gbkey=RBS
+AJ972879.2	EMBL	gene	83222	83506	.	+	.	ID=gene-g132;Name=g132;gbkey=Gene;gene=g132;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	83222	83506	.	+	0	ID=cds-CCE26156.1;Parent=gene-g132;Dbxref=UniProtKB/TrEMBL:G4KK71,NCBI_GP:CCE26156.1;Name=CCE26156.1;gbkey=CDS;gene=g132;product=CCE26156.1;protein_id=CCE26156.1;transl_table=11
+AJ972879.2	EMBL	terminator	83514	83535	.	+	.	ID=id-AJ972879.2:83514..83535;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	83545	83549	.	+	.	ID=id-AJ972879.2:83545..83549;gbkey=RBS
+AJ972879.2	EMBL	gene	83554	84018	.	+	.	ID=gene-g133;Name=g133;gbkey=Gene;gene=g133;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	83554	84018	.	+	0	ID=cds-CCE26157.1;Parent=gene-g133;Dbxref=UniProtKB/TrEMBL:G4KK72,NCBI_GP:CCE26157.1;Name=CCE26157.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g133;product=CCE26157.1;protein_id=CCE26157.1;transl_table=11
+AJ972879.2	EMBL	region	84097	84101	.	+	.	ID=id-AJ972879.2:84097..84101;Note=AGGAG 84097;gbkey=RBS
+AJ972879.2	EMBL	gene	84113	84799	.	+	.	ID=gene-g134;Name=g134;gbkey=Gene;gene=g134;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	84113	84799	.	+	0	ID=cds-CCE26158.1;Parent=gene-g134;Dbxref=UniProtKB/TrEMBL:G4KK73,NCBI_GP:CCE26158.1;Name=CCE26158.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g134;product=CCE26158.1;protein_id=CCE26158.1;transl_table=11
+AJ972879.2	EMBL	region	84888	84892	.	+	.	ID=id-AJ972879.2:84888..84892;gbkey=RBS
+AJ972879.2	EMBL	gene	84901	86457	.	+	.	ID=gene-g135;Name=g135;gbkey=Gene;gene=g135;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	84901	86457	.	+	0	ID=cds-CCE26159.1;Parent=gene-g135;Dbxref=UniProtKB/TrEMBL:G4KK74,NCBI_GP:CCE26159.1;Name=CCE26159.1;Note=mature N-terminus at Ser87;experiment=LC/ESI-MS/MS,protein sequencing;gbkey=CDS;gene=g135;product=structural protein sp46 precursor;protein_id=CCE26159.1;transl_table=11
+AJ972879.2	EMBL	terminator	86477	86504	.	+	.	ID=id-AJ972879.2:86477..86504;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	promoter	86525	86549	.	+	.	ID=id-AJ972879.2:86525..86549;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	86567	86570	.	+	.	ID=id-AJ972879.2:86567..86570;gbkey=RBS
+AJ972879.2	EMBL	gene	86572	87096	.	+	.	ID=gene-g136;Name=g136;gbkey=Gene;gene=g136;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	86572	87096	.	+	0	ID=cds-CCE26160.1;Parent=gene-g136;Dbxref=UniProtKB/TrEMBL:G4KK75,NCBI_GP:CCE26160.1;Name=CCE26160.1;gbkey=CDS;gene=g136;product=CCE26160.1;protein_id=CCE26160.1;transl_table=11
+AJ972879.2	EMBL	promoter	87085	87109	.	+	.	ID=id-AJ972879.2:87085..87109;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	87116	87119	.	+	.	ID=id-AJ972879.2:87116..87119;gbkey=RBS
+AJ972879.2	EMBL	gene	87130	87552	.	+	.	ID=gene-g137;Name=g137;gbkey=Gene;gene=g137;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	87130	87552	.	+	0	ID=cds-CCE26161.1;Parent=gene-g137;Dbxref=UniProtKB/TrEMBL:G4KK76,NCBI_GP:CCE26161.1;Name=CCE26161.1;gbkey=CDS;gene=g137;product=CCE26161.1;protein_id=CCE26161.1;transl_table=11
+AJ972879.2	EMBL	region	87537	87540	.	+	.	ID=id-g137;gbkey=RBS;gene=g137
+AJ972879.2	EMBL	gene	87549	87962	.	+	.	ID=gene-g138;Name=g138;gbkey=Gene;gene=g138;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	87549	87962	.	+	0	ID=cds-CCE26162.1;Parent=gene-g138;Dbxref=UniProtKB/TrEMBL:G4KK77,NCBI_GP:CCE26162.1;Name=CCE26162.1;gbkey=CDS;gene=g138;product=CCE26162.1;protein_id=CCE26162.1;transl_table=11
+AJ972879.2	EMBL	region	87949	87952	.	+	.	ID=id-g138;gbkey=RBS;gene=g138
+AJ972879.2	EMBL	gene	87962	88360	.	+	.	ID=gene-g139;Name=g139;gbkey=Gene;gene=g139;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	87962	88360	.	+	0	ID=cds-CCE26163.1;Parent=gene-g139;Dbxref=UniProtKB/TrEMBL:G4KK78,NCBI_GP:CCE26163.1;Name=CCE26163.1;gbkey=CDS;gene=g139;product=CCE26163.1;protein_id=CCE26163.1;transl_table=11
+AJ972879.2	EMBL	region	88317	88320	.	+	.	ID=id-g139;gbkey=RBS;gene=g139
+AJ972879.2	EMBL	gene	88329	88709	.	+	.	ID=gene-g140;Name=g140;gbkey=Gene;gene=g140;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	88329	88709	.	+	0	ID=cds-CCE26164.1;Parent=gene-g140;Dbxref=UniProtKB/TrEMBL:G4KK79,NCBI_GP:CCE26164.1;Name=CCE26164.1;gbkey=CDS;gene=g140;product=CCE26164.1;protein_id=CCE26164.1;transl_table=11
+AJ972879.2	EMBL	terminator	88717	88738	.	+	.	ID=id-AJ972879.2:88717..88738;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	88785	88789	.	+	.	ID=id-AJ972879.2:88785..88789;gbkey=RBS
+AJ972879.2	EMBL	gene	88794	89279	.	+	.	ID=gene-g141;Name=g141;gbkey=Gene;gene=g141;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	88794	89279	.	+	0	ID=cds-CCE26165.1;Parent=gene-g141;Dbxref=UniProtKB/TrEMBL:G4KK80,NCBI_GP:CCE26165.1;Name=CCE26165.1;gbkey=CDS;gene=g141;product=CCE26165.1;protein_id=CCE26165.1;transl_table=11
+AJ972879.2	EMBL	region	89242	89244	.	+	.	ID=id-g141;gbkey=RBS;gene=g141
+AJ972879.2	EMBL	gene	89254	89541	.	+	.	ID=gene-g142;Name=g142;gbkey=Gene;gene=g142;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	89254	89541	.	+	0	ID=cds-CCE26166.1;Parent=gene-g142;Dbxref=InterPro:IPR008727,UniProtKB/TrEMBL:G4KK81,NCBI_GP:CCE26166.1;Name=CCE26166.1;gbkey=CDS;gene=g142;product=CCE26166.1;protein_id=CCE26166.1;transl_table=11
+AJ972879.2	EMBL	region	89535	89538	.	+	.	ID=id-g142;gbkey=RBS;gene=g142
+AJ972879.2	EMBL	gene	89545	90177	.	+	.	ID=gene-g143;Name=g143;gbkey=Gene;gene=g143;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	89545	90177	.	+	0	ID=cds-CCE26167.1;Parent=gene-g143;Dbxref=GOA:G4KK82,UniProtKB/TrEMBL:G4KK82,NCBI_GP:CCE26167.1;Name=CCE26167.1;gbkey=CDS;gene=g143;inference=similar to AA sequence:RefSeq:NP_803591.1;product=terminase large subunit%2Chelicase;protein_id=CCE26167.1;transl_table=11
+AJ972879.2	EMBL	promoter	90271	90295	.	+	.	ID=id-AJ972879.2:90271..90295;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	90345	90348	.	+	.	ID=id-AJ972879.2:90345..90348;gbkey=RBS
+AJ972879.2	EMBL	gene	90357	91937	.	+	.	ID=gene-g144;Name=g144;gbkey=Gene;gene=g144;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	90357	91937	.	+	0	ID=cds-CCE26168.1;Parent=gene-g144;Dbxref=UniProtKB/TrEMBL:G4KK83,NCBI_GP:CCE26168.1;Name=CCE26168.1;gbkey=CDS;gene=g144;product=CCE26168.1;protein_id=CCE26168.1;transl_table=11
+AJ972879.2	EMBL	terminator	91965	91978	.	+	.	ID=id-AJ972879.2:91965..91978;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	92125	92127	.	+	.	ID=id-AJ972879.2:92125..92127;Note=weak RBS;gbkey=RBS
+AJ972879.2	EMBL	gene	92134	93543	.	+	.	ID=gene-g145;Name=g145;gbkey=Gene;gene=g145;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	92134	93543	.	+	0	ID=cds-CCE26169.1;Parent=gene-g145;Dbxref=GOA:G4KK84,InterPro:IPR004921,UniProtKB/TrEMBL:G4KK84,NCBI_GP:CCE26169.1;Name=CCE26169.1;gbkey=CDS;gene=g145;inference=similar to AA sequence:RefSeq:YP_418044.1;product=putative terminase large subunit%3B ATP-dependent DNA-helicase;protein_id=CCE26169.1;transl_table=11
+AJ972879.2	EMBL	region	93534	93537	.	+	.	ID=id-g145;gbkey=RBS;gene=g145
+AJ972879.2	EMBL	gene	93545	94276	.	+	.	ID=gene-g146;Name=g146;gbkey=Gene;gene=g146;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	93545	94276	.	+	0	ID=cds-CCE26170.1;Parent=gene-g146;Dbxref=UniProtKB/TrEMBL:G4KK85,NCBI_GP:CCE26170.1;Name=CCE26170.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g146;product=CCE26170.1;protein_id=CCE26170.1;transl_table=11
+AJ972879.2	EMBL	region	94300	94303	.	+	.	ID=id-AJ972879.2:94300..94303;gbkey=RBS
+AJ972879.2	EMBL	gene	94313	95119	.	+	.	ID=gene-g147;Name=g147;gbkey=Gene;gene=g147;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	94313	95119	.	+	0	ID=cds-CCE26171.1;Parent=gene-g147;Dbxref=UniProtKB/TrEMBL:G4KK86,NCBI_GP:CCE26171.1;Name=CCE26171.1;gbkey=CDS;gene=g147;product=CCE26171.1;protein_id=CCE26171.1;transl_table=11
+AJ972879.2	EMBL	terminator	95128	95158	.	+	.	ID=id-AJ972879.2:95128..95158;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	95179	95182	.	+	.	ID=id-AJ972879.2:95179..95182;gbkey=RBS
+AJ972879.2	EMBL	gene	95191	95889	.	+	.	ID=gene-g148;Name=g148;gbkey=Gene;gene=g148;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	95191	95889	.	+	0	ID=cds-CCE26172.1;Parent=gene-g148;Dbxref=UniProtKB/TrEMBL:G4KK87,NCBI_GP:CCE26172.1;Name=CCE26172.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g148;product=CCE26172.1;protein_id=CCE26172.1;transl_table=11
+AJ972879.2	EMBL	region	95993	95997	.	+	.	ID=id-AJ972879.2:95993..95997;gbkey=RBS
+AJ972879.2	EMBL	gene	96008	97780	.	+	.	ID=gene-g149;Name=g149;gbkey=Gene;gene=g149;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	96008	97780	.	+	0	ID=cds-CCE26173.1;Parent=gene-g149;Dbxref=InterPro:IPR007067,UniProtKB/TrEMBL:G4KK88,NCBI_GP:CCE26173.1;Name=CCE26173.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g149;product=putative contractile tail sheath structural protein;protein_id=CCE26173.1;transl_table=11
+AJ972879.2	EMBL	region	97778	97783	.	+	.	ID=id-AJ972879.2:97778..97783;gbkey=RBS
+AJ972879.2	EMBL	gene	97791	98543	.	+	.	ID=gene-g150;Name=g150;gbkey=Gene;gene=g150;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	97791	98543	.	+	0	ID=cds-CCE26174.1;Parent=gene-g150;Dbxref=UniProtKB/TrEMBL:G4KK89,NCBI_GP:CCE26174.1;Name=CCE26174.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g150;product=CCE26174.1;protein_id=CCE26174.1;transl_table=11
+AJ972879.2	EMBL	terminator	98568	98593	.	+	.	ID=id-AJ972879.2:98568..98593;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	98604	100361	.	-	.	ID=gene-g151;Name=g151;gbkey=Gene;gene=g151;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	98604	100361	.	-	0	ID=cds-CCE26175.1;Parent=gene-g151;Dbxref=GOA:G4KK90,InterPro:IPR004603,UniProtKB/TrEMBL:G4KK90,NCBI_GP:CCE26175.1;Name=CCE26175.1;gbkey=CDS;gene=g151;inference=similar to AA sequence:RefSeq:YP_548752.1;product=exonuclease ABC C subunit;protein_id=CCE26175.1;transl_table=11
+AJ972879.2	EMBL	region	100367	100369	.	-	.	ID=id-AJ972879.2:100367..100369;gbkey=RBS
+AJ972879.2	EMBL	terminator	100420	100444	.	-	.	ID=id-AJ972879.2:100420..100444;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	100452	101537	.	-	.	ID=gene-g152;Name=g152;gbkey=Gene;gene=g152;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	100452	101537	.	-	0	ID=cds-CCE26176.1;Parent=gene-g152;Dbxref=UniProtKB/TrEMBL:G4KK91,NCBI_GP:CCE26176.1;Name=CCE26176.1;gbkey=CDS;gene=g152;product=CCE26176.1;protein_id=CCE26176.1;transl_table=11
+AJ972879.2	EMBL	region	101546	101550	.	-	.	ID=id-AJ972879.2:101546..101550;gbkey=RBS
+AJ972879.2	EMBL	promoter	101563	101587	.	-	.	ID=id-AJ972879.2:101563..101587;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	terminator	101607	101632	.	-	.	ID=id-AJ972879.2:101607..101632;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	101640	101951	.	-	.	ID=gene-g153;Name=g153;gbkey=Gene;gene=g153;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	101640	101951	.	-	0	ID=cds-CCE26177.1;Parent=gene-g153;Dbxref=UniProtKB/TrEMBL:G4KK92,NCBI_GP:CCE26177.1;Name=CCE26177.1;gbkey=CDS;gene=g153;product=CCE26177.1;protein_id=CCE26177.1;transl_table=11
+AJ972879.2	EMBL	gene	101956	102678	.	-	.	ID=gene-g154;Name=g154;gbkey=Gene;gene=g154;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	101956	102678	.	-	0	ID=cds-CCE26178.1;Parent=gene-g154;Dbxref=UniProtKB/TrEMBL:G4KK93,NCBI_GP:CCE26178.1;Name=CCE26178.1;gbkey=CDS;gene=g154;product=CCE26178.1;protein_id=CCE26178.1;transl_table=11
+AJ972879.2	EMBL	region	101959	101963	.	-	.	ID=id-g154;gbkey=RBS;gene=g154
+AJ972879.2	EMBL	region	102683	102687	.	-	.	ID=id-AJ972879.2:102683..102687;gbkey=RBS
+AJ972879.2	EMBL	gene	102732	102989	.	-	.	ID=gene-g155;Name=g155;gbkey=Gene;gene=g155;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	102732	102989	.	-	0	ID=cds-CCE26179.1;Parent=gene-g155;Dbxref=UniProtKB/TrEMBL:G4KK94,NCBI_GP:CCE26179.1;Name=CCE26179.1;gbkey=CDS;gene=g155;product=CCE26179.1;protein_id=CCE26179.1;transl_table=11
+AJ972879.2	EMBL	region	102996	102999	.	-	.	ID=id-AJ972879.2:102996..102999;gbkey=RBS
+AJ972879.2	EMBL	gene	102999	103445	.	-	.	ID=gene-g156;Name=g156;gbkey=Gene;gene=g156;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	102999	103445	.	-	0	ID=cds-CCE26180.1;Parent=gene-g156;Dbxref=UniProtKB/TrEMBL:G4KK95,NCBI_GP:CCE26180.1;Name=CCE26180.1;gbkey=CDS;gene=g156;product=CCE26180.1;protein_id=CCE26180.1;transl_table=11
+AJ972879.2	EMBL	gene	103445	103714	.	-	.	ID=gene-g157;Name=g157;gbkey=Gene;gene=g157;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	103445	103714	.	-	0	ID=cds-CCE26181.1;Parent=gene-g157;Dbxref=UniProtKB/TrEMBL:G4KK96,NCBI_GP:CCE26181.1;Name=CCE26181.1;gbkey=CDS;gene=g157;product=CCE26181.1;protein_id=CCE26181.1;transl_table=11
+AJ972879.2	EMBL	region	103459	103464	.	-	.	ID=id-g157;gbkey=RBS;gene=g157
+AJ972879.2	EMBL	gene	103701	104057	.	-	.	ID=gene-g158;Name=g158;gbkey=Gene;gene=g158;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	103701	104057	.	-	0	ID=cds-CCE26182.1;Parent=gene-g158;Dbxref=UniProtKB/TrEMBL:G4KK97,NCBI_GP:CCE26182.1;Name=CCE26182.1;gbkey=CDS;gene=g158;product=CCE26182.1;protein_id=CCE26182.1;transl_table=11
+AJ972879.2	EMBL	region	103718	103721	.	-	.	ID=id-g158;gbkey=RBS;gene=g158
+AJ972879.2	EMBL	region	104064	104069	.	-	.	ID=id-AJ972879.2:104064..104069;gbkey=RBS
+AJ972879.2	EMBL	gene	104069	104416	.	-	.	ID=gene-g159;Name=g159;gbkey=Gene;gene=g159;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	104069	104416	.	-	0	ID=cds-CCE26183.1;Parent=gene-g159;Dbxref=UniProtKB/TrEMBL:G4KK98,NCBI_GP:CCE26183.1;Name=CCE26183.1;gbkey=CDS;gene=g159;product=CCE26183.1;protein_id=CCE26183.1;transl_table=11
+AJ972879.2	EMBL	region	104423	104427	.	-	.	ID=id-AJ972879.2:104423..104427;gbkey=RBS
+AJ972879.2	EMBL	promoter	104437	104461	.	-	.	ID=id-AJ972879.2:104437..104461;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	terminator	104480	104505	.	-	.	ID=id-AJ972879.2:104480..104505;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	104512	107148	.	-	.	ID=gene-g160;Name=g160;gbkey=Gene;gene=g160;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	104512	107148	.	-	0	ID=cds-CCE26184.1;Parent=gene-g160;Dbxref=UniProtKB/TrEMBL:G4KK99,NCBI_GP:CCE26184.1;Name=CCE26184.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g160;product=CCE26184.1;protein_id=CCE26184.1;transl_table=11
+AJ972879.2	EMBL	gene	107151	108185	.	-	.	ID=gene-g161;Name=g161;gbkey=Gene;gene=g161;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	107151	108185	.	-	0	ID=cds-CCE26185.1;Parent=gene-g161;Dbxref=UniProtKB/TrEMBL:G4KKA0,NCBI_GP:CCE26185.1;Name=CCE26185.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g161;product=CCE26185.1;protein_id=CCE26185.1;transl_table=11
+AJ972879.2	EMBL	region	107155	107157	.	-	.	ID=id-g161;gbkey=RBS;gene=g161
+AJ972879.2	EMBL	gene	108182	109204	.	-	.	ID=gene-g162;Name=g162;gbkey=Gene;gene=g162;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	108182	109204	.	-	0	ID=cds-CCE26186.1;Parent=gene-g162;Dbxref=UniProtKB/TrEMBL:G4KKA1,NCBI_GP:CCE26186.1;Name=CCE26186.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g162;product=CCE26186.1;protein_id=CCE26186.1;transl_table=11
+AJ972879.2	EMBL	region	108193	108197	.	-	.	ID=id-g162;Note=AGGAG 108197;gbkey=RBS;gene=g162
+AJ972879.2	EMBL	region	109211	109216	.	-	.	ID=id-AJ972879.2:109211..109216;gbkey=RBS
+AJ972879.2	EMBL	gene	109214	109738	.	-	.	ID=gene-g163;Name=g163;gbkey=Gene;gene=g163;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	109214	109738	.	-	0	ID=cds-CCE26187.1;Parent=gene-g163;Dbxref=UniProtKB/TrEMBL:G4KKA2,NCBI_GP:CCE26187.1;Name=CCE26187.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g163;product=CCE26187.1;protein_id=CCE26187.1;transl_table=11
+AJ972879.2	EMBL	region	109750	109753	.	-	.	ID=id-AJ972879.2:109750..109753;gbkey=RBS
+AJ972879.2	EMBL	terminator	109811	109842	.	-	.	ID=id-AJ972879.2:109811..109842;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	109849	110577	.	-	.	ID=gene-g164;Name=g164;gbkey=Gene;gene=g164;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	109849	110577	.	-	0	ID=cds-CCE26188.1;Parent=gene-g164;Dbxref=UniProtKB/TrEMBL:G4KKA3,NCBI_GP:CCE26188.1;Name=CCE26188.1;gbkey=CDS;gene=g164;product=CCE26188.1;protein_id=CCE26188.1;transl_table=11
+AJ972879.2	EMBL	gene	110552	110650	.	-	.	ID=gene-g165;Name=g165;gbkey=Gene;gene=g165;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	110552	110650	.	-	0	ID=cds-CCE26189.1;Parent=gene-g165;Dbxref=UniProtKB/TrEMBL:G4KKA4,NCBI_GP:CCE26189.1;Name=CCE26189.1;gbkey=CDS;gene=g165;product=CCE26189.1;protein_id=CCE26189.1;transl_table=11
+AJ972879.2	EMBL	region	110587	110589	.	-	.	ID=id-g165;gbkey=RBS;gene=g165
+AJ972879.2	EMBL	gene	110641	110706	.	-	.	ID=gene-g166;Name=g166;gbkey=Gene;gene=g166;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	110641	110706	.	-	0	ID=cds-CCE26190.1;Parent=gene-g166;Dbxref=UniProtKB/TrEMBL:G4KKA5,NCBI_GP:CCE26190.1;Name=CCE26190.1;gbkey=CDS;gene=g166;product=CCE26190.1;protein_id=CCE26190.1;transl_table=11
+AJ972879.2	EMBL	region	110652	110655	.	-	.	ID=id-g166;gbkey=RBS;gene=g166
+AJ972879.2	EMBL	region	110711	110713	.	-	.	ID=id-AJ972879.2:110711..110713;gbkey=RBS
+AJ972879.2	EMBL	promoter	110811	110835	.	-	.	ID=id-AJ972879.2:110811..110835;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	gene	110910	112172	.	-	.	ID=gene-g167;Name=g167;gbkey=Gene;gene=g167;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	110910	112172	.	-	0	ID=cds-CCE26191.1;Parent=gene-g167;Dbxref=GOA:G4KKA6,InterPro:IPR006134,UniProtKB/TrEMBL:G4KKA6,NCBI_GP:CCE26191.1;Name=CCE26191.1;gbkey=CDS;gene=g167;inference=similar to AA sequence:UniProtKB:A7U6F1.1;product=B-family DNA-polymerase catalytic subunit;protein_id=CCE26191.1;transl_table=11
+AJ972879.2	EMBL	region	112180	112182	.	-	.	ID=id-AJ972879.2:112180..112182;gbkey=RBS
+AJ972879.2	EMBL	region	112257	112262	.	+	.	ID=id-AJ972879.2:112257..112262;gbkey=RBS
+AJ972879.2	EMBL	gene	112269	112748	.	+	.	ID=gene-g168;Name=g168;gbkey=Gene;gene=g168;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	112269	112748	.	+	0	ID=cds-CCE26192.1;Parent=gene-g168;Dbxref=UniProtKB/TrEMBL:G4KKA7,NCBI_GP:CCE26192.1;Name=CCE26192.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g168;product=CCE26192.1;protein_id=CCE26192.1;transl_table=11
+AJ972879.2	EMBL	terminator	112757	112785	.	+	.	ID=id-AJ972879.2:112757..112785;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	112828	113733	.	-	.	ID=gene-g169;Name=g169;gbkey=Gene;gene=g169;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	112828	113733	.	-	0	ID=cds-CCE26193.1;Parent=gene-g169;Dbxref=UniProtKB/TrEMBL:G4KKA8,NCBI_GP:CCE26193.1;Name=CCE26193.1;gbkey=CDS;gene=g169;product=CCE26193.1;protein_id=CCE26193.1;transl_table=11
+AJ972879.2	EMBL	region	113742	113744	.	-	.	ID=id-AJ972879.2:113742..113744;gbkey=RBS
+AJ972879.2	EMBL	promoter	113785	113809	.	-	.	ID=id-AJ972879.2:113785..113809;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	promoter	113798	113822	.	+	.	ID=id-AJ972879.2:113798..113822;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	113881	113883	.	+	.	ID=id-AJ972879.2:113881..113883;gbkey=RBS
+AJ972879.2	EMBL	gene	113892	115622	.	+	.	ID=gene-g170;Name=g170;gbkey=Gene;gene=g170;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	113892	115622	.	+	0	ID=cds-CCE26194.1;Parent=gene-g170;Dbxref=GOA:G4KKA9,InterPro:IPR012337,UniProtKB/TrEMBL:G4KKA9,NCBI_GP:CCE26194.1;Name=CCE26194.1;gbkey=CDS;gene=g170;inference=similar to AA sequence:RefSeq:YP_717843.1;product=B-family DNA-polymerase;protein_id=CCE26194.1;transl_table=11
+AJ972879.2	EMBL	region	115614	115616	.	+	.	ID=id-g170;gbkey=RBS;gene=g170
+AJ972879.2	EMBL	gene	115624	117309	.	+	.	ID=gene-g171;Name=g171;gbkey=Gene;gene=g171;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	115624	117309	.	+	0	ID=cds-CCE26195.1;Parent=gene-g171;Dbxref=UniProtKB/TrEMBL:G4KKB0,NCBI_GP:CCE26195.1;Name=CCE26195.1;gbkey=CDS;gene=g171;product=CCE26195.1;protein_id=CCE26195.1;transl_table=11
+AJ972879.2	EMBL	region	117308	117312	.	+	.	ID=id-AJ972879.2:117308..117312;Note=AGGAG 117308;gbkey=RBS
+AJ972879.2	EMBL	gene	117320	117505	.	+	.	ID=gene-g172;Name=g172;gbkey=Gene;gene=g172;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	117320	117505	.	+	0	ID=cds-CCE26196.1;Parent=gene-g172;Dbxref=UniProtKB/TrEMBL:G4KKB1,NCBI_GP:CCE26196.1;Name=CCE26196.1;gbkey=CDS;gene=g172;product=CCE26196.1;protein_id=CCE26196.1;transl_table=11
+AJ972879.2	EMBL	promoter	117524	117548	.	+	.	ID=id-AJ972879.2:117524..117548;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	117555	117559	.	+	.	ID=id-AJ972879.2:117555..117559;gbkey=RBS
+AJ972879.2	EMBL	gene	117571	118404	.	+	.	ID=gene-g173;Name=g173;gbkey=Gene;gene=g173;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	117571	118404	.	+	0	ID=cds-CCE26197.1;Parent=gene-g173;Dbxref=UniProtKB/TrEMBL:G4KKB2,NCBI_GP:CCE26197.1;Name=CCE26197.1;gbkey=CDS;gene=g173;product=CCE26197.1;protein_id=CCE26197.1;transl_table=11
+AJ972879.2	EMBL	region	118405	118410	.	+	.	ID=id-AJ972879.2:118405..118410;gbkey=RBS
+AJ972879.2	EMBL	gene	118419	119198	.	+	.	ID=gene-g174;Name=g174;gbkey=Gene;gene=g174;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	118419	119198	.	+	0	ID=cds-CCE26198.1;Parent=gene-g174;Dbxref=UniProtKB/TrEMBL:G4KKB3,NCBI_GP:CCE26198.1;Name=CCE26198.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g174;product=CCE26198.1;protein_id=CCE26198.1;transl_table=11
+AJ972879.2	EMBL	region	119248	119253	.	+	.	ID=id-AJ972879.2:119248..119253;gbkey=RBS
+AJ972879.2	EMBL	gene	119263	120006	.	+	.	ID=gene-g175;Name=g175;gbkey=Gene;gene=g175;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	119263	120006	.	+	0	ID=cds-CCE26199.1;Parent=gene-g175;Dbxref=UniProtKB/TrEMBL:G4KKB4,NCBI_GP:CCE26199.1;Name=CCE26199.1;gbkey=CDS;gene=g175;product=CCE26199.1;protein_id=CCE26199.1;transl_table=11
+AJ972879.2	EMBL	promoter	120023	120047	.	+	.	ID=id-AJ972879.2:120023..120047;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	120081	120085	.	+	.	ID=id-AJ972879.2:120081..120085;gbkey=RBS
+AJ972879.2	EMBL	gene	120095	121000	.	+	.	ID=gene-g176;Name=g176;gbkey=Gene;gene=g176;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	120095	121000	.	+	0	ID=cds-CCE26200.1;Parent=gene-g176;Dbxref=UniProtKB/TrEMBL:G4KKB5,NCBI_GP:CCE26200.1;Name=CCE26200.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g176;product=CCE26200.1;protein_id=CCE26200.1;transl_table=11
+AJ972879.2	EMBL	terminator	121025	121052	.	+	.	ID=id-AJ972879.2:121025..121052;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	121079	121082	.	+	.	ID=id-AJ972879.2:121079..121082;Note=AAGG 121079;gbkey=RBS
+AJ972879.2	EMBL	gene	121088	121966	.	+	.	ID=gene-g177;Name=g177;gbkey=Gene;gene=g177;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	121088	121966	.	+	0	ID=cds-CCE26201.1;Parent=gene-g177;Dbxref=UniProtKB/TrEMBL:G4KKB6,NCBI_GP:CCE26201.1;Name=CCE26201.1;gbkey=CDS;gene=g177;product=CCE26201.1;protein_id=CCE26201.1;transl_table=11
+AJ972879.2	EMBL	terminator	121974	121999	.	+	.	ID=id-AJ972879.2:121974..121999;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	122017	122020	.	+	.	ID=id-AJ972879.2:122017..122020;gbkey=RBS
+AJ972879.2	EMBL	gene	122027	123445	.	+	.	ID=gene-g178;Name=g178;gbkey=Gene;gene=g178;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	122027	123445	.	+	0	ID=cds-CCE26202.1;Parent=gene-g178;Dbxref=UniProtKB/TrEMBL:G4KKB7,NCBI_GP:CCE26202.1;Name=CCE26202.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g178;inference=similar to AA sequence:RefSeq:YP_418217.1;product=RNA-polymerase beta'-subunit;protein_id=CCE26202.1;transl_table=11
+AJ972879.2	EMBL	promoter	123496	123520	.	+	.	ID=id-AJ972879.2:123496..123520;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	123532	123534	.	+	.	ID=id-AJ972879.2:123532..123534;gbkey=RBS
+AJ972879.2	EMBL	gene	123543	124475	.	+	.	ID=gene-g179;Name=g179;gbkey=Gene;gene=g179;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	123543	124475	.	+	0	ID=cds-CCE26203.1;Parent=gene-g179;Dbxref=UniProtKB/TrEMBL:G4KKB8,NCBI_GP:CCE26203.1;Name=CCE26203.1;gbkey=CDS;gene=g179;product=CCE26203.1;protein_id=CCE26203.1;transl_table=11
+AJ972879.2	EMBL	region	124555	124558	.	+	.	ID=id-AJ972879.2:124555..124558;gbkey=RBS
+AJ972879.2	EMBL	gene	124564	124692	.	+	.	ID=gene-g180;Name=g180;gbkey=Gene;gene=g180;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	124564	124692	.	+	0	ID=cds-CCE26204.1;Parent=gene-g180;Dbxref=UniProtKB/TrEMBL:G4KKB9,NCBI_GP:CCE26204.1;Name=CCE26204.1;gbkey=CDS;gene=g180;product=CCE26204.1;protein_id=CCE26204.1;transl_table=11
+AJ972879.2	EMBL	region	124900	124902	.	+	.	ID=id-AJ972879.2:124900..124902;gbkey=RBS
+AJ972879.2	EMBL	gene	124910	125008	.	+	.	ID=gene-g181;Name=g181;gbkey=Gene;gene=g181;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	124910	125008	.	+	0	ID=cds-CCE26205.1;Parent=gene-g181;Dbxref=UniProtKB/TrEMBL:G4KKC0,NCBI_GP:CCE26205.1;Name=CCE26205.1;gbkey=CDS;gene=g181;product=CCE26205.1;protein_id=CCE26205.1;transl_table=11
+AJ972879.2	EMBL	terminator	125016	125043	.	+	.	ID=id-AJ972879.2:125016..125043;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	promoter	125059	125083	.	+	.	ID=id-AJ972879.2:125059..125083;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	125088	125095	.	+	.	ID=id-AJ972879.2:125088..125095;gbkey=RBS
+AJ972879.2	EMBL	gene	125097	125465	.	+	.	ID=gene-g182;Name=g182;gbkey=Gene;gene=g182;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	125097	125465	.	+	0	ID=cds-CCE26206.1;Parent=gene-g182;Dbxref=UniProtKB/TrEMBL:G4KKC1,NCBI_GP:CCE26206.1;Name=CCE26206.1;gbkey=CDS;gene=g182;product=CCE26206.1;protein_id=CCE26206.1;transl_table=11
+AJ972879.2	EMBL	region	125443	125448	.	+	.	ID=id-g182;gbkey=RBS;gene=g182
+AJ972879.2	EMBL	gene	125459	125848	.	+	.	ID=gene-g183;Name=g183;gbkey=Gene;gene=g183;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	125459	125848	.	+	0	ID=cds-CCE26207.1;Parent=gene-g183;Dbxref=UniProtKB/TrEMBL:G4KKC2,NCBI_GP:CCE26207.1;Name=CCE26207.1;gbkey=CDS;gene=g183;product=CCE26207.1;protein_id=CCE26207.1;transl_table=11
+AJ972879.2	EMBL	region	125833	125837	.	+	.	ID=id-g183;Note=AGGTG 125833;gbkey=RBS;gene=g183
+AJ972879.2	EMBL	gene	125845	126165	.	+	.	ID=gene-g184;Name=g184;gbkey=Gene;gene=g184;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	125845	126165	.	+	0	ID=cds-CCE26208.1;Parent=gene-g184;Dbxref=UniProtKB/TrEMBL:G4KKC3,NCBI_GP:CCE26208.1;Name=CCE26208.1;gbkey=CDS;gene=g184;product=CCE26208.1;protein_id=CCE26208.1;transl_table=11
+AJ972879.2	EMBL	region	126143	126146	.	+	.	ID=id-g184;gbkey=RBS;gene=g184
+AJ972879.2	EMBL	gene	126155	126517	.	+	.	ID=gene-g185;Name=g185;gbkey=Gene;gene=g185;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	126155	126517	.	+	0	ID=cds-CCE26209.1;Parent=gene-g185;Dbxref=UniProtKB/TrEMBL:G4KKC4,NCBI_GP:CCE26209.1;Name=CCE26209.1;gbkey=CDS;gene=g185;product=CCE26209.1;protein_id=CCE26209.1;transl_table=11
+AJ972879.2	EMBL	region	126499	126504	.	+	.	ID=id-g185;gbkey=RBS;gene=g185
+AJ972879.2	EMBL	gene	126514	126885	.	+	.	ID=gene-g186;Name=g186;gbkey=Gene;gene=g186;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	126514	126885	.	+	0	ID=cds-CCE26210.1;Parent=gene-g186;Dbxref=UniProtKB/TrEMBL:G4KKC5,NCBI_GP:CCE26210.1;Name=CCE26210.1;gbkey=CDS;gene=g186;product=CCE26210.1;protein_id=CCE26210.1;transl_table=11
+AJ972879.2	EMBL	region	126883	126888	.	+	.	ID=id-AJ972879.2:126883..126888;gbkey=RBS
+AJ972879.2	EMBL	gene	126895	127506	.	+	.	ID=gene-g187;Name=g187;gbkey=Gene;gene=g187;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	126895	127506	.	+	0	ID=cds-CCE26211.1;Parent=gene-g187;Dbxref=UniProtKB/TrEMBL:G4KKC6,NCBI_GP:CCE26211.1;Name=CCE26211.1;gbkey=CDS;gene=g187;product=CCE26211.1;protein_id=CCE26211.1;transl_table=11
+AJ972879.2	EMBL	promoter	127520	127544	.	+	.	ID=id-AJ972879.2:127520..127544;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	127595	127599	.	+	.	ID=id-AJ972879.2:127595..127599;gbkey=RBS
+AJ972879.2	EMBL	gene	127608	127694	.	+	.	ID=gene-g188;Name=g188;gbkey=Gene;gene=g188;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	127608	127694	.	+	0	ID=cds-CCE26212.1;Parent=gene-g188;Dbxref=UniProtKB/TrEMBL:G4KKC7,NCBI_GP:CCE26212.1;Name=CCE26212.1;gbkey=CDS;gene=g188;product=CCE26212.1;protein_id=CCE26212.1;transl_table=11
+AJ972879.2	EMBL	region	127785	127790	.	+	.	ID=id-AJ972879.2:127785..127790;Note=TAAGGA 127785;gbkey=RBS
+AJ972879.2	EMBL	gene	127797	127976	.	+	.	ID=gene-g189;Name=g189;gbkey=Gene;gene=g189;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	127797	127976	.	+	0	ID=cds-CCE26213.1;Parent=gene-g189;Dbxref=UniProtKB/TrEMBL:G4KKC8,NCBI_GP:CCE26213.1;Name=CCE26213.1;gbkey=CDS;gene=g189;product=CCE26213.1;protein_id=CCE26213.1;transl_table=11
+AJ972879.2	EMBL	region	128004	128007	.	+	.	ID=id-AJ972879.2:128004..128007;gbkey=RBS
+AJ972879.2	EMBL	gene	128018	129202	.	+	.	ID=gene-g190;Name=g190;gbkey=Gene;gene=g190;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	128018	129202	.	+	0	ID=cds-CCE26214.1;Parent=gene-g190;Dbxref=UniProtKB/TrEMBL:G4KKC9,NCBI_GP:CCE26214.1;Name=CCE26214.1;gbkey=CDS;gene=g190;product=CCE26214.1;protein_id=CCE26214.1;transl_table=11
+AJ972879.2	EMBL	terminator	129212	129228	.	+	.	ID=id-AJ972879.2:129212..129228;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	129250	129253	.	+	.	ID=id-AJ972879.2:129250..129253;gbkey=RBS
+AJ972879.2	EMBL	gene	129261	130583	.	+	.	ID=gene-g191;Name=g191;gbkey=Gene;gene=g191;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	129261	130583	.	+	0	ID=cds-CCE26215.1;Parent=gene-g191;Dbxref=UniProtKB/TrEMBL:G4KKD0,NCBI_GP:CCE26215.1;Name=CCE26215.1;gbkey=CDS;gene=g191;product=CCE26215.1;protein_id=CCE26215.1;transl_table=11
+AJ972879.2	EMBL	region	130581	130586	.	+	.	ID=id-AJ972879.2:130581..130586;gbkey=RBS
+AJ972879.2	EMBL	gene	130596	131849	.	+	.	ID=gene-g192;Name=g192;gbkey=Gene;gene=g192;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	130596	131849	.	+	0	ID=cds-CCE26216.1;Parent=gene-g192;Dbxref=UniProtKB/TrEMBL:G4KKD1,NCBI_GP:CCE26216.1;Name=CCE26216.1;gbkey=CDS;gene=g192;product=CCE26216.1;protein_id=CCE26216.1;transl_table=11
+AJ972879.2	EMBL	terminator	131858	131885	.	+	.	ID=id-AJ972879.2:131858..131885;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	131901	131904	.	+	.	ID=id-AJ972879.2:131901..131904;gbkey=RBS
+AJ972879.2	EMBL	gene	131912	132889	.	+	.	ID=gene-g193;Name=g193;gbkey=Gene;gene=g193;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	131912	132889	.	+	0	ID=cds-CCE26217.1;Parent=gene-g193;Dbxref=UniProtKB/TrEMBL:G4KKD2,NCBI_GP:CCE26217.1;Name=CCE26217.1;gbkey=CDS;gene=g193;product=CCE26217.1;protein_id=CCE26217.1;transl_table=11
+AJ972879.2	EMBL	promoter	132900	132924	.	+	.	ID=id-AJ972879.2:132900..132924;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	terminator	132926	132952	.	+	.	ID=id-AJ972879.2:132926..132952;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	132981	132984	.	+	.	ID=id-AJ972879.2:132981..132984;gbkey=RBS
+AJ972879.2	EMBL	gene	132994	134544	.	+	.	ID=gene-g194;Name=g194;gbkey=Gene;gene=g194;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	132994	134544	.	+	0	ID=cds-CCE26218.1;Parent=gene-g194;Dbxref=UniProtKB/TrEMBL:G4KKD3,NCBI_GP:CCE26218.1;Name=CCE26218.1;gbkey=CDS;gene=g194;product=CCE26218.1;protein_id=CCE26218.1;transl_table=11
+AJ972879.2	EMBL	terminator	134552	134580	.	+	.	ID=id-AJ972879.2:134552..134580;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	134596	134599	.	+	.	ID=id-AJ972879.2:134596..134599;gbkey=RBS
+AJ972879.2	EMBL	gene	134610	135653	.	+	.	ID=gene-g195;Name=g195;gbkey=Gene;gene=g195;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	134610	135653	.	+	0	ID=cds-CCE26219.1;Parent=gene-g195;Dbxref=UniProtKB/TrEMBL:G4KKD4,NCBI_GP:CCE26219.1;Name=CCE26219.1;gbkey=CDS;gene=g195;product=CCE26219.1;protein_id=CCE26219.1;transl_table=11
+AJ972879.2	EMBL	terminator	135679	135705	.	+	.	ID=id-AJ972879.2:135679..135705;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	135732	135734	.	+	.	ID=id-AJ972879.2:135732..135734;gbkey=RBS
+AJ972879.2	EMBL	gene	135742	138294	.	+	.	ID=gene-g196;Name=g196;gbkey=Gene;gene=g196;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	135742	138294	.	+	0	ID=cds-CCE26220.1;Parent=gene-g196;Dbxref=UniProtKB/TrEMBL:G4KKD5,NCBI_GP:CCE26220.1;Name=CCE26220.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g196;product=CCE26220.1;protein_id=CCE26220.1;transl_table=11
+AJ972879.2	EMBL	terminator	138301	138329	.	-	.	ID=id-AJ972879.2:138301..138329;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	terminator	138301	138329	.	+	.	ID=id-AJ972879.2:138301..138329-2;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	138337	139185	.	-	.	ID=gene-g197;Name=g197;gbkey=Gene;gene=g197;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	138337	139185	.	-	0	ID=cds-CCE26221.1;Parent=gene-g197;Dbxref=UniProtKB/TrEMBL:G4KKD6,NCBI_GP:CCE26221.1;Name=CCE26221.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g197;product=CCE26221.1;protein_id=CCE26221.1;transl_table=11
+AJ972879.2	EMBL	gene	139187	139978	.	-	.	ID=gene-g198;Name=g198;gbkey=Gene;gene=g198;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	139187	139978	.	-	0	ID=cds-CCE26222.1;Parent=gene-g198;Dbxref=UniProtKB/TrEMBL:G4KKD7,NCBI_GP:CCE26222.1;Name=CCE26222.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g198;product=CCE26222.1;protein_id=CCE26222.1;transl_table=11
+AJ972879.2	EMBL	region	139193	139197	.	-	.	ID=id-g198;gbkey=RBS;gene=g198
+AJ972879.2	EMBL	region	139984	139986	.	-	.	ID=id-AJ972879.2:139984..139986;gbkey=RBS
+AJ972879.2	EMBL	terminator	140035	140063	.	-	.	ID=id-AJ972879.2:140035..140063;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	140084	140863	.	-	.	ID=gene-g199;Name=g199;gbkey=Gene;gene=g199;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	140084	140863	.	-	0	ID=cds-CAI99861.1;Parent=gene-g199;Dbxref=UniProtKB/TrEMBL:Q4VYA7,NCBI_GP:CAI99861.1;Name=CAI99861.1;Note=mature protein N terminus is Asp56;experiment=LC/ESI-MS/MS,protein sequencing;gbkey=CDS;gene=g199;product=structural protein sp24 precursor;protein_id=CAI99861.1;transl_table=11
+AJ972879.2	EMBL	gene	140848	140961	.	-	.	ID=gene-g200;Name=g200;gbkey=Gene;gene=g200;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	140848	140961	.	-	0	ID=cds-CCE26223.1;Parent=gene-g200;Dbxref=UniProtKB/TrEMBL:G4KKD8,NCBI_GP:CCE26223.1;Name=CCE26223.1;gbkey=CDS;gene=g200;product=CCE26223.1;protein_id=CCE26223.1;transl_table=11
+AJ972879.2	EMBL	region	140872	140876	.	-	.	ID=id-g200;gbkey=RBS;gene=g200
+AJ972879.2	EMBL	region	140966	140968	.	-	.	ID=id-AJ972879.2:140966..140968;gbkey=RBS
+AJ972879.2	EMBL	gene	140972	141157	.	-	.	ID=gene-g201;Name=g201;gbkey=Gene;gene=g201;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	140972	141157	.	-	0	ID=cds-CCE26224.1;Parent=gene-g201;Dbxref=UniProtKB/TrEMBL:G4KKD9,NCBI_GP:CCE26224.1;Name=CCE26224.1;gbkey=CDS;gene=g201;product=CCE26224.1;protein_id=CCE26224.1;transl_table=11
+AJ972879.2	EMBL	region	141165	141168	.	-	.	ID=id-AJ972879.2:141165..141168;gbkey=RBS
+AJ972879.2	EMBL	gene	141202	141774	.	-	.	ID=gene-g202;Name=g202;gbkey=Gene;gene=g202;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	141202	141774	.	-	0	ID=cds-CCE26225.1;Parent=gene-g202;Dbxref=UniProtKB/TrEMBL:G4KKE0,NCBI_GP:CCE26225.1;Name=CCE26225.1;gbkey=CDS;gene=g202;product=CCE26225.1;protein_id=CCE26225.1;transl_table=11
+AJ972879.2	EMBL	region	141782	141786	.	-	.	ID=id-AJ972879.2:141782..141786;gbkey=RBS
+AJ972879.2	EMBL	terminator	141817	141840	.	-	.	ID=id-AJ972879.2:141817..141840;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	141847	142593	.	-	.	ID=gene-g203;Name=g203;gbkey=Gene;gene=g203;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	141847	142593	.	-	0	ID=cds-CCE26226.1;Parent=gene-g203;Dbxref=UniProtKB/TrEMBL:G4KKE1,NCBI_GP:CCE26226.1;Name=CCE26226.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g203;product=CCE26226.1;protein_id=CCE26226.1;transl_table=11
+AJ972879.2	EMBL	region	142495	142499	.	-	.	ID=id-g203;Note=AGGAA 142499;gbkey=RBS;gene=g203
+AJ972879.2	EMBL	region	142595	142598	.	-	.	ID=id-AJ972879.2:142595..142598;gbkey=RBS
+AJ972879.2	EMBL	gene	142596	144113	.	-	.	ID=gene-g204;Name=g204;gbkey=Gene;gene=g204;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	142596	144113	.	-	0	ID=cds-CCE26227.1;Parent=gene-g204;Dbxref=UniProtKB/TrEMBL:G4KKE2,NCBI_GP:CCE26227.1;Name=CCE26227.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g204;product=CCE26227.1;protein_id=CCE26227.1;transl_table=11
+AJ972879.2	EMBL	region	144120	144125	.	-	.	ID=id-AJ972879.2:144120..144125;gbkey=RBS
+AJ972879.2	EMBL	gene	144123	145283	.	-	.	ID=gene-g205;Name=g205;gbkey=Gene;gene=g205;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	144123	145283	.	-	0	ID=cds-CCE26228.1;Parent=gene-g205;Dbxref=UniProtKB/TrEMBL:G4KKE3,NCBI_GP:CCE26228.1;Name=CCE26228.1;gbkey=CDS;gene=g205;product=CCE26228.1;protein_id=CCE26228.1;transl_table=11
+AJ972879.2	EMBL	region	145292	145295	.	-	.	ID=id-AJ972879.2:145292..145295;gbkey=RBS
+AJ972879.2	EMBL	terminator	145324	145351	.	-	.	ID=id-AJ972879.2:145324..145351;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	145358	146332	.	-	.	ID=gene-g206;Name=g206;gbkey=Gene;gene=g206;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	145358	146332	.	-	0	ID=cds-CCE26229.1;Parent=gene-g206;Dbxref=UniProtKB/TrEMBL:G4KKE4,NCBI_GP:CCE26229.1;Name=CCE26229.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g206;product=CCE26229.1;protein_id=CCE26229.1;transl_table=11
+AJ972879.2	EMBL	region	146343	146348	.	-	.	ID=id-AJ972879.2:146343..146348;gbkey=RBS
+AJ972879.2	EMBL	gene	146387	148978	.	-	.	ID=gene-g207;Name=g207;gbkey=Gene;gene=g207;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	146387	148978	.	-	0	ID=cds-CCE26230.1;Parent=gene-g207;Dbxref=UniProtKB/TrEMBL:G4KKE5,NCBI_GP:CCE26230.1;Name=CCE26230.1;gbkey=CDS;gene=g207;product=CCE26230.1;protein_id=CCE26230.1;transl_table=11
+AJ972879.2	EMBL	gene	148980	149990	.	-	.	ID=gene-g208;Name=g208;gbkey=Gene;gene=g208;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	148980	149990	.	-	0	ID=cds-CCE26231.1;Parent=gene-g208;Dbxref=UniProtKB/TrEMBL:G4KKE6,NCBI_GP:CCE26231.1;Name=CCE26231.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g208;product=CCE26231.1;protein_id=CCE26231.1;transl_table=11
+AJ972879.2	EMBL	region	148984	148987	.	-	.	ID=id-g208;gbkey=RBS;gene=g208
+AJ972879.2	EMBL	region	149998	150000	.	-	.	ID=id-AJ972879.2:149998..150000;gbkey=RBS
+AJ972879.2	EMBL	promoter	150020	150044	.	-	.	ID=id-AJ972879.2:150020..150044;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	150132	150136	.	+	.	ID=id-AJ972879.2:150132..150136;gbkey=RBS
+AJ972879.2	EMBL	gene	150145	151269	.	+	.	ID=gene-g209;Name=g209;gbkey=Gene;gene=g209;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	150145	151269	.	+	0	ID=cds-CCE26232.1;Parent=gene-g209;Dbxref=UniProtKB/TrEMBL:G4KKE7,NCBI_GP:CCE26232.1;Name=CCE26232.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g209;product=CCE26232.1;protein_id=CCE26232.1;transl_table=11
+AJ972879.2	EMBL	region	151273	151276	.	+	.	ID=id-AJ972879.2:151273..151276;gbkey=RBS
+AJ972879.2	EMBL	gene	151284	152375	.	+	.	ID=gene-g210;Name=g210;gbkey=Gene;gene=g210;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	151284	152375	.	+	0	ID=cds-CCE26233.1;Parent=gene-g210;Dbxref=UniProtKB/TrEMBL:G4KKE8,NCBI_GP:CCE26233.1;Name=CCE26233.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g210;product=CCE26233.1;protein_id=CCE26233.1;transl_table=11
+AJ972879.2	EMBL	terminator	152382	152409	.	+	.	ID=id-AJ972879.2:152382..152409;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	promoter	152427	152451	.	+	.	ID=id-AJ972879.2:152427..152451;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	152493	152496	.	+	.	ID=id-AJ972879.2:152493..152496;Note=AAGG 152493;gbkey=RBS
+AJ972879.2	EMBL	gene	152506	153150	.	+	.	ID=gene-g211;Name=g211;gbkey=Gene;gene=g211;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	152506	153150	.	+	0	ID=cds-CCE26234.1;Parent=gene-g211;Dbxref=UniProtKB/TrEMBL:G4KKE9,NCBI_GP:CCE26234.1;Name=CCE26234.1;gbkey=CDS;gene=g211;product=CCE26234.1;protein_id=CCE26234.1;transl_table=11
+AJ972879.2	EMBL	terminator	153158	153188	.	+	.	ID=id-AJ972879.2:153158..153188;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	153263	153266	.	+	.	ID=id-AJ972879.2:153263..153266;gbkey=RBS
+AJ972879.2	EMBL	gene	153274	153555	.	+	.	ID=gene-g212;Name=g212;gbkey=Gene;gene=g212;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	153274	153555	.	+	0	ID=cds-CCE26235.1;Parent=gene-g212;Dbxref=UniProtKB/TrEMBL:G4KKF0,NCBI_GP:CCE26235.1;Name=CCE26235.1;gbkey=CDS;gene=g212;product=CCE26235.1;protein_id=CCE26235.1;transl_table=11
+AJ972879.2	EMBL	region	153541	153546	.	+	.	ID=id-g212;gbkey=RBS;gene=g212
+AJ972879.2	EMBL	gene	153552	154241	.	+	.	ID=gene-g213;Name=g213;gbkey=Gene;gene=g213;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	153552	154241	.	+	0	ID=cds-CCE26236.1;Parent=gene-g213;Dbxref=GOA:G4KKF1,InterPro:IPR002156,InterPro:IPR012337,UniProtKB/TrEMBL:G4KKF1,NCBI_GP:CCE26236.1;Name=CCE26236.1;gbkey=CDS;gene=g213;inference=similar to AA sequence:RefSeq:YP_748363.1;product=ribonuclease H;protein_id=CCE26236.1;transl_table=11
+AJ972879.2	EMBL	terminator	154249	154276	.	+	.	ID=id-AJ972879.2:154249..154276;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	154303	154307	.	+	.	ID=id-AJ972879.2:154303..154307;gbkey=RBS
+AJ972879.2	EMBL	gene	154315	154635	.	+	.	ID=gene-g214;Name=g214;gbkey=Gene;gene=g214;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	154315	154635	.	+	0	ID=cds-CCE26237.1;Parent=gene-g214;Dbxref=UniProtKB/TrEMBL:G4KKF2,NCBI_GP:CCE26237.1;Name=CCE26237.1;gbkey=CDS;gene=g214;product=CCE26237.1;protein_id=CCE26237.1;transl_table=11
+AJ972879.2	EMBL	terminator	154648	154675	.	+	.	ID=id-AJ972879.2:154648..154675;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	154683	154688	.	+	.	ID=id-AJ972879.2:154683..154688;gbkey=RBS
+AJ972879.2	EMBL	gene	154696	155067	.	+	.	ID=gene-g215;Name=g215;gbkey=Gene;gene=g215;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	154696	155067	.	+	0	ID=cds-CCE26238.1;Parent=gene-g215;Dbxref=UniProtKB/TrEMBL:G4KKF3,NCBI_GP:CCE26238.1;Name=CCE26238.1;gbkey=CDS;gene=g215;product=CCE26238.1;protein_id=CCE26238.1;transl_table=11
+AJ972879.2	EMBL	region	155055	155058	.	+	.	ID=id-g215;gbkey=RBS;gene=g215
+AJ972879.2	EMBL	gene	155067	155447	.	+	.	ID=gene-g216;Name=g216;gbkey=Gene;gene=g216;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	155067	155447	.	+	0	ID=cds-CCE26239.1;Parent=gene-g216;Dbxref=UniProtKB/TrEMBL:G4KKF4,NCBI_GP:CCE26239.1;Name=CCE26239.1;gbkey=CDS;gene=g216;product=CCE26239.1;protein_id=CCE26239.1;transl_table=11
+AJ972879.2	EMBL	region	155545	155547	.	+	.	ID=id-AJ972879.2:155545..155547;gbkey=RBS
+AJ972879.2	EMBL	gene	155554	155646	.	+	.	ID=gene-g217;Name=g217;gbkey=Gene;gene=g217;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	155554	155646	.	+	0	ID=cds-CCE26240.1;Parent=gene-g217;Dbxref=UniProtKB/TrEMBL:G4KKF5,NCBI_GP:CCE26240.1;Name=CCE26240.1;gbkey=CDS;gene=g217;product=CCE26240.1;protein_id=CCE26240.1;transl_table=11
+AJ972879.2	EMBL	region	155633	155636	.	+	.	ID=id-g217;gbkey=RBS;gene=g217
+AJ972879.2	EMBL	gene	155648	156049	.	+	.	ID=gene-g218;Name=g218;gbkey=Gene;gene=g218;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	155648	156049	.	+	0	ID=cds-CCE26241.1;Parent=gene-g218;Dbxref=UniProtKB/TrEMBL:G4KKF6,NCBI_GP:CCE26241.1;Name=CCE26241.1;gbkey=CDS;gene=g218;product=CCE26241.1;protein_id=CCE26241.1;transl_table=11
+AJ972879.2	EMBL	region	156042	156044	.	+	.	ID=id-g218;gbkey=RBS;gene=g218
+AJ972879.2	EMBL	gene	156053	156412	.	+	.	ID=gene-g219;Name=g219;gbkey=Gene;gene=g219;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	156053	156412	.	+	0	ID=cds-CCE26242.1;Parent=gene-g219;Dbxref=UniProtKB/TrEMBL:G4KKF7,NCBI_GP:CCE26242.1;Name=CCE26242.1;gbkey=CDS;gene=g219;product=CCE26242.1;protein_id=CCE26242.1;transl_table=11
+AJ972879.2	EMBL	region	156396	156398	.	+	.	ID=id-g219;Note=GGA 15696;gbkey=RBS;gene=g219
+AJ972879.2	EMBL	gene	156412	156660	.	+	.	ID=gene-g220;Name=g220;gbkey=Gene;gene=g220;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	156412	156660	.	+	0	ID=cds-CCE26243.1;Parent=gene-g220;Dbxref=UniProtKB/TrEMBL:G4KKF8,NCBI_GP:CCE26243.1;Name=CCE26243.1;gbkey=CDS;gene=g220;product=CCE26243.1;protein_id=CCE26243.1;transl_table=11
+AJ972879.2	EMBL	region	156641	156644	.	+	.	ID=id-g220;Note=GGAG 156640;gbkey=RBS;gene=g220
+AJ972879.2	EMBL	gene	156657	156926	.	+	.	ID=gene-g221;Name=g221;gbkey=Gene;gene=g221;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	156657	156926	.	+	0	ID=cds-CCE26244.1;Parent=gene-g221;Dbxref=UniProtKB/TrEMBL:G4KKF9,NCBI_GP:CCE26244.1;Name=CCE26244.1;gbkey=CDS;gene=g221;product=CCE26244.1;protein_id=CCE26244.1;transl_table=11
+AJ972879.2	EMBL	region	156881	156884	.	+	.	ID=id-g221;gbkey=RBS;gene=g221
+AJ972879.2	EMBL	gene	156892	157104	.	+	.	ID=gene-g222;Name=g222;gbkey=Gene;gene=g222;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	156892	157104	.	+	0	ID=cds-CCE26245.1;Parent=gene-g222;Dbxref=UniProtKB/TrEMBL:G4KKG0,NCBI_GP:CCE26245.1;Name=CCE26245.1;gbkey=CDS;gene=g222;product=CCE26245.1;protein_id=CCE26245.1;transl_table=11
+AJ972879.2	EMBL	region	157074	157076	.	+	.	ID=id-g222;gbkey=RBS;gene=g222
+AJ972879.2	EMBL	gene	157085	157291	.	+	.	ID=gene-g223;Name=g223;gbkey=Gene;gene=g223;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	157085	157291	.	+	0	ID=cds-CCE26246.1;Parent=gene-g223;Dbxref=UniProtKB/TrEMBL:G4KKG1,NCBI_GP:CCE26246.1;Name=CCE26246.1;gbkey=CDS;gene=g223;product=CCE26246.1;protein_id=CCE26246.1;transl_table=11
+AJ972879.2	EMBL	region	157290	157292	.	+	.	ID=id-AJ972879.2:157290..157292;gbkey=RBS
+AJ972879.2	EMBL	gene	157300	157800	.	+	.	ID=gene-g224;Name=g224;gbkey=Gene;gene=g224;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	157300	157800	.	+	0	ID=cds-CCE26247.1;Parent=gene-g224;Dbxref=UniProtKB/TrEMBL:G4KKG2,NCBI_GP:CCE26247.1;Name=CCE26247.1;gbkey=CDS;gene=g224;product=CCE26247.1;protein_id=CCE26247.1;transl_table=11
+AJ972879.2	EMBL	region	157805	157808	.	+	.	ID=id-AJ972879.2:157805..157808;gbkey=RBS
+AJ972879.2	EMBL	gene	157819	158550	.	+	.	ID=gene-g225;Name=g225;gbkey=Gene;gene=g225;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	157819	158550	.	+	0	ID=cds-CCE26248.1;Parent=gene-g225;Dbxref=UniProtKB/TrEMBL:G4KKG3,NCBI_GP:CCE26248.1;Name=CCE26248.1;gbkey=CDS;gene=g225;product=CCE26248.1;protein_id=CCE26248.1;transl_table=11
+AJ972879.2	EMBL	terminator	158561	158578	.	+	.	ID=id-AJ972879.2:158561..158578;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	158596	158600	.	+	.	ID=id-AJ972879.2:158596..158600;gbkey=RBS
+AJ972879.2	EMBL	gene	158610	159215	.	+	.	ID=gene-g226;Name=g226;gbkey=Gene;gene=g226;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	158610	159215	.	+	0	ID=cds-CCE26249.1;Parent=gene-g226;Dbxref=UniProtKB/TrEMBL:G4KKG4,NCBI_GP:CCE26249.1;Name=CCE26249.1;gbkey=CDS;gene=g226;product=CCE26249.1;protein_id=CCE26249.1;transl_table=11
+AJ972879.2	EMBL	region	159216	159220	.	+	.	ID=id-AJ972879.2:159216..159220;Note=AGGTG 159216;gbkey=RBS
+AJ972879.2	EMBL	gene	159228	159497	.	+	.	ID=gene-g227;Name=g227;gbkey=Gene;gene=g227;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	159228	159497	.	+	0	ID=cds-CCE26250.1;Parent=gene-g227;Dbxref=UniProtKB/TrEMBL:G4KKG5,NCBI_GP:CCE26250.1;Name=CCE26250.1;gbkey=CDS;gene=g227;product=CCE26250.1;protein_id=CCE26250.1;transl_table=11
+AJ972879.2	EMBL	terminator	159512	159540	.	-	.	ID=id-AJ972879.2:159512..159540;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	terminator	159512	159540	.	+	.	ID=id-AJ972879.2:159512..159540-2;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	159555	159857	.	-	.	ID=gene-g228;Name=g228;gbkey=Gene;gene=g228;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	159555	159857	.	-	0	ID=cds-CCE26251.1;Parent=gene-g228;Dbxref=UniProtKB/TrEMBL:G4KKG6,NCBI_GP:CCE26251.1;Name=CCE26251.1;gbkey=CDS;gene=g228;product=CCE26251.1;protein_id=CCE26251.1;transl_table=11
+AJ972879.2	EMBL	region	159864	159868	.	-	.	ID=id-AJ972879.2:159864..159868;gbkey=RBS
+AJ972879.2	EMBL	gene	159870	160268	.	-	.	ID=gene-g229;Name=g229;gbkey=Gene;gene=g229;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	159870	160268	.	-	0	ID=cds-CCE26252.1;Parent=gene-g229;Dbxref=UniProtKB/TrEMBL:G4KKG7,NCBI_GP:CCE26252.1;Name=CCE26252.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g229;product=CCE26252.1;protein_id=CCE26252.1;transl_table=11
+AJ972879.2	EMBL	region	160277	160279	.	-	.	ID=id-AJ972879.2:160277..160279;gbkey=RBS
+AJ972879.2	EMBL	gene	160310	161719	.	-	.	ID=gene-g230;Name=g230;gbkey=Gene;gene=g230;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	160310	161719	.	-	0	ID=cds-CCE26253.1;Parent=gene-g230;Dbxref=GOA:G4KKG8,InterPro:IPR004603,UniProtKB/TrEMBL:G4KKG8,NCBI_GP:CCE26253.1;Name=CCE26253.1;gbkey=CDS;gene=g230;inference=similar to AA sequence:INSD:ABI48935.1;product=putative homing endonuclease;protein_id=CCE26253.1;transl_table=11
+AJ972879.2	EMBL	region	161724	161728	.	-	.	ID=id-AJ972879.2:161724..161728;gbkey=RBS
+AJ972879.2	EMBL	terminator	161725	161765	.	-	.	ID=id-AJ972879.2:161725..161765;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	161793	163067	.	-	.	ID=gene-g231;Name=g231;gbkey=Gene;gene=g231;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	161793	163067	.	-	0	ID=cds-CCE26254.1;Parent=gene-g231;Dbxref=UniProtKB/TrEMBL:G4KKG9,NCBI_GP:CCE26254.1;Name=CCE26254.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g231;inference=similar to AA sequence:RefSeq:YP_797237.1;product=DNA-directed RNA-polymerase beta-subunit;protein_id=CCE26254.1;transl_table=11
+AJ972879.2	EMBL	region	163077	163079	.	-	.	ID=id-AJ972879.2:163077..163079;gbkey=RBS
+AJ972879.2	EMBL	terminator	163099	163125	.	-	.	ID=id-AJ972879.2:163099..163125;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	163173	163268	.	-	.	ID=gene-g232;Name=g232;gbkey=Gene;gene=g232;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	163173	163268	.	-	0	ID=cds-CCE26255.1;Parent=gene-g232;Dbxref=UniProtKB/TrEMBL:G4KKH0,NCBI_GP:CCE26255.1;Name=CCE26255.1;gbkey=CDS;gene=g232;product=CCE26255.1;protein_id=CCE26255.1;transl_table=11
+AJ972879.2	EMBL	region	163278	163280	.	-	.	ID=id-AJ972879.2:163278..163280;gbkey=RBS
+AJ972879.2	EMBL	promoter	163322	163346	.	-	.	ID=id-AJ972879.2:163322..163346;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	gene	163352	164038	.	-	.	ID=gene-g233;Name=g233;gbkey=Gene;gene=g233;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	163352	164038	.	-	0	ID=cds-CCE26256.1;Parent=gene-g233;Dbxref=UniProtKB/TrEMBL:G4KKH1,NCBI_GP:CCE26256.1;Name=CCE26256.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g233;product=CCE26256.1;protein_id=CCE26256.1;transl_table=11
+AJ972879.2	EMBL	region	164047	164050	.	-	.	ID=id-AJ972879.2:164047..164050;gbkey=RBS
+AJ972879.2	EMBL	gene	164089	166683	.	-	.	ID=gene-g234;Name=g234;gbkey=Gene;gene=g234;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	164089	166683	.	-	0	ID=cds-CCE26257.1;Parent=gene-g234;Dbxref=UniProtKB/TrEMBL:G4KKH2,NCBI_GP:CCE26257.1;Name=CCE26257.1;gbkey=CDS;gene=g234;product=CCE26257.1;protein_id=CCE26257.1;transl_table=11
+AJ972879.2	EMBL	gene	166670	167032	.	-	.	ID=gene-g235;Name=g235;gbkey=Gene;gene=g235;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	166670	167032	.	-	0	ID=cds-CCE26258.1;Parent=gene-g235;Dbxref=UniProtKB/TrEMBL:G4KKH3,NCBI_GP:CCE26258.1;Name=CCE26258.1;gbkey=CDS;gene=g235;product=CCE26258.1;protein_id=CCE26258.1;transl_table=11
+AJ972879.2	EMBL	region	166693	166696	.	-	.	ID=id-g235;gbkey=RBS;gene=g235
+AJ972879.2	EMBL	gene	167033	167455	.	-	.	ID=gene-g236;Name=g236;gbkey=Gene;gene=g236;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	167033	167455	.	-	0	ID=cds-CCE26259.1;Parent=gene-g236;Dbxref=UniProtKB/TrEMBL:G4KKH4,NCBI_GP:CCE26259.1;Name=CCE26259.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g236;product=CCE26259.1;protein_id=CCE26259.1;transl_table=11
+AJ972879.2	EMBL	region	167041	167044	.	-	.	ID=id-g236;gbkey=RBS;gene=g236
+AJ972879.2	EMBL	region	167461	167466	.	-	.	ID=id-AJ972879.2:167461..167466;gbkey=RBS
+AJ972879.2	EMBL	region	167545	167547	.	+	.	ID=id-AJ972879.2:167545..167547;gbkey=RBS
+AJ972879.2	EMBL	gene	167557	168267	.	+	.	ID=gene-g237;Name=g237;gbkey=Gene;gene=g237;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	167557	168267	.	+	0	ID=cds-CCE26260.1;Parent=gene-g237;Dbxref=UniProtKB/TrEMBL:G4KKH5,NCBI_GP:CCE26260.1;Name=CCE26260.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g237;product=CCE26260.1;protein_id=CCE26260.1;transl_table=11
+AJ972879.2	EMBL	region	168288	168291	.	+	.	ID=id-AJ972879.2:168288..168291;gbkey=RBS
+AJ972879.2	EMBL	gene	168300	168971	.	+	.	ID=gene-g238;Name=g238;gbkey=Gene;gene=g238;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	168300	168971	.	+	0	ID=cds-CCE26261.1;Parent=gene-g238;Dbxref=UniProtKB/TrEMBL:G4KKH6,NCBI_GP:CCE26261.1;Name=CCE26261.1;gbkey=CDS;gene=g238;product=CCE26261.1;protein_id=CCE26261.1;transl_table=11
+AJ972879.2	EMBL	region	168970	168973	.	+	.	ID=id-AJ972879.2:168970..168973;gbkey=RBS
+AJ972879.2	EMBL	gene	168981	169376	.	+	.	ID=gene-g239;Name=g239;gbkey=Gene;gene=g239;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	168981	169376	.	+	0	ID=cds-CCE26262.1;Parent=gene-g239;Dbxref=UniProtKB/TrEMBL:G4KKH7,NCBI_GP:CCE26262.1;Name=CCE26262.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g239;product=CCE26262.1;protein_id=CCE26262.1;transl_table=11
+AJ972879.2	EMBL	region	169378	169381	.	+	.	ID=id-AJ972879.2:169378..169381;gbkey=RBS
+AJ972879.2	EMBL	gene	169388	169855	.	+	.	ID=gene-g240;Name=g240;gbkey=Gene;gene=g240;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	169388	169855	.	+	0	ID=cds-CCE26263.1;Parent=gene-g240;Dbxref=UniProtKB/TrEMBL:G4KKH8,NCBI_GP:CCE26263.1;Name=CCE26263.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g240;product=CCE26263.1;protein_id=CCE26263.1;transl_table=11
+AJ972879.2	EMBL	region	169932	169937	.	+	.	ID=id-AJ972879.2:169932..169937;gbkey=RBS
+AJ972879.2	EMBL	gene	169947	171374	.	+	.	ID=gene-g241;Name=g241;gbkey=Gene;gene=g241;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	169947	171374	.	+	0	ID=cds-CCE26264.1;Parent=gene-g241;Dbxref=UniProtKB/TrEMBL:G4KKH9,NCBI_GP:CCE26264.1;Name=CCE26264.1;gbkey=CDS;gene=g241;product=CCE26264.1;protein_id=CCE26264.1;transl_table=11
+AJ972879.2	EMBL	region	171443	171445	.	+	.	ID=id-AJ972879.2:171443..171445;gbkey=RBS
+AJ972879.2	EMBL	gene	171449	171616	.	+	.	ID=gene-g242;Name=g242;gbkey=Gene;gene=g242;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	171449	171616	.	+	0	ID=cds-CCE26265.1;Parent=gene-g242;Dbxref=UniProtKB/TrEMBL:G4KKI0,NCBI_GP:CCE26265.1;Name=CCE26265.1;gbkey=CDS;gene=g242;product=CCE26265.1;protein_id=CCE26265.1;transl_table=11
+AJ972879.2	EMBL	terminator	171623	171655	.	+	.	ID=id-AJ972879.2:171623..171655;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	171669	171672	.	+	.	ID=id-AJ972879.2:171669..171672;gbkey=RBS
+AJ972879.2	EMBL	gene	171681	173405	.	+	.	ID=gene-g243;Name=g243;gbkey=Gene;gene=g243;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	171681	173405	.	+	0	ID=cds-CCE26266.1;Parent=gene-g243;Dbxref=GOA:G4KKI1,InterPro:IPR002423,InterPro:IPR017998,UniProtKB/TrEMBL:G4KKI1,NCBI_GP:CCE26266.1;Name=CCE26266.1;gbkey=CDS;gene=g243;inference=similar to AA sequence:RefSeq:YP_495318.1;product=chaperonin GroEL;protein_id=CCE26266.1;transl_table=11
+AJ972879.2	EMBL	region	173403	173408	.	+	.	ID=id-AJ972879.2:173403..173408;gbkey=RBS
+AJ972879.2	EMBL	gene	173415	174287	.	+	.	ID=gene-g244;Name=g244;gbkey=Gene;gene=g244;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	173415	174287	.	+	0	ID=cds-CCE26267.1;Parent=gene-g244;Dbxref=UniProtKB/TrEMBL:G4KKI2,NCBI_GP:CCE26267.1;Name=CCE26267.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g244;product=CCE26267.1;protein_id=CCE26267.1;transl_table=11
+AJ972879.2	EMBL	promoter	174291	174315	.	+	.	ID=id-AJ972879.2:174291..174315;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	stem_loop	174316	174341	.	+	.	ID=id-AJ972879.2:174316..174341;gbkey=stem_loop
+AJ972879.2	EMBL	region	174356	174360	.	+	.	ID=id-AJ972879.2:174356..174360;gbkey=RBS
+AJ972879.2	EMBL	gene	174370	175872	.	+	.	ID=gene-g245;Name=g245;gbkey=Gene;gene=g245;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	174370	175872	.	+	0	ID=cds-CCE26268.1;Parent=gene-g245;Dbxref=UniProtKB/TrEMBL:G4KKI3,NCBI_GP:CCE26268.1;Name=CCE26268.1;gbkey=CDS;gene=g245;product=CCE26268.1;protein_id=CCE26268.1;transl_table=11
+AJ972879.2	EMBL	region	175873	175876	.	+	.	ID=id-AJ972879.2:175873..175876;gbkey=RBS
+AJ972879.2	EMBL	gene	175883	176455	.	+	.	ID=gene-g246;Name=g246;gbkey=Gene;gene=g246;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	175883	176455	.	+	0	ID=cds-CCE26269.1;Parent=gene-g246;Dbxref=UniProtKB/TrEMBL:G4KKI4,NCBI_GP:CCE26269.1;Name=CCE26269.1;gbkey=CDS;gene=g246;product=CCE26269.1;protein_id=CCE26269.1;transl_table=11
+AJ972879.2	EMBL	region	176446	176448	.	+	.	ID=id-g246;gbkey=RBS;gene=g246
+AJ972879.2	EMBL	gene	176456	177517	.	+	.	ID=gene-g247;Name=g247;gbkey=Gene;gene=g247;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	176456	177517	.	+	0	ID=cds-CCE26270.1;Parent=gene-g247;Dbxref=UniProtKB/TrEMBL:G4KKI5,NCBI_GP:CCE26270.1;Name=CCE26270.1;gbkey=CDS;gene=g247;product=CCE26270.1;protein_id=CCE26270.1;transl_table=11
+AJ972879.2	EMBL	promoter	177524	177548	.	+	.	ID=id-AJ972879.2:177524..177548;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	177561	177564	.	+	.	ID=id-AJ972879.2:177561..177564;gbkey=RBS
+AJ972879.2	EMBL	gene	177572	178129	.	+	.	ID=gene-g248;Name=g248;gbkey=Gene;gene=g248;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	177572	178129	.	+	0	ID=cds-CCE26271.1;Parent=gene-g248;Dbxref=UniProtKB/TrEMBL:G4KKI6,NCBI_GP:CCE26271.1;Name=CCE26271.1;gbkey=CDS;gene=g248;product=CCE26271.1;protein_id=CCE26271.1;transl_table=11
+AJ972879.2	EMBL	region	178117	178121	.	+	.	ID=id-g248;gbkey=RBS;gene=g248
+AJ972879.2	EMBL	gene	178129	178584	.	+	.	ID=gene-g249;Name=g249;gbkey=Gene;gene=g249;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	178129	178584	.	+	0	ID=cds-CCE26272.1;Parent=gene-g249;Dbxref=UniProtKB/TrEMBL:G4KKI7,NCBI_GP:CCE26272.1;Name=CCE26272.1;gbkey=CDS;gene=g249;product=CCE26272.1;protein_id=CCE26272.1;transl_table=11
+AJ972879.2	EMBL	region	178582	178587	.	+	.	ID=id-AJ972879.2:178582..178587;gbkey=RBS
+AJ972879.2	EMBL	gene	178596	179819	.	+	.	ID=gene-g250;Name=g250;gbkey=Gene;gene=g250;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	178596	179819	.	+	0	ID=cds-CCE26273.1;Parent=gene-g250;Dbxref=UniProtKB/TrEMBL:G4KKI8,NCBI_GP:CCE26273.1;Name=CCE26273.1;gbkey=CDS;gene=g250;product=CCE26273.1;protein_id=CCE26273.1;transl_table=11
+AJ972879.2	EMBL	terminator	179829	179856	.	+	.	ID=id-AJ972879.2:179829..179856;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	promoter	179887	179911	.	+	.	ID=id-AJ972879.2:179887..179911;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	179951	179954	.	+	.	ID=id-AJ972879.2:179951..179954;gbkey=RBS
+AJ972879.2	EMBL	gene	179965	180288	.	+	.	ID=gene-g251;Name=g251;gbkey=Gene;gene=g251;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	179965	180288	.	+	0	ID=cds-CCE26274.1;Parent=gene-g251;Dbxref=InterPro:IPR011047,UniProtKB/TrEMBL:G4KKI9,NCBI_GP:CCE26274.1;Name=CCE26274.1;gbkey=CDS;gene=g251;product=CCE26274.1;protein_id=CCE26274.1;transl_table=11
+AJ972879.2	EMBL	terminator	180340	180355	.	+	.	ID=id-AJ972879.2:180340..180355;gbkey=terminator
+AJ972879.2	EMBL	terminator	180392	180413	.	+	.	ID=id-AJ972879.2:180392..180413;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	promoter	180441	180465	.	+	.	ID=id-AJ972879.2:180441..180465;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	180481	180484	.	+	.	ID=id-AJ972879.2:180481..180484;gbkey=RBS
+AJ972879.2	EMBL	gene	180491	180736	.	+	.	ID=gene-g252;Name=g252;gbkey=Gene;gene=g252;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	180491	180736	.	+	0	ID=cds-CCE26275.1;Parent=gene-g252;Dbxref=UniProtKB/TrEMBL:G4KKJ0,NCBI_GP:CCE26275.1;Name=CCE26275.1;gbkey=CDS;gene=g252;product=CCE26275.1;protein_id=CCE26275.1;transl_table=11
+AJ972879.2	EMBL	region	180767	180770	.	+	.	ID=id-AJ972879.2:180767..180770;gbkey=RBS
+AJ972879.2	EMBL	gene	180778	181353	.	+	.	ID=gene-g253;Name=g253;gbkey=Gene;gene=g253;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	180778	181353	.	+	0	ID=cds-CCE26276.1;Parent=gene-g253;Dbxref=UniProtKB/TrEMBL:G4KKJ1,NCBI_GP:CCE26276.1;Name=CCE26276.1;gbkey=CDS;gene=g253;product=CCE26276.1;protein_id=CCE26276.1;transl_table=11
+AJ972879.2	EMBL	terminator	181368	181382	.	+	.	ID=id-AJ972879.2:181368..181382;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	181394	181397	.	+	.	ID=id-AJ972879.2:181394..181397;gbkey=RBS
+AJ972879.2	EMBL	gene	181403	181768	.	+	.	ID=gene-g254;Name=g254;gbkey=Gene;gene=g254;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	181403	181768	.	+	0	ID=cds-CCE26277.1;Parent=gene-g254;Dbxref=UniProtKB/TrEMBL:G4KKJ2,NCBI_GP:CCE26277.1;Name=CCE26277.1;gbkey=CDS;gene=g254;product=CCE26277.1;protein_id=CCE26277.1;transl_table=11
+AJ972879.2	EMBL	region	181695	181697	.	+	.	ID=id-g254;gbkey=RBS;gene=g254
+AJ972879.2	EMBL	gene	181708	181974	.	+	.	ID=gene-g255;Name=g255;gbkey=Gene;gene=g255;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	181708	181974	.	+	0	ID=cds-CCE26278.1;Parent=gene-g255;Dbxref=UniProtKB/TrEMBL:G4KKJ3,NCBI_GP:CCE26278.1;Name=CCE26278.1;gbkey=CDS;gene=g255;product=CCE26278.1;protein_id=CCE26278.1;transl_table=11
+AJ972879.2	EMBL	region	181951	181954	.	+	.	ID=id-g255;gbkey=RBS;gene=g255
+AJ972879.2	EMBL	gene	181962	182282	.	+	.	ID=gene-g256;Name=g256;gbkey=Gene;gene=g256;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	181962	182282	.	+	0	ID=cds-CCE26279.1;Parent=gene-g256;Dbxref=UniProtKB/TrEMBL:G4KKJ4,NCBI_GP:CCE26279.1;Name=CCE26279.1;gbkey=CDS;gene=g256;product=CCE26279.1;protein_id=CCE26279.1;transl_table=11
+AJ972879.2	EMBL	region	182258	182260	.	+	.	ID=id-g256;gbkey=RBS;gene=g256
+AJ972879.2	EMBL	gene	182269	182664	.	+	.	ID=gene-g257;Name=g257;gbkey=Gene;gene=g257;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	182269	182664	.	+	0	ID=cds-CCE26280.1;Parent=gene-g257;Dbxref=UniProtKB/TrEMBL:G4KKJ5,NCBI_GP:CCE26280.1;Name=CCE26280.1;gbkey=CDS;gene=g257;product=CCE26280.1;protein_id=CCE26280.1;transl_table=11
+AJ972879.2	EMBL	region	182623	182625	.	+	.	ID=id-g257;gbkey=RBS;gene=g257
+AJ972879.2	EMBL	gene	182631	183005	.	+	.	ID=gene-g258;Name=g258;gbkey=Gene;gene=g258;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	182631	183005	.	+	0	ID=cds-CCE26281.1;Parent=gene-g258;Dbxref=UniProtKB/TrEMBL:G4KKJ6,NCBI_GP:CCE26281.1;Name=CCE26281.1;gbkey=CDS;gene=g258;product=CCE26281.1;protein_id=CCE26281.1;transl_table=11
+AJ972879.2	EMBL	region	182987	182990	.	+	.	ID=id-g258;gbkey=RBS;gene=g258
+AJ972879.2	EMBL	gene	182999	183478	.	+	.	ID=gene-g259;Name=g259;gbkey=Gene;gene=g259;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	182999	183478	.	+	0	ID=cds-CCE26282.1;Parent=gene-g259;Dbxref=UniProtKB/TrEMBL:G4KKJ7,NCBI_GP:CCE26282.1;Name=CCE26282.1;gbkey=CDS;gene=g259;product=CCE26282.1;protein_id=CCE26282.1;transl_table=11
+AJ972879.2	EMBL	region	183445	183447	.	+	.	ID=id-g259;gbkey=RBS;gene=g259
+AJ972879.2	EMBL	gene	183456	183998	.	+	.	ID=gene-g260;Name=g260;gbkey=Gene;gene=g260;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	183456	183998	.	+	0	ID=cds-CCE26283.1;Parent=gene-g260;Dbxref=UniProtKB/TrEMBL:G4KKJ8,NCBI_GP:CCE26283.1;Name=CCE26283.1;gbkey=CDS;gene=g260;product=CCE26283.1;protein_id=CCE26283.1;transl_table=11
+AJ972879.2	EMBL	terminator	184003	184037	.	+	.	ID=id-AJ972879.2:184003..184037;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	promoter	184054	184078	.	+	.	ID=id-AJ972879.2:184054..184078;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	184091	184094	.	+	.	ID=id-AJ972879.2:184091..184094;gbkey=RBS
+AJ972879.2	EMBL	gene	184105	186081	.	+	.	ID=gene-g261;Name=g261;gbkey=Gene;gene=g261;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	184105	186081	.	+	0	ID=cds-CCE26284.1;Parent=gene-g261;Dbxref=GOA:G4KKJ9,InterPro:IPR007120,InterPro:IPR010243,InterPro:IPR015712,UniProtKB/TrEMBL:G4KKJ9,NCBI_GP:CCE26284.1;Name=CCE26284.1;gbkey=CDS;gene=g261;inference=similar to AA sequence:RefSeq:ZP_01237110.1;product=DNA-directed RNA polymerase beta subunit%2CC-terminus;protein_id=CCE26284.1;transl_table=11
+AJ972879.2	EMBL	terminator	186090	186117	.	+	.	ID=id-AJ972879.2:186090..186117;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	promoter	186134	186158	.	+	.	ID=id-AJ972879.2:186134..186158;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	186172	186178	.	+	.	ID=id-AJ972879.2:186172..186178;gbkey=RBS
+AJ972879.2	EMBL	gene	186185	186433	.	+	.	ID=gene-g262;Name=g262;gbkey=Gene;gene=g262;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	186185	186433	.	+	0	ID=cds-CCE26285.1;Parent=gene-g262;Dbxref=UniProtKB/TrEMBL:G4KKK0,NCBI_GP:CCE26285.1;Name=CCE26285.1;gbkey=CDS;gene=g262;product=CCE26285.1;protein_id=CCE26285.1;transl_table=11
+AJ972879.2	EMBL	terminator	186452	186472	.	+	.	ID=id-AJ972879.2:186452..186472;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	186494	186496	.	+	.	ID=id-AJ972879.2:186494..186496;gbkey=RBS
+AJ972879.2	EMBL	gene	186505	187080	.	+	.	ID=gene-g263;Name=g263;gbkey=Gene;gene=g263;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	186505	187080	.	+	0	ID=cds-CCE26286.1;Parent=gene-g263;Dbxref=UniProtKB/TrEMBL:G4KKK1,NCBI_GP:CCE26286.1;Name=CCE26286.1;gbkey=CDS;gene=g263;product=CCE26286.1;protein_id=CCE26286.1;transl_table=11
+AJ972879.2	EMBL	terminator	187091	187115	.	+	.	ID=id-AJ972879.2:187091..187115;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	promoter	187134	187158	.	+	.	ID=id-AJ972879.2:187134..187158;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	187167	187172	.	+	.	ID=id-AJ972879.2:187167..187172;gbkey=RBS
+AJ972879.2	EMBL	gene	187179	187463	.	+	.	ID=gene-g264;Name=g264;gbkey=Gene;gene=g264;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	187179	187463	.	+	0	ID=cds-CCE26287.1;Parent=gene-g264;Dbxref=UniProtKB/TrEMBL:G4KKK2,NCBI_GP:CCE26287.1;Name=CCE26287.1;gbkey=CDS;gene=g264;product=CCE26287.1;protein_id=CCE26287.1;transl_table=11
+AJ972879.2	EMBL	region	187457	187459	.	+	.	ID=id-g264;gbkey=RBS;gene=g264
+AJ972879.2	EMBL	gene	187465	187965	.	+	.	ID=gene-g265;Name=g265;gbkey=Gene;gene=g265;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	187465	187965	.	+	0	ID=cds-CCE26288.1;Parent=gene-g265;Dbxref=UniProtKB/TrEMBL:G4KKK3,NCBI_GP:CCE26288.1;Name=CCE26288.1;gbkey=CDS;gene=g265;product=CCE26288.1;protein_id=CCE26288.1;transl_table=11
+AJ972879.2	EMBL	region	187998	188002	.	+	.	ID=id-AJ972879.2:187998..188002;gbkey=RBS
+AJ972879.2	EMBL	gene	188010	188369	.	+	.	ID=gene-g266;Name=g266;gbkey=Gene;gene=g266;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	188010	188369	.	+	0	ID=cds-CCE26289.1;Parent=gene-g266;Dbxref=UniProtKB/TrEMBL:G4KKK4,NCBI_GP:CCE26289.1;Name=CCE26289.1;gbkey=CDS;gene=g266;product=CCE26289.1;protein_id=CCE26289.1;transl_table=11
+AJ972879.2	EMBL	region	188362	188366	.	+	.	ID=id-g266;gbkey=RBS;gene=g266
+AJ972879.2	EMBL	gene	188371	190464	.	+	.	ID=gene-g267;Name=g267;gbkey=Gene;gene=g267;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	188371	190464	.	+	0	ID=cds-CCE26290.1;Parent=gene-g267;Dbxref=GOA:G4KKK5,InterPro:IPR001357,InterPro:IPR001679,InterPro:IPR004150,InterPro:IPR010994,InterPro:IPR012340,InterPro:IPR013839,InterPro:IPR013840,InterPro:IPR016027,UniProtKB/TrEMBL:G4KKK5,NCBI_GP:CCE26290.1;Name=CCE26290.1;gbkey=CDS;gene=g267;inference=similar to AA sequence:RefSeq:ZP_01354072.1;product=NAD-dependent DNA-ligase;protein_id=CCE26290.1;transl_table=11
+AJ972879.2	EMBL	region	190444	190447	.	+	.	ID=id-g267;gbkey=RBS;gene=g267
+AJ972879.2	EMBL	gene	190457	190666	.	+	.	ID=gene-g268;Name=g268;gbkey=Gene;gene=g268;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	190457	190666	.	+	0	ID=cds-CCE26291.1;Parent=gene-g268;Dbxref=UniProtKB/TrEMBL:G4KKK6,NCBI_GP:CCE26291.1;Name=CCE26291.1;gbkey=CDS;gene=g268;product=CCE26291.1;protein_id=CCE26291.1;transl_table=11
+AJ972879.2	EMBL	region	190664	190669	.	+	.	ID=id-AJ972879.2:190664..190669;gbkey=RBS
+AJ972879.2	EMBL	gene	190677	191009	.	+	.	ID=gene-g269;Name=g269;gbkey=Gene;gene=g269;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	190677	191009	.	+	0	ID=cds-CCE26292.1;Parent=gene-g269;Dbxref=GOA:G4KKK7,InterPro:IPR000424,InterPro:IPR012340,InterPro:IPR016027,UniProtKB/TrEMBL:G4KKK7,NCBI_GP:CCE26292.1;Name=CCE26292.1;gbkey=CDS;gene=g269;inference=similar to AA sequence:RefSeq:YP_001389348.1;product=single-strand binding protein;protein_id=CCE26292.1;transl_table=11
+AJ972879.2	EMBL	terminator	191025	191053	.	-	.	ID=id-AJ972879.2:191025..191053;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	terminator	191025	191053	.	+	.	ID=id-AJ972879.2:191025..191053-2;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	191067	192023	.	-	.	ID=gene-g270;Name=g270;gbkey=Gene;gene=g270;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	191067	192023	.	-	0	ID=cds-CCE26293.1;Parent=gene-g270;Dbxref=UniProtKB/TrEMBL:G4KKK8,NCBI_GP:CCE26293.1;Name=CCE26293.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g270;product=CCE26293.1;protein_id=CCE26293.1;transl_table=11
+AJ972879.2	EMBL	gene	192026	193801	.	-	.	ID=gene-g271;Name=g271;gbkey=Gene;gene=g271;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	192026	193801	.	-	0	ID=cds-CCE26294.1;Parent=gene-g271;Dbxref=UniProtKB/TrEMBL:G4KKK9,NCBI_GP:CCE26294.1;Name=CCE26294.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g271;product=CCE26294.1;protein_id=CCE26294.1;transl_table=11
+AJ972879.2	EMBL	region	192029	192033	.	-	.	ID=id-g271;Note=AGGAG 192033;gbkey=RBS;gene=g271
+AJ972879.2	EMBL	region	193810	193814	.	-	.	ID=id-AJ972879.2:193810..193814;gbkey=RBS
+AJ972879.2	EMBL	gene	193823	195130	.	-	.	ID=gene-g272;Name=g272;gbkey=Gene;gene=g272;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	193823	195130	.	-	0	ID=cds-CCE26295.1;Parent=gene-g272;Dbxref=UniProtKB/TrEMBL:G4KKL0,NCBI_GP:CCE26295.1;Name=CCE26295.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g272;product=CCE26295.1;protein_id=CCE26295.1;transl_table=11
+AJ972879.2	EMBL	region	195138	195141	.	-	.	ID=id-AJ972879.2:195138..195141;gbkey=RBS
+AJ972879.2	EMBL	terminator	195161	195186	.	-	.	ID=id-AJ972879.2:195161..195186;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	195320	195727	.	-	.	ID=gene-g273;Name=g273;gbkey=Gene;gene=g273;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	195320	195727	.	-	0	ID=cds-CCE26296.1;Parent=gene-g273;Dbxref=UniProtKB/TrEMBL:G4KKL1,NCBI_GP:CCE26296.1;Name=CCE26296.1;gbkey=CDS;gene=g273;product=CCE26296.1;protein_id=CCE26296.1;transl_table=11
+AJ972879.2	EMBL	region	195736	195740	.	-	.	ID=id-AJ972879.2:195736..195740;gbkey=RBS
+AJ972879.2	EMBL	gene	195738	197096	.	-	.	ID=gene-g274;Name=g274;gbkey=Gene;gene=g274;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	195738	197096	.	-	0	ID=cds-CCE26297.1;Parent=gene-g274;Dbxref=GOA:G4KKL2,InterPro:IPR000722,InterPro:IPR006592,UniProtKB/TrEMBL:G4KKL2,NCBI_GP:CCE26297.1;Name=CCE26297.1;gbkey=CDS;gene=g274;inference=similar to AA sequence:RefSeq:ZP_02733088.1;product=RNA-polymerase beta-subunit RpoC%2C N-terminus;protein_id=CCE26297.1;transl_table=11
+AJ972879.2	EMBL	region	197104	197107	.	-	.	ID=id-AJ972879.2:197104..197107;gbkey=RBS
+AJ972879.2	EMBL	promoter	197130	197154	.	-	.	ID=id-AJ972879.2:197130..197154;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	promoter	197143	197167	.	+	.	ID=id-AJ972879.2:197143..197167;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	197287	197290	.	+	.	ID=id-AJ972879.2:197287..197290;gbkey=RBS
+AJ972879.2	EMBL	gene	197299	197976	.	+	.	ID=gene-g275;Name=g275;gbkey=Gene;gene=g275;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	197299	197976	.	+	0	ID=cds-CCE26298.1;Parent=gene-g275;Dbxref=UniProtKB/TrEMBL:G4KKL3,NCBI_GP:CCE26298.1;Name=CCE26298.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g275;product=CCE26298.1;protein_id=CCE26298.1;transl_table=11
+AJ972879.2	EMBL	terminator	197983	198011	.	+	.	ID=id-AJ972879.2:197983..198011;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	promoter	198028	198049	.	+	.	ID=id-AJ972879.2:198028..198049;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	198078	198081	.	+	.	ID=id-AJ972879.2:198078..198081;gbkey=RBS
+AJ972879.2	EMBL	gene	198088	198849	.	+	.	ID=gene-g276;Name=g276;gbkey=Gene;gene=g276;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	198088	198849	.	+	0	ID=cds-CCE26299.1;Parent=gene-g276;Dbxref=UniProtKB/TrEMBL:G4KKL4,NCBI_GP:CCE26299.1;Name=CCE26299.1;gbkey=CDS;gene=g276;product=CCE26299.1;protein_id=CCE26299.1;transl_table=11
+AJ972879.2	EMBL	terminator	198857	198885	.	-	.	ID=id-AJ972879.2:198857..198885;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	terminator	198857	198885	.	+	.	ID=id-AJ972879.2:198857..198885-2;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	198899	199264	.	-	.	ID=gene-g277;Name=g277;gbkey=Gene;gene=g277;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	198899	199264	.	-	0	ID=cds-CCE26300.1;Parent=gene-g277;Dbxref=UniProtKB/TrEMBL:G4KKL5,NCBI_GP:CCE26300.1;Name=CCE26300.1;gbkey=CDS;gene=g277;product=CCE26300.1;protein_id=CCE26300.1;transl_table=11
+AJ972879.2	EMBL	gene	199264	200151	.	-	.	ID=gene-g278;Name=g278;gbkey=Gene;gene=g278;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	199264	200151	.	-	0	ID=cds-CCE26301.1;Parent=gene-g278;Dbxref=UniProtKB/TrEMBL:G4KKL6,NCBI_GP:CCE26301.1;Name=CCE26301.1;gbkey=CDS;gene=g278;product=CCE26301.1;protein_id=CCE26301.1;transl_table=11
+AJ972879.2	EMBL	region	199274	199277	.	-	.	ID=id-g278;gbkey=RBS;gene=g278
+AJ972879.2	EMBL	gene	200153	200671	.	-	.	ID=gene-g279;Name=g279;gbkey=Gene;gene=g279;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	200153	200671	.	-	0	ID=cds-CCE26302.1;Parent=gene-g279;Dbxref=UniProtKB/TrEMBL:G4KKL7,NCBI_GP:CCE26302.1;Name=CCE26302.1;gbkey=CDS;gene=g279;product=CCE26302.1;protein_id=CCE26302.1;transl_table=11
+AJ972879.2	EMBL	region	200158	200161	.	-	.	ID=id-g279;gbkey=RBS;gene=g279
+AJ972879.2	EMBL	region	200677	200680	.	-	.	ID=id-AJ972879.2:200677..200680;gbkey=RBS
+AJ972879.2	EMBL	terminator	200697	200721	.	-	.	ID=id-AJ972879.2:200697..200721;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	200728	201084	.	-	.	ID=gene-g280;Name=g280;gbkey=Gene;gene=g280;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	200728	201084	.	-	0	ID=cds-CCE26303.1;Parent=gene-g280;Dbxref=UniProtKB/TrEMBL:G4KKL8,NCBI_GP:CCE26303.1;Name=CCE26303.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g280;product=CCE26303.1;protein_id=CCE26303.1;transl_table=11
+AJ972879.2	EMBL	region	201092	201096	.	-	.	ID=id-AJ972879.2:201092..201096;gbkey=RBS
+AJ972879.2	EMBL	gene	201094	201483	.	-	.	ID=gene-g281;Name=g281;gbkey=Gene;gene=g281;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	201094	201483	.	-	0	ID=cds-CCE26304.1;Parent=gene-g281;Dbxref=UniProtKB/TrEMBL:G4KKL9,NCBI_GP:CCE26304.1;Name=CCE26304.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g281;product=CCE26304.1;protein_id=CCE26304.1;transl_table=11
+AJ972879.2	EMBL	region	201491	201495	.	-	.	ID=id-AJ972879.2:201491..201495;gbkey=RBS
+AJ972879.2	EMBL	gene	201525	202202	.	-	.	ID=gene-g282;Name=g282;gbkey=Gene;gene=g282;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	201525	202202	.	-	0	ID=cds-CCE26305.1;Parent=gene-g282;Dbxref=UniProtKB/TrEMBL:G4KKM0,NCBI_GP:CCE26305.1;Name=CCE26305.1;gbkey=CDS;gene=g282;product=CCE26305.1;protein_id=CCE26305.1;transl_table=11
+AJ972879.2	EMBL	region	202213	202217	.	-	.	ID=id-AJ972879.2:202213..202217;gbkey=RBS
+AJ972879.2	EMBL	promoter	202222	202246	.	+	.	ID=id-AJ972879.2:202222..202246;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	promoter	202288	202312	.	-	.	ID=id-AJ972879.2:202288..202312;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	promoter	202301	202325	.	+	.	ID=id-AJ972879.2:202301..202325;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	202400	202403	.	+	.	ID=id-AJ972879.2:202400..202403;gbkey=RBS
+AJ972879.2	EMBL	gene	202411	203400	.	+	.	ID=gene-g283;Name=g283;gbkey=Gene;gene=g283;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	202411	203400	.	+	0	ID=cds-CCE26306.1;Parent=gene-g283;Dbxref=UniProtKB/TrEMBL:G4KKM1,NCBI_GP:CCE26306.1;Name=CCE26306.1;gbkey=CDS;gene=g283;product=CCE26306.1;protein_id=CCE26306.1;transl_table=11
+AJ972879.2	EMBL	region	203384	203387	.	+	.	ID=id-g283;gbkey=RBS;gene=g283
+AJ972879.2	EMBL	gene	203397	203693	.	+	.	ID=gene-g284;Name=g284;gbkey=Gene;gene=g284;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	203397	203693	.	+	0	ID=cds-CCE26307.1;Parent=gene-g284;Dbxref=InterPro:IPR005357,UniProtKB/TrEMBL:G4KKM2,NCBI_GP:CCE26307.1;Name=CCE26307.1;gbkey=CDS;gene=g284;product=CCE26307.1;protein_id=CCE26307.1;transl_table=11
+AJ972879.2	EMBL	terminator	203703	203728	.	-	.	ID=id-AJ972879.2:203703..203728;gbkey=terminator
+AJ972879.2	EMBL	terminator	203703	203728	.	+	.	ID=id-AJ972879.2:203703..203728-2;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	203740	204606	.	-	.	ID=gene-g285;Name=g285;gbkey=Gene;gene=g285;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	203740	204606	.	-	0	ID=cds-CCE26308.1;Parent=gene-g285;Dbxref=UniProtKB/TrEMBL:G4KKM3,NCBI_GP:CCE26308.1;Name=CCE26308.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g285;product=CCE26308.1;protein_id=CCE26308.1;transl_table=11
+AJ972879.2	EMBL	region	204614	204620	.	-	.	ID=id-AJ972879.2:204614..204620;gbkey=RBS
+AJ972879.2	EMBL	promoter	204668	204692	.	+	.	ID=id-AJ972879.2:204668..204692;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	204705	204709	.	+	.	ID=id-AJ972879.2:204705..204709;gbkey=RBS
+AJ972879.2	EMBL	gene	204715	206148	.	+	.	ID=gene-g286;Name=g286;gbkey=Gene;gene=g286;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	204715	206148	.	+	0	ID=cds-CCE26309.1;Parent=gene-g286;Dbxref=UniProtKB/TrEMBL:G4KKM4,NCBI_GP:CCE26309.1;Name=CCE26309.1;gbkey=CDS;gene=g286;inference=similar to AA sequence:RefSeq:NP_539536.1;product=exodeoxyribonuclease V alpha chain;protein_id=CCE26309.1;transl_table=11
+AJ972879.2	EMBL	region	206140	206143	.	+	.	ID=id-g286;gbkey=RBS;gene=g286
+AJ972879.2	EMBL	gene	206151	206828	.	+	.	ID=gene-g287;Name=g287;gbkey=Gene;gene=g287;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	206151	206828	.	+	0	ID=cds-CCE26310.1;Parent=gene-g287;Dbxref=GOA:G4KKM5,InterPro:IPR003615,UniProtKB/TrEMBL:G4KKM5,NCBI_GP:CCE26310.1;Name=CCE26310.1;gbkey=CDS;gene=g287;inference=similar to AA sequence:RefSeq:NP_803745.1;product=homing endonuclease family;protein_id=CCE26310.1;transl_table=11
+AJ972879.2	EMBL	region	206843	206845	.	+	.	ID=id-AJ972879.2:206843..206845;gbkey=RBS
+AJ972879.2	EMBL	gene	206854	206967	.	+	.	ID=gene-g288;Name=g288;gbkey=Gene;gene=g288;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	206854	206967	.	+	0	ID=cds-CCE26311.1;Parent=gene-g288;Dbxref=UniProtKB/TrEMBL:G4KKM6,NCBI_GP:CCE26311.1;Name=CCE26311.1;gbkey=CDS;gene=g288;product=CCE26311.1;protein_id=CCE26311.1;transl_table=11
+AJ972879.2	EMBL	terminator	206957	206988	.	-	.	ID=id-AJ972879.2:206957..206988;gbkey=terminator
+AJ972879.2	EMBL	terminator	206958	206987	.	+	.	ID=id-AJ972879.2:206958..206987;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	206998	207753	.	-	.	ID=gene-g289;Name=g289;gbkey=Gene;gene=g289;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	206998	207753	.	-	0	ID=cds-CCE26312.1;Parent=gene-g289;Dbxref=InterPro:IPR023346,UniProtKB/TrEMBL:G4KKM7,NCBI_GP:CCE26312.1;Name=CCE26312.1;gbkey=CDS;gene=g289;inference=similar to AA sequence:RefSeq:YP_001595885.1;product=putative bacteriophage lysis protein;protein_id=CCE26312.1;transl_table=11
+AJ972879.2	EMBL	region	207762	207766	.	-	.	ID=id-AJ972879.2:207762..207766;gbkey=RBS
+AJ972879.2	EMBL	stem_loop	207771	207804	.	-	.	ID=id-AJ972879.2:207771..207804;gbkey=stem_loop
+AJ972879.2	EMBL	gene	207808	208158	.	-	.	ID=gene-g290;Name=g290;gbkey=Gene;gene=g290;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	207808	208158	.	-	0	ID=cds-CCE26313.1;Parent=gene-g290;Dbxref=UniProtKB/TrEMBL:G4KKM8,NCBI_GP:CCE26313.1;Name=CCE26313.1;gbkey=CDS;gene=g290;product=CCE26313.1;protein_id=CCE26313.1;transl_table=11
+AJ972879.2	EMBL	region	208166	208171	.	-	.	ID=id-AJ972879.2:208166..208171;gbkey=RBS
+AJ972879.2	EMBL	terminator	208214	208241	.	-	.	ID=id-AJ972879.2:208214..208241;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	208247	208519	.	-	.	ID=gene-g291;Name=g291;gbkey=Gene;gene=g291;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	208247	208519	.	-	0	ID=cds-CCE26314.1;Parent=gene-g291;Dbxref=UniProtKB/TrEMBL:G4KKM9,NCBI_GP:CCE26314.1;Name=CCE26314.1;gbkey=CDS;gene=g291;product=CCE26314.1;protein_id=CCE26314.1;transl_table=11
+AJ972879.2	EMBL	gene	208516	209097	.	-	.	ID=gene-g292;Name=g292;gbkey=Gene;gene=g292;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	208516	209097	.	-	0	ID=cds-CCE26315.1;Parent=gene-g292;Dbxref=UniProtKB/TrEMBL:G4KKN0,NCBI_GP:CCE26315.1;Name=CCE26315.1;gbkey=CDS;gene=g292;product=CCE26315.1;protein_id=CCE26315.1;transl_table=11
+AJ972879.2	EMBL	region	208529	208533	.	-	.	ID=id-g292;gbkey=RBS;gene=g292
+AJ972879.2	EMBL	region	209103	209106	.	-	.	ID=id-AJ972879.2:209103..209106;gbkey=RBS
+AJ972879.2	EMBL	terminator	209119	209140	.	-	.	ID=id-AJ972879.2:209119..209140;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	209151	209690	.	-	.	ID=gene-g293;Name=g293;gbkey=Gene;gene=g293;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	209151	209690	.	-	0	ID=cds-CCE26316.1;Parent=gene-g293;Dbxref=UniProtKB/TrEMBL:G4KKN1,NCBI_GP:CCE26316.1;Name=CCE26316.1;gbkey=CDS;gene=g293;product=CCE26316.1;protein_id=CCE26316.1;transl_table=11
+AJ972879.2	EMBL	region	209698	209702	.	-	.	ID=id-AJ972879.2:209698..209702;gbkey=RBS
+AJ972879.2	EMBL	gene	209700	213608	.	-	.	ID=gene-g294;Name=g294;gbkey=Gene;gene=g294;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	209700	213608	.	-	0	ID=cds-CCE26317.1;Parent=gene-g294;Dbxref=InterPro:IPR006652,InterPro:IPR015915,UniProtKB/TrEMBL:G4KKN2,NCBI_GP:CCE26317.1;Name=CCE26317.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g294;product=putative tail fibre protein;protein_id=CCE26317.1;transl_table=11
+AJ972879.2	EMBL	region	213618	213621	.	-	.	ID=id-AJ972879.2:213618..213621;gbkey=RBS
+AJ972879.2	EMBL	terminator	213671	213700	.	-	.	ID=id-AJ972879.2:213671..213700;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	213715	217833	.	-	.	ID=gene-g295;Name=g295;gbkey=Gene;gene=g295;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	213715	217833	.	-	0	ID=cds-CCE26318.1;Parent=gene-g295;Dbxref=InterPro:IPR011043,InterPro:IPR015915,UniProtKB/TrEMBL:G4KKN3,NCBI_GP:CCE26318.1;Name=CCE26318.1;gbkey=CDS;gene=g295;product=CCE26318.1;protein_id=CCE26318.1;transl_table=11
+AJ972879.2	EMBL	region	217844	217847	.	-	.	ID=id-AJ972879.2:217844..217847;gbkey=RBS
+AJ972879.2	EMBL	terminator	217885	217912	.	-	.	ID=id-AJ972879.2:217885..217912;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	217921	220707	.	-	.	ID=gene-g296;Name=g296;gbkey=Gene;gene=g296;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	217921	220707	.	-	0	ID=cds-CCE26319.1;Parent=gene-g296;Dbxref=InterPro:IPR011043,InterPro:IPR015915,UniProtKB/TrEMBL:G4KKN4,NCBI_GP:CCE26319.1;Name=CCE26319.1;gbkey=CDS;gene=g296;product=CCE26319.1;protein_id=CCE26319.1;transl_table=11
+AJ972879.2	EMBL	region	220715	220719	.	-	.	ID=id-AJ972879.2:220715..220719;gbkey=RBS
+AJ972879.2	EMBL	terminator	220767	220794	.	-	.	ID=id-AJ972879.2:220767..220794;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	220800	221486	.	-	.	ID=gene-g297;Name=g297;gbkey=Gene;gene=g297;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	220800	221486	.	-	0	ID=cds-CCE26320.1;Parent=gene-g297;Dbxref=InterPro:IPR003458,UniProtKB/TrEMBL:G4KKN5,NCBI_GP:CCE26320.1;Name=CCE26320.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g297;inference=similar to AA sequence:RefSeq:NP_929284.1;product=putative tail fiber assembly protein;protein_id=CCE26320.1;transl_table=11
+AJ972879.2	EMBL	region	221494	221499	.	-	.	ID=id-AJ972879.2:221494..221499;gbkey=RBS
+AJ972879.2	EMBL	gene	221499	223613	.	-	.	ID=gene-g298;Name=g298;gbkey=Gene;gene=g298;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	221499	223613	.	-	0	ID=cds-CCE26321.1;Parent=gene-g298;Dbxref=InterPro:IPR011083,UniProtKB/TrEMBL:G4KKN6,NCBI_GP:CCE26321.1;Name=CCE26321.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g298;inference=similar to AA sequence:RefSeq:YP_001005949.1;product=putative variable tail fibre protein;protein_id=CCE26321.1;transl_table=11
+AJ972879.2	EMBL	region	223623	223626	.	-	.	ID=id-AJ972879.2:223623..223626;gbkey=RBS
+AJ972879.2	EMBL	terminator	223706	223737	.	-	.	ID=id-AJ972879.2:223706..223737;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	223751	224272	.	-	.	ID=gene-g299;Name=g299;gbkey=Gene;gene=g299;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	223751	224272	.	-	0	ID=cds-CCE26322.1;Parent=gene-g299;Dbxref=UniProtKB/TrEMBL:G4KKN7,NCBI_GP:CCE26322.1;Name=CCE26322.1;gbkey=CDS;gene=g299;product=CCE26322.1;protein_id=CCE26322.1;transl_table=11
+AJ972879.2	EMBL	gene	224274	226469	.	-	.	ID=gene-g300;Name=g300;gbkey=Gene;gene=g300;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	224274	226469	.	-	0	ID=cds-CCE26323.1;Parent=gene-g300;Dbxref=UniProtKB/TrEMBL:G4KKN8,NCBI_GP:CCE26323.1;Name=CCE26323.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g300;inference=similar to AA sequence:RefSeq:NP_459903.1;product=putative minor tail protein;protein_id=CCE26323.1;transl_table=11
+AJ972879.2	EMBL	region	224280	224283	.	-	.	ID=id-g300;gbkey=RBS;gene=g300
+AJ972879.2	EMBL	region	226476	226479	.	-	.	ID=id-AJ972879.2:226476..226479;gbkey=RBS
+AJ972879.2	EMBL	terminator	226528	226554	.	-	.	ID=id-AJ972879.2:226528..226554;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	226571	227203	.	-	.	ID=gene-g301;Name=g301;gbkey=Gene;gene=g301;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	226571	227203	.	-	0	ID=cds-CCE26324.1;Parent=gene-g301;Dbxref=UniProtKB/TrEMBL:G4KKN9,NCBI_GP:CCE26324.1;Name=CCE26324.1;gbkey=CDS;gene=g301;product=CCE26324.1;protein_id=CCE26324.1;transl_table=11
+AJ972879.2	EMBL	region	227212	227215	.	-	.	ID=id-AJ972879.2:227212..227215;Note=TGAT 227212;gbkey=RBS
+AJ972879.2	EMBL	gene	227219	227548	.	-	.	ID=gene-g302;Name=g302;gbkey=Gene;gene=g302;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	227219	227548	.	-	0	ID=cds-CCE26325.1;Parent=gene-g302;Dbxref=UniProtKB/TrEMBL:G4KKP0,NCBI_GP:CCE26325.1;Name=CCE26325.1;gbkey=CDS;gene=g302;product=CCE26325.1;protein_id=CCE26325.1;transl_table=11
+AJ972879.2	EMBL	region	227556	227560	.	-	.	ID=id-AJ972879.2:227556..227560;gbkey=RBS
+AJ972879.2	EMBL	promoter	227664	227688	.	+	.	ID=id-AJ972879.2:227664..227688;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	227697	227700	.	+	.	ID=id-AJ972879.2:227697..227700;gbkey=RBS
+AJ972879.2	EMBL	gene	227709	228251	.	+	.	ID=gene-g303;Name=g303;gbkey=Gene;gene=g303;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	227709	228251	.	+	0	ID=cds-CCE26326.1;Parent=gene-g303;Dbxref=UniProtKB/TrEMBL:G4KKP1,NCBI_GP:CCE26326.1;Name=CCE26326.1;gbkey=CDS;gene=g303;product=CCE26326.1;protein_id=CCE26326.1;transl_table=11
+AJ972879.2	EMBL	promoter	228273	228297	.	+	.	ID=id-AJ972879.2:228273..228297;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	228336	228339	.	+	.	ID=id-AJ972879.2:228336..228339;gbkey=RBS
+AJ972879.2	EMBL	gene	228349	229641	.	+	.	ID=gene-g304;Name=g304;gbkey=Gene;gene=g304;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	228349	229641	.	+	0	ID=cds-CCE26327.1;Parent=gene-g304;Dbxref=GOA:G4KKP2,InterPro:IPR003593,InterPro:IPR011704,UniProtKB/TrEMBL:G4KKP2,NCBI_GP:CCE26327.1;Name=CCE26327.1;gbkey=CDS;gene=g304;inference=similar to AA sequence:RefSeq:YP_394291.1;product=ATPase;protein_id=CCE26327.1;transl_table=11
+AJ972879.2	EMBL	terminator	229650	229678	.	+	.	ID=id-AJ972879.2:229650..229678;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	229705	229709	.	+	.	ID=id-AJ972879.2:229705..229709;gbkey=RBS
+AJ972879.2	EMBL	gene	229716	231551	.	+	.	ID=gene-g305;Name=g305;gbkey=Gene;gene=g305;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	229716	231551	.	+	0	ID=cds-CCE26328.1;Parent=gene-g305;Dbxref=InterPro:IPR018698,UniProtKB/TrEMBL:G4KKP3,NCBI_GP:CCE26328.1;Name=CCE26328.1;gbkey=CDS;gene=g305;product=CCE26328.1;protein_id=CCE26328.1;transl_table=11
+AJ972879.2	EMBL	terminator	231559	231574	.	+	.	ID=id-AJ972879.2:231559..231574;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	promoter	231594	231618	.	+	.	ID=id-AJ972879.2:231594..231618;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	231630	231633	.	+	.	ID=id-AJ972879.2:231630..231633;gbkey=RBS
+AJ972879.2	EMBL	gene	231640	231867	.	+	.	ID=gene-g306;Name=g306;gbkey=Gene;gene=g306;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	231640	231867	.	+	0	ID=cds-CCE26329.1;Parent=gene-g306;Dbxref=UniProtKB/TrEMBL:G4KKP4,NCBI_GP:CCE26329.1;Name=CCE26329.1;gbkey=CDS;gene=g306;product=CCE26329.1;protein_id=CCE26329.1;transl_table=11
+AJ972879.2	EMBL	region	231852	231855	.	+	.	ID=id-g306;gbkey=RBS;gene=g306
+AJ972879.2	EMBL	gene	231860	232462	.	+	.	ID=gene-g307;Name=g307;gbkey=Gene;gene=g307;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	231860	232462	.	+	0	ID=cds-CCE26330.1;Parent=gene-g307;Dbxref=UniProtKB/TrEMBL:G4KKP5,NCBI_GP:CCE26330.1;Name=CCE26330.1;gbkey=CDS;gene=g307;product=CCE26330.1;protein_id=CCE26330.1;transl_table=11
+AJ972879.2	EMBL	region	232460	232465	.	+	.	ID=id-AJ972879.2:232460..232465;gbkey=RBS
+AJ972879.2	EMBL	gene	232472	232864	.	+	.	ID=gene-g308;Name=g308;gbkey=Gene;gene=g308;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	232472	232864	.	+	0	ID=cds-CCE26331.1;Parent=gene-g308;Dbxref=GOA:G4KKP6,InterPro:IPR001387,InterPro:IPR010982,UniProtKB/TrEMBL:G4KKP6,NCBI_GP:CCE26331.1;Name=CCE26331.1;gbkey=CDS;gene=g308;inference=similar to AA sequence:RefSeq:ZP_01957481.1;product=putative plasmid maintenance system antidote protein;protein_id=CCE26331.1;transl_table=11
+AJ972879.2	EMBL	region	232862	232867	.	+	.	ID=id-AJ972879.2:232862..232867;gbkey=RBS
+AJ972879.2	EMBL	gene	232874	233188	.	+	.	ID=gene-g309;Name=g309;gbkey=Gene;gene=g309;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	232874	233188	.	+	0	ID=cds-CCE26332.1;Parent=gene-g309;Dbxref=GOA:G4KKP7,InterPro:IPR001387,InterPro:IPR010982,InterPro:IPR013430,UniProtKB/TrEMBL:G4KKP7,NCBI_GP:CCE26332.1;Name=CCE26332.1;gbkey=CDS;gene=g309;inference=similar to AA sequence:RefSeq:YP_420023.1;product=putative plasmid maintenance system antidote protein;protein_id=CCE26332.1;transl_table=11
+AJ972879.2	EMBL	terminator	233194	233222	.	+	.	ID=id-AJ972879.2:233194..233222;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	promoter	233249	233273	.	+	.	ID=id-AJ972879.2:233249..233273;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	233282	233287	.	+	.	ID=id-AJ972879.2:233282..233287;gbkey=RBS
+AJ972879.2	EMBL	gene	233294	233557	.	+	.	ID=gene-g310;Name=g310;gbkey=Gene;gene=g310;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	233294	233557	.	+	0	ID=cds-CCE26333.1;Parent=gene-g310;Dbxref=UniProtKB/TrEMBL:G4KKP8,NCBI_GP:CCE26333.1;Name=CCE26333.1;gbkey=CDS;gene=g310;product=CCE26333.1;protein_id=CCE26333.1;transl_table=11
+AJ972879.2	EMBL	region	233595	233599	.	+	.	ID=id-AJ972879.2:233595..233599;gbkey=RBS
+AJ972879.2	EMBL	gene	233609	234934	.	+	.	ID=gene-g311;Name=g311;gbkey=Gene;gene=g311;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	233609	234934	.	+	0	ID=cds-CCE26334.1;Parent=gene-g311;Dbxref=GOA:G4KKP9,InterPro:IPR001241,InterPro:IPR003594,InterPro:IPR013506,InterPro:IPR014721,InterPro:IPR020568,UniProtKB/TrEMBL:G4KKP9,NCBI_GP:CCE26334.1;Name=CCE26334.1;gbkey=CDS;gene=g311;inference=similar to AA sequence:INSD:AAC44498.1;product=DNA-topoisomerase II B-subunit;protein_id=CCE26334.1;transl_table=11
+AJ972879.2	EMBL	region	235006	235008	.	+	.	ID=id-AJ972879.2:235006..235008;gbkey=RBS
+AJ972879.2	EMBL	gene	235012	235104	.	+	.	ID=gene-g312;Name=g312;gbkey=Gene;gene=g312;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	235012	235104	.	+	0	ID=cds-CCE26335.1;Parent=gene-g312;Dbxref=UniProtKB/TrEMBL:G4KKQ0,NCBI_GP:CCE26335.1;Name=CCE26335.1;gbkey=CDS;gene=g312;product=CCE26335.1;protein_id=CCE26335.1;transl_table=11
+AJ972879.2	EMBL	region	235260	235263	.	+	.	ID=id-AJ972879.2:235260..235263;gbkey=RBS
+AJ972879.2	EMBL	gene	235272	236018	.	+	.	ID=gene-g313;Name=g313;gbkey=Gene;gene=g313;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	235272	236018	.	+	0	ID=cds-CCE26336.1;Parent=gene-g313;Dbxref=UniProtKB/TrEMBL:G4KKQ1,NCBI_GP:CCE26336.1;Name=CCE26336.1;gbkey=CDS;gene=g313;product=CCE26336.1;protein_id=CCE26336.1;transl_table=11
+AJ972879.2	EMBL	region	235995	235999	.	+	.	ID=id-g313;Note=AGAAA 235995;gbkey=RBS;gene=g313
+AJ972879.2	EMBL	region	236016	236018	.	+	.	ID=id-g313-2;gbkey=RBS;gene=g313
+AJ972879.2	EMBL	gene	236024	237097	.	+	.	ID=gene-g314;Name=g314;gbkey=Gene;gene=g314;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	236024	237097	.	+	0	ID=cds-CCE26337.1;Parent=gene-g314;Dbxref=GOA:G4KKQ2,InterPro:IPR001241,InterPro:IPR002288,InterPro:IPR006171,InterPro:IPR013759,InterPro:IPR013760,UniProtKB/TrEMBL:G4KKQ2,NCBI_GP:CCE26337.1;Name=CCE26337.1;gbkey=CDS;gene=g314;inference=similar to AA sequence:RefSeq:NP_860658.1;product=DNA-gyrase B-subunit;protein_id=CCE26337.1;transl_table=11
+AJ972879.2	EMBL	terminator	237107	237126	.	+	.	ID=id-AJ972879.2:237107..237126;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	237137	237140	.	+	.	ID=id-AJ972879.2:237137..237140;gbkey=RBS
+AJ972879.2	EMBL	gene	237145	237258	.	+	.	ID=gene-g315;Name=g315;gbkey=Gene;gene=g315;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	237145	237258	.	+	0	ID=cds-CCE26338.1;Parent=gene-g315;Dbxref=UniProtKB/TrEMBL:G4KKQ3,NCBI_GP:CCE26338.1;Name=CCE26338.1;gbkey=CDS;gene=g315;product=CCE26338.1;protein_id=CCE26338.1;transl_table=11
+AJ972879.2	EMBL	promoter	237265	237289	.	+	.	ID=id-AJ972879.2:237265..237289;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	237304	237308	.	+	.	ID=id-AJ972879.2:237304..237308;gbkey=RBS
+AJ972879.2	EMBL	gene	237320	237484	.	+	.	ID=gene-g316;Name=g316;gbkey=Gene;gene=g316;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	237320	237484	.	+	0	ID=cds-CCE26339.1;Parent=gene-g316;Dbxref=UniProtKB/TrEMBL:G4KKQ4,NCBI_GP:CCE26339.1;Name=CCE26339.1;gbkey=CDS;gene=g316;product=CCE26339.1;protein_id=CCE26339.1;transl_table=11
+AJ972879.2	EMBL	terminator	237492	237520	.	+	.	ID=id-AJ972879.2:237492..237520;gbkey=terminator
+AJ972879.2	EMBL	region	237537	237540	.	+	.	ID=id-AJ972879.2:237537..237540;gbkey=RBS
+AJ972879.2	EMBL	gene	237548	237760	.	+	.	ID=gene-g317;Name=g317;gbkey=Gene;gene=g317;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	237548	237760	.	+	0	ID=cds-CCE26340.1;Parent=gene-g317;Dbxref=UniProtKB/TrEMBL:G4KKQ5,NCBI_GP:CCE26340.1;Name=CCE26340.1;gbkey=CDS;gene=g317;product=CCE26340.1;protein_id=CCE26340.1;transl_table=11
+AJ972879.2	EMBL	region	237735	237739	.	+	.	ID=id-g317;gbkey=RBS;gene=g317
+AJ972879.2	EMBL	gene	237747	238013	.	+	.	ID=gene-g318;Name=g318;gbkey=Gene;gene=g318;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	237747	238013	.	+	0	ID=cds-CCE26341.1;Parent=gene-g318;Dbxref=UniProtKB/TrEMBL:G4KKQ6,NCBI_GP:CCE26341.1;Name=CCE26341.1;gbkey=CDS;gene=g318;product=CCE26341.1;protein_id=CCE26341.1;transl_table=11
+AJ972879.2	EMBL	region	237989	237992	.	+	.	ID=id-g318;Note=AGGA 237989;gbkey=RBS;gene=g318
+AJ972879.2	EMBL	gene	238006	238353	.	+	.	ID=gene-g319;Name=g319;gbkey=Gene;gene=g319;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	238006	238353	.	+	0	ID=cds-CCE26342.1;Parent=gene-g319;Dbxref=UniProtKB/TrEMBL:G4KKQ7,NCBI_GP:CCE26342.1;Name=CCE26342.1;gbkey=CDS;gene=g319;product=CCE26342.1;protein_id=CCE26342.1;transl_table=11
+AJ972879.2	EMBL	region	238302	238306	.	+	.	ID=id-g319;gbkey=RBS;gene=g319
+AJ972879.2	EMBL	gene	238313	238663	.	+	.	ID=gene-g320;Name=g320;gbkey=Gene;gene=g320;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	238313	238663	.	+	0	ID=cds-CCE26343.1;Parent=gene-g320;Dbxref=UniProtKB/TrEMBL:G4KKQ8,NCBI_GP:CCE26343.1;Name=CCE26343.1;gbkey=CDS;gene=g320;product=CCE26343.1;protein_id=CCE26343.1;transl_table=11
+AJ972879.2	EMBL	region	238644	238649	.	+	.	ID=id-g320;gbkey=RBS;gene=g320
+AJ972879.2	EMBL	gene	238657	239016	.	+	.	ID=gene-g321;Name=g321;gbkey=Gene;gene=g321;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	238657	239016	.	+	0	ID=cds-CCE26344.1;Parent=gene-g321;Dbxref=UniProtKB/TrEMBL:G4KKQ9,NCBI_GP:CCE26344.1;Name=CCE26344.1;gbkey=CDS;gene=g321;product=CCE26344.1;protein_id=CCE26344.1;transl_table=11
+AJ972879.2	EMBL	region	239005	239007	.	+	.	ID=id-g321;gbkey=RBS;gene=g321
+AJ972879.2	EMBL	gene	239016	239336	.	+	.	ID=gene-g322;Name=g322;gbkey=Gene;gene=g322;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	239016	239336	.	+	0	ID=cds-CCE26345.1;Parent=gene-g322;Dbxref=UniProtKB/TrEMBL:G4KKR0,NCBI_GP:CCE26345.1;Name=CCE26345.1;gbkey=CDS;gene=g322;product=CCE26345.1;protein_id=CCE26345.1;transl_table=11
+AJ972879.2	EMBL	region	239323	239328	.	+	.	ID=id-g322;gbkey=RBS;gene=g322
+AJ972879.2	EMBL	gene	239336	239656	.	+	.	ID=gene-g323;Name=g323;gbkey=Gene;gene=g323;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	239336	239656	.	+	0	ID=cds-CCE26346.1;Parent=gene-g323;Dbxref=UniProtKB/TrEMBL:G4KKR1,NCBI_GP:CCE26346.1;Name=CCE26346.1;gbkey=CDS;gene=g323;product=CCE26346.1;protein_id=CCE26346.1;transl_table=11
+AJ972879.2	EMBL	region	239638	239640	.	+	.	ID=id-g323;gbkey=RBS;gene=g323
+AJ972879.2	EMBL	gene	239653	239919	.	+	.	ID=gene-g324;Name=g324;gbkey=Gene;gene=g324;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	239653	239919	.	+	0	ID=cds-CCE26347.1;Parent=gene-g324;Dbxref=UniProtKB/TrEMBL:G4KKR2,NCBI_GP:CCE26347.1;Name=CCE26347.1;gbkey=CDS;gene=g324;product=CCE26347.1;protein_id=CCE26347.1;transl_table=11
+AJ972879.2	EMBL	promoter	239923	239947	.	+	.	ID=id-AJ972879.2:239923..239947;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	239957	239960	.	+	.	ID=id-AJ972879.2:239957..239960;gbkey=RBS
+AJ972879.2	EMBL	gene	239968	241818	.	+	.	ID=gene-g325;Name=g325;gbkey=Gene;gene=g325;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	239968	241818	.	+	0	ID=cds-CCE26348.1;Parent=gene-g325;Dbxref=UniProtKB/TrEMBL:G4KKR3,NCBI_GP:CCE26348.1;Name=CCE26348.1;gbkey=CDS;gene=g325;product=CCE26348.1;protein_id=CCE26348.1;transl_table=11
+AJ972879.2	EMBL	promoter	241813	241837	.	+	.	ID=id-AJ972879.2:241813..241837;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	stem_loop	241836	241871	.	+	.	ID=id-AJ972879.2:241836..241871;gbkey=stem_loop
+AJ972879.2	EMBL	region	241905	241908	.	+	.	ID=id-AJ972879.2:241905..241908;gbkey=RBS
+AJ972879.2	EMBL	gene	241918	243255	.	+	.	ID=gene-g326;Name=g326;gbkey=Gene;gene=g326;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	241918	243255	.	+	0	ID=cds-CCE26349.1;Parent=gene-g326;Dbxref=UniProtKB/TrEMBL:G4KKR4,NCBI_GP:CCE26349.1;Name=CCE26349.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g326;product=CCE26349.1;protein_id=CCE26349.1;transl_table=11
+AJ972879.2	EMBL	terminator	243269	243286	.	+	.	ID=id-AJ972879.2:243269..243286;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	promoter	243310	243334	.	+	.	ID=id-AJ972879.2:243310..243334;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	243393	243396	.	+	.	ID=id-AJ972879.2:243393..243396;gbkey=RBS
+AJ972879.2	EMBL	gene	243406	243618	.	+	.	ID=gene-g327;Name=g327;gbkey=Gene;gene=g327;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	243406	243618	.	+	0	ID=cds-CCE26350.1;Parent=gene-g327;Dbxref=GOA:G4KKR5,InterPro:IPR002205,InterPro:IPR013758,InterPro:IPR013760,UniProtKB/TrEMBL:G4KKR5,NCBI_GP:CCE26350.1;Name=CCE26350.1;gbkey=CDS;gene=g327;inference=similar to AA sequence:RefSeq:YP_193998.1;product=DNA-gyrase IV A-subunit;protein_id=CCE26350.1;transl_table=11
+AJ972879.2	EMBL	region	243690	243695	.	+	.	ID=id-AJ972879.2:243690..243695;gbkey=RBS
+AJ972879.2	EMBL	gene	243702	244637	.	+	.	ID=gene-g328;Name=g328;gbkey=Gene;gene=g328;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	243702	244637	.	+	0	ID=cds-CCE26351.1;Parent=gene-g328;Dbxref=GOA:G4KKR6,InterPro:IPR004042,UniProtKB/TrEMBL:G4KKR6,NCBI_GP:CCE26351.1;Name=CCE26351.1;gbkey=CDS;gene=g328;product=CCE26351.1;protein_id=CCE26351.1;transl_table=11
+AJ972879.2	EMBL	region	244921	244926	.	+	.	ID=id-AJ972879.2:244921..244926;gbkey=RBS
+AJ972879.2	EMBL	gene	244945	247194	.	+	.	ID=gene-g329;Name=g329;gbkey=Gene;gene=g329;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	244945	247194	.	+	0	ID=cds-CCE26352.1;Parent=gene-g329;Dbxref=GOA:G4KKR7,InterPro:IPR002205,InterPro:IPR006691,InterPro:IPR013758,InterPro:IPR013760,InterPro:IPR024946,UniProtKB/TrEMBL:G4KKR7,NCBI_GP:CCE26352.1;Name=CCE26352.1;gbkey=CDS;gene=g329;inference=similar to AA sequence:RefSeq:YP_173511.1;product=DNA-gyrase A-subunit;protein_id=CCE26352.1;transl_table=11
+AJ972879.2	EMBL	terminator	247206	247233	.	+	.	ID=id-AJ972879.2:247206..247233;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	promoter	247276	247300	.	+	.	ID=id-AJ972879.2:247276..247300;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	247375	247380	.	+	.	ID=id-AJ972879.2:247375..247380;gbkey=RBS
+AJ972879.2	EMBL	gene	247388	247672	.	+	.	ID=gene-g330;Name=g330;gbkey=Gene;gene=g330;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	247388	247672	.	+	0	ID=cds-CCE26353.1;Parent=gene-g330;Dbxref=UniProtKB/TrEMBL:G4KKR8,NCBI_GP:CCE26353.1;Name=CCE26353.1;gbkey=CDS;gene=g330;product=CCE26353.1;protein_id=CCE26353.1;transl_table=11
+AJ972879.2	EMBL	terminator	247691	247710	.	+	.	ID=id-AJ972879.2:247691..247710;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	region	247783	247786	.	+	.	ID=id-AJ972879.2:247783..247786;gbkey=RBS
+AJ972879.2	EMBL	gene	247799	248515	.	+	.	ID=gene-g331;Name=g331;gbkey=Gene;gene=g331;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	247799	248515	.	+	0	ID=cds-CCE26354.1;Parent=gene-g331;Dbxref=InterPro:IPR008258,InterPro:IPR023346,UniProtKB/TrEMBL:G4KKR9,NCBI_GP:CCE26354.1;Name=CCE26354.1;gbkey=CDS;gene=g331;product=CCE26354.1;protein_id=CCE26354.1;transl_table=11
+AJ972879.2	EMBL	region	248521	248526	.	+	.	ID=id-AJ972879.2:248521..248526;gbkey=RBS
+AJ972879.2	EMBL	gene	248533	249459	.	+	.	ID=gene-g332;Name=g332;gbkey=Gene;gene=g332;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	248533	249459	.	+	0	ID=cds-CCE26355.1;Parent=gene-g332;Dbxref=UniProtKB/TrEMBL:G4KKS0,NCBI_GP:CCE26355.1;Name=CCE26355.1;gbkey=CDS;gene=g332;product=CCE26355.1;protein_id=CCE26355.1;transl_table=11
+AJ972879.2	EMBL	terminator	249466	249493	.	+	.	ID=id-AJ972879.2:249466..249493;Note=Rho independent terminator;gbkey=terminator
+AJ972879.2	EMBL	gene	249514	250233	.	-	.	ID=gene-g333;Name=g333;gbkey=Gene;gene=g333;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	249514	250233	.	-	0	ID=cds-CCE26356.1;Parent=gene-g333;Dbxref=UniProtKB/TrEMBL:G4KKS1,NCBI_GP:CCE26356.1;Name=CCE26356.1;experiment=LC/ESI-MS/MS;gbkey=CDS;gene=g333;product=CCE26356.1;protein_id=CCE26356.1;transl_table=11
+AJ972879.2	EMBL	region	250241	250244	.	-	.	ID=id-AJ972879.2:250241..250244;gbkey=RBS
+AJ972879.2	EMBL	promoter	250250	250274	.	-	.	ID=id-AJ972879.2:250250..250274;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	promoter	250263	250287	.	+	.	ID=id-AJ972879.2:250263..250287;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	250373	250377	.	+	.	ID=id-AJ972879.2:250373..250377;gbkey=RBS
+AJ972879.2	EMBL	gene	250387	251628	.	+	.	ID=gene-g334;Name=g334;gbkey=Gene;gene=g334;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	250387	251628	.	+	0	ID=cds-CCE26357.1;Parent=gene-g334;Dbxref=UniProtKB/TrEMBL:G4KKS2,NCBI_GP:CCE26357.1;Name=CCE26357.1;gbkey=CDS;gene=g334;product=CCE26357.1;protein_id=CCE26357.1;transl_table=11
+AJ972879.2	EMBL	region	251626	251628	.	+	.	ID=id-g334;gbkey=RBS;gene=g334
+AJ972879.2	EMBL	gene	251635	252390	.	+	.	ID=gene-g335;Name=g335;gbkey=Gene;gene=g335;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	251635	252390	.	+	0	ID=cds-CCE26358.1;Parent=gene-g335;Dbxref=UniProtKB/TrEMBL:G4KKS3,NCBI_GP:CCE26358.1;Name=CCE26358.1;gbkey=CDS;gene=g335;product=CCE26358.1;protein_id=CCE26358.1;transl_table=11
+AJ972879.2	EMBL	region	252522	252527	.	+	.	ID=id-AJ972879.2:252522..252527;gbkey=RBS
+AJ972879.2	EMBL	gene	252534	253382	.	+	.	ID=gene-g336;Name=g336;gbkey=Gene;gene=g336;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	252534	253382	.	+	0	ID=cds-CCE26359.1;Parent=gene-g336;Dbxref=UniProtKB/TrEMBL:G4KKS4,NCBI_GP:CCE26359.1;Name=CCE26359.1;gbkey=CDS;gene=g336;product=CCE26359.1;protein_id=CCE26359.1;transl_table=11
+AJ972879.2	EMBL	region	253438	253441	.	+	.	ID=id-AJ972879.2:253438..253441;gbkey=RBS
+AJ972879.2	EMBL	gene	253448	254521	.	+	.	ID=gene-g337;Name=g337;gbkey=Gene;gene=g337;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	253448	254521	.	+	0	ID=cds-CCE26360.1;Parent=gene-g337;Dbxref=GOA:G4KKS5,InterPro:IPR007694,UniProtKB/TrEMBL:G4KKS5,NCBI_GP:CCE26360.1;Name=CCE26360.1;gbkey=CDS;gene=g337;product=CCE26360.1;protein_id=CCE26360.1;transl_table=11
+AJ972879.2	EMBL	terminator	254530	254559	.	+	.	ID=id-AJ972879.2:254530..254559;gbkey=terminator
+AJ972879.2	EMBL	region	254574	254578	.	+	.	ID=id-AJ972879.2:254574..254578;gbkey=RBS
+AJ972879.2	EMBL	gene	254582	254827	.	+	.	ID=gene-g338;Name=g338;gbkey=Gene;gene=g338;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	254582	254827	.	+	0	ID=cds-CCE26361.1;Parent=gene-g338;Dbxref=UniProtKB/TrEMBL:G4KKS6,NCBI_GP:CCE26361.1;Name=CCE26361.1;gbkey=CDS;gene=g338;product=CCE26361.1;protein_id=CCE26361.1;transl_table=11
+AJ972879.2	EMBL	promoter	254824	254848	.	+	.	ID=id-AJ972879.2:254824..254848;gbkey=promoter;inference=ab initio prediction:PHIRE
+AJ972879.2	EMBL	region	254844	254847	.	+	.	ID=id-AJ972879.2:254844..254847;gbkey=RBS
+AJ972879.2	EMBL	gene	254856	255110	.	+	.	ID=gene-g339;Name=g339;gbkey=Gene;gene=g339;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	254856	255110	.	+	0	ID=cds-CCE26362.1;Parent=gene-g339;Dbxref=UniProtKB/TrEMBL:G4KKS7,NCBI_GP:CCE26362.1;Name=CCE26362.1;gbkey=CDS;gene=g339;product=CCE26362.1;protein_id=CCE26362.1;transl_table=11
+AJ972879.2	EMBL	region	255094	255096	.	+	.	ID=id-g339;gbkey=RBS;gene=g339
+AJ972879.2	EMBL	gene	255100	255384	.	+	.	ID=gene-g340;Name=g340;gbkey=Gene;gene=g340;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	255100	255384	.	+	0	ID=cds-CCE26363.1;Parent=gene-g340;Dbxref=UniProtKB/TrEMBL:G4KKS8,NCBI_GP:CCE26363.1;Name=CCE26363.1;gbkey=CDS;gene=g340;product=CCE26363.1;protein_id=CCE26363.1;transl_table=11
+AJ972879.2	EMBL	region	255366	255370	.	+	.	ID=id-g340;gbkey=RBS;gene=g340
+AJ972879.2	EMBL	gene	255381	255644	.	+	.	ID=gene-g341;Name=g341;gbkey=Gene;gene=g341;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	255381	255644	.	+	0	ID=cds-CCE26364.1;Parent=gene-g341;Dbxref=UniProtKB/TrEMBL:G4KKS9,NCBI_GP:CCE26364.1;Name=CCE26364.1;gbkey=CDS;gene=g341;product=CCE26364.1;protein_id=CCE26364.1;transl_table=11
+AJ972879.2	EMBL	region	255596	255599	.	+	.	ID=id-g341;gbkey=RBS;gene=g341
+AJ972879.2	EMBL	gene	255607	255888	.	+	.	ID=gene-g342;Name=g342;gbkey=Gene;gene=g342;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	255607	255888	.	+	0	ID=cds-CCE26365.1;Parent=gene-g342;Dbxref=UniProtKB/TrEMBL:G4KKT0,NCBI_GP:CCE26365.1;Name=CCE26365.1;gbkey=CDS;gene=g342;product=CCE26365.1;protein_id=CCE26365.1;transl_table=11
+AJ972879.2	EMBL	region	255875	255877	.	+	.	ID=id-g342;gbkey=RBS;gene=g342
+AJ972879.2	EMBL	gene	255885	256208	.	+	.	ID=gene-g343;Name=g343;gbkey=Gene;gene=g343;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	255885	256208	.	+	0	ID=cds-CCE26366.1;Parent=gene-g343;Dbxref=UniProtKB/TrEMBL:G4KKT1,NCBI_GP:CCE26366.1;Name=CCE26366.1;gbkey=CDS;gene=g343;product=CCE26366.1;protein_id=CCE26366.1;transl_table=11
+AJ972879.2	EMBL	region	256199	256201	.	+	.	ID=id-g343;gbkey=RBS;gene=g343
+AJ972879.2	EMBL	gene	256208	256480	.	+	.	ID=gene-g344;Name=g344;gbkey=Gene;gene=g344;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	256208	256480	.	+	0	ID=cds-CCE26367.1;Parent=gene-g344;Dbxref=UniProtKB/TrEMBL:G4KKT2,NCBI_GP:CCE26367.1;Name=CCE26367.1;gbkey=CDS;gene=g344;product=CCE26367.1;protein_id=CCE26367.1;transl_table=11
+AJ972879.2	EMBL	region	256462	256465	.	+	.	ID=id-g344;gbkey=RBS;gene=g344
+AJ972879.2	EMBL	gene	256477	256758	.	+	.	ID=gene-g345;Name=g345;gbkey=Gene;gene=g345;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	256477	256758	.	+	0	ID=cds-CCE26368.1;Parent=gene-g345;Dbxref=UniProtKB/TrEMBL:G4KKT3,NCBI_GP:CCE26368.1;Name=CCE26368.1;gbkey=CDS;gene=g345;product=CCE26368.1;protein_id=CCE26368.1;transl_table=11
+AJ972879.2	EMBL	region	256749	256752	.	+	.	ID=id-g345;gbkey=RBS;gene=g345
+AJ972879.2	EMBL	gene	256761	257027	.	+	.	ID=gene-g346;Name=g346;gbkey=Gene;gene=g346;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	256761	257027	.	+	0	ID=cds-CCE26369.1;Parent=gene-g346;Dbxref=UniProtKB/TrEMBL:G4KKT4,NCBI_GP:CCE26369.1;Name=CCE26369.1;gbkey=CDS;gene=g346;product=CCE26369.1;protein_id=CCE26369.1;transl_table=11
+AJ972879.2	EMBL	region	257009	257013	.	+	.	ID=id-g346;Note=AGGAG 257009;gbkey=RBS;gene=g346
+AJ972879.2	EMBL	gene	257030	257341	.	+	.	ID=gene-g347;Name=g347;gbkey=Gene;gene=g347;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	257030	257341	.	+	0	ID=cds-CCE26370.1;Parent=gene-g347;Dbxref=UniProtKB/TrEMBL:G4KKT5,NCBI_GP:CCE26370.1;Name=CCE26370.1;gbkey=CDS;gene=g347;product=CCE26370.1;protein_id=CCE26370.1;transl_table=11
+AJ972879.2	EMBL	region	257259	257263	.	+	.	ID=id-g347;gbkey=RBS;gene=g347
+AJ972879.2	EMBL	gene	257274	257465	.	+	.	ID=gene-g348;Name=g348;gbkey=Gene;gene=g348;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	257274	257465	.	+	0	ID=cds-CCE26371.1;Parent=gene-g348;Dbxref=UniProtKB/TrEMBL:G4KKT6,NCBI_GP:CCE26371.1;Name=CCE26371.1;gbkey=CDS;gene=g348;product=CCE26371.1;protein_id=CCE26371.1;transl_table=11
+AJ972879.2	EMBL	region	257455	257458	.	+	.	ID=id-g348;gbkey=RBS;gene=g348
+AJ972879.2	EMBL	gene	257468	257740	.	+	.	ID=gene-g349;Name=g349;gbkey=Gene;gene=g349;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	257468	257740	.	+	0	ID=cds-CCE26372.1;Parent=gene-g349;Dbxref=UniProtKB/TrEMBL:G4KKT7,NCBI_GP:CCE26372.1;Name=CCE26372.1;gbkey=CDS;gene=g349;product=CCE26372.1;protein_id=CCE26372.1;transl_table=11
+AJ972879.2	EMBL	region	257732	257736	.	+	.	ID=id-g349;gbkey=RBS;gene=g349
+AJ972879.2	EMBL	gene	257744	258127	.	+	.	ID=gene-g350;Name=g350;gbkey=Gene;gene=g350;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	257744	258127	.	+	0	ID=cds-CCE26373.1;Parent=gene-g350;Dbxref=UniProtKB/TrEMBL:G4KKT8,NCBI_GP:CCE26373.1;Name=CCE26373.1;gbkey=CDS;gene=g350;product=CCE26373.1;protein_id=CCE26373.1;transl_table=11
+AJ972879.2	EMBL	region	258114	258117	.	+	.	ID=id-g350;gbkey=RBS;gene=g350
+AJ972879.2	EMBL	gene	258129	258548	.	+	.	ID=gene-g351;Name=g351;gbkey=Gene;gene=g351;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	258129	258548	.	+	0	ID=cds-CCE26374.1;Parent=gene-g351;Dbxref=UniProtKB/TrEMBL:G4KKT9,NCBI_GP:CCE26374.1;Name=CCE26374.1;gbkey=CDS;gene=g351;product=CCE26374.1;protein_id=CCE26374.1;transl_table=11
+AJ972879.2	EMBL	region	258591	258594	.	+	.	ID=id-AJ972879.2:258591..258594;gbkey=RBS
+AJ972879.2	EMBL	gene	258606	258899	.	+	.	ID=gene-g352;Name=g352;gbkey=Gene;gene=g352;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	258606	258899	.	+	0	ID=cds-CCE26375.1;Parent=gene-g352;Dbxref=UniProtKB/TrEMBL:G4KKU0,NCBI_GP:CCE26375.1;Name=CCE26375.1;gbkey=CDS;gene=g352;product=CCE26375.1;protein_id=CCE26375.1;transl_table=11
+AJ972879.2	EMBL	sequence_feature	258670	258670	.	+	.	ID=id-g352;Note=physical left end of the linear genome;experiment=identified by restriction mapping and sequencing;gbkey=misc_feature;gene=g352
+AJ972879.2	EMBL	region	258890	258892	.	+	.	ID=id-g352-2;gbkey=RBS;gene=g352
+AJ972879.2	EMBL	gene	258901	259173	.	+	.	ID=gene-g353;Name=g353;gbkey=Gene;gene=g353;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	258901	259173	.	+	0	ID=cds-CCE26376.1;Parent=gene-g353;Dbxref=UniProtKB/TrEMBL:G4KKU1,NCBI_GP:CCE26376.1;Name=CCE26376.1;gbkey=CDS;gene=g353;product=CCE26376.1;protein_id=CCE26376.1;transl_table=11
+AJ972879.2	EMBL	region	259167	259171	.	+	.	ID=id-g353;gbkey=RBS;gene=g353
+AJ972879.2	EMBL	gene	259176	259433	.	+	.	ID=gene-g354;Name=g354;gbkey=Gene;gene=g354;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	259176	259433	.	+	0	ID=cds-CCE26377.1;Parent=gene-g354;Dbxref=UniProtKB/TrEMBL:G4KKU2,NCBI_GP:CCE26377.1;Name=CCE26377.1;gbkey=CDS;gene=g354;product=CCE26377.1;protein_id=CCE26377.1;transl_table=11
+AJ972879.2	EMBL	region	259418	259420	.	+	.	ID=id-g354;gbkey=RBS;gene=g354
+AJ972879.2	EMBL	gene	259430	259678	.	+	.	ID=gene-g355;Name=g355;gbkey=Gene;gene=g355;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	259430	259678	.	+	0	ID=cds-CCE26378.1;Parent=gene-g355;Dbxref=UniProtKB/TrEMBL:G4KKU3,NCBI_GP:CCE26378.1;Name=CCE26378.1;gbkey=CDS;gene=g355;product=CCE26378.1;protein_id=CCE26378.1;transl_table=11
+AJ972879.2	EMBL	region	259660	259663	.	+	.	ID=id-g355;Note=GGAG 259660;gbkey=RBS;gene=g355
+AJ972879.2	EMBL	gene	259678	259908	.	+	.	ID=gene-g356;Name=g356;gbkey=Gene;gene=g356;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	259678	259908	.	+	0	ID=cds-CCE26379.1;Parent=gene-g356;Dbxref=UniProtKB/TrEMBL:G4KKU4,NCBI_GP:CCE26379.1;Name=CCE26379.1;gbkey=CDS;gene=g356;product=CCE26379.1;protein_id=CCE26379.1;transl_table=11
+AJ972879.2	EMBL	region	259886	259888	.	+	.	ID=id-g356;Note=GGT 259886;gbkey=RBS;gene=g356
+AJ972879.2	EMBL	gene	259895	260107	.	+	.	ID=gene-g357;Name=g357;gbkey=Gene;gene=g357;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	259895	260107	.	+	0	ID=cds-CCE26380.1;Parent=gene-g357;Dbxref=UniProtKB/TrEMBL:G4KKU5,NCBI_GP:CCE26380.1;Name=CCE26380.1;gbkey=CDS;gene=g357;product=CCE26380.1;protein_id=CCE26380.1;transl_table=11
+AJ972879.2	EMBL	region	260080	260082	.	+	.	ID=id-g357;gbkey=RBS;gene=g357
+AJ972879.2	EMBL	gene	260094	260330	.	+	.	ID=gene-g358;Name=g358;gbkey=Gene;gene=g358;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	260094	260330	.	+	0	ID=cds-CCE26381.1;Parent=gene-g358;Dbxref=UniProtKB/TrEMBL:G4KKU6,NCBI_GP:CCE26381.1;Name=CCE26381.1;gbkey=CDS;gene=g358;product=CCE26381.1;protein_id=CCE26381.1;transl_table=11
+AJ972879.2	EMBL	region	260322	260325	.	+	.	ID=id-g358;gbkey=RBS;gene=g358
+AJ972879.2	EMBL	gene	260330	260533	.	+	.	ID=gene-g359;Name=g359;gbkey=Gene;gene=g359;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	260330	260533	.	+	0	ID=cds-CCE26382.1;Parent=gene-g359;Dbxref=UniProtKB/TrEMBL:G4KKU7,NCBI_GP:CCE26382.1;Name=CCE26382.1;gbkey=CDS;gene=g359;product=CCE26382.1;protein_id=CCE26382.1;transl_table=11
+AJ972879.2	EMBL	region	260534	260538	.	+	.	ID=id-AJ972879.2:260534..260538;gbkey=RBS
+AJ972879.2	EMBL	gene	260547	260795	.	+	.	ID=gene-g360;Name=g360;gbkey=Gene;gene=g360;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	260547	260795	.	+	0	ID=cds-CCE26383.1;Parent=gene-g360;Dbxref=UniProtKB/TrEMBL:G4KKU8,NCBI_GP:CCE26383.1;Name=CCE26383.1;gbkey=CDS;gene=g360;product=CCE26383.1;protein_id=CCE26383.1;transl_table=11
+AJ972879.2	EMBL	region	260783	260785	.	+	.	ID=id-g360;gbkey=RBS;gene=g360
+AJ972879.2	EMBL	gene	260792	261067	.	+	.	ID=gene-g361;Name=g361;gbkey=Gene;gene=g361;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	260792	261067	.	+	0	ID=cds-CCE26384.1;Parent=gene-g361;Dbxref=UniProtKB/TrEMBL:G4KKU9,NCBI_GP:CCE26384.1;Name=CCE26384.1;gbkey=CDS;gene=g361;product=CCE26384.1;protein_id=CCE26384.1;transl_table=11
+AJ972879.2	EMBL	region	261034	261038	.	+	.	ID=id-g361;Note=AGGAG 261034;gbkey=RBS;gene=g361
+AJ972879.2	EMBL	gene	261054	261311	.	+	.	ID=gene-g362;Name=g362;gbkey=Gene;gene=g362;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	261054	261311	.	+	0	ID=cds-CCE26385.1;Parent=gene-g362;Dbxref=UniProtKB/TrEMBL:G4KKV0,NCBI_GP:CCE26385.1;Name=CCE26385.1;gbkey=CDS;gene=g362;product=CCE26385.1;protein_id=CCE26385.1;transl_table=11
+AJ972879.2	EMBL	region	261294	261298	.	+	.	ID=id-g362;gbkey=RBS;gene=g362
+AJ972879.2	EMBL	gene	261308	261562	.	+	.	ID=gene-g363;Name=g363;gbkey=Gene;gene=g363;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	261308	261562	.	+	0	ID=cds-CCE26386.1;Parent=gene-g363;Dbxref=UniProtKB/TrEMBL:G4KKV1,NCBI_GP:CCE26386.1;Name=CCE26386.1;gbkey=CDS;gene=g363;product=CCE26386.1;protein_id=CCE26386.1;transl_table=11
+AJ972879.2	EMBL	region	261532	261537	.	+	.	ID=id-g363;gbkey=RBS;gene=g363
+AJ972879.2	EMBL	gene	261543	261836	.	+	.	ID=gene-g364;Name=g364;gbkey=Gene;gene=g364;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	261543	261836	.	+	0	ID=cds-CCE26387.1;Parent=gene-g364;Dbxref=UniProtKB/TrEMBL:G4KKV2,NCBI_GP:CCE26387.1;Name=CCE26387.1;gbkey=CDS;gene=g364;product=CCE26387.1;protein_id=CCE26387.1;transl_table=11
+AJ972879.2	EMBL	region	261834	261839	.	+	.	ID=id-AJ972879.2:261834..261839;gbkey=RBS
+AJ972879.2	EMBL	gene	261848	262075	.	+	.	ID=gene-g365;Name=g365;gbkey=Gene;gene=g365;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	261848	262075	.	+	0	ID=cds-CCE26388.1;Parent=gene-g365;Dbxref=UniProtKB/TrEMBL:G4KKV3,NCBI_GP:CCE26388.1;Name=CCE26388.1;gbkey=CDS;gene=g365;product=CCE26388.1;protein_id=CCE26388.1;transl_table=11
+AJ972879.2	EMBL	region	262062	262066	.	+	.	ID=id-g365;gbkey=RBS;gene=g365
+AJ972879.2	EMBL	gene	262076	262300	.	+	.	ID=gene-g366;Name=g366;gbkey=Gene;gene=g366;gene_biotype=protein_coding
+AJ972879.2	EMBL	CDS	262076	262300	.	+	0	ID=cds-CCE26389.1;Parent=gene-g366;Dbxref=UniProtKB/TrEMBL:G4KKV4,NCBI_GP:CCE26389.1;Name=CCE26389.1;gbkey=CDS;gene=g366;product=CCE26389.1;protein_id=CCE26389.1;transl_table=11
+AJ972879.2	EMBL	region	262290	262292	.	+	.	ID=id-g366;gbkey=RBS;gene=g366
+AJ972879.2	EMBL	gene	262300	262389	.	+	.	ID=gene-g367;Name=g367;gbkey=Gene;gene=g367;gene_biotype=protein_coding;is_ordered=true;part=1
+AJ972879.2	EMBL	gene	2	97	.	+	.	ID=gene-g367;Name=g367;gbkey=Gene;gene=g367;gene_biotype=protein_coding;is_ordered=true;part=2
+AJ972879.2	EMBL	CDS	262300	262389	.	+	0	ID=cds-CCE26024.1;Parent=gene-g367;Dbxref=UniProtKB/TrEMBL:G4KJT9,NCBI_GP:CCE26024.1;Name=CCE26024.1;gbkey=CDS;gene=g367;part=1;product=CCE26024.1;protein_id=CCE26024.1;transl_table=11
+AJ972879.2	EMBL	CDS	2	97	.	+	0	ID=cds-CCE26024.1;Parent=gene-g367;Dbxref=UniProtKB/TrEMBL:G4KJT9,NCBI_GP:CCE26024.1;Name=CCE26024.1;gbkey=CDS;gene=g367;part=2;product=CCE26024.1;protein_id=CCE26024.1;transl_table=11
+AJ972879.2	EMBL	region	85	90	.	+	.	ID=id-g367;Note=TAAGGA 87;gbkey=RBS;gene=g367
+
