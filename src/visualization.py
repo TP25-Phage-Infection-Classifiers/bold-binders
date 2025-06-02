@@ -52,9 +52,13 @@ def visualize_outliers(df, file_path, host_mask, phage_mask):
     outliers_df = df[df['is_outlier']].copy()
 
     if len(outliers_df) > 0:
+        # Zähle Host- und Phagen-Outlier
+        host_outliers = outliers_df[outliers_df[entity_col] == 'host'].shape[0]
+        phage_outliers = outliers_df[outliers_df[entity_col] == 'phage'].shape[0]
+
         print("\n=== Liste der Outlier ===")
         print(file_path)
-        print(f"Anzahl der Outlier: {len(outliers_df)}")
+        print(f"Anzahl der Outlier: {len(outliers_df)}, Host-Outlier: {host_outliers}, Phage-Outlier: {phage_outliers}")
         print(
             f"{'Index':<7} | {'Gen-ID':<30} | {'Entity':<8} | {'Symbol':<15} | {'Mittlere Counts':>15} | Outlier-Info")
         print("-" * 100)

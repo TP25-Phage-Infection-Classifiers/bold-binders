@@ -8,47 +8,41 @@ import matplotlib.pyplot as plt
 from visualization import visualize_outliers
 
 # Funktion zum Markieren von Ausreißern mit visual-Parameter
-def mark_outliers(file_path, method='iqr', threshold=1.5, visual=True):
-
+def mark_outliers(file_path, host_threshold, phage_threshold, method='iqr', visual=True):
     try:
         # Einlesen der TSV-Datei
         df = pd.read_csv(file_path, sep='\t')
 
         # Einlesen der Spaltennamen
-        gene_col = df.columns[0] # erste Spalte ist immer das Gen
-        symbol_col = df.columns[-1] # letzte Spalte ist immer das Symbol
-        entity_col = df.columns[-2] # vorletzte Spalte ist immer die Entity
-
-        # Count-Spalten extrahieren
+        gene_col = df.columns[0]
+        symbol_col = df.columns[-1]
+        entity_col = df.columns[-2]
         count_cols = df.columns[1:-2]
 
         # DataFrame für Ergebnisse initialisieren
         results_df = df.copy()
         results_df['is_outlier'] = False
-        results_df['outlier_info']  = ""
+        results_df['outlier_info'] = ""
 
         # Gruppierung nach Entity (host/phage)
         host_mask = df[entity_col] == 'host'
         phage_mask = df[entity_col] == 'phage'
 
-        # Anzahl der Host- und Phagen-Gene
-        #print(f"Identifizierte Gene: {sum(host_mask)} Host-Gene, {sum(phage_mask)} Phagen-Gene")
-
         # Ausreißer für Host-Gene identifizieren
         if sum(host_mask) > 0:
-            host_outliers = detect_outliers(df[host_mask], count_cols, method, threshold)
-            for idx in host_outliers:
+            host_outliers = detect_outliers(df[host_mask], count_cols, host_threshold, method, is_phage=False)
+            for idx, reason in host_outliers.items():
                 results_df.loc[idx, 'is_outlier'] = True
-                results_df.loc[idx, 'outlier_info'] += "Host-Outlier; "
+                results_df.loc[idx, 'outlier_info'] += f"Host-Outlier{reason}; "
 
-        # Ausreißer für Phagen-Gene identifizieren
+        # Ausreißer für Phagen-Gene identifizieren (nur 0.05-Quantil-Methode)
         if sum(phage_mask) > 0:
-            phage_outliers = detect_outliers(df[phage_mask], count_cols, method, threshold)
-            for idx in phage_outliers:
+            phage_outliers = detect_outliers(df[phage_mask], count_cols, phage_threshold, method, is_phage=True)
+            for idx, reason in phage_outliers.items():
                 results_df.loc[idx, 'is_outlier'] = True
-                results_df.loc[idx, 'outlier_info'] += "Phagen-Outlier; "
+                results_df.loc[idx, 'outlier_info'] += f"Phagen-Outlier{reason}; "
 
-        # Visualisierung nur erstellen, wenn visual=True ist
+        # Visualisierung
         if visual:
             fig = visualize_outliers(results_df, file_path, host_mask, phage_mask)
             plt.show(fig)
@@ -59,47 +53,55 @@ def mark_outliers(file_path, method='iqr', threshold=1.5, visual=True):
         print(f"Fehler {e}")
         return None
 
+
 # Hilfsfunktion zur Ausreißererkennung
-def detect_outliers(df, count_cols, method='iqr', threshold=1.5):
-    outlier_indices = set()
+def detect_outliers(df, count_cols, threshold, method='iqr', is_phage=False):
+    outlier_indices = {}
 
-    if method == 'iqr':
-        # Interquartilsabstand-Methode
-        for col in count_cols:
-            Q05 = df[col].quantile(0.05)
-            Q1 = df[col].quantile(0.25)
-            #print(f"Q1: {Q1}")
-            Q3 = df[col].quantile(0.75)
-            #print(f"Q3: {Q3}")
-            IQR = Q3 - Q1
-            #print(f"IQR: {IQR}")
-            lower_bound = Q1 - threshold * IQR
-            #print(f"Lower Bound: {lower_bound}")
-            upper_bound = Q3 + threshold * IQR
-            #print(f"Upper Bound: {upper_bound}")
-            outliers = df[(df[col] < lower_bound) | (df[col] > upper_bound)].index
-            outlier_indices.update(outliers)
-
-         # Berechne das 0.05-Quantil für jede Spalte
+    if is_phage:
+        # Nur 0.05-Quantil-Methode für Phagen-Gene
+        # Berechne das 0.05-Quantil für jede Spalte
         quantiles_05 = {col: df[col].quantile(0.05) for col in count_cols}
 
         # Prüfe für jede Zeile, ob alle Werte kleiner als das 0.05-Quantil sind
         for idx, row in df.iterrows():
             if all(row[col] < quantiles_05[col] for col in count_cols):
-                outlier_indices.add(idx)
+                outlier_indices[idx] = "(0.05-quantile)"
 
-    elif method == 'zscore':
-        # Z-Score-Methode
-        for col in count_cols:
-            z_scores = stats.zscore(df[col], nan_policy='omit')
-            outliers = df[abs(z_scores) > threshold].index
-            outlier_indices.update(outliers)
+    else:
+        # IQR-Methode für Host-Gene
+        if method == 'iqr':
+            # Interquartilsabstand-Methode
+            for col in count_cols:
+                Q1 = df[col].quantile(0.25)
+                Q3 = df[col].quantile(0.75)
+                IQR = Q3 - Q1
+                lower_bound = Q1 - threshold * IQR
+                upper_bound = Q3 + threshold * IQR
+
+                # Identifiziere Outlier mit Grund
+                upper_outliers = df[df[col] > upper_bound].index
+                lower_outliers = df[df[col] < lower_bound].index
+
+                # Speichere Indizes mit Grund
+                for idx in upper_outliers:
+                    outlier_indices[idx] = "(iqr-upperbound)"
+                for idx in lower_outliers:
+                    outlier_indices[idx] = "(iqr-lowerbound)"
+
+        elif method == 'zscore':
+            # Z-Score-Methode
+            for col in count_cols:
+                z_scores = stats.zscore(df[col], nan_policy='omit')
+                outliers = df[abs(z_scores) > threshold].index
+                outlier_indices.update(outliers)
 
     return outlier_indices
 
+
 # Funktion zur Datenbereinigung mit visual-Parameter
-def clean_outlier_samples(file_path, method='iqr', threshold=1.5, output_dir="../cleaned_data", visual=True):
-    cleaned_df = mark_outliers(file_path, method=method, threshold=threshold, visual=visual)
+def clean_outlier_samples(file_path, host_threshold, phage_threshold, method='iqr', output_dir="../cleaned_data", visual=True):
+    cleaned_df = mark_outliers(file_path, host_threshold=host_threshold, phage_threshold=phage_threshold, method=method, visual=visual)
 
     if cleaned_df is None:
         print(f"Fehler beim Verarbeiten der Datei: {file_path}")
@@ -125,8 +127,10 @@ def clean_outlier_samples(file_path, method='iqr', threshold=1.5, output_dir="..
     return cleaned_df
 
 # Batch-Funktion mit visual-Parameter
-def batch_clean_all_tsv(input_dir, output_dir, method='iqr', threshold=1.5, visual=True):
+def batch_clean_all_tsv(input_dir, output_dir, method='iqr',visual=True):
     tsv_files = find_tsv_files(input_dir)
+    host_threshold = 3
+    phage_threshold = 10
 
     if not tsv_files:
         print(f"Keine TSV-Dateien gefunden in: {input_dir}")
@@ -136,8 +140,9 @@ def batch_clean_all_tsv(input_dir, output_dir, method='iqr', threshold=1.5, visu
     for file_path in tsv_files:
         clean_outlier_samples(
             file_path=file_path,
+            host_threshold=host_threshold,
+            phage_threshold=phage_threshold,
             method=method,
-            threshold=threshold,
             output_dir=output_dir,
             visual=visual  # Übergebe den visual-Parameter
         )
