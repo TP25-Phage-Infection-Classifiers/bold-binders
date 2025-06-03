@@ -25,6 +25,15 @@ def find_gff_files(directory):
                 gff_files_list.append(full_path)
     return gff_files_list
 
+def find_fasta_files(directory):
+    fasta_files_list = []
+    for root, dirs, files in os.walk(directory):
+        for file in files:
+            if file.endswith('.fasta'):
+                full_path = os.path.join(root, file)
+                fasta_files_list.append(full_path)
+    return fasta_files_list
+
 # Extract gene IDs from GFF file and return full DataFrame
 def extract_gene_ids_from_gff(gff_file):
     with open(gff_file, 'r') as f:
@@ -38,6 +47,50 @@ def extract_gene_ids_from_gff(gff_file):
     gene_df['name_field'] = gene_df['attributes'].str.extract(r'Name=([^;]+)')
     combined_ids = pd.concat([gene_df['id_field'].dropna(), gene_df['name_field'].dropna()]).unique()
     return set(combined_ids), len(gene_df), df
+
+
+def extract_gene_pos_with_id(gene_id, gff_file):
+    """
+    Extrahiert Start- und Endposition eines spezifischen Gens aus einer GFF-Datei.
+
+    Args:
+        gene_id (str): ID des gesuchten Gens
+        gff_file (str): Pfad zur GFF-Datei
+
+    Returns:
+        tuple: (start_position, end_position) oder (None, None) wenn das Gen nicht gefunden wurde
+    """
+    try:
+        with open(gff_file, 'r') as f:
+            lines = [line for line in f if not line.startswith('#')]
+
+        records = [line.strip().split('\t') for line in lines if len(line.strip().split('\t')) == 9]
+        df = pd.DataFrame(records, columns=[
+            'seqid', 'source', 'type', 'start', 'end', 'score', 'strand', 'phase', 'attributes'
+        ])
+
+        # Filtere nur Gene
+        gene_df = df[df['type'] == 'gene'].copy()
+
+        # Extrahiere Gen-IDs aus den Attributen
+        gene_df['gene_id'] = gene_df['attributes'].apply(
+            lambda x: next((v for k, v in [attr.split('=') for attr in x.split(';')]
+                            if k in ['ID', 'Name']), None)
+        )
+
+        # Suche nach dem spezifischen gene_id
+        matching_gene = gene_df[gene_df['gene_id'] == gene_id]
+
+        if not matching_gene.empty:
+            return (int(matching_gene['start'].iloc[0]),
+                    int(matching_gene['end'].iloc[0]))
+
+        return (None, None)
+
+    except Exception as e:
+        print(f"Fehler beim Verarbeiten der GFF-Datei {gff_file}: {e}")
+        return (None, None)
+
 
 def compare_with_multiple_gff_and_print_filtered(count_table_path, gff_folder_path, save_filtered=False):
     counts = pd.read_csv(count_table_path, sep='\t')

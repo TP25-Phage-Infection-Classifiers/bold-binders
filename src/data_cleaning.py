@@ -59,6 +59,7 @@ def detect_outliers(df, count_cols, threshold, method='iqr', is_phage=False):
     outlier_indices = {}
 
     if is_phage:
+        print("ph davor:", df.shape)
         # Nur 0.05-Quantil-Methode für Phagen-Gene
         # Berechne das 0.05-Quantil für jede Spalte
         quantiles_05 = {col: df[col].quantile(0.05) for col in count_cols}
@@ -70,6 +71,7 @@ def detect_outliers(df, count_cols, threshold, method='iqr', is_phage=False):
 
     else:
         # IQR-Methode für Host-Gene
+        print("ho davor:", df.shape)
         if method == 'iqr':
             # Interquartilsabstand-Methode
             for col in count_cols:
@@ -102,7 +104,7 @@ def detect_outliers(df, count_cols, threshold, method='iqr', is_phage=False):
 # Funktion zur Datenbereinigung mit visual-Parameter
 def clean_outlier_samples(file_path, host_threshold, phage_threshold, method='iqr', output_dir="../cleaned_data", visual=True):
     cleaned_df = mark_outliers(file_path, host_threshold=host_threshold, phage_threshold=phage_threshold, method=method, visual=visual)
-
+    #print("danach",cleaned_df.shape())
     if cleaned_df is None:
         print(f"Fehler beim Verarbeiten der Datei: {file_path}")
         return
