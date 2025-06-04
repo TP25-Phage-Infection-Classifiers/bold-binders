@@ -47,9 +47,9 @@ def batch_normalize_tpm(input_dir, output_dir, gff_dir, visual=True):
             df = pd.read_csv(file_path, sep='\t')
 
             gene_col = df.columns[0]
-            entity_col = df.columns[-2]
-            symbol_col = df.columns[-1]
-            count_cols = df.columns[1:-2]
+            entity_col = df.columns[-3]
+            symbol_col = df.columns[-2]
+            count_cols = df.columns[1:-3]
 
             print(f"\nVerarbeite: {os.path.basename(file_path)}")
 
