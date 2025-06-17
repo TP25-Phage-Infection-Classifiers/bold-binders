@@ -10,21 +10,31 @@ from visualization import (visualize_tpm_boxplot_only,
 
 
 # TPM-Normalisierung mit berechneten Gen-Längen/ 1000, falls keine Gen-Länge gefunden werden kann
-def normalize_tpm(df, count_cols, feature_lengths):
-    # Schritt 1: RPK berechnen (Reads Per Kilobase)
-    rpk = pd.DataFrame()
-    for col in count_cols:
-        rpk[col] = df[col] / (feature_lengths / 1000)
+# data_normalization.py
+def normalize_tpm(
+        df: pd.DataFrame,
+        count_cols,
+        feature_lengths,
+        entity_col: str,
+        phage_only: bool = True
+    ):
 
-    # Schritt 2: Skalierungsfaktor pro Sample (Summe aller RPKs pro Spalte)
-    scaling_factors = rpk.sum(axis=0) / 1e6
+    # 1) RPK berechnen
+    rpk = df[count_cols].div(feature_lengths / 1000, axis=0)
 
-    # Schritt 3: TPM berechnen
-    tpm = rpk.divide(scaling_factors, axis=1)
-    return tpm
+    # 2) Skalierungsfaktoren bestimmen
+    if phage_only:
+        mask = df[entity_col].eq("phage")
+        scaling_factors = rpk.loc[mask].sum(axis=0) / 1e6
+    else:
+        scaling_factors = rpk.sum(axis=0) / 1e6
+
+    # 3) TPM
+    return rpk.divide(scaling_factors, axis=1)
 
 
-def batch_normalize_tpm(input_dir, output_dir, gff_dir, visual=True):
+
+def batch_normalize_tpm(input_dir, output_dir, gff_dir, phage_only=True, visual=True):
     """
     Führt TPM-Normalisierung für alle TSV-Dateien im Eingabeverzeichnis durch,
     erstellt Visualisierungen und speichert die normalisierten Daten.
@@ -65,7 +75,7 @@ def batch_normalize_tpm(input_dir, output_dir, gff_dir, visual=True):
             df_original = df.copy()
 
             # TPM-Normalisierung mit tatsächlichen Gen-Längen
-            df_tpm = normalize_tpm(df, count_cols, df['gene_length'])
+            df_tpm = normalize_tpm(df, count_cols, df['gene_length'], entity_col=entity_col, phage_only=phage_only)
 
             # Kombiniere mit Metadaten zur Speicherung
             df_tpm[gene_col] = df[gene_col]

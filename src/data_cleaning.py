@@ -55,50 +55,39 @@ def mark_outliers(file_path, host_threshold, phage_threshold, method='iqr', visu
 
 
 # Hilfsfunktion zur Ausreißererkennung
-def detect_outliers(df, count_cols, threshold, method='iqr', is_phage=False):
+def detect_outliers(df, count_cols, threshold=3.0, method='iqr', is_phage=False):
     outlier_indices = {}
 
+    # 0) log-Transform gegen Schiefe
+    log_df = np.log2(df[count_cols] + 1)
+
     if is_phage:
-        print("ph davor:", df.shape)
-        # Nur 0.05-Quantil-Methode für Phagen-Gene
-        # Berechne das 0.05-Quantil für jede Spalte
-        quantiles_05 = {col: df[col].quantile(0.05) for col in count_cols}
+        # weiterhin nur Low-Count-Filter (alles < q05)
+        q05 = log_df.quantile(0.05)
+        mask_low = (log_df.lt(q05, axis=1)).all(axis=1)
+        for idx in df.index[mask_low]:
+            outlier_indices[idx] = "(low-phage)"
+        return outlier_indices
 
-        # Prüfe für jede Zeile, ob alle Werte kleiner als das 0.05-Quantil sind
-        for idx, row in df.iterrows():
-            if all(row[col] < quantiles_05[col] for col in count_cols):
-                outlier_indices[idx] = "(0.05-quantile)"
-
-    else:
-        # IQR-Methode für Host-Gene
-        print("ho davor:", df.shape)
-        if method == 'iqr':
-            # Interquartilsabstand-Methode
-            for col in count_cols:
-                Q1 = df[col].quantile(0.25)
-                Q3 = df[col].quantile(0.75)
-                IQR = Q3 - Q1
-                lower_bound = Q1 - threshold * IQR
-                upper_bound = Q3 + threshold * IQR
-
-                # Identifiziere Outlier mit Grund
-                upper_outliers = df[df[col] > upper_bound].index
-                lower_outliers = df[df[col] < lower_bound].index
-
-                # Speichere Indizes mit Grund
-                for idx in upper_outliers:
-                    outlier_indices[idx] = "(iqr-upperbound)"
-                for idx in lower_outliers:
-                    outlier_indices[idx] = "(iqr-lowerbound)"
-
-        elif method == 'zscore':
-            # Z-Score-Methode
-            for col in count_cols:
-                z_scores = stats.zscore(df[col], nan_policy='omit')
-                outliers = df[abs(z_scores) > threshold].index
-                outlier_indices.update(outliers)
-
+    # Host-Gene-Branch
+    if method == 'mad':
+        med = log_df.median()
+        mad = (log_df - med).abs().median()
+        z = (log_df - med) / (1.4826 * mad)
+        mask = (z.abs() > threshold).any(axis=1)
+        for idx in df.index[mask]:
+            outlier_indices[idx] = "(mad)"
+    else:              # default: IQR auf Log-Werten
+        q1 = log_df.quantile(0.25)
+        q3 = log_df.quantile(0.75)
+        iqr = q3 - q1
+        lower = q1 - threshold * iqr
+        upper = q3 + threshold * iqr
+        mask = (log_df.lt(lower, axis=1) | log_df.gt(upper, axis=1)).any(axis=1)
+        for idx in df.index[mask]:
+            outlier_indices[idx] = "(iqr-log)"
     return outlier_indices
+
 
 
 # Funktion zur Datenbereinigung mit visual-Parameter
@@ -129,7 +118,7 @@ def clean_outlier_samples(file_path, host_threshold, phage_threshold, method='iq
     return cleaned_df
 
 # Batch-Funktion mit visual-Parameter
-def batch_clean_all_tsv(input_dir, output_dir, method='iqr',visual=True):
+def batch_clean_all_tsv(input_dir, output_dir, method='mad',visual=True):
     tsv_files = find_tsv_files(input_dir)
     host_threshold = 3
     phage_threshold = 10
