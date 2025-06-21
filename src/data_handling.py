@@ -88,9 +88,64 @@ def extract_gene_pos_with_id(gene_id, gff_file):
         return (None, None)
 
     except Exception as e:
-        print(f"Fehler beim Verarbeiten der GFF-Datei {gff_file}: {e}")
+        print(f"Fehler beim Verarbeiten der GFF-Datei {gff_file}: {e}, pos")
         return (None, None)
 
+def extract_direction(gene_id, gff_file):
+    try:
+        with open(gff_file, 'r') as f:
+            lines = [line for line in f if not line.startswith('#')]
+
+        records = [line.strip().split('\t') for line in lines if len(line.strip().split('\t')) == 9]
+        df = pd.DataFrame(records, columns=[
+            'seqid', 'source', 'type', 'start', 'end', 'score', 'strand', 'phase', 'attributes'
+        ])
+
+        gene_df = df[df['type'] == 'gene'].copy()
+
+        gene_df['gene_id'] = gene_df['attributes'].apply(
+            lambda x: next((v for k, v in [attr.split('=') for attr in x.split(';')]
+                            if k in ['ID', 'Name']), None)
+        )
+
+        matching_gene = gene_df[gene_df['gene_id'] == gene_id]
+
+        if not matching_gene.empty:
+            return matching_gene['strand'].iloc[0]
+
+        return (None)
+
+    except Exception as e:
+        print(f"Fehler beim Verarbeiten der GFF-Datei {gff_file}: {e}, dir")
+        return (None)
+
+
+def extract_reading_frame(gene_id, gff_file):
+    try:
+        with open(gff_file, 'r') as f:
+            lines = [line for line in f if not line.startswith('#')]
+
+        records = [line.strip().split('\t') for line in lines if len(line.strip().split('\t')) == 9]
+        df = pd.DataFrame(records, columns=[
+            'seqid', 'source', 'type', 'start', 'end', 'score', 'strand', 'phase', 'attributes'
+        ])
+
+        df = df[df['type'].isin(['gene', 'CDS'])].copy()
+
+        df['gene_id'] = df['attributes'].apply(
+            lambda x: next((v for k, v in [attr.split('=') for attr in x.split(';') if '=' in attr]
+                            if k in ['ID', 'Name']), None)
+        )
+
+        for i in range(len(df) - 1):
+            if df.iloc[i]['gene_id'] == gene_id and not df.iloc[i + 1]['phase'] == ".":
+                return int(df.iloc[i + 1]['phase'])
+
+        return None
+
+    except Exception as e:
+        print(f"Fehler beim Verarbeiten der GFF-Datei {gff_file}: {e}, fr")
+        return None
 
 def compare_with_multiple_gff_and_print_filtered(count_table_path, gff_folder_path, save_filtered=False):
     counts = pd.read_csv(count_table_path, sep='\t')

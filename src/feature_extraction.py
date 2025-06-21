@@ -1,8 +1,9 @@
 import pandas as pd
 import os
 from Bio import SeqIO
+from Bio.Seq import Seq
 from pathlib import Path
-from data_handling import find_gff_files, find_tsv_files, find_fasta_files, extract_gene_pos_with_id
+from data_handling import find_gff_files, find_tsv_files, find_fasta_files, extract_gene_pos_with_id, extract_direction, extract_reading_frame
 
 
 def extract_features(gff_directory, fasta_directory, labels_file, output_file):
@@ -38,8 +39,10 @@ def extract_features(gff_directory, fasta_directory, labels_file, output_file):
             # Suche in allen GFF-Dateien nach dem Gen
             for gff_file in gff_files:
                 start_pos, end_pos = extract_gene_pos_with_id(gene_id, gff_file)
+                direction = extract_direction(gene_id, gff_file)
+                reading_frame = extract_reading_frame(gene_id, gff_file)
 
-                if start_pos is not None and end_pos is not None:
+                if start_pos is not None and end_pos is not None and direction in ["+", "-"] and reading_frame in [0,1,2]:
                     phage_name = Path(gff_file).stem
                     matching_fasta = [f for f in fasta_files if Path(f).stem == phage_name]
 
@@ -54,11 +57,16 @@ def extract_features(gff_directory, fasta_directory, labels_file, output_file):
 
                             # Gen-Sequenz extrahieren (start_pos ist 1-basiert)
                             gene_sequence = sequence[start_pos - 1:end_pos]
+                            biopython_seq = Seq(gene_sequence)
+                            if direction == "-":
+                                biopython_seq = biopython_seq.reverse_complement()
+                            biopython_seq = str(biopython_seq.translate())
 
                             all_results.append({
                                 'gene_id': gene_id,
                                 'label': gene_label,
                                 'dna_sequence': gene_sequence,
+                                'amino_acid_sequence': biopython_seq,
                                 'source_study': gene_source,
                                 'phage_name': phage_name
                             })
