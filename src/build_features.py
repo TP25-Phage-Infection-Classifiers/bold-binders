@@ -11,7 +11,7 @@ AMINO_ACIDS = "ACDEFGHIKLMNPQRSTVWY"
 NUCLEOTIDES = "ACGT"
 KMER_SIZE = 3
 INPUT_PATH = "../data/gene_features/gene_features.tsv"
-OUTPUT_PATH = "../data/feature_matrix/feature_matrix.csv"
+OUTPUT_PATH = "../data/feature_matrix/feature_matrix.tsv"
 
 # ================================
 # Hilfsfunktionen
