@@ -11,7 +11,7 @@ AMINO_ACIDS = "ACDEFGHIKLMNPQRSTVWY"
 NUCLEOTIDES = "ACGT"
 KMER_SIZE = 3
 INPUT_PATH = "../data/gene_features/gene_features.tsv"
-OUTPUT_PATH = "feature_matrix.csv"
+OUTPUT_PATH = "../data/feature_matrix/feature_matrix.csv"
 
 # ================================
 # Hilfsfunktionen
@@ -74,6 +74,7 @@ for _, row in df.iterrows():
     # DNA-Features
     dna_feats = {
         "id": seq_id,
+        "label": row.get("label", None),
         "dna_length": len(dna_seq),
         "gc_content": gc_fraction(dna_seq),
     }
