@@ -104,5 +104,5 @@ for _, row in df.iterrows():
 # Speichern
 # ================================
 df_features = pd.DataFrame(features)
-df_features.to_csv(OUTPUT_PATH, index=False)
+df_features.to_csv(OUTPUT_PATH,sep='\t', index=False)
 print(f"Feature-Matrix gespeichert unter: {OUTPUT_PATH}")
