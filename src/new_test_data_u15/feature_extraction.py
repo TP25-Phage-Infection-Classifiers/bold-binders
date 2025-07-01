@@ -3,7 +3,7 @@ import os
 from Bio import SeqIO
 from Bio.Seq import Seq
 from pathlib import Path
-from src.new_test_data_u15.data_handling import find_gff_files, find_tsv_files, find_fasta_files, extract_gene_pos_with_id, extract_direction, extract_reading_frame
+from data_handling import find_gff_files, find_tsv_files, find_fasta_files, extract_gene_pos_with_id, extract_direction, extract_reading_frame
 
 
 def extract_features(gff_directory, fasta_directory, labels_file, output_file):
@@ -57,6 +57,11 @@ def extract_features(gff_directory, fasta_directory, labels_file, output_file):
 
                             # Gen-Sequenz extrahieren (start_pos ist 1-basiert)
                             gene_sequence = sequence[start_pos - 1:end_pos]
+
+                            # Gen-Sequenz extrahieren und auf Länge % 3 trimmen
+                            trimmed_length = len(gene_sequence) - (len(gene_sequence) % 3)
+                            gene_sequence = gene_sequence[:trimmed_length]
+
                             biopython_seq = Seq(gene_sequence)
                             if direction == "-":
                                 biopython_seq = biopython_seq.reverse_complement()
@@ -71,7 +76,7 @@ def extract_features(gff_directory, fasta_directory, labels_file, output_file):
                                 'phage_name': phage_name
                             })
 
-                            print(f"Gen {gene_id} in {phage_name} gefunden und extrahiert")
+                            #print(f"Gen {gene_id} in {phage_name} gefunden und extrahiert")
                             break  # Gen gefunden, weiter zum nächsten
                     except Exception as e:
                         print(f"Fehler bei der Verarbeitung von {matching_fasta[0]}: {e}")

@@ -13,7 +13,6 @@ NUCLEOTIDES = "ACGT"
 KMER_SIZE = 3
 INPUT_PATH = "../data/new_test_data/gene_features_test/gene_features.tsv"
 OUTPUT_PATH = "../data/new_test_data/feature_matrix_test/feature_matrix.tsv"
-
 os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
 
 # ================================
@@ -65,8 +64,8 @@ features = []
 # ================================
 for _, row in df.iterrows():
     seq_id = row['gene_id']
-    dna_seq = str(row['dna_sequence']).upper().replace("U", "T")  # RNA zu DNA
-    prot_raw = str(row['amino_acid_sequence']).replace("*", "").upper()
+    dna_seq = str(row['dna_sequence']).upper()
+    prot_raw = str(row['amino_acid_sequence']).strip("*").upper()  # nur terminales Stoppsignal entfernen
     prot_seq = clean_protein_sequence(prot_raw)
 
     # Skip falls zu kurz
