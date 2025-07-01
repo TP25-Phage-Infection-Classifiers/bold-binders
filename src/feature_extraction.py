@@ -57,6 +57,11 @@ def extract_features(gff_directory, fasta_directory, labels_file, output_file):
 
                             # Gen-Sequenz extrahieren (start_pos ist 1-basiert)
                             gene_sequence = sequence[start_pos - 1:end_pos]
+
+                            # Gen-Sequenz extrahieren und auf Länge % 3 trimmen
+                            trimmed_length = len(gene_sequence) - (len(gene_sequence) % 3)
+                            gene_sequence = gene_sequence[:trimmed_length]
+
                             biopython_seq = Seq(gene_sequence)
                             if direction == "-":
                                 biopython_seq = biopython_seq.reverse_complement()
