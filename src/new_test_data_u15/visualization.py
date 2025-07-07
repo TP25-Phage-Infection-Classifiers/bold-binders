@@ -203,7 +203,7 @@ def extract_paper_short_name(filename):
     return filename
 
 
-def plot_label_distribution_comparison(label_counts_std, label_counts_paper):
+def plot_label_distribution_comparison(label_counts_std, label_counts_paper, label_counts_means):
     """Erstellt Balkendiagramme zum Vergleich der Klassifikationsmethoden."""
     label_order = ["early", "middle", "late"]
     colors = {"early": "green", "middle": "blue", "late": "red"}
@@ -213,12 +213,13 @@ def plot_label_distribution_comparison(label_counts_std, label_counts_paper):
     ordered_files = label_counts_std.sum(axis=1).sort_values(ascending=False).index
     label_counts_std = label_counts_std.loc[ordered_files]
     label_counts_paper = label_counts_paper.reindex(ordered_files).fillna(0)
+    label_counts_means = label_counts_means.reindex(ordered_files).fillna(0)
 
     # Kürze die Dateinamen für X-Achse
     short_labels = [extract_paper_short_name(f) for f in ordered_files]
 
-    # Erstelle zwei nebeneinanderliegende Balkendiagramme
-    fig, axes = plt.subplots(1, 2, figsize=(14, 6), sharey=True)
+    # Erstelle drei nebeneinanderliegende Balkendiagramme
+    fig, axes = plt.subplots(1, 3, figsize=(20, 6), sharey=True)
 
     # Plot 1: Klassifikation mit Standard-Methode
     label_counts_std.plot(
@@ -245,15 +246,27 @@ def plot_label_distribution_comparison(label_counts_std, label_counts_paper):
     axes[1].set_xticks(range(len(short_labels)))
     axes[1].set_xticklabels(short_labels, rotation=45, fontsize=10)
 
+    # Plot 3: Mittelwert-Methode
+    label_counts_means.plot(
+        kind='bar',
+        stacked=True,
+        color=color_list,
+        ax=axes[2],
+        legend=False
+    )
+    axes[2].set_title("Mittelwert-Methode")
+    axes[2].set_xticks(range(len(short_labels)))
+    axes[2].set_xticklabels(short_labels, rotation=45, fontsize=10)
+
     # Gemeinsame Legende
-    handles, labels = axes[1].get_legend_handles_labels()
+    handles, labels = axes[2].get_legend_handles_labels()
     fig.legend(handles, labels, title="Label", bbox_to_anchor=(1.02, 1), loc='upper left')
 
     plt.subplots_adjust(right=0.85)
     return fig
 
 
-def plot_aggregated_distribution(label_counts_std, label_counts_paper):
+def plot_aggregated_distribution(label_counts_std, label_counts_paper, label_counts_means):
     """Erstellt Kreis- und Balkendiagramme der Gesamtverteilung."""
     label_order = ["early", "middle", "late"]
     colors = {"early": "green", "middle": "blue", "late": "red"}
@@ -261,11 +274,13 @@ def plot_aggregated_distribution(label_counts_std, label_counts_paper):
 
     total_std = label_counts_std.sum()
     total_paper = label_counts_paper.sum()
+    total_means = label_counts_means.sum()
 
     percent_std = total_std / total_std.sum() * 100
     percent_paper = total_paper / total_paper.sum() * 100
+    percent_means = total_means / total_means.sum() * 100
 
-    fig, axes = plt.subplots(2, 2, figsize=(14, 12))
+    fig, axes = plt.subplots(2, 3, figsize=(20, 12))
 
     # Kreisdiagramme
     axes[0, 0].pie(
@@ -287,13 +302,25 @@ def plot_aggregated_distribution(label_counts_std, label_counts_paper):
         autopct='%1.1f%%',
         colors=color_list,
         startangle=90,
-        textprops=dict(fontsize=20)
+        textprops=dict(fontsize=20),
+        pctdistance=1.15
     )
     axes[0, 1].set_title(
         f"Gesamtverteilung Paper-definierte Methode\n(n={total_paper.sum()} Gene)",
         fontsize=16
     )
     axes[0, 1].legend(label_order, loc="best", fontsize=12)
+
+    axes[0, 2].pie(
+        total_means,
+        autopct='%1.1f%%',
+        colors=color_list,
+        startangle=90,
+        textprops=dict(fontsize=20),
+        pctdistance=1.15
+    )
+    axes[0, 2].set_title(f"Gesamtverteilung Mittelwert-Methode\n(n={total_means.sum()} Gene)", fontsize=16)
+    axes[0, 2].legend(label_order, loc="best", fontsize=12)
 
     # Balkendiagramme
     axes[1, 0].bar(label_order, percent_std, color=color_list)
@@ -315,6 +342,13 @@ def plot_aggregated_distribution(label_counts_std, label_counts_paper):
     axes[1, 1].set_ylim(0, 100)
     for i, v in enumerate(percent_paper):
         axes[1, 1].text(i, v + 1, f"{v:.1f}%", ha='center', fontsize=20)
+
+    axes[1, 2].bar(label_order, percent_means, color=color_list)
+    axes[1, 2].set_title(f"Gesamtverhältnis Mittelwert-Methode\n(n={total_means.sum()} Gene)", fontsize=16)
+    axes[1, 2].set_ylabel("Prozent", fontsize=14)
+    axes[1, 2].set_ylim(0, 100)
+    for i, v in enumerate(percent_means):
+        axes[1, 2].text(i, v + 1, f"{v:.1f}%", ha='center', fontsize=20)
 
     plt.tight_layout()
     return fig

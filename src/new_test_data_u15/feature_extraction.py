@@ -32,9 +32,13 @@ def extract_features(gff_directory, fasta_directory, labels_file, output_file):
 
         # Für jede Zeile im Labels DataFrame
         for idx, row in labels_df.iterrows():
-            gene_id = row.iloc[0]  # Erste Spalte ist Gene-ID
-            gene_label = row.iloc[3] if len(row) > 3 else None  # Label-Spalte
-            gene_source = row.iloc[4] if len(row) > 4 else None  # Source-Spalte
+            #gene_id = row.iloc[0]  # Erste Spalte ist Gene-ID
+            #gene_label = row.iloc[3] if len(row) > 3 else None  # Label-Spalte
+            #gene_source = row.iloc[4] if len(row) > 4 else None  # Source-Spalte
+
+            gene_id = row["Geneid"]
+            gene_label = row["Label"]
+            gene_source = row["SourceFile"]
 
             # Suche in allen GFF-Dateien nach dem Gen
             for gff_file in gff_files:

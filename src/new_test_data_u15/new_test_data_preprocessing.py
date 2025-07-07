@@ -6,12 +6,14 @@ from src.new_test_data_u15.data_cleaning import batch_clean_all_tsv
 from src.new_test_data_u15.gff_validation import find_tsv_files, run_all
 from src.new_test_data_u15.data_normalization_new_test_data import batch_normalize_tpm
 from src.new_test_data_u15.labeling_new_test_data import process_all_files
+from src.new_test_data_u15.labeling_new_test_data import labeling_pipeline_means
 from src.new_test_data_u15.feature_extraction import extract_features
 
 def run_preprocessing_pipeline(
     raw_data_dir="../data/new_test_data/raw_data_test/",
     cleaned_data_dir="../data/new_test_data/cleaned_data_test/",
     normalized_data_dir="../data/new_test_data/normalized_data_test/",
+    time_means_folder = "../data/new_test_data/time_means/",
     labeled_data_dir="../data/new_test_data/gene_labeling_test/",
     feature_output_path="../data/new_test_data/gene_features_test/gene_features.tsv",
     build_script_path="../src/build_features.py",
@@ -29,12 +31,13 @@ def run_preprocessing_pipeline(
     batch_normalize_tpm(cleaned_data_dir, normalized_data_dir, raw_data_dir, phage_only=True, visual=visualize)
 
     print("Schritt 4: Label-Zuweisung")
-    process_all_files(normalized_data_dir, labeled_data_dir)
+    #process_all_files(normalized_data_dir, labeled_data_dir)
+    labeling_pipeline_means(normalized_data_dir, time_means_folder, labeled_data_dir, "gene_labels_means_test.tsv")
 
     print("Schritt 5: Feature-Extraktion")
     gff_phage_dir = os.path.join(raw_data_dir, "phage_gff_files")
     fasta_dir = raw_data_dir
-    labels_file = os.path.join(labeled_data_dir, "gene_labels_standard.tsv")
+    labels_file = os.path.join(labeled_data_dir, "gene_labels_means_test.tsv")
     Path(feature_output_path).parent.mkdir(parents=True, exist_ok=True)
 
     results = extract_features(

@@ -1,23 +1,12 @@
 import pandas as pd
 import re
-from src.new_test_data_u15.data_handling import find_tsv_files
+from data_handling import find_tsv_files
 import os
 
 # Zeit-Fenster-Definitionen aus den Papers
-
 PAPER_TIME_WINDOWS = {
-    "kuptsov": [(0, 5, "early"), (5, 10, "middle"), (10, 20, "late")],
-    "lood": [(0, 5, "early"), (5, 10, "middle"), (10, 20, "late")],
     "yang": [(0, 5, "early"), (5, 10, "middle"), (10, 20, "late")]
 }
-
-#PAPER_TIME_WINDOWS = {
-#    "Finstrlova_Newman": [(0, 10, "early"), (10, 20, "middle"), (20, 30, "late")],
-#    "Finstrlova_SH1000": [(0, 10, "early"), (10, 20, "middle"), (20, 30, "late")],
-#    "kuptsov": [(0, 5, "early"), (5, 15, "middle"), (15, 30, "late")],
-#    "lood": [(0, 5, "early"), (5, 15, "middle"), (15, 25, "late")],
-#    "yang": [(0, 5, "early"), (5, 10, "middle"), (10, 20, "late")]
-#}
 
 def extract_time_columns(df):
     """Extrahiert Zeitspalten aus dem DataFrame und gibt ein Dictionary mit Zeitpunkten zurück."""
@@ -229,3 +218,167 @@ def process_all_files(data_folder, output_folder):
     label_counts_paper = label_counts_paper.reindex(columns=label_order)
 
     return label_counts_std, label_counts_paper, merged_results
+
+def compute_average_per_timepoint(df):
+    """
+    Bildet für jeden Zeitpunkt den Mittelwert über technische Replikate.
+    Gibt ein DataFrame mit einer Spalte pro Zeitpunkt zurück.
+    """
+    timepoint_cols = extract_time_columns(df)
+
+    result = df[['Geneid', 'Entity', 'Symbol']].copy()
+
+    for time, cols in sorted(timepoint_cols.items()):
+        mean_col = df[cols].mean(axis=1)
+        result[str(time)] = mean_col
+
+    return result
+
+def process_files_average_timepoints(data_folder, time_means_folder):
+    """
+    Für alle Dateien in data_folder:
+    - Lese Datei
+    - Berechne Mittelwerte pro Zeitpunkt (über technische Replikate)
+    - Speichere neue TSV-Datei in data_folder/time_means
+    """
+    os.makedirs(time_means_folder, exist_ok=True)
+    tsv_files = find_tsv_files(data_folder)
+
+    for file_path in tsv_files:
+        file_name = os.path.basename(file_path)
+        print(f"Verarbeite Datei für Mittelwert-Bildung: {file_name}")
+
+        try:
+            df = pd.read_csv(file_path, sep='\t')
+
+            # Nur Phagen-Gene oder alle Gene? Hier Beispiel für alle:
+            result = compute_average_per_timepoint(df)
+
+            out_path = os.path.join(time_means_folder, file_name)
+            result.to_csv(out_path, sep='\t', index=False)
+
+        except Exception as e:
+            print(f"Fehler bei Datei {file_name}: {e}")
+
+def labeling_pipeline_means(
+        raw_data_folder,
+        time_means_folder,
+        output_folder,
+        output_filename
+):
+    """
+    Führt die gesamte Pipeline aus:
+    1) Bildet Mittelwerte pro Zeitpunkt aus den Rohdaten
+    2) Speichert sie in time_means_folder
+    3) Liest diese Mittelwert-Dateien
+    4) Bestimmt pro Gen das Maximum und weist Paper-basierte Labels zu
+    5) Speichert alles in einer Datei im output_folder
+    """
+    print("\n=== Schritt 1: Mittelwerte aus Rohdaten bilden und speichern ===")
+    os.makedirs(time_means_folder, exist_ok=True)
+    process_files_average_timepoints(raw_data_folder, time_means_folder)
+
+
+    print("\n=== Schritt 2: Labeling aus Mittelwert-Dateien starten ===")
+    all_results = []
+    tsv_files = find_tsv_files(time_means_folder)
+
+    if not tsv_files:
+        print(f"[ERROR] Keine Mittelwert-Dateien in Ordner gefunden: {time_means_folder}")
+        return
+
+    for file_path in tsv_files:
+        file_name = os.path.basename(file_path)
+        print(f"\n[INFO] Verarbeite Datei: {file_name}")
+
+        try:
+            # 2a. Paper-Schlüssel ermitteln
+            paper_key = infer_paper_key_from_filename(file_name)
+            if paper_key is None:
+                print(f"[WARN] Kein Paper-Key im Dateinamen erkannt: {file_name}")
+                continue
+
+            time_windows = PAPER_TIME_WINDOWS.get(paper_key)
+            if time_windows is None:
+                print(f"[WARN] Kein Zeitfenster für Paper-Key definiert: {paper_key}")
+                continue
+
+            # 2b. Mittelwert-Datei lesen
+            df = pd.read_csv(file_path, sep='\t')
+
+            # 2c. Nur phage-Gene
+            df = df[df['Entity'] == 'phage']
+            if df.empty:
+                print(f"[WARN] Keine phage-Gene in Datei: {file_name}")
+                continue
+
+            # 2d. Zeitspalten erkennen
+            time_cols = [col for col in df.columns if re.match(r'^\d+\.?\d*$', col)]
+            if not time_cols:
+                print(f"[WARN] Keine gültigen Zeitspalten in Datei: {file_name}")
+                continue
+
+            # 2e. MaxTime bestimmen
+            df["MaxTime"] = df[time_cols].idxmax(axis=1)
+            df["MaxTime"] = df["MaxTime"].astype(float)
+
+            # 2f. Label bestimmen
+            def assign_label(timepoint, time_windows):
+                """
+                Weist einem Zeitpunkt ein Label basierend auf definierten Zeitfenstern zu.
+                Liegt der Zeitpunkt vor dem frühesten Fenster → 'early'
+                Liegt er nach dem spätesten Fenster → 'late'
+                Ansonsten das definierte Label.
+                """
+                sorted_windows = sorted(time_windows, key=lambda x: x[0])
+                earliest_start = sorted_windows[0][0]
+                latest_end = sorted_windows[-1][1]
+
+                if timepoint <= earliest_start:
+                    return "early"
+                if timepoint >= latest_end:
+                    return "late"
+
+                for start, end, label in time_windows:
+                    if start <= timepoint <= end:
+                        return label
+
+                # Falls in einer Lücke zwischen Fenstern:
+                # Weisen wir das Label des nächsten (rechten) Fensters zu
+                for i in range(len(sorted_windows) - 1):
+                    end_i = sorted_windows[i][1]
+                    start_next = sorted_windows[i + 1][0]
+                    label_next = sorted_windows[i + 1][2]
+                    if end_i <= timepoint < start_next:
+                        return label_next
+
+                # Default sollte hier nicht mehr auftreten
+                raise ValueError(f"Zeitpunkt {timepoint} passt in kein definiertes Intervall.")
+
+            df["Label"] = df["MaxTime"].apply(lambda x: assign_label(x, time_windows))
+            df["SourceFile"] = file_name
+
+            # 2g. Relevante Spalten extrahieren
+            result = df[['Geneid', 'Entity', 'Symbol', 'MaxTime', 'Label', 'SourceFile']]
+            all_results.append(result)
+
+        except Exception as e:
+            print(f"[ERROR] Fehler bei Datei {file_name}: {e}")
+
+    # 3. Alles zusammenführen und abspeichern
+    if all_results:
+        merged_df = pd.concat(all_results, ignore_index=True)
+        os.makedirs(output_folder, exist_ok=True)
+        output_path = os.path.join(output_folder, output_filename)
+        merged_df.to_csv(output_path, sep='\t', index=False)
+        print(f"\n[INFO] Alle Ergebnisse gespeichert in: {output_path}")
+        # Vorbereitung der Daten für Visualisierung
+        label_counts_means = merged_df.groupby(['SourceFile', 'Label']).size().unstack(fill_value=0)
+
+        # Sortiere Spalten einheitlich
+        label_order = ["early", "middle", "late"]
+        label_counts_means = label_counts_means.reindex(columns=label_order)
+
+        return label_counts_means
+    else:
+        print("\n[INFO] Keine gültigen Ergebnisse zum Speichern vorhanden.")
