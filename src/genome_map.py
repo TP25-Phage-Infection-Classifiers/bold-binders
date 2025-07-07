@@ -48,7 +48,7 @@ def plot_genome_map(tsv_df, gff_path, output_path, genome_length):
 
     fig, ax = plt.subplots(figsize=(12, 2))
     for _, row in merged.iterrows():
-        ax.plot([row['start'], row['end']], [1, 1], lw=10, color=colors.get(row.get('Label_std', ''), 'gray'))
+        ax.plot([row['start'], row['end']], [1, 1], lw=10, color=colors.get(row.get('Label', ''), 'gray'))
         #ax.text((row['start'] + row['end']) / 2, 1.05, row['Geneid'], ha='center', fontsize=6, rotation=45)
 
     ax.set_xlim(0, genome_length + 200)
