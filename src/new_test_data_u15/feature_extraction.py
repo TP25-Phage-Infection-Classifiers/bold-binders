@@ -80,7 +80,7 @@ def extract_features(gff_directory, fasta_directory, labels_file, output_file):
                                 'phage_name': phage_name
                             })
 
-                            #print(f"Gen {gene_id} in {phage_name} gefunden und extrahiert")
+                            print(f"Gen {gene_id} in {phage_name} gefunden und extrahiert")
                             break  # Gen gefunden, weiter zum nächsten
                     except Exception as e:
                         print(f"Fehler bei der Verarbeitung von {matching_fasta[0]}: {e}")
