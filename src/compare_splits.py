@@ -8,8 +8,8 @@ import numpy as np
 
 def load_data(train_path, test_path, label_encoder):
     """
-    Lädt Trainings- und Testdaten aus TSV-Dateien, entfernt nicht benötigte Spalten
-    und wendet Label-Encoding auf die Zielvariablen an.
+    Lädt Trainings- und Testdaten (TSV) ein, entfernt unnötige Spalten
+    und kodiert Zielklassen mit dem LabelEncoder.
     """
     train_df = pd.read_csv(train_path, sep="\t")
     test_df = pd.read_csv(test_path, sep="\t")
@@ -25,8 +25,7 @@ def load_data(train_path, test_path, label_encoder):
 
 def train_and_predict(X_train, y_train, X_test):
     """
-    Trainiert ein Random-Forest-Modell mit den Trainingsdaten
-    und erzeugt Vorhersagen für die Testdaten.
+    Trainiert Random Forest und gibt Vorhersagen sowie Wahrscheinlichkeiten zurück.
     """
     model = RandomForestClassifier(n_estimators=100, random_state=42)
     model.fit(X_train, y_train)
@@ -35,42 +34,24 @@ def train_and_predict(X_train, y_train, X_test):
     return y_pred, y_proba
 
 
-def evaluate(y_test, y_pred, y_proba, report_dict, strategy_name):
+def evaluate(y_test, y_pred, y_proba, report_dict, strategy_name, label_encoder):
     """
-    Berechnet verschiedene Klassifikationsmetriken auf Basis der Vorhersagen.
-    Unterstützt sowohl binäre als auch Multiklassen-Klassifikation.
+    Berechnet Accuracy, AUC, gewichtete Metriken sowie Precision, Recall und F1 für jede Klasse.
     """
     weighted = report_dict["weighted avg"]
-    support = sum([v["support"] for k, v in report_dict.items() if k.isdigit()])
-
-    # AUC-Berechnung (robust für Binary und Multiclass)
-    auc = float("nan")  # Default-Wert
+    support = sum([v["support"] for k, v in report_dict.items() if k in label_encoder.classes_])
 
     try:
         unique_classes = np.unique(y_test)
-        n_classes = len(unique_classes)
-
-        if n_classes == 2:
-            # Binary classification
-            if y_proba.ndim == 2:
-                # [n_samples, n_classes] -> Klasse 1 확률만
-                y_proba_bin = y_proba[:, 1]
-            else:
-                y_proba_bin = y_proba
-            auc = roc_auc_score(y_test, y_proba_bin)
-
-        elif n_classes > 2:
-            # Multiclass classification
-            if y_proba.ndim != 2 or y_proba.shape[1] != n_classes:
-                raise ValueError(f"Multiclass AUC: Erwartete shape (n_samples, {n_classes}), bekam {y_proba.shape}")
+        if len(unique_classes) == 2:
+            auc = roc_auc_score(y_test, y_proba[:, 1])
+        else:
             y_test_bin = label_binarize(y_test, classes=unique_classes)
             auc = roc_auc_score(y_test_bin, y_proba, multi_class="ovr")
-
-    except Exception as e:
-        print(f"[AUC-Berechnung fehlgeschlagen] {e}")
+    except:
         auc = float("nan")
 
-    return {
+    result = {
         "Strategy": strategy_name,
         "Accuracy": round(accuracy_score(y_test, y_pred), 4),
         "AUC": round(auc, 4) if not np.isnan(auc) else "N/A",
@@ -80,37 +61,79 @@ def evaluate(y_test, y_pred, y_proba, report_dict, strategy_name):
         "Support": support
     }
 
-def evaluate_strategy(train_path, test_path, label_encoder, strategy_name):
-    X_train, y_train, X_test, y_test = load_data(train_path, test_path, label_encoder)
-    y_pred, y_proba = train_and_predict(X_train, y_train, X_test)
-    report = classification_report(y_test, y_pred, output_dict=True)
-    return evaluate(y_test, y_pred, y_proba, report, strategy_name)
+    # Klassenspezifische Scores hinzufügen
+    for label in label_encoder.classes_:
+        if label in report_dict:
+            result[f"F1_{label}"] = round(report_dict[label]["f1-score"], 4)
+            result[f"Precision_{label}"] = round(report_dict[label]["precision"], 4)
+            result[f"Recall_{label}"] = round(report_dict[label]["recall"], 4)
+        else:
+            result[f"F1_{label}"] = result[f"Precision_{label}"] = result[f"Recall_{label}"] = "N/A"
 
+    return result
 
 def compute_difference_row(df, label="Difference"):
-    metrics = ["Accuracy", "AUC", "Precision", "Recall", "F1-score", "Support"]
-    row1 = df.iloc[0]
-    row2 = df.iloc[1]
+    """
+    Berechnet Differenz zwischen zwei Strategien
+    """
+    row1, row2 = df.iloc[0], df.iloc[1]
     diff_row = {"Strategy": label}
-    for metric in metrics:
-        try:
-            diff = row1[metric] - row2[metric]
-            diff_row[metric] = round(diff, 4)
-        except:
-            diff_row[metric] = "N/A"
+    for col in df.columns:
+        if col != "Strategy":
+            try:
+                diff_row[col] = round(row1[col] - row2[col], 4)
+            except:
+                diff_row[col] = "N/A"
     return diff_row
+
 
 def plot_heatmap(df):
     """
-    Erstellt eine Heatmap zur Visualisierung der Klassifikationsmetriken
-    für verschiedene Strategien.
+    Erstellt eine Heatmap zur Visualisierung aller numerischen Klassifikationsmetriken,
+    inklusive klassenspezifischer Precision, Recall und F1-Scores.
     """
-    df_plot = df.set_index("Strategy")[["Accuracy", "AUC", "Precision", "Recall", "F1-score"]]
-    plt.figure(figsize=(8, 3))
-    sns.heatmap(df_plot, annot=True, fmt=".3f", cmap="YlGnBu", vmin=0, vmax=1, linewidths=0.5)
-    plt.title("Leistungsvergleich der Split-Strategien")
+    # Nur numerische Spalten extrahieren, Strategie als Index
+    df_plot = df.set_index("Strategy").select_dtypes(include=[float, int])
+
+    # Dynamische Breite je nach Anzahl Metriken
+    num_cols = df_plot.shape[1]
+    fig_width = max(12, num_cols * 0.7)
+
+    plt.figure(figsize=(fig_width, 4))
+    sns.heatmap(df_plot, annot=True, fmt=".3f", cmap="YlGnBu", linewidths=0.5)
+    plt.title("Strategievergleich inkl. klassenspezifischer Metriken")
     plt.tight_layout()
     plt.show()
+
+def run_comparison(train1_path, test1_path, train2_path, test2_path, label_encoder):
+    """
+    Führt vollständigen Vergleich zweier Strategien durch:
+    - Laden der Daten
+    - Training & Vorhersage
+    - Klassifikationsbericht
+    - Evaluation
+    - Differenzberechnung
+    - Rückgabe des vollständigen Ergebnis-DataFrames
+    """
+    # Strategie 1
+    X_train1, y_train1, X_test1, y_test1 = load_data(train1_path, test1_path, label_encoder)
+    y_pred1, y_proba1 = train_and_predict(X_train1, y_train1, X_test1)
+    report1 = classification_report(y_test1, y_pred1, target_names=label_encoder.classes_, output_dict=True)
+    result1 = evaluate(y_test1, y_pred1, y_proba1, report1, "Strategy 1 (US14)", label_encoder)
+
+    # Strategie 2
+    X_train2, y_train2, X_test2, y_test2 = load_data(train2_path, test2_path, label_encoder)
+    y_pred2, y_proba2 = train_and_predict(X_train2, y_train2, X_test2)
+    report2 = classification_report(y_test2, y_pred2, target_names=label_encoder.classes_, output_dict=True)
+    result2 = evaluate(y_test2, y_pred2, y_proba2, report2, "Strategy 2 (US15)", label_encoder)
+
+    # Zusammenführen und Differenz berechnen
+    results_df = pd.DataFrame([result1, result2])
+    diff_row = compute_difference_row(results_df)
+    results_df = pd.concat([results_df, pd.DataFrame([diff_row])], ignore_index=True)
+
+    return results_df
+
 
 
 
