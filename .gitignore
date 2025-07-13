@@ -175,4 +175,4 @@ cython_debug/
 .pypirc
 
 # Embedding file (since its too big)
-embeddings_complete.npz
+data/esmc-embeddings/embeddings_complete.npz
