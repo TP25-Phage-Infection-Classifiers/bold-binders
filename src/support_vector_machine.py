@@ -1,10 +1,13 @@
 from sklearn.model_selection import GridSearchCV
+#  from thundersvm import SVC
 from sklearn.svm import SVC
 from sklearn.metrics import classification_report
+from sklearn.base import clone
 import pandas as pd
-import numpy as np
+import joblib
 from collections import Counter
 
+'''
 def supportVectorMachine(train_df, test_df):
 
     print(train_df.shape)
@@ -52,7 +55,7 @@ def supportVectorMachine(train_df, test_df):
     svm_multi.fit(X_train, y_train)
     preds = svm_multi.predict(X_test)
     print(classification_report(y_test, preds))
-
+'''
 
 def tuneSVM(train_df, test_df):
     print(train_df.shape)
@@ -67,12 +70,6 @@ def tuneSVM(train_df, test_df):
 
     # Define parameter grid with varying kernels
     param_grid = [
-        {
-            "kernel": ["linear"],
-            "C": [0.1, 1, 10, 100],
-            "class_weight": [None, "balanced"],
-            "decision_function_shape": ["ovr"]
-        },
         {
             "kernel": ["rbf"],
             "C": [0.1, 1, 10, 100],
@@ -119,13 +116,69 @@ def tuneSVM(train_df, test_df):
     print("Vorhersagen:", Counter(preds))
     print(classification_report(y_test, preds))
 
-#Load pre-split datasets
-train_df = pd.read_csv("../data/feature_matrix/feature_matrix.tsv", sep="\t")
-test_df = pd.read_csv("../data/new_test_data/feature_matrix_test/feature_matrix.tsv", sep="\t")
+def model_predict(model, test_path):
+    test_df = pd.read_csv(test_path, sep="\t")
 
-# Load datasets
-train_df_us15 = pd.read_csv("../data/new_test_data/split_dataset_us15/train_set.tsv", sep="\t")
-test_df_us15 = pd.read_csv("../data/new_test_data/split_dataset_us15/test_set.tsv", sep="\t")
+    X_test = test_df.drop(columns=["id", "label"])
+    y_test = test_df["label"]
 
-#supportVectorMachine(train_df_us15, test_df_us15)
-#tuneSVM(train_df_us15, test_df_us15)
+    pred = model.predict(X_test)
+
+    print(classification_report(y_test, pred))
+
+def train_and_evaluate(final_model, train_path, test_path):
+
+    train_df = pd.read_csv(train_path, sep="\t")
+    test_df = pd.read_csv(test_path, sep="\t")
+
+    X_train = train_df.drop(columns=["id", "label"])
+    y_train = train_df["label"]
+    X_test = test_df.drop(columns=["id", "label"])
+    y_test = test_df["label"]
+
+    # Binary labels
+    y_early_train = y_train.apply(lambda x: 1 if x == "early" else 0)
+    y_late_train = y_train.apply(lambda x: 1 if x == "late" else 0)
+
+    svm_early = clone(final_model)
+    #svm_late = clone(final_model)
+
+    svm_early.fit(X_train, y_train)
+    #svm_late.fit(X_train, y_late_train)
+
+    # Predict
+    pred_early = svm_early.predict(X_test)
+    #pred_late = svm_late.predict(X_test)
+
+    # Combine predictions one vs one
+    #final_preds = []
+    #for pe, pl in zip(pred_early, pred_late):
+    #    if pe == 1 and pl == 0:
+    #        final_preds.append("early")
+    #    elif pe == 0 and pl == 1:
+    #        final_preds.append("late")
+    #    elif pe == 0 and pl == 0:
+    #        final_preds.append("middle")
+    #    else:
+    #        print("error: gene classified as early and late")
+
+    # Evaluate
+    #
+    # Modell speichern
+    import os
+    os.makedirs("../models", exist_ok=True)
+    joblib.dump(svm_early, "../models/final_svm_model.pkl")
+
+
+    print(classification_report(y_test, pred_early))
+
+if __name__ == "__main__":
+    # Load datasets
+    train_path = "../data/new_test_data/split_dataset_us15/train_set.tsv"
+    test_path = "../data/new_test_data/split_dataset_us15/test_set.tsv"
+
+    #final_model = tuneSVM(train_df, test_df)
+    final_model = SVC(kernel="poly", C=0.1, gamma=0.01, degree=2, class_weight="balanced")
+
+    # Evaluieren (optional)
+    train_and_evaluate(final_model, train_path, test_path)
