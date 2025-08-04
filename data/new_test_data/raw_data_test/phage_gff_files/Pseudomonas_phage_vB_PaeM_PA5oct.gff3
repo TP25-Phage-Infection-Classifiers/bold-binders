@@ -1,0 +1,946 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MK797984.1 1 286783
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2163605
+MK797984.1	Genbank	region	1	286783	.	+	.	ID=MK797984.1:1..286783;Dbxref=taxon:2163605;gbkey=Src;mol_type=genomic DNA;old-name=Pseudomonas phage PA5oct
+MK797984.1	Genbank	long_terminal_repeat	1	39080	.	+	.	ID=id-MK797984.1:1..39080;Note=LTR region found with double sequencing coverage%2C indicating a duplication at the end of the genome in the capsid and a mechanism for circularization of the genome upon infection;gbkey=repeat_region;rpt_type=long_terminal_repeat
+MK797984.1	Genbank	gene	122	373	.	-	.	ID=gene-EST35_0001;Name=EST35_0001;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0001
+MK797984.1	Genbank	CDS	122	373	.	-	0	ID=cds-QCG75885.1;Parent=gene-EST35_0001;Dbxref=SEED:fig|6666666.410365.peg.1,NCBI_GP:QCG75885.1;Name=QCG75885.1;gbkey=CDS;locus_tag=EST35_0001;product=hypothetical protein;protein_id=QCG75885.1;transl_table=11
+MK797984.1	Genbank	gene	408	677	.	+	.	ID=gene-EST35_0002;Name=EST35_0002;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0002
+MK797984.1	Genbank	CDS	408	677	.	+	0	ID=cds-QCG75886.1;Parent=gene-EST35_0002;Dbxref=UniProtKB/TrEMBL:A0A0B5S0V9,NCBI_GP:QCG75886.1;Name=QCG75886.1;gbkey=CDS;locus_tag=EST35_0002;product=hypothetical protein;protein_id=QCG75886.1;transl_table=11
+MK797984.1	Genbank	gene	681	986	.	+	.	ID=gene-EST35_0003;Name=EST35_0003;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0003
+MK797984.1	Genbank	CDS	681	986	.	+	0	ID=cds-QCG75887.1;Parent=gene-EST35_0003;Dbxref=SEED:fig|6666666.410365.peg.3,NCBI_GP:QCG75887.1;Name=QCG75887.1;gbkey=CDS;locus_tag=EST35_0003;product=hypothetical protein;protein_id=QCG75887.1;transl_table=11
+MK797984.1	Genbank	gene	1003	1287	.	+	.	ID=gene-EST35_0004;Name=EST35_0004;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0004
+MK797984.1	Genbank	CDS	1003	1287	.	+	0	ID=cds-QCG75888.1;Parent=gene-EST35_0004;Dbxref=SEED:fig|6666666.410365.peg.4,NCBI_GP:QCG75888.1;Name=QCG75888.1;gbkey=CDS;locus_tag=EST35_0004;product=hypothetical protein;protein_id=QCG75888.1;transl_table=11
+MK797984.1	Genbank	gene	1290	1565	.	+	.	ID=gene-EST35_0005;Name=EST35_0005;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0005
+MK797984.1	Genbank	CDS	1290	1565	.	+	0	ID=cds-QCG75889.1;Parent=gene-EST35_0005;Dbxref=SEED:fig|6666666.410365.peg.5,NCBI_GP:QCG75889.1;Name=QCG75889.1;gbkey=CDS;locus_tag=EST35_0005;product=hypothetical protein;protein_id=QCG75889.1;transl_table=11
+MK797984.1	Genbank	gene	1578	1841	.	+	.	ID=gene-EST35_0006;Name=EST35_0006;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0006
+MK797984.1	Genbank	CDS	1578	1841	.	+	0	ID=cds-QCG75890.1;Parent=gene-EST35_0006;Dbxref=SEED:fig|6666666.410365.peg.6,NCBI_GP:QCG75890.1;Name=QCG75890.1;gbkey=CDS;locus_tag=EST35_0006;product=hypothetical protein;protein_id=QCG75890.1;transl_table=11
+MK797984.1	Genbank	gene	1838	2137	.	+	.	ID=gene-EST35_0007;Name=EST35_0007;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0007
+MK797984.1	Genbank	CDS	1838	2137	.	+	0	ID=cds-QCG75891.1;Parent=gene-EST35_0007;Dbxref=SEED:fig|6666666.410365.peg.7,NCBI_GP:QCG75891.1;Name=QCG75891.1;gbkey=CDS;locus_tag=EST35_0007;product=hypothetical protein;protein_id=QCG75891.1;transl_table=11
+MK797984.1	Genbank	gene	2255	2368	.	+	.	ID=gene-EST35_0008;Name=EST35_0008;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0008
+MK797984.1	Genbank	CDS	2255	2368	.	+	0	ID=cds-QCG75892.1;Parent=gene-EST35_0008;Dbxref=UniProtKB/TrEMBL:A0A0D9NNK4,NCBI_GP:QCG75892.1;Name=QCG75892.1;gbkey=CDS;locus_tag=EST35_0008;product=hypothetical protein;protein_id=QCG75892.1;transl_table=11
+MK797984.1	Genbank	gene	2382	2696	.	+	.	ID=gene-EST35_0009;Name=EST35_0009;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0009
+MK797984.1	Genbank	CDS	2382	2696	.	+	0	ID=cds-QCG75893.1;Parent=gene-EST35_0009;Dbxref=SEED:fig|6666666.410365.peg.9,NCBI_GP:QCG75893.1;Name=QCG75893.1;gbkey=CDS;locus_tag=EST35_0009;product=hypothetical protein;protein_id=QCG75893.1;transl_table=11
+MK797984.1	Genbank	gene	2696	2998	.	+	.	ID=gene-EST35_0010;Name=EST35_0010;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0010
+MK797984.1	Genbank	CDS	2696	2998	.	+	0	ID=cds-QCG75894.1;Parent=gene-EST35_0010;Dbxref=UniProtKB/TrEMBL:A0A1H3ZT88,NCBI_GP:QCG75894.1;Name=QCG75894.1;gbkey=CDS;locus_tag=EST35_0010;product=hypothetical protein;protein_id=QCG75894.1;transl_table=11
+MK797984.1	Genbank	gene	2998	3255	.	+	.	ID=gene-EST35_0011;Name=EST35_0011;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0011
+MK797984.1	Genbank	CDS	2998	3255	.	+	0	ID=cds-QCG75895.1;Parent=gene-EST35_0011;Dbxref=SEED:fig|6666666.410365.peg.11,NCBI_GP:QCG75895.1;Name=QCG75895.1;gbkey=CDS;locus_tag=EST35_0011;product=hypothetical protein;protein_id=QCG75895.1;transl_table=11
+MK797984.1	Genbank	gene	3352	3489	.	+	.	ID=gene-EST35_0012;Name=EST35_0012;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0012
+MK797984.1	Genbank	CDS	3352	3489	.	+	0	ID=cds-QCG75896.1;Parent=gene-EST35_0012;Dbxref=UniProtKB/TrEMBL:A0A0F9ZYR7,NCBI_GP:QCG75896.1;Name=QCG75896.1;gbkey=CDS;locus_tag=EST35_0012;product=hypothetical protein;protein_id=QCG75896.1;transl_table=11
+MK797984.1	Genbank	gene	3490	3612	.	+	.	ID=gene-EST35_0013;Name=EST35_0013;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0013
+MK797984.1	Genbank	CDS	3490	3612	.	+	0	ID=cds-QCG75897.1;Parent=gene-EST35_0013;Dbxref=UniProtKB/TrEMBL:A0A099L0S5,NCBI_GP:QCG75897.1;Name=QCG75897.1;gbkey=CDS;locus_tag=EST35_0013;product=hypothetical protein;protein_id=QCG75897.1;transl_table=11
+MK797984.1	Genbank	gene	3618	3743	.	+	.	ID=gene-EST35_0014;Name=EST35_0014;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0014
+MK797984.1	Genbank	CDS	3618	3743	.	+	0	ID=cds-QCG75898.1;Parent=gene-EST35_0014;Dbxref=UniProtKB/TrEMBL:A0A182ITL7,NCBI_GP:QCG75898.1;Name=QCG75898.1;gbkey=CDS;locus_tag=EST35_0014;product=hypothetical protein;protein_id=QCG75898.1;transl_table=11
+MK797984.1	Genbank	gene	3795	3929	.	+	.	ID=gene-EST35_0015;Name=EST35_0015;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0015
+MK797984.1	Genbank	CDS	3795	3929	.	+	0	ID=cds-QCG75899.1;Parent=gene-EST35_0015;Dbxref=NCBI_GP:QCG75899.1;Name=QCG75899.1;gbkey=CDS;locus_tag=EST35_0015;product=hypothetical protein;protein_id=QCG75899.1;transl_table=11
+MK797984.1	Genbank	gene	3904	4068	.	+	.	ID=gene-EST35_0016;Name=EST35_0016;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0016
+MK797984.1	Genbank	CDS	3904	4068	.	+	0	ID=cds-QCG75900.1;Parent=gene-EST35_0016;Dbxref=UniProtKB/TrEMBL:A0A1J1ITQ1,NCBI_GP:QCG75900.1;Name=QCG75900.1;gbkey=CDS;locus_tag=EST35_0016;product=hypothetical protein;protein_id=QCG75900.1;transl_table=11
+MK797984.1	Genbank	gene	4049	4198	.	+	.	ID=gene-EST35_0017;Name=EST35_0017;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0017
+MK797984.1	Genbank	CDS	4049	4198	.	+	0	ID=cds-QCG75901.1;Parent=gene-EST35_0017;Dbxref=NCBI_GP:QCG75901.1;Name=QCG75901.1;gbkey=CDS;locus_tag=EST35_0017;product=hypothetical protein;protein_id=QCG75901.1;transl_table=11
+MK797984.1	Genbank	gene	4204	4338	.	+	.	ID=gene-EST35_0018;Name=EST35_0018;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0018
+MK797984.1	Genbank	CDS	4204	4338	.	+	0	ID=cds-QCG75902.1;Parent=gene-EST35_0018;Dbxref=UniProtKB/TrEMBL:A0A0L7LKS8,NCBI_GP:QCG75902.1;Name=QCG75902.1;gbkey=CDS;locus_tag=EST35_0018;product=hypothetical protein;protein_id=QCG75902.1;transl_table=11
+MK797984.1	Genbank	gene	4325	4492	.	+	.	ID=gene-EST35_0019;Name=EST35_0019;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0019
+MK797984.1	Genbank	CDS	4325	4492	.	+	0	ID=cds-QCG75903.1;Parent=gene-EST35_0019;Dbxref=NCBI_GP:QCG75903.1;Name=QCG75903.1;gbkey=CDS;locus_tag=EST35_0019;product=hypothetical protein;protein_id=QCG75903.1;transl_table=11
+MK797984.1	Genbank	gene	4489	4647	.	+	.	ID=gene-EST35_0020;Name=EST35_0020;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0020
+MK797984.1	Genbank	CDS	4489	4647	.	+	0	ID=cds-QCG75904.1;Parent=gene-EST35_0020;Dbxref=SEED:fig|6666666.410365.peg.16,NCBI_GP:QCG75904.1;Name=QCG75904.1;gbkey=CDS;locus_tag=EST35_0020;product=hypothetical protein;protein_id=QCG75904.1;transl_table=11
+MK797984.1	Genbank	gene	4644	4781	.	+	.	ID=gene-EST35_0021;Name=EST35_0021;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0021
+MK797984.1	Genbank	CDS	4644	4781	.	+	0	ID=cds-QCG75905.1;Parent=gene-EST35_0021;Dbxref=NCBI_GP:QCG75905.1;Name=QCG75905.1;gbkey=CDS;locus_tag=EST35_0021;product=hypothetical protein;protein_id=QCG75905.1;transl_table=11
+MK797984.1	Genbank	gene	4819	4953	.	+	.	ID=gene-EST35_0022;Name=EST35_0022;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0022
+MK797984.1	Genbank	CDS	4819	4953	.	+	0	ID=cds-QCG75906.1;Parent=gene-EST35_0022;Dbxref=SEED:fig|6666666.410365.peg.17,NCBI_GP:QCG75906.1;Name=QCG75906.1;gbkey=CDS;locus_tag=EST35_0022;product=hypothetical protein;protein_id=QCG75906.1;transl_table=11
+MK797984.1	Genbank	gene	5062	5208	.	+	.	ID=gene-EST35_0023;Name=EST35_0023;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0023
+MK797984.1	Genbank	CDS	5062	5208	.	+	0	ID=cds-QCG75907.1;Parent=gene-EST35_0023;Dbxref=UniProtKB/TrEMBL:A0A0L7LMT4,NCBI_GP:QCG75907.1;Name=QCG75907.1;gbkey=CDS;locus_tag=EST35_0023;product=phosphoglucomutase;protein_id=QCG75907.1;transl_table=11
+MK797984.1	Genbank	gene	5208	5348	.	+	.	ID=gene-EST35_0024;Name=EST35_0024;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0024
+MK797984.1	Genbank	CDS	5208	5348	.	+	0	ID=cds-QCG75908.1;Parent=gene-EST35_0024;Dbxref=UniProtKB/TrEMBL:A0A2G8LQW9,NCBI_GP:QCG75908.1;Name=QCG75908.1;gbkey=CDS;locus_tag=EST35_0024;product=hypothetical protein;protein_id=QCG75908.1;transl_table=11
+MK797984.1	Genbank	gene	5342	5515	.	+	.	ID=gene-EST35_0025;Name=EST35_0025;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0025
+MK797984.1	Genbank	CDS	5342	5515	.	+	0	ID=cds-QCG75909.1;Parent=gene-EST35_0025;Dbxref=SEED:fig|6666666.410365.peg.18,NCBI_GP:QCG75909.1;Name=QCG75909.1;gbkey=CDS;locus_tag=EST35_0025;product=hypothetical protein;protein_id=QCG75909.1;transl_table=11
+MK797984.1	Genbank	gene	5505	5639	.	+	.	ID=gene-EST35_0026;Name=EST35_0026;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0026
+MK797984.1	Genbank	CDS	5505	5639	.	+	0	ID=cds-QCG75910.1;Parent=gene-EST35_0026;Dbxref=SEED:fig|6666666.410365.peg.19,NCBI_GP:QCG75910.1;Name=QCG75910.1;gbkey=CDS;locus_tag=EST35_0026;product=hypothetical protein;protein_id=QCG75910.1;transl_table=11
+MK797984.1	Genbank	gene	5633	5785	.	+	.	ID=gene-EST35_0027;Name=EST35_0027;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0027
+MK797984.1	Genbank	CDS	5633	5785	.	+	0	ID=cds-QCG75911.1;Parent=gene-EST35_0027;Dbxref=SEED:fig|6666666.410365.peg.20,NCBI_GP:QCG75911.1;Name=QCG75911.1;gbkey=CDS;locus_tag=EST35_0027;product=hypothetical protein;protein_id=QCG75911.1;transl_table=11
+MK797984.1	Genbank	gene	5920	6069	.	+	.	ID=gene-EST35_0028;Name=EST35_0028;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0028
+MK797984.1	Genbank	CDS	5920	6069	.	+	0	ID=cds-QCG75912.1;Parent=gene-EST35_0028;Dbxref=SEED:fig|6666666.410365.peg.21,NCBI_GP:QCG75912.1;Name=QCG75912.1;gbkey=CDS;locus_tag=EST35_0028;product=hypothetical protein;protein_id=QCG75912.1;transl_table=11
+MK797984.1	Genbank	gene	6106	6249	.	+	.	ID=gene-EST35_0029;Name=EST35_0029;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0029
+MK797984.1	Genbank	CDS	6106	6249	.	+	0	ID=cds-QCG75913.1;Parent=gene-EST35_0029;Dbxref=NCBI_GP:QCG75913.1;Name=QCG75913.1;gbkey=CDS;locus_tag=EST35_0029;product=hypothetical protein;protein_id=QCG75913.1;transl_table=11
+MK797984.1	Genbank	gene	6251	6421	.	+	.	ID=gene-EST35_0030;Name=EST35_0030;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0030
+MK797984.1	Genbank	CDS	6251	6421	.	+	0	ID=cds-QCG75914.1;Parent=gene-EST35_0030;Dbxref=UniProtKB/TrEMBL:V4C490,NCBI_GP:QCG75914.1;Name=QCG75914.1;gbkey=CDS;locus_tag=EST35_0030;product=hypothetical protein;protein_id=QCG75914.1;transl_table=11
+MK797984.1	Genbank	gene	6396	6584	.	+	.	ID=gene-EST35_0031;Name=EST35_0031;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0031
+MK797984.1	Genbank	CDS	6396	6584	.	+	0	ID=cds-QCG75915.1;Parent=gene-EST35_0031;Dbxref=SEED:fig|6666666.410365.peg.22,NCBI_GP:QCG75915.1;Name=QCG75915.1;gbkey=CDS;locus_tag=EST35_0031;product=hypothetical protein;protein_id=QCG75915.1;transl_table=11
+MK797984.1	Genbank	gene	6581	6769	.	+	.	ID=gene-EST35_0032;Name=EST35_0032;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0032
+MK797984.1	Genbank	CDS	6581	6769	.	+	0	ID=cds-QCG75916.1;Parent=gene-EST35_0032;Dbxref=SEED:fig|6666666.410365.peg.23,NCBI_GP:QCG75916.1;Name=QCG75916.1;gbkey=CDS;locus_tag=EST35_0032;product=hypothetical protein;protein_id=QCG75916.1;transl_table=11
+MK797984.1	Genbank	gene	6766	7050	.	+	.	ID=gene-EST35_0033;Name=EST35_0033;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0033
+MK797984.1	Genbank	CDS	6766	7050	.	+	0	ID=cds-QCG75917.1;Parent=gene-EST35_0033;Dbxref=SEED:fig|6666666.410365.peg.24,NCBI_GP:QCG75917.1;Name=QCG75917.1;gbkey=CDS;locus_tag=EST35_0033;product=hypothetical protein;protein_id=QCG75917.1;transl_table=11
+MK797984.1	Genbank	gene	7200	7307	.	+	.	ID=gene-EST35_0034;Name=EST35_0034;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0034
+MK797984.1	Genbank	CDS	7200	7307	.	+	0	ID=cds-QCG75918.1;Parent=gene-EST35_0034;Dbxref=NCBI_GP:QCG75918.1;Name=QCG75918.1;gbkey=CDS;locus_tag=EST35_0034;product=hypothetical protein;protein_id=QCG75918.1;transl_table=11
+MK797984.1	Genbank	gene	7559	7966	.	+	.	ID=gene-EST35_0035;Name=EST35_0035;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0035
+MK797984.1	Genbank	CDS	7559	7966	.	+	0	ID=cds-QCG75919.1;Parent=gene-EST35_0035;Dbxref=SEED:fig|6666666.410365.peg.25,NCBI_GP:QCG75919.1;Name=QCG75919.1;gbkey=CDS;locus_tag=EST35_0035;product=hypothetical protein;protein_id=QCG75919.1;transl_table=11
+MK797984.1	Genbank	gene	8263	8498	.	+	.	ID=gene-EST35_0036;Name=EST35_0036;gbkey=Gene;gene_biotype=lncRNA;locus_tag=EST35_0036
+MK797984.1	Genbank	lnc_RNA	8263	8498	.	+	.	ID=rna-EST35_0036;Parent=gene-EST35_0036;Note=ncRNA001%3B Annotation based on RNA-Seq data;gbkey=ncRNA;locus_tag=EST35_0036;product=putative lncRNA
+MK797984.1	Genbank	exon	8263	8498	.	+	.	ID=exon-EST35_0036-1;Parent=rna-EST35_0036;Note=ncRNA001%3B Annotation based on RNA-Seq data;gbkey=ncRNA;locus_tag=EST35_0036;product=putative lncRNA
+MK797984.1	Genbank	gene	8503	8724	.	+	.	ID=gene-EST35_0037;Name=EST35_0037;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0037
+MK797984.1	Genbank	CDS	8503	8724	.	+	0	ID=cds-QCG75920.1;Parent=gene-EST35_0037;Dbxref=UniProtKB/TrEMBL:A0A384ADT0,NCBI_GP:QCG75920.1;Name=QCG75920.1;gbkey=CDS;locus_tag=EST35_0037;product=extensin-like protein;protein_id=QCG75920.1;transl_table=11
+MK797984.1	Genbank	gene	9167	9871	.	+	.	ID=gene-EST35_0038;Name=EST35_0038;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0038
+MK797984.1	Genbank	CDS	9167	9871	.	+	0	ID=cds-QCG75921.1;Parent=gene-EST35_0038;Dbxref=SEED:fig|6666666.410365.peg.27,NCBI_GP:QCG75921.1;Name=QCG75921.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0038;product=structural protein;protein_id=QCG75921.1;transl_table=11
+MK797984.1	Genbank	gene	10126	10299	.	+	.	ID=gene-EST35_0039;Name=EST35_0039;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0039
+MK797984.1	Genbank	CDS	10126	10299	.	+	0	ID=cds-QCG75922.1;Parent=gene-EST35_0039;Dbxref=SEED:fig|6666666.410365.peg.28,NCBI_GP:QCG75922.1;Name=QCG75922.1;gbkey=CDS;locus_tag=EST35_0039;product=hypothetical protein;protein_id=QCG75922.1;transl_table=11
+MK797984.1	Genbank	gene	10301	10468	.	+	.	ID=gene-EST35_0040;Name=EST35_0040;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0040
+MK797984.1	Genbank	CDS	10301	10468	.	+	0	ID=cds-QCG75923.1;Parent=gene-EST35_0040;Dbxref=SEED:fig|6666666.410365.peg.29,NCBI_GP:QCG75923.1;Name=QCG75923.1;gbkey=CDS;locus_tag=EST35_0040;product=hypothetical protein;protein_id=QCG75923.1;transl_table=11
+MK797984.1	Genbank	gene	10655	10858	.	+	.	ID=gene-EST35_0041;Name=EST35_0041;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0041
+MK797984.1	Genbank	CDS	10655	10858	.	+	0	ID=cds-QCG75924.1;Parent=gene-EST35_0041;Dbxref=NCBI_GP:QCG75924.1;Name=QCG75924.1;gbkey=CDS;locus_tag=EST35_0041;product=hypothetical protein;protein_id=QCG75924.1;transl_table=11
+MK797984.1	Genbank	gene	10839	11105	.	+	.	ID=gene-EST35_0042;Name=EST35_0042;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0042
+MK797984.1	Genbank	CDS	10839	11105	.	+	0	ID=cds-QCG75925.1;Parent=gene-EST35_0042;Dbxref=SEED:fig|6666666.410365.peg.30,NCBI_GP:QCG75925.1;Name=QCG75925.1;gbkey=CDS;locus_tag=EST35_0042;product=hypothetical protein;protein_id=QCG75925.1;transl_table=11
+MK797984.1	Genbank	gene	11109	11243	.	+	.	ID=gene-EST35_0043;Name=EST35_0043;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0043
+MK797984.1	Genbank	CDS	11109	11243	.	+	0	ID=cds-QCG75926.1;Parent=gene-EST35_0043;Dbxref=SEED:fig|6666666.410365.peg.31,NCBI_GP:QCG75926.1;Name=QCG75926.1;gbkey=CDS;locus_tag=EST35_0043;product=hypothetical protein;protein_id=QCG75926.1;transl_table=11
+MK797984.1	Genbank	gene	11240	11371	.	+	.	ID=gene-EST35_0044;Name=EST35_0044;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0044
+MK797984.1	Genbank	CDS	11240	11371	.	+	0	ID=cds-QCG75927.1;Parent=gene-EST35_0044;Dbxref=UniProtKB/TrEMBL:T1HKB9,NCBI_GP:QCG75927.1;Name=QCG75927.1;gbkey=CDS;locus_tag=EST35_0044;product=hypothetical protein;protein_id=QCG75927.1;transl_table=11
+MK797984.1	Genbank	gene	11364	11576	.	+	.	ID=gene-EST35_0045;Name=EST35_0045;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0045
+MK797984.1	Genbank	CDS	11364	11576	.	+	0	ID=cds-QCG75928.1;Parent=gene-EST35_0045;Dbxref=NCBI_GP:QCG75928.1;Name=QCG75928.1;gbkey=CDS;locus_tag=EST35_0045;product=hypothetical protein;protein_id=QCG75928.1;transl_table=11
+MK797984.1	Genbank	gene	11592	11933	.	+	.	ID=gene-EST35_0046;Name=EST35_0046;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0046
+MK797984.1	Genbank	CDS	11592	11933	.	+	0	ID=cds-QCG75929.1;Parent=gene-EST35_0046;Dbxref=SEED:fig|6666666.410365.peg.32,NCBI_GP:QCG75929.1;Name=QCG75929.1;gbkey=CDS;locus_tag=EST35_0046;product=hypothetical protein;protein_id=QCG75929.1;transl_table=11
+MK797984.1	Genbank	gene	11935	12339	.	+	.	ID=gene-EST35_0047;Name=EST35_0047;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0047
+MK797984.1	Genbank	CDS	11935	12339	.	+	0	ID=cds-QCG75930.1;Parent=gene-EST35_0047;Dbxref=SEED:fig|6666666.410365.peg.33,NCBI_GP:QCG75930.1;Name=QCG75930.1;gbkey=CDS;locus_tag=EST35_0047;product=hypothetical protein;protein_id=QCG75930.1;transl_table=11
+MK797984.1	Genbank	gene	12353	12550	.	+	.	ID=gene-EST35_0048;Name=EST35_0048;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0048
+MK797984.1	Genbank	CDS	12353	12550	.	+	0	ID=cds-QCG75931.1;Parent=gene-EST35_0048;Dbxref=SEED:fig|6666666.410365.peg.34,NCBI_GP:QCG75931.1;Name=QCG75931.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0048;product=hypothetical protein;protein_id=QCG75931.1;transl_table=11
+MK797984.1	Genbank	gene	12552	12809	.	+	.	ID=gene-EST35_0049;Name=EST35_0049;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0049
+MK797984.1	Genbank	CDS	12552	12809	.	+	0	ID=cds-QCG75932.1;Parent=gene-EST35_0049;Dbxref=SEED:fig|6666666.410365.peg.35,NCBI_GP:QCG75932.1;Name=QCG75932.1;gbkey=CDS;locus_tag=EST35_0049;product=hypothetical protein;protein_id=QCG75932.1;transl_table=11
+MK797984.1	Genbank	gene	13721	14305	.	+	.	ID=gene-EST35_0050;Name=EST35_0050;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0050
+MK797984.1	Genbank	CDS	13721	14305	.	+	0	ID=cds-QCG75933.1;Parent=gene-EST35_0050;Dbxref=SEED:fig|6666666.410365.peg.36,NCBI_GP:QCG75933.1;Name=QCG75933.1;gbkey=CDS;locus_tag=EST35_0050;product=hypothetical protein;protein_id=QCG75933.1;transl_table=11
+MK797984.1	Genbank	gene	14309	14857	.	+	.	ID=gene-EST35_0051;Name=EST35_0051;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0051
+MK797984.1	Genbank	CDS	14309	14857	.	+	0	ID=cds-QCG75934.1;Parent=gene-EST35_0051;Dbxref=SEED:fig|6666666.410365.peg.37,NCBI_GP:QCG75934.1;Name=QCG75934.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0051;product=hypothetical protein;protein_id=QCG75934.1;transl_table=11
+MK797984.1	Genbank	gene	15016	15573	.	+	.	ID=gene-EST35_0052;Name=EST35_0052;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0052
+MK797984.1	Genbank	CDS	15016	15573	.	+	0	ID=cds-QCG75935.1;Parent=gene-EST35_0052;Dbxref=SEED:fig|6666666.410365.peg.38,NCBI_GP:QCG75935.1;Name=QCG75935.1;gbkey=CDS;locus_tag=EST35_0052;product=hypothetical protein;protein_id=QCG75935.1;transl_table=11
+MK797984.1	Genbank	gene	15728	16195	.	+	.	ID=gene-EST35_0053;Name=EST35_0053;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0053
+MK797984.1	Genbank	CDS	15728	16195	.	+	0	ID=cds-QCG75936.1;Parent=gene-EST35_0053;Dbxref=SEED:fig|6666666.410365.peg.39,NCBI_GP:QCG75936.1;Name=QCG75936.1;gbkey=CDS;locus_tag=EST35_0053;product=hypothetical protein;protein_id=QCG75936.1;transl_table=11
+MK797984.1	Genbank	gene	16198	16497	.	+	.	ID=gene-EST35_0054;Name=EST35_0054;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0054
+MK797984.1	Genbank	CDS	16198	16497	.	+	0	ID=cds-QCG75937.1;Parent=gene-EST35_0054;Dbxref=SEED:fig|6666666.410365.peg.40,NCBI_GP:QCG75937.1;Name=QCG75937.1;gbkey=CDS;locus_tag=EST35_0054;product=hypothetical protein;protein_id=QCG75937.1;transl_table=11
+MK797984.1	Genbank	gene	16712	17248	.	+	.	ID=gene-EST35_0055;Name=EST35_0055;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0055
+MK797984.1	Genbank	CDS	16712	17248	.	+	0	ID=cds-QCG75938.1;Parent=gene-EST35_0055;Dbxref=SEED:fig|6666666.410365.peg.41,NCBI_GP:QCG75938.1;Name=QCG75938.1;gbkey=CDS;locus_tag=EST35_0055;product=hypothetical protein;protein_id=QCG75938.1;transl_table=11
+MK797984.1	Genbank	gene	17245	17511	.	+	.	ID=gene-EST35_0056;Name=EST35_0056;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0056
+MK797984.1	Genbank	CDS	17245	17511	.	+	0	ID=cds-QCG75939.1;Parent=gene-EST35_0056;Dbxref=SEED:fig|6666666.410365.peg.42,NCBI_GP:QCG75939.1;Name=QCG75939.1;gbkey=CDS;locus_tag=EST35_0056;product=hypothetical protein;protein_id=QCG75939.1;transl_table=11
+MK797984.1	Genbank	gene	17508	18107	.	+	.	ID=gene-EST35_0057;Name=EST35_0057;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0057
+MK797984.1	Genbank	CDS	17508	18107	.	+	0	ID=cds-QCG75940.1;Parent=gene-EST35_0057;Dbxref=SEED:fig|6666666.410365.peg.43,NCBI_GP:QCG75940.1;Name=QCG75940.1;gbkey=CDS;locus_tag=EST35_0057;product=hypothetical protein;protein_id=QCG75940.1;transl_table=11
+MK797984.1	Genbank	gene	18104	18427	.	+	.	ID=gene-EST35_0058;Name=EST35_0058;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0058
+MK797984.1	Genbank	CDS	18104	18427	.	+	0	ID=cds-QCG75941.1;Parent=gene-EST35_0058;Dbxref=SEED:fig|6666666.410365.peg.44,NCBI_GP:QCG75941.1;Name=QCG75941.1;gbkey=CDS;locus_tag=EST35_0058;product=hypothetical protein;protein_id=QCG75941.1;transl_table=11
+MK797984.1	Genbank	gene	18482	18712	.	+	.	ID=gene-EST35_0059;Name=EST35_0059;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0059
+MK797984.1	Genbank	CDS	18482	18712	.	+	0	ID=cds-QCG75942.1;Parent=gene-EST35_0059;Dbxref=SEED:fig|6666666.410365.peg.45,NCBI_GP:QCG75942.1;Name=QCG75942.1;gbkey=CDS;locus_tag=EST35_0059;product=hypothetical protein;protein_id=QCG75942.1;transl_table=11
+MK797984.1	Genbank	gene	18925	19101	.	+	.	ID=gene-EST35_0060;Name=EST35_0060;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0060
+MK797984.1	Genbank	CDS	18925	19101	.	+	0	ID=cds-QCG75943.1;Parent=gene-EST35_0060;Dbxref=UniProtKB/TrEMBL:A0A0G2K754,NCBI_GP:QCG75943.1;Name=QCG75943.1;gbkey=CDS;locus_tag=EST35_0060;product=protein tyrosine phosphatase;protein_id=QCG75943.1;transl_table=11
+MK797984.1	Genbank	gene	19343	19684	.	+	.	ID=gene-EST35_0061;Name=EST35_0061;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0061
+MK797984.1	Genbank	CDS	19343	19684	.	+	0	ID=cds-QCG75944.1;Parent=gene-EST35_0061;Dbxref=SEED:fig|6666666.410365.peg.47,NCBI_GP:QCG75944.1;Name=QCG75944.1;gbkey=CDS;locus_tag=EST35_0061;product=hypothetical protein;protein_id=QCG75944.1;transl_table=11
+MK797984.1	Genbank	gene	19714	20046	.	+	.	ID=gene-EST35_0062;Name=EST35_0062;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0062
+MK797984.1	Genbank	CDS	19714	20046	.	+	0	ID=cds-QCG75945.1;Parent=gene-EST35_0062;Dbxref=SEED:fig|6666666.410365.peg.48,NCBI_GP:QCG75945.1;Name=QCG75945.1;gbkey=CDS;locus_tag=EST35_0062;product=hypothetical protein;protein_id=QCG75945.1;transl_table=11
+MK797984.1	Genbank	gene	20164	20388	.	+	.	ID=gene-EST35_0063;Name=EST35_0063;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0063
+MK797984.1	Genbank	CDS	20164	20388	.	+	0	ID=cds-QCG75946.1;Parent=gene-EST35_0063;Dbxref=SEED:fig|6666666.410365.peg.49,NCBI_GP:QCG75946.1;Name=QCG75946.1;gbkey=CDS;locus_tag=EST35_0063;product=hypothetical protein;protein_id=QCG75946.1;transl_table=11
+MK797984.1	Genbank	gene	20396	20701	.	+	.	ID=gene-EST35_0064;Name=EST35_0064;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0064
+MK797984.1	Genbank	CDS	20396	20701	.	+	0	ID=cds-QCG75947.1;Parent=gene-EST35_0064;Dbxref=SEED:fig|6666666.410365.peg.50,NCBI_GP:QCG75947.1;Name=QCG75947.1;gbkey=CDS;locus_tag=EST35_0064;product=hypothetical protein;protein_id=QCG75947.1;transl_table=11
+MK797984.1	Genbank	gene	20703	20996	.	+	.	ID=gene-EST35_0065;Name=EST35_0065;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0065
+MK797984.1	Genbank	CDS	20703	20996	.	+	0	ID=cds-QCG75948.1;Parent=gene-EST35_0065;Dbxref=SEED:fig|6666666.410365.peg.51,NCBI_GP:QCG75948.1;Name=QCG75948.1;gbkey=CDS;locus_tag=EST35_0065;product=hypothetical protein;protein_id=QCG75948.1;transl_table=11
+MK797984.1	Genbank	gene	21232	21522	.	+	.	ID=gene-EST35_0066;Name=EST35_0066;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0066
+MK797984.1	Genbank	CDS	21232	21522	.	+	0	ID=cds-QCG75949.1;Parent=gene-EST35_0066;Dbxref=SEED:fig|6666666.410365.peg.52,NCBI_GP:QCG75949.1;Name=QCG75949.1;gbkey=CDS;locus_tag=EST35_0066;product=hypothetical protein;protein_id=QCG75949.1;transl_table=11
+MK797984.1	Genbank	gene	21519	21707	.	+	.	ID=gene-EST35_0067;Name=EST35_0067;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0067
+MK797984.1	Genbank	CDS	21519	21707	.	+	0	ID=cds-QCG75950.1;Parent=gene-EST35_0067;Dbxref=SEED:fig|6666666.410365.peg.53,NCBI_GP:QCG75950.1;Name=QCG75950.1;gbkey=CDS;locus_tag=EST35_0067;product=hypothetical protein;protein_id=QCG75950.1;transl_table=11
+MK797984.1	Genbank	gene	21951	22401	.	+	.	ID=gene-EST35_0068;Name=EST35_0068;gbkey=Gene;gene_biotype=lncRNA;locus_tag=EST35_0068
+MK797984.1	Genbank	lnc_RNA	21951	22401	.	+	.	ID=rna-EST35_0068;Parent=gene-EST35_0068;Note=ncRNA002%3B Annotation based on RNA-Seq data;gbkey=ncRNA;locus_tag=EST35_0068;product=putative lncRNA
+MK797984.1	Genbank	exon	21951	22401	.	+	.	ID=exon-EST35_0068-1;Parent=rna-EST35_0068;Note=ncRNA002%3B Annotation based on RNA-Seq data;gbkey=ncRNA;locus_tag=EST35_0068;product=putative lncRNA
+MK797984.1	Genbank	gene	22535	22702	.	+	.	ID=gene-EST35_0069;Name=EST35_0069;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0069
+MK797984.1	Genbank	CDS	22535	22702	.	+	0	ID=cds-QCG75951.1;Parent=gene-EST35_0069;Dbxref=SEED:fig|6666666.410365.peg.54,NCBI_GP:QCG75951.1;Name=QCG75951.1;gbkey=CDS;locus_tag=EST35_0069;product=hypothetical protein;protein_id=QCG75951.1;transl_table=11
+MK797984.1	Genbank	gene	22699	22974	.	+	.	ID=gene-EST35_0070;Name=EST35_0070;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0070
+MK797984.1	Genbank	CDS	22699	22974	.	+	0	ID=cds-QCG75952.1;Parent=gene-EST35_0070;Dbxref=SEED:fig|6666666.410365.peg.55,NCBI_GP:QCG75952.1;Name=QCG75952.1;gbkey=CDS;locus_tag=EST35_0070;product=hypothetical protein;protein_id=QCG75952.1;transl_table=11
+MK797984.1	Genbank	gene	22971	23207	.	+	.	ID=gene-EST35_0071;Name=EST35_0071;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0071
+MK797984.1	Genbank	CDS	22971	23207	.	+	0	ID=cds-QCG75953.1;Parent=gene-EST35_0071;Dbxref=UniProtKB/TrEMBL:A8G0X0,NCBI_GP:QCG75953.1;Name=QCG75953.1;gbkey=CDS;locus_tag=EST35_0071;product=putative outer membrane adhesin-like protein;protein_id=QCG75953.1;transl_table=11
+MK797984.1	Genbank	gene	23200	23406	.	+	.	ID=gene-EST35_0072;Name=EST35_0072;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0072
+MK797984.1	Genbank	CDS	23200	23406	.	+	0	ID=cds-QCG75954.1;Parent=gene-EST35_0072;Dbxref=UniProtKB/TrEMBL:A0A0L7LGZ4,NCBI_GP:QCG75954.1;Name=QCG75954.1;gbkey=CDS;locus_tag=EST35_0072;product=hypothetical protein;protein_id=QCG75954.1;transl_table=11
+MK797984.1	Genbank	gene	23422	23625	.	+	.	ID=gene-EST35_0073;Name=EST35_0073;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0073
+MK797984.1	Genbank	CDS	23422	23625	.	+	0	ID=cds-QCG75955.1;Parent=gene-EST35_0073;Dbxref=SEED:fig|6666666.410365.peg.58,NCBI_GP:QCG75955.1;Name=QCG75955.1;gbkey=CDS;locus_tag=EST35_0073;product=hypothetical protein;protein_id=QCG75955.1;transl_table=11
+MK797984.1	Genbank	gene	23636	23830	.	+	.	ID=gene-EST35_0074;Name=EST35_0074;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0074
+MK797984.1	Genbank	CDS	23636	23830	.	+	0	ID=cds-QCG75956.1;Parent=gene-EST35_0074;Dbxref=SEED:fig|6666666.410365.peg.59,NCBI_GP:QCG75956.1;Name=QCG75956.1;gbkey=CDS;locus_tag=EST35_0074;product=hypothetical protein;protein_id=QCG75956.1;transl_table=11
+MK797984.1	Genbank	gene	23856	24155	.	+	.	ID=gene-EST35_0075;Name=EST35_0075;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0075
+MK797984.1	Genbank	CDS	23856	24155	.	+	0	ID=cds-QCG75957.1;Parent=gene-EST35_0075;Dbxref=SEED:fig|6666666.410365.peg.60,NCBI_GP:QCG75957.1;Name=QCG75957.1;gbkey=CDS;locus_tag=EST35_0075;product=hypothetical protein;protein_id=QCG75957.1;transl_table=11
+MK797984.1	Genbank	gene	24177	24296	.	+	.	ID=gene-EST35_0076;Name=EST35_0076;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0076
+MK797984.1	Genbank	CDS	24177	24296	.	+	0	ID=cds-QCG75958.1;Parent=gene-EST35_0076;Dbxref=NCBI_GP:QCG75958.1;Name=QCG75958.1;gbkey=CDS;locus_tag=EST35_0076;product=hypothetical protein;protein_id=QCG75958.1;transl_table=11
+MK797984.1	Genbank	gene	24513	24728	.	+	.	ID=gene-EST35_0077;Name=EST35_0077;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0077
+MK797984.1	Genbank	CDS	24513	24728	.	+	0	ID=cds-QCG75959.1;Parent=gene-EST35_0077;Dbxref=SEED:fig|6666666.410365.peg.61,NCBI_GP:QCG75959.1;Name=QCG75959.1;gbkey=CDS;locus_tag=EST35_0077;product=hypothetical protein;protein_id=QCG75959.1;transl_table=11
+MK797984.1	Genbank	gene	24802	24999	.	+	.	ID=gene-EST35_0078;Name=EST35_0078;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0078
+MK797984.1	Genbank	CDS	24802	24999	.	+	0	ID=cds-QCG75960.1;Parent=gene-EST35_0078;Dbxref=SEED:fig|6666666.410365.peg.62,NCBI_GP:QCG75960.1;Name=QCG75960.1;gbkey=CDS;locus_tag=EST35_0078;product=hypothetical protein;protein_id=QCG75960.1;transl_table=11
+MK797984.1	Genbank	gene	25179	25631	.	+	.	ID=gene-EST35_0079;Name=EST35_0079;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0079
+MK797984.1	Genbank	CDS	25179	25631	.	+	0	ID=cds-QCG75961.1;Parent=gene-EST35_0079;Dbxref=SEED:fig|6666666.410365.peg.63,NCBI_GP:QCG75961.1;Name=QCG75961.1;gbkey=CDS;locus_tag=EST35_0079;product=hypothetical protein;protein_id=QCG75961.1;transl_table=11
+MK797984.1	Genbank	gene	25724	26371	.	+	.	ID=gene-EST35_0080;Name=EST35_0080;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0080
+MK797984.1	Genbank	CDS	25724	26371	.	+	0	ID=cds-QCG75962.1;Parent=gene-EST35_0080;Dbxref=SEED:fig|6666666.410365.peg.64,NCBI_GP:QCG75962.1;Name=QCG75962.1;gbkey=CDS;locus_tag=EST35_0080;product=hypothetical protein;protein_id=QCG75962.1;transl_table=11
+MK797984.1	Genbank	gene	26373	26600	.	+	.	ID=gene-EST35_0081;Name=EST35_0081;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0081
+MK797984.1	Genbank	CDS	26373	26600	.	+	0	ID=cds-QCG75963.1;Parent=gene-EST35_0081;Dbxref=SEED:fig|6666666.410365.peg.65,NCBI_GP:QCG75963.1;Name=QCG75963.1;gbkey=CDS;locus_tag=EST35_0081;product=hypothetical protein;protein_id=QCG75963.1;transl_table=11
+MK797984.1	Genbank	gene	26644	26793	.	+	.	ID=gene-EST35_0082;Name=EST35_0082;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0082
+MK797984.1	Genbank	CDS	26644	26793	.	+	0	ID=cds-QCG75964.1;Parent=gene-EST35_0082;Dbxref=SEED:fig|6666666.410365.peg.66,NCBI_GP:QCG75964.1;Name=QCG75964.1;gbkey=CDS;locus_tag=EST35_0082;product=hypothetical protein;protein_id=QCG75964.1;transl_table=11
+MK797984.1	Genbank	gene	26950	27060	.	+	.	ID=gene-EST35_0083;Name=EST35_0083;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0083
+MK797984.1	Genbank	CDS	26950	27060	.	+	0	ID=cds-QCG75965.1;Parent=gene-EST35_0083;Dbxref=NCBI_GP:QCG75965.1;Name=QCG75965.1;gbkey=CDS;locus_tag=EST35_0083;product=hypothetical protein;protein_id=QCG75965.1;transl_table=11
+MK797984.1	Genbank	gene	27036	27380	.	+	.	ID=gene-EST35_0084;Name=EST35_0084;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0084
+MK797984.1	Genbank	CDS	27036	27380	.	+	0	ID=cds-QCG75966.1;Parent=gene-EST35_0084;Dbxref=NCBI_GP:QCG75966.1;Name=QCG75966.1;gbkey=CDS;locus_tag=EST35_0084;product=hypothetical protein;protein_id=QCG75966.1;transl_table=11
+MK797984.1	Genbank	gene	27354	27470	.	-	.	ID=gene-EST35_0085;Name=EST35_0085;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0085
+MK797984.1	Genbank	CDS	27354	27470	.	-	0	ID=cds-QCG75967.1;Parent=gene-EST35_0085;Dbxref=SEED:fig|6666666.410365.peg.67,NCBI_GP:QCG75967.1;Name=QCG75967.1;Note=cell division protein FtsH;gbkey=CDS;locus_tag=EST35_0085;product=cell division protein;protein_id=QCG75967.1;transl_table=11
+MK797984.1	Genbank	gene	27937	28407	.	+	.	ID=gene-EST35_0086;Name=EST35_0086;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0086
+MK797984.1	Genbank	CDS	27937	28407	.	+	0	ID=cds-QCG75968.1;Parent=gene-EST35_0086;Dbxref=SEED:fig|6666666.410365.peg.68,NCBI_GP:QCG75968.1;Name=QCG75968.1;gbkey=CDS;locus_tag=EST35_0086;product=hypothetical protein;protein_id=QCG75968.1;transl_table=11
+MK797984.1	Genbank	gene	28576	28824	.	+	.	ID=gene-EST35_0087;Name=EST35_0087;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0087
+MK797984.1	Genbank	CDS	28576	28824	.	+	0	ID=cds-QCG75969.1;Parent=gene-EST35_0087;Dbxref=SEED:fig|6666666.410365.peg.69,NCBI_GP:QCG75969.1;Name=QCG75969.1;gbkey=CDS;locus_tag=EST35_0087;product=hypothetical protein;protein_id=QCG75969.1;transl_table=11
+MK797984.1	Genbank	gene	28836	29138	.	+	.	ID=gene-EST35_0088;Name=EST35_0088;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0088
+MK797984.1	Genbank	CDS	28836	29138	.	+	0	ID=cds-QCG75970.1;Parent=gene-EST35_0088;Dbxref=NCBI_GP:QCG75970.1;Name=QCG75970.1;gbkey=CDS;locus_tag=EST35_0088;product=hypothetical protein;protein_id=QCG75970.1;transl_table=11
+MK797984.1	Genbank	gene	30121	30426	.	+	.	ID=gene-EST35_0089;Name=EST35_0089;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0089
+MK797984.1	Genbank	CDS	30121	30426	.	+	0	ID=cds-QCG75971.1;Parent=gene-EST35_0089;Dbxref=SEED:fig|6666666.410365.peg.71,NCBI_GP:QCG75971.1;Name=QCG75971.1;gbkey=CDS;locus_tag=EST35_0089;product=hypothetical protein;protein_id=QCG75971.1;transl_table=11
+MK797984.1	Genbank	gene	30645	31016	.	+	.	ID=gene-EST35_0090;Name=EST35_0090;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0090
+MK797984.1	Genbank	CDS	30645	31016	.	+	0	ID=cds-QCG75972.1;Parent=gene-EST35_0090;Dbxref=SEED:fig|6666666.410365.peg.72,NCBI_GP:QCG75972.1;Name=QCG75972.1;gbkey=CDS;locus_tag=EST35_0090;product=hypothetical protein;protein_id=QCG75972.1;transl_table=11
+MK797984.1	Genbank	gene	31028	31315	.	+	.	ID=gene-EST35_0091;Name=EST35_0091;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0091
+MK797984.1	Genbank	CDS	31028	31315	.	+	0	ID=cds-QCG75973.1;Parent=gene-EST35_0091;Dbxref=SEED:fig|6666666.410365.peg.73,NCBI_GP:QCG75973.1;Name=QCG75973.1;gbkey=CDS;locus_tag=EST35_0091;product=hypothetical protein;protein_id=QCG75973.1;transl_table=11
+MK797984.1	Genbank	gene	31319	31441	.	+	.	ID=gene-EST35_0092;Name=EST35_0092;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0092
+MK797984.1	Genbank	CDS	31319	31441	.	+	0	ID=cds-QCG75974.1;Parent=gene-EST35_0092;Dbxref=SEED:fig|6666666.410365.peg.74,NCBI_GP:QCG75974.1;Name=QCG75974.1;gbkey=CDS;locus_tag=EST35_0092;product=hypothetical protein;protein_id=QCG75974.1;transl_table=11
+MK797984.1	Genbank	gene	31467	31649	.	+	.	ID=gene-EST35_0093;Name=EST35_0093;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0093
+MK797984.1	Genbank	CDS	31467	31649	.	+	0	ID=cds-QCG75975.1;Parent=gene-EST35_0093;Dbxref=SEED:fig|6666666.410365.peg.75,NCBI_GP:QCG75975.1;Name=QCG75975.1;gbkey=CDS;locus_tag=EST35_0093;product=hypothetical protein;protein_id=QCG75975.1;transl_table=11
+MK797984.1	Genbank	gene	31693	31932	.	-	.	ID=gene-EST35_0094;Name=EST35_0094;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0094
+MK797984.1	Genbank	CDS	31693	31932	.	-	0	ID=cds-QCG75976.1;Parent=gene-EST35_0094;Dbxref=SEED:fig|6666666.410365.peg.76,NCBI_GP:QCG75976.1;Name=QCG75976.1;gbkey=CDS;locus_tag=EST35_0094;product=hypothetical protein;protein_id=QCG75976.1;transl_table=11
+MK797984.1	Genbank	gene	32286	32666	.	+	.	ID=gene-EST35_0095;Name=EST35_0095;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0095
+MK797984.1	Genbank	CDS	32286	32666	.	+	0	ID=cds-QCG75977.1;Parent=gene-EST35_0095;Dbxref=SEED:fig|6666666.410365.peg.77,NCBI_GP:QCG75977.1;Name=QCG75977.1;gbkey=CDS;locus_tag=EST35_0095;product=hypothetical protein;protein_id=QCG75977.1;transl_table=11
+MK797984.1	Genbank	gene	32941	33312	.	+	.	ID=gene-EST35_0096;Name=EST35_0096;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0096
+MK797984.1	Genbank	CDS	32941	33312	.	+	0	ID=cds-QCG75978.1;Parent=gene-EST35_0096;Dbxref=SEED:fig|6666666.410365.peg.78,NCBI_GP:QCG75978.1;Name=QCG75978.1;gbkey=CDS;locus_tag=EST35_0096;product=hypothetical protein;protein_id=QCG75978.1;transl_table=11
+MK797984.1	Genbank	gene	33314	33631	.	+	.	ID=gene-EST35_0097;Name=EST35_0097;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0097
+MK797984.1	Genbank	CDS	33314	33631	.	+	0	ID=cds-QCG75979.1;Parent=gene-EST35_0097;Dbxref=SEED:fig|6666666.410365.peg.79,NCBI_GP:QCG75979.1;Name=QCG75979.1;gbkey=CDS;locus_tag=EST35_0097;product=hypothetical protein;protein_id=QCG75979.1;transl_table=11
+MK797984.1	Genbank	gene	33964	34425	.	+	.	ID=gene-EST35_0098;Name=EST35_0098;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0098
+MK797984.1	Genbank	CDS	33964	34425	.	+	0	ID=cds-QCG75980.1;Parent=gene-EST35_0098;Dbxref=SEED:fig|6666666.410365.peg.80,NCBI_GP:QCG75980.1;Name=QCG75980.1;gbkey=CDS;locus_tag=EST35_0098;product=hypothetical protein;protein_id=QCG75980.1;transl_table=11
+MK797984.1	Genbank	gene	34582	35070	.	+	.	ID=gene-EST35_0099;Name=EST35_0099;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0099
+MK797984.1	Genbank	CDS	34582	35070	.	+	0	ID=cds-QCG75981.1;Parent=gene-EST35_0099;Dbxref=SEED:fig|6666666.410365.peg.81,NCBI_GP:QCG75981.1;Name=QCG75981.1;gbkey=CDS;locus_tag=EST35_0099;product=hypothetical protein;protein_id=QCG75981.1;transl_table=11
+MK797984.1	Genbank	gene	35143	35376	.	+	.	ID=gene-EST35_0100;Name=EST35_0100;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0100
+MK797984.1	Genbank	CDS	35143	35376	.	+	0	ID=cds-QCG75982.1;Parent=gene-EST35_0100;Dbxref=SEED:fig|6666666.410365.peg.82,NCBI_GP:QCG75982.1;Name=QCG75982.1;gbkey=CDS;locus_tag=EST35_0100;product=hypothetical protein;protein_id=QCG75982.1;transl_table=11
+MK797984.1	Genbank	gene	35644	35967	.	+	.	ID=gene-EST35_0101;Name=EST35_0101;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0101
+MK797984.1	Genbank	CDS	35644	35967	.	+	0	ID=cds-QCG75983.1;Parent=gene-EST35_0101;Dbxref=SEED:fig|6666666.410365.peg.83,NCBI_GP:QCG75983.1;Name=QCG75983.1;gbkey=CDS;locus_tag=EST35_0101;product=hypothetical protein;protein_id=QCG75983.1;transl_table=11
+MK797984.1	Genbank	gene	36032	36187	.	+	.	ID=gene-EST35_0102;Name=EST35_0102;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0102
+MK797984.1	Genbank	CDS	36032	36187	.	+	0	ID=cds-QCG75984.1;Parent=gene-EST35_0102;Dbxref=SEED:fig|6666666.410365.peg.84,NCBI_GP:QCG75984.1;Name=QCG75984.1;gbkey=CDS;locus_tag=EST35_0102;product=hypothetical protein;protein_id=QCG75984.1;transl_table=11
+MK797984.1	Genbank	gene	36838	37047	.	+	.	ID=gene-EST35_0103;Name=EST35_0103;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0103
+MK797984.1	Genbank	CDS	36838	37047	.	+	0	ID=cds-QCG75985.1;Parent=gene-EST35_0103;Dbxref=UniProtKB/TrEMBL:L7TIA6,NCBI_GP:QCG75985.1;Name=QCG75985.1;gbkey=CDS;locus_tag=EST35_0103;product=hypothetical protein;protein_id=QCG75985.1;transl_table=11
+MK797984.1	Genbank	gene	37081	37572	.	+	.	ID=gene-EST35_0104;Name=EST35_0104;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0104
+MK797984.1	Genbank	CDS	37081	37572	.	+	0	ID=cds-QCG75986.1;Parent=gene-EST35_0104;Dbxref=UniProtKB/TrEMBL:H2BDH2,NCBI_GP:QCG75986.1;Name=QCG75986.1;gbkey=CDS;locus_tag=EST35_0104;product=hypothetical protein;protein_id=QCG75986.1;transl_table=11
+MK797984.1	Genbank	gene	38555	38851	.	+	.	ID=gene-EST35_0105;Name=EST35_0105;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0105
+MK797984.1	Genbank	CDS	38555	38851	.	+	0	ID=cds-QCG75987.1;Parent=gene-EST35_0105;Dbxref=SEED:fig|6666666.410365.peg.87,NCBI_GP:QCG75987.1;Name=QCG75987.1;gbkey=CDS;locus_tag=EST35_0105;product=hypothetical protein;protein_id=QCG75987.1;transl_table=11
+MK797984.1	Genbank	gene	39446	39610	.	+	.	ID=gene-EST35_0106;Name=EST35_0106;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0106
+MK797984.1	Genbank	CDS	39446	39610	.	+	0	ID=cds-QCG75988.1;Parent=gene-EST35_0106;Dbxref=SEED:fig|6666666.410365.peg.88,NCBI_GP:QCG75988.1;Name=QCG75988.1;gbkey=CDS;locus_tag=EST35_0106;product=hypothetical protein;protein_id=QCG75988.1;transl_table=11
+MK797984.1	Genbank	gene	39617	39826	.	+	.	ID=gene-EST35_0107;Name=EST35_0107;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0107
+MK797984.1	Genbank	CDS	39617	39826	.	+	0	ID=cds-QCG75989.1;Parent=gene-EST35_0107;Dbxref=SEED:fig|6666666.410365.peg.89,NCBI_GP:QCG75989.1;Name=QCG75989.1;gbkey=CDS;locus_tag=EST35_0107;product=hypothetical protein;protein_id=QCG75989.1;transl_table=11
+MK797984.1	Genbank	gene	39804	39989	.	+	.	ID=gene-EST35_0108;Name=EST35_0108;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0108
+MK797984.1	Genbank	CDS	39804	39989	.	+	0	ID=cds-QCG75990.1;Parent=gene-EST35_0108;Dbxref=NCBI_GP:QCG75990.1;Name=QCG75990.1;gbkey=CDS;locus_tag=EST35_0108;product=hypothetical protein;protein_id=QCG75990.1;transl_table=11
+MK797984.1	Genbank	gene	40003	40179	.	+	.	ID=gene-EST35_0109;Name=EST35_0109;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0109
+MK797984.1	Genbank	CDS	40003	40179	.	+	0	ID=cds-QCG75991.1;Parent=gene-EST35_0109;Dbxref=SEED:fig|6666666.410365.peg.90,NCBI_GP:QCG75991.1;Name=QCG75991.1;gbkey=CDS;locus_tag=EST35_0109;product=hypothetical protein;protein_id=QCG75991.1;transl_table=11
+MK797984.1	Genbank	gene	40166	40357	.	+	.	ID=gene-EST35_0110;Name=EST35_0110;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0110
+MK797984.1	Genbank	CDS	40166	40357	.	+	0	ID=cds-QCG75992.1;Parent=gene-EST35_0110;Dbxref=SEED:fig|6666666.410365.peg.91,NCBI_GP:QCG75992.1;Name=QCG75992.1;gbkey=CDS;locus_tag=EST35_0110;product=hypothetical protein;protein_id=QCG75992.1;transl_table=11
+MK797984.1	Genbank	gene	40360	40545	.	+	.	ID=gene-EST35_0111;Name=EST35_0111;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0111
+MK797984.1	Genbank	CDS	40360	40545	.	+	0	ID=cds-QCG75993.1;Parent=gene-EST35_0111;Dbxref=SEED:fig|6666666.410365.peg.92,NCBI_GP:QCG75993.1;Name=QCG75993.1;gbkey=CDS;locus_tag=EST35_0111;product=hypothetical protein;protein_id=QCG75993.1;transl_table=11
+MK797984.1	Genbank	gene	40538	40768	.	+	.	ID=gene-EST35_0112;Name=EST35_0112;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0112
+MK797984.1	Genbank	CDS	40538	40768	.	+	0	ID=cds-QCG75994.1;Parent=gene-EST35_0112;Dbxref=SEED:fig|6666666.410365.peg.93,NCBI_GP:QCG75994.1;Name=QCG75994.1;gbkey=CDS;locus_tag=EST35_0112;product=hypothetical protein;protein_id=QCG75994.1;transl_table=11
+MK797984.1	Genbank	gene	41171	41545	.	+	.	ID=gene-EST35_0113;Name=EST35_0113;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0113
+MK797984.1	Genbank	CDS	41171	41545	.	+	0	ID=cds-QCG75995.1;Parent=gene-EST35_0113;Dbxref=SEED:fig|6666666.410365.peg.94,NCBI_GP:QCG75995.1;Name=QCG75995.1;Note=N4 gp14-like protein;gbkey=CDS;locus_tag=EST35_0113;product=hypothetical protein;protein_id=QCG75995.1;transl_table=11
+MK797984.1	Genbank	gene	41542	41757	.	+	.	ID=gene-EST35_0114;Name=EST35_0114;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0114
+MK797984.1	Genbank	CDS	41542	41757	.	+	0	ID=cds-QCG75996.1;Parent=gene-EST35_0114;Dbxref=SEED:fig|6666666.410365.peg.95,NCBI_GP:QCG75996.1;Name=QCG75996.1;gbkey=CDS;locus_tag=EST35_0114;product=hypothetical protein;protein_id=QCG75996.1;transl_table=11
+MK797984.1	Genbank	gene	41757	41972	.	+	.	ID=gene-EST35_0115;Name=EST35_0115;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0115
+MK797984.1	Genbank	CDS	41757	41972	.	+	0	ID=cds-QCG75997.1;Parent=gene-EST35_0115;Dbxref=SEED:fig|6666666.410365.peg.96,NCBI_GP:QCG75997.1;Name=QCG75997.1;gbkey=CDS;locus_tag=EST35_0115;product=hypothetical protein;protein_id=QCG75997.1;transl_table=11
+MK797984.1	Genbank	gene	41963	42157	.	+	.	ID=gene-EST35_0116;Name=EST35_0116;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0116
+MK797984.1	Genbank	CDS	41963	42157	.	+	0	ID=cds-QCG75998.1;Parent=gene-EST35_0116;Dbxref=SEED:fig|6666666.410365.peg.97,NCBI_GP:QCG75998.1;Name=QCG75998.1;gbkey=CDS;locus_tag=EST35_0116;product=hypothetical protein;protein_id=QCG75998.1;transl_table=11
+MK797984.1	Genbank	gene	42148	42405	.	+	.	ID=gene-EST35_0117;Name=EST35_0117;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0117
+MK797984.1	Genbank	CDS	42148	42405	.	+	0	ID=cds-QCG75999.1;Parent=gene-EST35_0117;Dbxref=SEED:fig|6666666.410365.peg.98,NCBI_GP:QCG75999.1;Name=QCG75999.1;gbkey=CDS;locus_tag=EST35_0117;product=hypothetical protein;protein_id=QCG75999.1;transl_table=11
+MK797984.1	Genbank	gene	42398	42619	.	+	.	ID=gene-EST35_0118;Name=EST35_0118;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0118
+MK797984.1	Genbank	CDS	42398	42619	.	+	0	ID=cds-QCG76000.1;Parent=gene-EST35_0118;Dbxref=SEED:fig|6666666.410365.peg.99,NCBI_GP:QCG76000.1;Name=QCG76000.1;gbkey=CDS;locus_tag=EST35_0118;product=hypothetical protein;protein_id=QCG76000.1;transl_table=11
+MK797984.1	Genbank	gene	42616	42855	.	+	.	ID=gene-EST35_0119;Name=EST35_0119;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0119
+MK797984.1	Genbank	CDS	42616	42855	.	+	0	ID=cds-QCG76001.1;Parent=gene-EST35_0119;Dbxref=SEED:fig|6666666.410365.peg.100,NCBI_GP:QCG76001.1;Name=QCG76001.1;gbkey=CDS;locus_tag=EST35_0119;product=hypothetical protein;protein_id=QCG76001.1;transl_table=11
+MK797984.1	Genbank	gene	42995	43180	.	+	.	ID=gene-EST35_0120;Name=EST35_0120;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0120
+MK797984.1	Genbank	CDS	42995	43180	.	+	0	ID=cds-QCG76002.1;Parent=gene-EST35_0120;Dbxref=SEED:fig|6666666.410365.peg.101,NCBI_GP:QCG76002.1;Name=QCG76002.1;gbkey=CDS;locus_tag=EST35_0120;product=hypothetical protein;protein_id=QCG76002.1;transl_table=11
+MK797984.1	Genbank	gene	43282	43467	.	+	.	ID=gene-EST35_0121;Name=EST35_0121;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0121
+MK797984.1	Genbank	CDS	43282	43467	.	+	0	ID=cds-QCG76003.1;Parent=gene-EST35_0121;Dbxref=SEED:fig|6666666.410365.peg.102,NCBI_GP:QCG76003.1;Name=QCG76003.1;gbkey=CDS;locus_tag=EST35_0121;product=hypothetical protein;protein_id=QCG76003.1;transl_table=11
+MK797984.1	Genbank	gene	43471	44448	.	+	.	ID=gene-EST35_0122;Name=EST35_0122;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0122
+MK797984.1	Genbank	CDS	43471	44448	.	+	0	ID=cds-QCG76004.1;Parent=gene-EST35_0122;Dbxref=SEED:fig|6666666.410365.peg.103,NCBI_GP:QCG76004.1;Name=QCG76004.1;gbkey=CDS;locus_tag=EST35_0122;product=hypothetical protein;protein_id=QCG76004.1;transl_table=11
+MK797984.1	Genbank	gene	44462	45682	.	-	.	ID=gene-EST35_0123;Name=EST35_0123;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0123
+MK797984.1	Genbank	CDS	44462	45682	.	-	0	ID=cds-QCG76005.1;Parent=gene-EST35_0123;Dbxref=SEED:fig|6666666.410365.peg.104,NCBI_GP:QCG76005.1;Name=QCG76005.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0123;product=hypothetical protein;protein_id=QCG76005.1;transl_table=11
+MK797984.1	Genbank	gene	45682	47118	.	-	.	ID=gene-EST35_0124;Name=EST35_0124;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0124
+MK797984.1	Genbank	CDS	45682	47118	.	-	0	ID=cds-QCG76006.1;Parent=gene-EST35_0124;Dbxref=SEED:fig|6666666.410365.peg.105,NCBI_GP:QCG76006.1;Name=QCG76006.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0124;product=hypothetical protein;protein_id=QCG76006.1;transl_table=11
+MK797984.1	Genbank	gene	47121	48866	.	-	.	ID=gene-EST35_0125;Name=EST35_0125;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0125
+MK797984.1	Genbank	CDS	47121	48866	.	-	0	ID=cds-QCG76007.1;Parent=gene-EST35_0125;Dbxref=SEED:fig|6666666.410365.peg.106,NCBI_GP:QCG76007.1;Name=QCG76007.1;Note=ESI-MS/MS%3B Phage baseplate wedge subunit and tail pin (T4-like gp10);gbkey=CDS;locus_tag=EST35_0125;product=baseplate wedge subunit and tail pin;protein_id=QCG76007.1;transl_table=11
+MK797984.1	Genbank	gene	48870	49475	.	-	.	ID=gene-EST35_0126;Name=EST35_0126;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0126
+MK797984.1	Genbank	CDS	48870	49475	.	-	0	ID=cds-QCG76008.1;Parent=gene-EST35_0126;Dbxref=SEED:fig|6666666.410365.peg.107,NCBI_GP:QCG76008.1;Name=QCG76008.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0126;product=hypothetical protein;protein_id=QCG76008.1;transl_table=11
+MK797984.1	Genbank	gene	49477	49602	.	-	.	ID=gene-EST35_0127;Name=EST35_0127;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0127
+MK797984.1	Genbank	CDS	49477	49602	.	-	0	ID=cds-QCG76009.1;Parent=gene-EST35_0127;Dbxref=SEED:fig|6666666.410365.peg.108,NCBI_GP:QCG76009.1;Name=QCG76009.1;gbkey=CDS;locus_tag=EST35_0127;product=hypothetical protein;protein_id=QCG76009.1;transl_table=11
+MK797984.1	Genbank	gene	49627	61200	.	-	.	ID=gene-EST35_0128;Name=EST35_0128;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0128
+MK797984.1	Genbank	CDS	49627	61200	.	-	0	ID=cds-QCG76010.1;Parent=gene-EST35_0128;Dbxref=SEED:fig|6666666.410365.peg.109,NCBI_GP:QCG76010.1;Name=QCG76010.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0128;product=hypothetical protein;protein_id=QCG76010.1;transl_table=11
+MK797984.1	Genbank	gene	61207	65166	.	-	.	ID=gene-EST35_0129;Name=EST35_0129;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0129
+MK797984.1	Genbank	CDS	61207	65166	.	-	0	ID=cds-QCG76011.1;Parent=gene-EST35_0129;Dbxref=SEED:fig|6666666.410365.peg.110,NCBI_GP:QCG76011.1;Name=QCG76011.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0129;product=baseplate wedge;protein_id=QCG76011.1;transl_table=11
+MK797984.1	Genbank	gene	65181	65573	.	-	.	ID=gene-EST35_0130;Name=EST35_0130;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0130
+MK797984.1	Genbank	CDS	65181	65573	.	-	0	ID=cds-QCG76012.1;Parent=gene-EST35_0130;Dbxref=SEED:fig|6666666.410365.peg.111,NCBI_GP:QCG76012.1;Name=QCG76012.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0130;product=baseplate protein;protein_id=QCG76012.1;transl_table=11
+MK797984.1	Genbank	gene	65710	65952	.	+	.	ID=gene-EST35_0131;Name=EST35_0131;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0131
+MK797984.1	Genbank	CDS	65710	65952	.	+	0	ID=cds-QCG76013.1;Parent=gene-EST35_0131;Dbxref=SEED:fig|6666666.410365.peg.112,NCBI_GP:QCG76013.1;Name=QCG76013.1;gbkey=CDS;locus_tag=EST35_0131;product=hypothetical protein;protein_id=QCG76013.1;transl_table=11
+MK797984.1	Genbank	gene	65997	66281	.	+	.	ID=gene-EST35_0132;Name=EST35_0132;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0132
+MK797984.1	Genbank	CDS	65997	66281	.	+	0	ID=cds-QCG76014.1;Parent=gene-EST35_0132;Dbxref=SEED:fig|6666666.410365.peg.113,NCBI_GP:QCG76014.1;Name=QCG76014.1;gbkey=CDS;locus_tag=EST35_0132;product=hypothetical protein;protein_id=QCG76014.1;transl_table=11
+MK797984.1	Genbank	gene	66289	67722	.	-	.	ID=gene-EST35_0133;Name=EST35_0133;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0133
+MK797984.1	Genbank	CDS	66289	67722	.	-	0	ID=cds-QCG76015.1;Parent=gene-EST35_0133;Dbxref=SEED:fig|6666666.410365.peg.114,NCBI_GP:QCG76015.1;Name=QCG76015.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0133;product=baseplate hub subunit and tail lysozyme;protein_id=QCG76015.1;transl_table=11
+MK797984.1	Genbank	gene	67722	69746	.	-	.	ID=gene-EST35_0134;Name=EST35_0134;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0134
+MK797984.1	Genbank	CDS	67722	69746	.	-	0	ID=cds-QCG76016.1;Parent=gene-EST35_0134;Dbxref=SEED:fig|6666666.410365.peg.115,NCBI_GP:QCG76016.1;Name=QCG76016.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0134;product=structural protein;protein_id=QCG76016.1;transl_table=11
+MK797984.1	Genbank	gene	69746	70045	.	-	.	ID=gene-EST35_0135;Name=EST35_0135;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0135
+MK797984.1	Genbank	CDS	69746	70045	.	-	0	ID=cds-QCG76017.1;Parent=gene-EST35_0135;Dbxref=SEED:fig|6666666.410365.peg.116,NCBI_GP:QCG76017.1;Name=QCG76017.1;gbkey=CDS;locus_tag=EST35_0135;product=hypothetical protein;protein_id=QCG76017.1;transl_table=11
+MK797984.1	Genbank	gene	70045	70680	.	-	.	ID=gene-EST35_0136;Name=EST35_0136;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0136
+MK797984.1	Genbank	CDS	70045	70680	.	-	0	ID=cds-QCG76018.1;Parent=gene-EST35_0136;Dbxref=SEED:fig|6666666.410365.peg.117,NCBI_GP:QCG76018.1;Name=QCG76018.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0136;product=structural protein;protein_id=QCG76018.1;transl_table=11
+MK797984.1	Genbank	gene	70783	71625	.	+	.	ID=gene-EST35_0137;Name=EST35_0137;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0137
+MK797984.1	Genbank	CDS	70783	71625	.	+	0	ID=cds-QCG76019.1;Parent=gene-EST35_0137;Dbxref=SEED:fig|6666666.410365.peg.118,NCBI_GP:QCG76019.1;Name=QCG76019.1;gbkey=CDS;locus_tag=EST35_0137;product=hypothetical protein;protein_id=QCG76019.1;transl_table=11
+MK797984.1	Genbank	gene	71637	72650	.	+	.	ID=gene-EST35_0138;Name=EST35_0138;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0138
+MK797984.1	Genbank	CDS	71637	72650	.	+	0	ID=cds-QCG76020.1;Parent=gene-EST35_0138;Dbxref=SEED:fig|6666666.410365.peg.119,NCBI_GP:QCG76020.1;Name=QCG76020.1;gbkey=CDS;locus_tag=EST35_0138;product=hypothetical protein;protein_id=QCG76020.1;transl_table=11
+MK797984.1	Genbank	gene	72650	74404	.	+	.	ID=gene-EST35_0139;Name=EST35_0139;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0139
+MK797984.1	Genbank	CDS	72650	74404	.	+	0	ID=cds-QCG76021.1;Parent=gene-EST35_0139;Dbxref=SEED:fig|6666666.410365.peg.120,NCBI_GP:QCG76021.1;Name=QCG76021.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0139;product=recombination endonuclease subunit;protein_id=QCG76021.1;transl_table=11
+MK797984.1	Genbank	gene	74417	75166	.	-	.	ID=gene-EST35_0140;Name=EST35_0140;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0140
+MK797984.1	Genbank	CDS	74417	75166	.	-	0	ID=cds-QCG76022.1;Parent=gene-EST35_0140;Dbxref=SEED:fig|6666666.410365.peg.121,NCBI_GP:QCG76022.1;Name=QCG76022.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0140;product=structural protein;protein_id=QCG76022.1;transl_table=11
+MK797984.1	Genbank	gene	75169	75666	.	-	.	ID=gene-EST35_0141;Name=EST35_0141;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0141
+MK797984.1	Genbank	CDS	75169	75666	.	-	0	ID=cds-QCG76023.1;Parent=gene-EST35_0141;Dbxref=SEED:fig|6666666.410365.peg.122,NCBI_GP:QCG76023.1;Name=QCG76023.1;gbkey=CDS;locus_tag=EST35_0141;product=hypothetical protein;protein_id=QCG76023.1;transl_table=11
+MK797984.1	Genbank	gene	75704	75835	.	-	.	ID=gene-EST35_0142;Name=EST35_0142;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0142
+MK797984.1	Genbank	CDS	75704	75835	.	-	0	ID=cds-QCG76024.1;Parent=gene-EST35_0142;Dbxref=SEED:fig|6666666.410365.peg.123,NCBI_GP:QCG76024.1;Name=QCG76024.1;gbkey=CDS;locus_tag=EST35_0142;product=hypothetical protein;protein_id=QCG76024.1;transl_table=11
+MK797984.1	Genbank	gene	75920	76036	.	-	.	ID=gene-EST35_0143;Name=EST35_0143;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0143
+MK797984.1	Genbank	CDS	75920	76036	.	-	0	ID=cds-QCG76025.1;Parent=gene-EST35_0143;Dbxref=SEED:fig|6666666.410365.peg.124,NCBI_GP:QCG76025.1;Name=QCG76025.1;gbkey=CDS;locus_tag=EST35_0143;product=hypothetical protein;protein_id=QCG76025.1;transl_table=11
+MK797984.1	Genbank	gene	76099	76251	.	+	.	ID=gene-EST35_0144;Name=EST35_0144;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0144
+MK797984.1	Genbank	CDS	76099	76251	.	+	0	ID=cds-QCG76026.1;Parent=gene-EST35_0144;Dbxref=NCBI_GP:QCG76026.1;Name=QCG76026.1;gbkey=CDS;locus_tag=EST35_0144;product=hypothetical protein;protein_id=QCG76026.1;transl_table=11
+MK797984.1	Genbank	gene	76397	76516	.	+	.	ID=gene-EST35_0145;Name=EST35_0145;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0145
+MK797984.1	Genbank	CDS	76397	76516	.	+	0	ID=cds-QCG76027.1;Parent=gene-EST35_0145;Dbxref=NCBI_GP:QCG76027.1;Name=QCG76027.1;gbkey=CDS;locus_tag=EST35_0145;product=hypothetical protein;protein_id=QCG76027.1;transl_table=11
+MK797984.1	Genbank	gene	77180	77632	.	+	.	ID=gene-EST35_0146;Name=EST35_0146;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0146
+MK797984.1	Genbank	CDS	77180	77632	.	+	0	ID=cds-QCG76028.1;Parent=gene-EST35_0146;Dbxref=SEED:fig|6666666.410365.peg.125,NCBI_GP:QCG76028.1;Name=QCG76028.1;gbkey=CDS;locus_tag=EST35_0146;product=hypothetical protein;protein_id=QCG76028.1;transl_table=11
+MK797984.1	Genbank	gene	77856	78710	.	-	.	ID=gene-EST35_0147;Name=EST35_0147;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0147
+MK797984.1	Genbank	CDS	77856	78710	.	-	0	ID=cds-QCG76029.1;Parent=gene-EST35_0147;Dbxref=SEED:fig|6666666.410365.peg.126,NCBI_GP:QCG76029.1;Name=QCG76029.1;gbkey=CDS;locus_tag=EST35_0147;product=hypothetical protein;protein_id=QCG76029.1;transl_table=11
+MK797984.1	Genbank	gene	78780	81176	.	+	.	ID=gene-EST35_0148;Name=EST35_0148;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0148
+MK797984.1	Genbank	CDS	78780	81176	.	+	0	ID=cds-QCG76030.1;Parent=gene-EST35_0148;Dbxref=SEED:fig|6666666.410365.peg.127,NCBI_GP:QCG76030.1;Name=QCG76030.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0148;product=structural protein;protein_id=QCG76030.1;transl_table=11
+MK797984.1	Genbank	gene	81206	82921	.	+	.	ID=gene-EST35_0149;Name=EST35_0149;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0149
+MK797984.1	Genbank	CDS	81206	82921	.	+	0	ID=cds-QCG76031.1;Parent=gene-EST35_0149;Dbxref=SEED:fig|6666666.410365.peg.128,NCBI_GP:QCG76031.1;Name=QCG76031.1;Note=ESI-MS/MS%3B Phage portal (connector) protein (T4-like gp20);gbkey=CDS;locus_tag=EST35_0149;product=portal (connector) protein;protein_id=QCG76031.1;transl_table=11
+MK797984.1	Genbank	gene	82921	83142	.	+	.	ID=gene-EST35_0150;Name=EST35_0150;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0150
+MK797984.1	Genbank	CDS	82921	83142	.	+	0	ID=cds-QCG76032.1;Parent=gene-EST35_0150;Dbxref=SEED:fig|6666666.410365.peg.129,NCBI_GP:QCG76032.1;Name=QCG76032.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0150;product=structural protein;protein_id=QCG76032.1;transl_table=11
+MK797984.1	Genbank	gene	83248	84060	.	+	.	ID=gene-EST35_0151;Name=EST35_0151;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0151
+MK797984.1	Genbank	CDS	83248	84060	.	+	0	ID=cds-QCG76033.1;Parent=gene-EST35_0151;Dbxref=SEED:fig|6666666.410365.peg.130,NCBI_GP:QCG76033.1;Name=QCG76033.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0151;product=structural protein;protein_id=QCG76033.1;transl_table=11
+MK797984.1	Genbank	gene	84079	84711	.	+	.	ID=gene-EST35_0152;Name=EST35_0152;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0152
+MK797984.1	Genbank	CDS	84079	84711	.	+	0	ID=cds-QCG76034.1;Parent=gene-EST35_0152;Dbxref=SEED:fig|6666666.410365.peg.131,NCBI_GP:QCG76034.1;Name=QCG76034.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0152;product=prohead assembly (scaffolding) protein;protein_id=QCG76034.1;transl_table=11
+MK797984.1	Genbank	gene	84724	85830	.	+	.	ID=gene-EST35_0153;Name=EST35_0153;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0153
+MK797984.1	Genbank	CDS	84724	85830	.	+	0	ID=cds-QCG76035.1;Parent=gene-EST35_0153;Dbxref=SEED:fig|6666666.410365.peg.132,NCBI_GP:QCG76035.1;Name=QCG76035.1;gbkey=CDS;locus_tag=EST35_0153;product=hypothetical protein;protein_id=QCG76035.1;transl_table=11
+MK797984.1	Genbank	gene	85850	87037	.	+	.	ID=gene-EST35_0154;Name=EST35_0154;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0154
+MK797984.1	Genbank	CDS	85850	87037	.	+	0	ID=cds-QCG76036.1;Parent=gene-EST35_0154;Dbxref=UniProtKB/TrEMBL:A0A1S6UAL5,NCBI_GP:QCG76036.1;Name=QCG76036.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0154;product=precursor of major head subunit;protein_id=QCG76036.1;transl_table=11
+MK797984.1	Genbank	gene	87156	88733	.	+	.	ID=gene-EST35_0155;Name=EST35_0155;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0155
+MK797984.1	Genbank	CDS	87156	88733	.	+	0	ID=cds-QCG76037.1;Parent=gene-EST35_0155;Dbxref=UniProtKB/TrEMBL:R5P8N3,NCBI_GP:QCG76037.1;Name=QCG76037.1;gbkey=CDS;locus_tag=EST35_0155;product=putative Hef-like homing endonuclease;protein_id=QCG76037.1;transl_table=11
+MK797984.1	Genbank	gene	88785	89249	.	+	.	ID=gene-EST35_0156;Name=EST35_0156;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0156
+MK797984.1	Genbank	CDS	88785	89249	.	+	0	ID=cds-QCG76038.1;Parent=gene-EST35_0156;Dbxref=SEED:fig|6666666.410365.peg.135,NCBI_GP:QCG76038.1;Name=QCG76038.1;gbkey=CDS;locus_tag=EST35_0156;product=hypothetical protein;protein_id=QCG76038.1;transl_table=11
+MK797984.1	Genbank	gene	89251	89949	.	+	.	ID=gene-EST35_0157;Name=EST35_0157;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0157
+MK797984.1	Genbank	CDS	89251	89949	.	+	0	ID=cds-QCG76039.1;Parent=gene-EST35_0157;Dbxref=SEED:fig|6666666.410365.peg.136,NCBI_GP:QCG76039.1;Name=QCG76039.1;gbkey=CDS;locus_tag=EST35_0157;product=hypothetical protein;protein_id=QCG76039.1;transl_table=11
+MK797984.1	Genbank	gene	89958	90263	.	+	.	ID=gene-EST35_0158;Name=EST35_0158;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0158
+MK797984.1	Genbank	CDS	89958	90263	.	+	0	ID=cds-QCG76040.1;Parent=gene-EST35_0158;Dbxref=SEED:fig|6666666.410365.peg.137,NCBI_GP:QCG76040.1;Name=QCG76040.1;gbkey=CDS;locus_tag=EST35_0158;product=hypothetical protein;protein_id=QCG76040.1;transl_table=11
+MK797984.1	Genbank	gene	90324	93350	.	+	.	ID=gene-EST35_0159;Name=EST35_0159;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0159
+MK797984.1	Genbank	CDS	90324	93350	.	+	0	ID=cds-QCG76041.1;Parent=gene-EST35_0159;Dbxref=UniProtKB/TrEMBL:Q8ZKK5,NCBI_GP:QCG76041.1;Name=QCG76041.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0159;product=putative tail fiber protein H;protein_id=QCG76041.1;transl_table=11
+MK797984.1	Genbank	gene	93347	93955	.	-	.	ID=gene-EST35_0160;Name=EST35_0160;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0160
+MK797984.1	Genbank	CDS	93347	93955	.	-	0	ID=cds-QCG76042.1;Parent=gene-EST35_0160;Dbxref=SEED:fig|6666666.410365.peg.139,NCBI_GP:QCG76042.1;Name=QCG76042.1;gbkey=CDS;locus_tag=EST35_0160;product=hypothetical protein;protein_id=QCG76042.1;transl_table=11
+MK797984.1	Genbank	gene	93958	94275	.	-	.	ID=gene-EST35_0161;Name=EST35_0161;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0161
+MK797984.1	Genbank	CDS	93958	94275	.	-	0	ID=cds-QCG76043.1;Parent=gene-EST35_0161;Dbxref=UniProtKB/TrEMBL:A0A1S6UAI8,NCBI_GP:QCG76043.1;Name=QCG76043.1;gbkey=CDS;locus_tag=EST35_0161;product=MutT/NUDIX hydrolase family protein;protein_id=QCG76043.1;transl_table=11
+MK797984.1	Genbank	gene	94385	95755	.	-	.	ID=gene-EST35_0162;Name=EST35_0162;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0162
+MK797984.1	Genbank	CDS	94385	95755	.	-	0	ID=cds-QCG76044.1;Parent=gene-EST35_0162;Dbxref=SEED:fig|6666666.410365.peg.141,NCBI_GP:QCG76044.1;Name=QCG76044.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0162;product=tail sheath stabilizer and completion protein;protein_id=QCG76044.1;transl_table=11
+MK797984.1	Genbank	gene	95755	96846	.	-	.	ID=gene-EST35_0163;Name=EST35_0163;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0163
+MK797984.1	Genbank	CDS	95755	96846	.	-	0	ID=cds-QCG76045.1;Parent=gene-EST35_0163;Dbxref=SEED:fig|6666666.410365.peg.142,NCBI_GP:QCG76045.1;Name=QCG76045.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0163;product=structural protein;protein_id=QCG76045.1;transl_table=11
+MK797984.1	Genbank	gene	96913	97410	.	-	.	ID=gene-EST35_0164;Name=EST35_0164;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0164
+MK797984.1	Genbank	CDS	96913	97410	.	-	0	ID=cds-QCG76046.1;Parent=gene-EST35_0164;Dbxref=SEED:fig|6666666.410365.peg.143,NCBI_GP:QCG76046.1;Name=QCG76046.1;gbkey=CDS;locus_tag=EST35_0164;product=hypothetical protein;protein_id=QCG76046.1;transl_table=11
+MK797984.1	Genbank	gene	97424	98959	.	-	.	ID=gene-EST35_0165;Name=EST35_0165;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0165
+MK797984.1	Genbank	CDS	97424	98959	.	-	0	ID=cds-QCG76047.1;Parent=gene-EST35_0165;Dbxref=SEED:fig|6666666.410365.peg.144,NCBI_GP:QCG76047.1;Name=QCG76047.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0165;product=tail fiber protein;protein_id=QCG76047.1;transl_table=11
+MK797984.1	Genbank	gene	98961	100559	.	-	.	ID=gene-EST35_0166;Name=EST35_0166;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0166
+MK797984.1	Genbank	CDS	98961	100559	.	-	0	ID=cds-QCG76048.1;Parent=gene-EST35_0166;Dbxref=UniProtKB/TrEMBL:A0A142F1F9,NCBI_GP:QCG76048.1;Name=QCG76048.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0166;product=YomR-like protein;protein_id=QCG76048.1;transl_table=11
+MK797984.1	Genbank	gene	100559	102922	.	-	.	ID=gene-EST35_0167;Name=EST35_0167;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0167
+MK797984.1	Genbank	CDS	100559	102922	.	-	0	ID=cds-QCG76049.1;Parent=gene-EST35_0167;Dbxref=UniProtKB/TrEMBL:A0A142F1F9,NCBI_GP:QCG76049.1;Name=QCG76049.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0167;product=YomR-like protein;protein_id=QCG76049.1;transl_table=11
+MK797984.1	Genbank	gene	103065	103668	.	+	.	ID=gene-EST35_0168;Name=EST35_0168;gbkey=Gene;gene_biotype=lncRNA;locus_tag=EST35_0168
+MK797984.1	Genbank	lnc_RNA	103065	103668	.	+	.	ID=rna-EST35_0168;Parent=gene-EST35_0168;Note=ncRNA003%3B Annotation based on RNA-Seq data;gbkey=ncRNA;locus_tag=EST35_0168;product=putative lncRNA
+MK797984.1	Genbank	exon	103065	103668	.	+	.	ID=exon-EST35_0168-1;Parent=rna-EST35_0168;Note=ncRNA003%3B Annotation based on RNA-Seq data;gbkey=ncRNA;locus_tag=EST35_0168;product=putative lncRNA
+MK797984.1	Genbank	gene	103517	103684	.	+	.	ID=gene-EST35_0169;Name=EST35_0169;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0169
+MK797984.1	Genbank	CDS	103517	103684	.	+	0	ID=cds-QCG76050.1;Parent=gene-EST35_0169;Dbxref=SEED:fig|6666666.410365.peg.147,NCBI_GP:QCG76050.1;Name=QCG76050.1;gbkey=CDS;locus_tag=EST35_0169;product=hypothetical protein;protein_id=QCG76050.1;transl_table=11
+MK797984.1	Genbank	gene	103722	104132	.	+	.	ID=gene-EST35_0170;Name=EST35_0170;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0170
+MK797984.1	Genbank	CDS	103722	104132	.	+	0	ID=cds-QCG76051.1;Parent=gene-EST35_0170;Dbxref=SEED:fig|6666666.410365.peg.148,NCBI_GP:QCG76051.1;Name=QCG76051.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0170;product=structural protein;protein_id=QCG76051.1;transl_table=11
+MK797984.1	Genbank	gene	104149	104379	.	+	.	ID=gene-EST35_0171;Name=EST35_0171;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0171
+MK797984.1	Genbank	CDS	104149	104379	.	+	0	ID=cds-QCG76052.1;Parent=gene-EST35_0171;Dbxref=SEED:fig|6666666.410365.peg.149,NCBI_GP:QCG76052.1;Name=QCG76052.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0171;product=structural protein;protein_id=QCG76052.1;transl_table=11
+MK797984.1	Genbank	gene	104376	104639	.	-	.	ID=gene-EST35_0172;Name=EST35_0172;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0172
+MK797984.1	Genbank	CDS	104376	104639	.	-	0	ID=cds-QCG76053.1;Parent=gene-EST35_0172;Dbxref=NCBI_GP:QCG76053.1;Name=QCG76053.1;gbkey=CDS;locus_tag=EST35_0172;product=hypothetical protein;protein_id=QCG76053.1;transl_table=11
+MK797984.1	Genbank	gene	104618	105133	.	-	.	ID=gene-EST35_0173;Name=EST35_0173;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0173
+MK797984.1	Genbank	CDS	104618	105133	.	-	0	ID=cds-QCG76054.1;Parent=gene-EST35_0173;Dbxref=SEED:fig|6666666.410365.peg.150,NCBI_GP:QCG76054.1;Name=QCG76054.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0173;product=lysozyme;protein_id=QCG76054.1;transl_table=11
+MK797984.1	Genbank	gene	105255	105686	.	+	.	ID=gene-EST35_0174;Name=EST35_0174;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0174
+MK797984.1	Genbank	CDS	105255	105686	.	+	0	ID=cds-QCG76055.1;Parent=gene-EST35_0174;Dbxref=SEED:fig|6666666.410365.peg.151,NCBI_GP:QCG76055.1;Name=QCG76055.1;gbkey=CDS;locus_tag=EST35_0174;product=hypothetical protein;protein_id=QCG76055.1;transl_table=11
+MK797984.1	Genbank	gene	105688	105900	.	+	.	ID=gene-EST35_0175;Name=EST35_0175;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0175
+MK797984.1	Genbank	CDS	105688	105900	.	+	0	ID=cds-QCG76056.1;Parent=gene-EST35_0175;Dbxref=SEED:fig|6666666.410365.peg.152,NCBI_GP:QCG76056.1;Name=QCG76056.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0175;product=structural protein;protein_id=QCG76056.1;transl_table=11
+MK797984.1	Genbank	gene	105900	106370	.	+	.	ID=gene-EST35_0176;Name=EST35_0176;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0176
+MK797984.1	Genbank	CDS	105900	106370	.	+	0	ID=cds-QCG76057.1;Parent=gene-EST35_0176;Dbxref=GO:0004146,SEED:fig|6666666.410365.peg.153,NCBI_GP:QCG76057.1;Name=QCG76057.1;gbkey=CDS;locus_tag=EST35_0176;product=dihydrofolate reductase;protein_id=QCG76057.1;transl_table=11
+MK797984.1	Genbank	gene	106367	106612	.	+	.	ID=gene-EST35_0177;Name=EST35_0177;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0177
+MK797984.1	Genbank	CDS	106367	106612	.	+	0	ID=cds-QCG76058.1;Parent=gene-EST35_0177;Dbxref=SEED:fig|6666666.410365.peg.154,NCBI_GP:QCG76058.1;Name=QCG76058.1;gbkey=CDS;locus_tag=EST35_0177;product=hypothetical protein;protein_id=QCG76058.1;transl_table=11
+MK797984.1	Genbank	gene	106605	106874	.	+	.	ID=gene-EST35_0178;Name=EST35_0178;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0178
+MK797984.1	Genbank	CDS	106605	106874	.	+	0	ID=cds-QCG76059.1;Parent=gene-EST35_0178;Dbxref=SEED:fig|6666666.410365.peg.155,NCBI_GP:QCG76059.1;Name=QCG76059.1;gbkey=CDS;locus_tag=EST35_0178;product=hypothetical protein;protein_id=QCG76059.1;transl_table=11
+MK797984.1	Genbank	gene	106875	107429	.	+	.	ID=gene-EST35_0179;Name=EST35_0179;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0179
+MK797984.1	Genbank	CDS	106875	107429	.	+	0	ID=cds-QCG76060.1;Parent=gene-EST35_0179;Dbxref=SEED:fig|6666666.410365.peg.156,NCBI_GP:QCG76060.1;Name=QCG76060.1;gbkey=CDS;locus_tag=EST35_0179;product=hypothetical protein;protein_id=QCG76060.1;transl_table=11
+MK797984.1	Genbank	gene	107445	108008	.	+	.	ID=gene-EST35_0180;Name=EST35_0180;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0180
+MK797984.1	Genbank	CDS	107445	108008	.	+	0	ID=cds-QCG76061.1;Parent=gene-EST35_0180;Dbxref=SEED:fig|6666666.410365.peg.157,NCBI_GP:QCG76061.1;Name=QCG76061.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0180;product=hypothetical protein;protein_id=QCG76061.1;transl_table=11
+MK797984.1	Genbank	gene	108080	108331	.	+	.	ID=gene-EST35_0181;Name=EST35_0181;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0181
+MK797984.1	Genbank	CDS	108080	108331	.	+	0	ID=cds-QCG76062.1;Parent=gene-EST35_0181;Dbxref=SEED:fig|6666666.410365.peg.158,NCBI_GP:QCG76062.1;Name=QCG76062.1;gbkey=CDS;locus_tag=EST35_0181;product=hypothetical protein;protein_id=QCG76062.1;transl_table=11
+MK797984.1	Genbank	gene	108482	109012	.	+	.	ID=gene-EST35_0182;Name=EST35_0182;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0182
+MK797984.1	Genbank	CDS	108482	109012	.	+	0	ID=cds-QCG76063.1;Parent=gene-EST35_0182;Dbxref=SEED:fig|6666666.410365.peg.159,NCBI_GP:QCG76063.1;Name=QCG76063.1;gbkey=CDS;locus_tag=EST35_0182;product=hypothetical protein;protein_id=QCG76063.1;transl_table=11
+MK797984.1	Genbank	gene	108996	109175	.	+	.	ID=gene-EST35_0183;Name=EST35_0183;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0183
+MK797984.1	Genbank	CDS	108996	109175	.	+	0	ID=cds-QCG76064.1;Parent=gene-EST35_0183;Dbxref=SEED:fig|6666666.410365.peg.160,NCBI_GP:QCG76064.1;Name=QCG76064.1;gbkey=CDS;locus_tag=EST35_0183;product=hypothetical protein;protein_id=QCG76064.1;transl_table=11
+MK797984.1	Genbank	gene	109172	109459	.	+	.	ID=gene-EST35_0184;Name=EST35_0184;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0184
+MK797984.1	Genbank	CDS	109172	109459	.	+	0	ID=cds-QCG76065.1;Parent=gene-EST35_0184;Dbxref=SEED:fig|6666666.410365.peg.161,NCBI_GP:QCG76065.1;Name=QCG76065.1;gbkey=CDS;locus_tag=EST35_0184;product=hypothetical protein;protein_id=QCG76065.1;transl_table=11
+MK797984.1	Genbank	gene	109462	109893	.	-	.	ID=gene-EST35_0185;Name=EST35_0185;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0185
+MK797984.1	Genbank	CDS	109462	109893	.	-	0	ID=cds-QCG76066.1;Parent=gene-EST35_0185;Dbxref=SEED:fig|6666666.410365.peg.162,NCBI_GP:QCG76066.1;Name=QCG76066.1;gbkey=CDS;locus_tag=EST35_0185;product=hypothetical protein;protein_id=QCG76066.1;transl_table=11
+MK797984.1	Genbank	gene	110005	112188	.	+	.	ID=gene-EST35_0186;Name=EST35_0186;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0186
+MK797984.1	Genbank	CDS	110005	112188	.	+	0	ID=cds-QCG76067.1;Parent=gene-EST35_0186;Dbxref=SEED:fig|6666666.410365.peg.163,NCBI_GP:QCG76067.1;Name=QCG76067.1;gbkey=CDS;locus_tag=EST35_0186;product=rIIA lysis inhibitor;protein_id=QCG76067.1;transl_table=11
+MK797984.1	Genbank	gene	112181	112924	.	+	.	ID=gene-EST35_0187;Name=EST35_0187;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0187
+MK797984.1	Genbank	CDS	112181	112924	.	+	0	ID=cds-QCG76068.1;Parent=gene-EST35_0187;Dbxref=SEED:fig|6666666.410365.peg.164,NCBI_GP:QCG76068.1;Name=QCG76068.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0187;product=protector from prophage-induced early lysis;protein_id=QCG76068.1;transl_table=11
+MK797984.1	Genbank	gene	113008	115029	.	+	.	ID=gene-EST35_0188;Name=EST35_0188;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0188
+MK797984.1	Genbank	CDS	113008	115029	.	+	0	ID=cds-QCG76069.1;Parent=gene-EST35_0188;Dbxref=SEED:fig|6666666.410365.peg.165,NCBI_GP:QCG76069.1;Name=QCG76069.1;gbkey=CDS;locus_tag=EST35_0188;product=oligopeptidase A;protein_id=QCG76069.1;transl_table=11
+MK797984.1	Genbank	gene	115177	115473	.	+	.	ID=gene-EST35_0189;Name=EST35_0189;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0189
+MK797984.1	Genbank	CDS	115177	115473	.	+	0	ID=cds-QCG76070.1;Parent=gene-EST35_0189;Dbxref=SEED:fig|6666666.410365.peg.166,NCBI_GP:QCG76070.1;Name=QCG76070.1;gbkey=CDS;locus_tag=EST35_0189;product=hypothetical protein;protein_id=QCG76070.1;transl_table=11
+MK797984.1	Genbank	gene	115610	115801	.	+	.	ID=gene-EST35_0190;Name=EST35_0190;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0190
+MK797984.1	Genbank	CDS	115610	115801	.	+	0	ID=cds-QCG76071.1;Parent=gene-EST35_0190;Dbxref=SEED:fig|6666666.410365.peg.167,NCBI_GP:QCG76071.1;Name=QCG76071.1;gbkey=CDS;locus_tag=EST35_0190;product=hypothetical protein;protein_id=QCG76071.1;transl_table=11
+MK797984.1	Genbank	gene	115798	115950	.	+	.	ID=gene-EST35_0191;Name=EST35_0191;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0191
+MK797984.1	Genbank	CDS	115798	115950	.	+	0	ID=cds-QCG76072.1;Parent=gene-EST35_0191;Dbxref=SEED:fig|6666666.410365.peg.168,NCBI_GP:QCG76072.1;Name=QCG76072.1;gbkey=CDS;locus_tag=EST35_0191;product=hypothetical protein;protein_id=QCG76072.1;transl_table=11
+MK797984.1	Genbank	gene	115999	117117	.	+	.	ID=gene-EST35_0192;Name=EST35_0192;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0192
+MK797984.1	Genbank	CDS	115999	117117	.	+	0	ID=cds-QCG76073.1;Parent=gene-EST35_0192;Dbxref=SEED:fig|6666666.410365.peg.169,NCBI_GP:QCG76073.1;Name=QCG76073.1;gbkey=CDS;locus_tag=EST35_0192;product=hypothetical protein;protein_id=QCG76073.1;transl_table=11
+MK797984.1	Genbank	gene	117153	117905	.	+	.	ID=gene-EST35_0193;Name=EST35_0193;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0193
+MK797984.1	Genbank	CDS	117153	117905	.	+	0	ID=cds-QCG76074.1;Parent=gene-EST35_0193;Dbxref=SEED:fig|6666666.410365.peg.170,NCBI_GP:QCG76074.1;Name=QCG76074.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0193;product=neck protein;protein_id=QCG76074.1;transl_table=11
+MK797984.1	Genbank	gene	117910	118551	.	+	.	ID=gene-EST35_0194;Name=EST35_0194;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0194
+MK797984.1	Genbank	CDS	117910	118551	.	+	0	ID=cds-QCG76075.1;Parent=gene-EST35_0194;Dbxref=SEED:fig|6666666.410365.peg.171,NCBI_GP:QCG76075.1;Name=QCG76075.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0194;product=structural protein;protein_id=QCG76075.1;transl_table=11
+MK797984.1	Genbank	gene	118669	121308	.	+	.	ID=gene-EST35_0195;Name=EST35_0195;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0195
+MK797984.1	Genbank	CDS	118669	121308	.	+	0	ID=cds-QCG76076.1;Parent=gene-EST35_0195;Dbxref=UniProtKB/TrEMBL:A0A223W013,NCBI_GP:QCG76076.1;Name=QCG76076.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0195;product=tail sheath monomer;protein_id=QCG76076.1;transl_table=11
+MK797984.1	Genbank	gene	121410	123026	.	+	.	ID=gene-EST35_0196;Name=EST35_0196;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0196
+MK797984.1	Genbank	CDS	121410	123026	.	+	0	ID=cds-QCG76077.1;Parent=gene-EST35_0196;Dbxref=UniProtKB/TrEMBL:A0A172JIH1,NCBI_GP:QCG76077.1;Name=QCG76077.1;gbkey=CDS;locus_tag=EST35_0196;product=Hef-like homing endonuclease;protein_id=QCG76077.1;transl_table=11
+MK797984.1	Genbank	gene	123115	123735	.	+	.	ID=gene-EST35_0197;Name=EST35_0197;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0197
+MK797984.1	Genbank	CDS	123115	123735	.	+	0	ID=cds-QCG76078.1;Parent=gene-EST35_0197;Dbxref=SEED:fig|6666666.410365.peg.174,NCBI_GP:QCG76078.1;Name=QCG76078.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0197;product=structural protein;protein_id=QCG76078.1;transl_table=11
+MK797984.1	Genbank	gene	123795	125273	.	+	.	ID=gene-EST35_0198;Name=EST35_0198;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0198
+MK797984.1	Genbank	CDS	123795	125273	.	+	0	ID=cds-QCG76079.1;Parent=gene-EST35_0198;Dbxref=SEED:fig|6666666.410365.peg.175,NCBI_GP:QCG76079.1;Name=QCG76079.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0198;product=structural protein;protein_id=QCG76079.1;transl_table=11
+MK797984.1	Genbank	gene	125273	125728	.	+	.	ID=gene-EST35_0199;Name=EST35_0199;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0199
+MK797984.1	Genbank	CDS	125273	125728	.	+	0	ID=cds-QCG76080.1;Parent=gene-EST35_0199;Dbxref=SEED:fig|6666666.410365.peg.176,NCBI_GP:QCG76080.1;Name=QCG76080.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0199;product=structural protein;protein_id=QCG76080.1;transl_table=11
+MK797984.1	Genbank	gene	125728	126156	.	+	.	ID=gene-EST35_0200;Name=EST35_0200;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0200
+MK797984.1	Genbank	CDS	125728	126156	.	+	0	ID=cds-QCG76081.1;Parent=gene-EST35_0200;Dbxref=SEED:fig|6666666.410365.peg.177,NCBI_GP:QCG76081.1;Name=QCG76081.1;gbkey=CDS;locus_tag=EST35_0200;product=hypothetical protein;protein_id=QCG76081.1;transl_table=11
+MK797984.1	Genbank	gene	126158	126664	.	+	.	ID=gene-EST35_0201;Name=EST35_0201;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0201
+MK797984.1	Genbank	CDS	126158	126664	.	+	0	ID=cds-QCG76082.1;Parent=gene-EST35_0201;Dbxref=SEED:fig|6666666.410365.peg.178,NCBI_GP:QCG76082.1;Name=QCG76082.1;gbkey=CDS;locus_tag=EST35_0201;product=hypothetical protein;protein_id=QCG76082.1;transl_table=11
+MK797984.1	Genbank	gene	126689	127291	.	+	.	ID=gene-EST35_0202;Name=EST35_0202;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0202
+MK797984.1	Genbank	CDS	126689	127291	.	+	0	ID=cds-QCG76083.1;Parent=gene-EST35_0202;Dbxref=SEED:fig|6666666.410365.peg.179,NCBI_GP:QCG76083.1;Name=QCG76083.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0202;product=structural protein;protein_id=QCG76083.1;transl_table=11
+MK797984.1	Genbank	gene	127321	128817	.	+	.	ID=gene-EST35_0203;Name=EST35_0203;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0203
+MK797984.1	Genbank	CDS	127321	128817	.	+	0	ID=cds-QCG76084.1;Parent=gene-EST35_0203;Dbxref=SEED:fig|6666666.410365.peg.180,NCBI_GP:QCG76084.1;Name=QCG76084.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0203;product=structural protein;protein_id=QCG76084.1;transl_table=11
+MK797984.1	Genbank	gene	128846	130441	.	+	.	ID=gene-EST35_0204;Name=EST35_0204;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0204
+MK797984.1	Genbank	CDS	128846	130441	.	+	0	ID=cds-QCG76085.1;Parent=gene-EST35_0204;Dbxref=SEED:fig|6666666.410365.peg.181,NCBI_GP:QCG76085.1;Name=QCG76085.1;gbkey=CDS;locus_tag=EST35_0204;product=hypothetical protein;protein_id=QCG76085.1;transl_table=11
+MK797984.1	Genbank	gene	130473	131921	.	+	.	ID=gene-EST35_0205;Name=EST35_0205;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0205
+MK797984.1	Genbank	CDS	130473	131921	.	+	0	ID=cds-QCG76086.1;Parent=gene-EST35_0205;Dbxref=SEED:fig|6666666.410365.peg.182,NCBI_GP:QCG76086.1;Name=QCG76086.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0205;product=structural protein;protein_id=QCG76086.1;transl_table=11
+MK797984.1	Genbank	gene	131940	133430	.	+	.	ID=gene-EST35_0206;Name=EST35_0206;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0206
+MK797984.1	Genbank	CDS	131940	133430	.	+	0	ID=cds-QCG76087.1;Parent=gene-EST35_0206;Dbxref=SEED:fig|6666666.410365.peg.183,NCBI_GP:QCG76087.1;Name=QCG76087.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0206;product=structural protein;protein_id=QCG76087.1;transl_table=11
+MK797984.1	Genbank	gene	133629	134615	.	+	.	ID=gene-EST35_0207;Name=EST35_0207;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0207
+MK797984.1	Genbank	CDS	133629	134615	.	+	0	ID=cds-QCG76088.1;Parent=gene-EST35_0207;Dbxref=SEED:fig|6666666.410365.peg.184,NCBI_GP:QCG76088.1;Name=QCG76088.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0207;product=structural protein;protein_id=QCG76088.1;transl_table=11
+MK797984.1	Genbank	gene	134722	134967	.	+	.	ID=gene-EST35_0208;Name=EST35_0208;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0208
+MK797984.1	Genbank	CDS	134722	134967	.	+	0	ID=cds-QCG76089.1;Parent=gene-EST35_0208;Dbxref=SEED:fig|6666666.410365.peg.185,NCBI_GP:QCG76089.1;Name=QCG76089.1;gbkey=CDS;locus_tag=EST35_0208;product=hypothetical protein;protein_id=QCG76089.1;transl_table=11
+MK797984.1	Genbank	gene	135020	136453	.	+	.	ID=gene-EST35_0209;Name=EST35_0209;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0209
+MK797984.1	Genbank	CDS	135020	136453	.	+	0	ID=cds-QCG76090.1;Parent=gene-EST35_0209;Dbxref=SEED:fig|6666666.410365.peg.186,NCBI_GP:QCG76090.1;Name=QCG76090.1;gbkey=CDS;locus_tag=EST35_0209;product=hypothetical protein;protein_id=QCG76090.1;transl_table=11
+MK797984.1	Genbank	gene	136457	137728	.	+	.	ID=gene-EST35_0210;Name=EST35_0210;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0210
+MK797984.1	Genbank	CDS	136457	137728	.	+	0	ID=cds-QCG76091.1;Parent=gene-EST35_0210;Dbxref=SEED:fig|6666666.410365.peg.187,NCBI_GP:QCG76091.1;Name=QCG76091.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0210;product=structural protein;protein_id=QCG76091.1;transl_table=11
+MK797984.1	Genbank	gene	137721	139556	.	+	.	ID=gene-EST35_0211;Name=EST35_0211;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0211
+MK797984.1	Genbank	CDS	137721	139556	.	+	0	ID=cds-QCG76092.1;Parent=gene-EST35_0211;Dbxref=UniProtKB/TrEMBL:A0A172JIH1,NCBI_GP:QCG76092.1;Name=QCG76092.1;gbkey=CDS;locus_tag=EST35_0211;product=Hef-like homing endonuclease;protein_id=QCG76092.1;transl_table=11
+MK797984.1	Genbank	gene	139553	139753	.	+	.	ID=gene-EST35_0212;Name=EST35_0212;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0212
+MK797984.1	Genbank	CDS	139553	139753	.	+	0	ID=cds-QCG76093.1;Parent=gene-EST35_0212;Dbxref=SEED:fig|6666666.410365.peg.189,NCBI_GP:QCG76093.1;Name=QCG76093.1;gbkey=CDS;locus_tag=EST35_0212;product=hypothetical protein;protein_id=QCG76093.1;transl_table=11
+MK797984.1	Genbank	gene	139743	140069	.	+	.	ID=gene-EST35_0213;Name=EST35_0213;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0213
+MK797984.1	Genbank	CDS	139743	140069	.	+	0	ID=cds-QCG76094.1;Parent=gene-EST35_0213;Dbxref=SEED:fig|6666666.410365.peg.190,NCBI_GP:QCG76094.1;Name=QCG76094.1;gbkey=CDS;locus_tag=EST35_0213;product=hypothetical protein;protein_id=QCG76094.1;transl_table=11
+MK797984.1	Genbank	gene	140053	140517	.	+	.	ID=gene-EST35_0214;Name=EST35_0214;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0214
+MK797984.1	Genbank	CDS	140053	140517	.	+	0	ID=cds-QCG76095.1;Parent=gene-EST35_0214;Dbxref=SEED:fig|6666666.410365.peg.191,NCBI_GP:QCG76095.1;Name=QCG76095.1;gbkey=CDS;locus_tag=EST35_0214;product=hypothetical protein;protein_id=QCG76095.1;transl_table=11
+MK797984.1	Genbank	gene	140530	141981	.	+	.	ID=gene-EST35_0215;Name=EST35_0215;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0215
+MK797984.1	Genbank	CDS	140530	141981	.	+	0	ID=cds-QCG76096.1;Parent=gene-EST35_0215;Dbxref=SEED:fig|6666666.410365.peg.192,NCBI_GP:QCG76096.1;Name=QCG76096.1;gbkey=CDS;locus_tag=EST35_0215;product=hypothetical protein;protein_id=QCG76096.1;transl_table=11
+MK797984.1	Genbank	gene	141983	142234	.	+	.	ID=gene-EST35_0216;Name=EST35_0216;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0216
+MK797984.1	Genbank	CDS	141983	142234	.	+	0	ID=cds-QCG76097.1;Parent=gene-EST35_0216;Dbxref=SEED:fig|6666666.410365.peg.193,NCBI_GP:QCG76097.1;Name=QCG76097.1;gbkey=CDS;locus_tag=EST35_0216;product=hypothetical protein;protein_id=QCG76097.1;transl_table=11
+MK797984.1	Genbank	gene	142245	142748	.	+	.	ID=gene-EST35_0217;Name=EST35_0217;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0217
+MK797984.1	Genbank	CDS	142245	142748	.	+	0	ID=cds-QCG76098.1;Parent=gene-EST35_0217;Dbxref=SEED:fig|6666666.410365.peg.194,NCBI_GP:QCG76098.1;Name=QCG76098.1;gbkey=CDS;locus_tag=EST35_0217;product=hypothetical protein;protein_id=QCG76098.1;transl_table=11
+MK797984.1	Genbank	gene	142748	143215	.	+	.	ID=gene-EST35_0218;Name=EST35_0218;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0218
+MK797984.1	Genbank	CDS	142748	143215	.	+	0	ID=cds-QCG76099.1;Parent=gene-EST35_0218;Dbxref=SEED:fig|6666666.410365.peg.195,NCBI_GP:QCG76099.1;Name=QCG76099.1;gbkey=CDS;locus_tag=EST35_0218;product=hypothetical protein;protein_id=QCG76099.1;transl_table=11
+MK797984.1	Genbank	gene	143229	143936	.	+	.	ID=gene-EST35_0219;Name=EST35_0219;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0219
+MK797984.1	Genbank	CDS	143229	143936	.	+	0	ID=cds-QCG76100.1;Parent=gene-EST35_0219;Dbxref=SEED:fig|6666666.410365.peg.196,NCBI_GP:QCG76100.1;Name=QCG76100.1;gbkey=CDS;locus_tag=EST35_0219;product=hypothetical protein;protein_id=QCG76100.1;transl_table=11
+MK797984.1	Genbank	gene	143938	144540	.	+	.	ID=gene-EST35_0220;Name=EST35_0220;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0220
+MK797984.1	Genbank	CDS	143938	144540	.	+	0	ID=cds-QCG76101.1;Parent=gene-EST35_0220;Dbxref=SEED:fig|6666666.410365.peg.197,NCBI_GP:QCG76101.1;Name=QCG76101.1;gbkey=CDS;locus_tag=EST35_0220;product=hypothetical protein;protein_id=QCG76101.1;transl_table=11
+MK797984.1	Genbank	gene	144524	144922	.	-	.	ID=gene-EST35_0221;Name=EST35_0221;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0221
+MK797984.1	Genbank	CDS	144524	144922	.	-	0	ID=cds-QCG76102.1;Parent=gene-EST35_0221;Dbxref=SEED:fig|6666666.410365.peg.198,NCBI_GP:QCG76102.1;Name=QCG76102.1;gbkey=CDS;locus_tag=EST35_0221;product=hypothetical protein;protein_id=QCG76102.1;transl_table=11
+MK797984.1	Genbank	gene	144985	145854	.	+	.	ID=gene-EST35_0222;Name=EST35_0222;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0222
+MK797984.1	Genbank	CDS	144985	145854	.	+	0	ID=cds-QCG76103.1;Parent=gene-EST35_0222;Dbxref=SEED:fig|6666666.410365.peg.199,NCBI_GP:QCG76103.1;Name=QCG76103.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0222;product=structural protein;protein_id=QCG76103.1;transl_table=11
+MK797984.1	Genbank	gene	145884	146912	.	+	.	ID=gene-EST35_0223;Name=EST35_0223;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0223
+MK797984.1	Genbank	CDS	145884	146912	.	+	0	ID=cds-QCG76104.1;Parent=gene-EST35_0223;Dbxref=UniProtKB/TrEMBL:A0A1I2XRJ0,NCBI_GP:QCG76104.1;Name=QCG76104.1;gbkey=CDS;locus_tag=EST35_0223;product=DNA primase subunit;protein_id=QCG76104.1;transl_table=11
+MK797984.1	Genbank	gene	146914	148353	.	+	.	ID=gene-EST35_0224;Name=EST35_0224;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0224
+MK797984.1	Genbank	CDS	146914	148353	.	+	0	ID=cds-QCG76105.1;Parent=gene-EST35_0224;Dbxref=SEED:fig|6666666.410365.peg.201,NCBI_GP:QCG76105.1;Name=QCG76105.1;gbkey=CDS;locus_tag=EST35_0224;product=hypothetical protein;protein_id=QCG76105.1;transl_table=11
+MK797984.1	Genbank	gene	148394	148633	.	+	.	ID=gene-EST35_0225;Name=EST35_0225;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0225
+MK797984.1	Genbank	CDS	148394	148633	.	+	0	ID=cds-QCG76106.1;Parent=gene-EST35_0225;Dbxref=SEED:fig|6666666.410365.peg.202,NCBI_GP:QCG76106.1;Name=QCG76106.1;gbkey=CDS;locus_tag=EST35_0225;product=hypothetical protein;protein_id=QCG76106.1;transl_table=11
+MK797984.1	Genbank	gene	148636	149247	.	+	.	ID=gene-EST35_0226;Name=EST35_0226;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0226
+MK797984.1	Genbank	CDS	148636	149247	.	+	0	ID=cds-QCG76107.1;Parent=gene-EST35_0226;Dbxref=SEED:fig|6666666.410365.peg.203,NCBI_GP:QCG76107.1;Name=QCG76107.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0226;product=structural protein;protein_id=QCG76107.1;transl_table=11
+MK797984.1	Genbank	gene	149240	150439	.	+	.	ID=gene-EST35_0227;Name=EST35_0227;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0227
+MK797984.1	Genbank	CDS	149240	150439	.	+	0	ID=cds-QCG76108.1;Parent=gene-EST35_0227;Dbxref=SEED:fig|6666666.410365.peg.204,NCBI_GP:QCG76108.1;Name=QCG76108.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0227;product=structural protein;protein_id=QCG76108.1;transl_table=11
+MK797984.1	Genbank	gene	150524	151864	.	+	.	ID=gene-EST35_0228;Name=EST35_0228;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0228
+MK797984.1	Genbank	CDS	150524	151864	.	+	0	ID=cds-QCG76109.1;Parent=gene-EST35_0228;Dbxref=SEED:fig|6666666.410365.peg.205,NCBI_GP:QCG76109.1;Name=QCG76109.1;gbkey=CDS;locus_tag=EST35_0228;product=hypothetical protein;protein_id=QCG76109.1;transl_table=11
+MK797984.1	Genbank	gene	151865	152884	.	+	.	ID=gene-EST35_0229;Name=EST35_0229;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0229
+MK797984.1	Genbank	CDS	151865	152884	.	+	0	ID=cds-QCG76110.1;Parent=gene-EST35_0229;Dbxref=SEED:fig|6666666.410365.peg.206,NCBI_GP:QCG76110.1;Name=QCG76110.1;gbkey=CDS;locus_tag=EST35_0229;product=hypothetical protein;protein_id=QCG76110.1;transl_table=11
+MK797984.1	Genbank	gene	152875	153120	.	+	.	ID=gene-EST35_0230;Name=EST35_0230;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0230
+MK797984.1	Genbank	CDS	152875	153120	.	+	0	ID=cds-QCG76111.1;Parent=gene-EST35_0230;Dbxref=SEED:fig|6666666.410365.peg.207,NCBI_GP:QCG76111.1;Name=QCG76111.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0230;product=structural protein;protein_id=QCG76111.1;transl_table=11
+MK797984.1	Genbank	gene	153120	153833	.	+	.	ID=gene-EST35_0231;Name=EST35_0231;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0231
+MK797984.1	Genbank	CDS	153120	153833	.	+	0	ID=cds-QCG76112.1;Parent=gene-EST35_0231;Dbxref=SEED:fig|6666666.410365.peg.208,NCBI_GP:QCG76112.1;Name=QCG76112.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0231;product=structural protein;protein_id=QCG76112.1;transl_table=11
+MK797984.1	Genbank	gene	153841	154272	.	+	.	ID=gene-EST35_0232;Name=EST35_0232;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0232
+MK797984.1	Genbank	CDS	153841	154272	.	+	0	ID=cds-QCG76113.1;Parent=gene-EST35_0232;Dbxref=SEED:fig|6666666.410365.peg.209,NCBI_GP:QCG76113.1;Name=QCG76113.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0232;product=structural protein;protein_id=QCG76113.1;transl_table=11
+MK797984.1	Genbank	gene	154339	154641	.	+	.	ID=gene-EST35_0233;Name=EST35_0233;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0233
+MK797984.1	Genbank	CDS	154339	154641	.	+	0	ID=cds-QCG76114.1;Parent=gene-EST35_0233;Dbxref=SEED:fig|6666666.410365.peg.210,NCBI_GP:QCG76114.1;Name=QCG76114.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0233;product=structural protein;protein_id=QCG76114.1;transl_table=11
+MK797984.1	Genbank	gene	154760	155224	.	+	.	ID=gene-EST35_0234;Name=EST35_0234;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0234
+MK797984.1	Genbank	CDS	154760	155224	.	+	0	ID=cds-QCG76115.1;Parent=gene-EST35_0234;Dbxref=SEED:fig|6666666.410365.peg.211,NCBI_GP:QCG76115.1;Name=QCG76115.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0234;product=structural protein;protein_id=QCG76115.1;transl_table=11
+MK797984.1	Genbank	gene	155221	155847	.	+	.	ID=gene-EST35_0235;Name=EST35_0235;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0235
+MK797984.1	Genbank	CDS	155221	155847	.	+	0	ID=cds-QCG76116.1;Parent=gene-EST35_0235;Dbxref=SEED:fig|6666666.410365.peg.212,NCBI_GP:QCG76116.1;Name=QCG76116.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0235;product=structural protein;protein_id=QCG76116.1;transl_table=11
+MK797984.1	Genbank	gene	155849	156304	.	+	.	ID=gene-EST35_0236;Name=EST35_0236;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0236
+MK797984.1	Genbank	CDS	155849	156304	.	+	0	ID=cds-QCG76117.1;Parent=gene-EST35_0236;Dbxref=SEED:fig|6666666.410365.peg.213,NCBI_GP:QCG76117.1;Name=QCG76117.1;gbkey=CDS;locus_tag=EST35_0236;product=hypothetical protein;protein_id=QCG76117.1;transl_table=11
+MK797984.1	Genbank	gene	156341	157528	.	+	.	ID=gene-EST35_0237;Name=EST35_0237;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0237
+MK797984.1	Genbank	CDS	156341	157528	.	+	0	ID=cds-QCG76118.1;Parent=gene-EST35_0237;Dbxref=SEED:fig|6666666.410365.peg.214,NCBI_GP:QCG76118.1;Name=QCG76118.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0237;product=structural protein;protein_id=QCG76118.1;transl_table=11
+MK797984.1	Genbank	gene	157529	157843	.	+	.	ID=gene-EST35_0238;Name=EST35_0238;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0238
+MK797984.1	Genbank	CDS	157529	157843	.	+	0	ID=cds-QCG76119.1;Parent=gene-EST35_0238;Dbxref=SEED:fig|6666666.410365.peg.215,NCBI_GP:QCG76119.1;Name=QCG76119.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0238;product=structural protein;protein_id=QCG76119.1;transl_table=11
+MK797984.1	Genbank	gene	157843	158178	.	+	.	ID=gene-EST35_0239;Name=EST35_0239;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0239
+MK797984.1	Genbank	CDS	157843	158178	.	+	0	ID=cds-QCG76120.1;Parent=gene-EST35_0239;Dbxref=SEED:fig|6666666.410365.peg.216,NCBI_GP:QCG76120.1;Name=QCG76120.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0239;product=structural protein;protein_id=QCG76120.1;transl_table=11
+MK797984.1	Genbank	gene	158242	158907	.	+	.	ID=gene-EST35_0240;Name=EST35_0240;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0240
+MK797984.1	Genbank	CDS	158242	158907	.	+	0	ID=cds-QCG76121.1;Parent=gene-EST35_0240;Dbxref=SEED:fig|6666666.410365.peg.217,NCBI_GP:QCG76121.1;Name=QCG76121.1;gbkey=CDS;locus_tag=EST35_0240;product=putative exonuclease;protein_id=QCG76121.1;transl_table=11
+MK797984.1	Genbank	gene	158939	160138	.	+	.	ID=gene-EST35_0241;Name=EST35_0241;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0241
+MK797984.1	Genbank	CDS	158939	160138	.	+	0	ID=cds-QCG76122.1;Parent=gene-EST35_0241;Dbxref=SEED:fig|6666666.410365.peg.218,NCBI_GP:QCG76122.1;Name=QCG76122.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0241;product=structural protein;protein_id=QCG76122.1;transl_table=11
+MK797984.1	Genbank	gene	160155	160589	.	+	.	ID=gene-EST35_0242;Name=EST35_0242;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0242
+MK797984.1	Genbank	CDS	160155	160589	.	+	0	ID=cds-QCG76123.1;Parent=gene-EST35_0242;Dbxref=SEED:fig|6666666.410365.peg.219,NCBI_GP:QCG76123.1;Name=QCG76123.1;gbkey=CDS;locus_tag=EST35_0242;product=hypothetical protein;protein_id=QCG76123.1;transl_table=11
+MK797984.1	Genbank	gene	160598	162883	.	+	.	ID=gene-EST35_0243;Name=EST35_0243;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0243
+MK797984.1	Genbank	CDS	160598	162883	.	+	0	ID=cds-QCG76124.1;Parent=gene-EST35_0243;Dbxref=GO:0004748,SEED:fig|6666666.410365.peg.220,NCBI_GP:QCG76124.1;Name=QCG76124.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0243;product=ribonucleotide reductase of class Ia (aerobic)%2C alpha subunit;protein_id=QCG76124.1;transl_table=11
+MK797984.1	Genbank	gene	162937	164076	.	+	.	ID=gene-EST35_0244;Name=EST35_0244;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0244
+MK797984.1	Genbank	CDS	162937	164076	.	+	0	ID=cds-QCG76125.1;Parent=gene-EST35_0244;Dbxref=GO:0004748,SEED:fig|6666666.410365.peg.221,NCBI_GP:QCG76125.1;Name=QCG76125.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0244;product=ribonucleotide reductase of class Ia (aerobic)%2C beta subunit;protein_id=QCG76125.1;transl_table=11
+MK797984.1	Genbank	gene	164101	165123	.	+	.	ID=gene-EST35_0245;Name=EST35_0245;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0245
+MK797984.1	Genbank	CDS	164101	165123	.	+	0	ID=cds-QCG76126.1;Parent=gene-EST35_0245;Dbxref=SEED:fig|6666666.410365.peg.222,NCBI_GP:QCG76126.1;Name=QCG76126.1;Note=ESI-MS/MS%3B putative baseplate hub sub and tail lysozyme%2C muramoyl-pentapeptidase;gbkey=CDS;locus_tag=EST35_0245;product=putative baseplate hub sub and tail lysozyme;protein_id=QCG76126.1;transl_table=11
+MK797984.1	Genbank	gene	165164	165388	.	+	.	ID=gene-EST35_0246;Name=EST35_0246;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0246
+MK797984.1	Genbank	CDS	165164	165388	.	+	0	ID=cds-QCG76127.1;Parent=gene-EST35_0246;Dbxref=SEED:fig|6666666.410365.peg.223,NCBI_GP:QCG76127.1;Name=QCG76127.1;gbkey=CDS;locus_tag=EST35_0246;product=hypothetical protein;protein_id=QCG76127.1;transl_table=11
+MK797984.1	Genbank	gene	165381	165596	.	+	.	ID=gene-EST35_0247;Name=EST35_0247;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0247
+MK797984.1	Genbank	CDS	165381	165596	.	+	0	ID=cds-QCG76128.1;Parent=gene-EST35_0247;Dbxref=SEED:fig|6666666.410365.peg.224,NCBI_GP:QCG76128.1;Name=QCG76128.1;gbkey=CDS;locus_tag=EST35_0247;product=hypothetical protein;protein_id=QCG76128.1;transl_table=11
+MK797984.1	Genbank	gene	165654	166415	.	+	.	ID=gene-EST35_0248;Name=EST35_0248;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0248
+MK797984.1	Genbank	CDS	165654	166415	.	+	0	ID=cds-QCG76129.1;Parent=gene-EST35_0248;Dbxref=UniProtKB/TrEMBL:A0A2E4QTZ2,NCBI_GP:QCG76129.1;Name=QCG76129.1;gbkey=CDS;locus_tag=EST35_0248;product=metallophosphoesterase;protein_id=QCG76129.1;transl_table=11
+MK797984.1	Genbank	gene	166412	166780	.	+	.	ID=gene-EST35_0249;Name=EST35_0249;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0249
+MK797984.1	Genbank	CDS	166412	166780	.	+	0	ID=cds-QCG76130.1;Parent=gene-EST35_0249;Dbxref=SEED:fig|6666666.410365.peg.226,NCBI_GP:QCG76130.1;Name=QCG76130.1;gbkey=CDS;locus_tag=EST35_0249;product=hypothetical protein;protein_id=QCG76130.1;transl_table=11
+MK797984.1	Genbank	gene	166773	167093	.	+	.	ID=gene-EST35_0250;Name=EST35_0250;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0250
+MK797984.1	Genbank	CDS	166773	167093	.	+	0	ID=cds-QCG76131.1;Parent=gene-EST35_0250;Dbxref=SEED:fig|6666666.410365.peg.227,NCBI_GP:QCG76131.1;Name=QCG76131.1;gbkey=CDS;locus_tag=EST35_0250;product=hypothetical protein;protein_id=QCG76131.1;transl_table=11
+MK797984.1	Genbank	gene	167093	167989	.	+	.	ID=gene-EST35_0251;Name=EST35_0251;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0251
+MK797984.1	Genbank	CDS	167093	167989	.	+	0	ID=cds-QCG76132.1;Parent=gene-EST35_0251;Dbxref=GO:0004799,SEED:fig|6666666.410365.peg.228,NCBI_GP:QCG76132.1;Name=QCG76132.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0251;product=thymidylate synthase;protein_id=QCG76132.1;transl_table=11
+MK797984.1	Genbank	gene	167989	168300	.	+	.	ID=gene-EST35_0252;Name=EST35_0252;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0252
+MK797984.1	Genbank	CDS	167989	168300	.	+	0	ID=cds-QCG76133.1;Parent=gene-EST35_0252;Dbxref=SEED:fig|6666666.410365.peg.229,NCBI_GP:QCG76133.1;Name=QCG76133.1;gbkey=CDS;locus_tag=EST35_0252;product=hypothetical protein;protein_id=QCG76133.1;transl_table=11
+MK797984.1	Genbank	gene	168449	169138	.	+	.	ID=gene-EST35_0253;Name=EST35_0253;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0253
+MK797984.1	Genbank	CDS	168449	169138	.	+	0	ID=cds-QCG76134.1;Parent=gene-EST35_0253;Dbxref=GO:0003934,SEED:fig|6666666.410365.peg.230,NCBI_GP:QCG76134.1;Name=QCG76134.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0253;product=GTP cyclohydrolase type 1;protein_id=QCG76134.1;transl_table=11
+MK797984.1	Genbank	gene	169206	169724	.	+	.	ID=gene-EST35_0254;Name=EST35_0254;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0254
+MK797984.1	Genbank	CDS	169206	169724	.	+	0	ID=cds-QCG76135.1;Parent=gene-EST35_0254;Dbxref=SEED:fig|6666666.410365.peg.231,NCBI_GP:QCG76135.1;Name=QCG76135.1;Note=ESI-MS/MS%3B 6-carboxytetrahydropterin synthase%2C Queuosine biosynthesis QueD%2C PTPS-I;gbkey=CDS;locus_tag=EST35_0254;product=6-carboxytetrahydropterin synthase;protein_id=QCG76135.1;transl_table=11
+MK797984.1	Genbank	gene	169742	170968	.	+	.	ID=gene-EST35_0255;Name=EST35_0255;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0255
+MK797984.1	Genbank	CDS	169742	170968	.	+	0	ID=cds-QCG76136.1;Parent=gene-EST35_0255;Dbxref=SEED:fig|6666666.410365.peg.232,NCBI_GP:QCG76136.1;Name=QCG76136.1;Note=ATP-dependent Clp protease ATP-binding subunit ClpX;gbkey=CDS;locus_tag=EST35_0255;product=ATP-dependent Clp protease ATP-binding subunit;protein_id=QCG76136.1;transl_table=11
+MK797984.1	Genbank	gene	170955	171161	.	+	.	ID=gene-EST35_0256;Name=EST35_0256;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0256
+MK797984.1	Genbank	CDS	170955	171161	.	+	0	ID=cds-QCG76137.1;Parent=gene-EST35_0256;Dbxref=UniProtKB/TrEMBL:A0A177H5Z2,NCBI_GP:QCG76137.1;Name=QCG76137.1;gbkey=CDS;locus_tag=EST35_0256;product=30S ribosomal protein S21;protein_id=QCG76137.1;transl_table=11
+MK797984.1	Genbank	gene	171164	171499	.	+	.	ID=gene-EST35_0257;Name=EST35_0257;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0257
+MK797984.1	Genbank	CDS	171164	171499	.	+	0	ID=cds-QCG76138.1;Parent=gene-EST35_0257;Dbxref=SEED:fig|6666666.410365.peg.234,NCBI_GP:QCG76138.1;Name=QCG76138.1;gbkey=CDS;locus_tag=EST35_0257;product=hypothetical protein;protein_id=QCG76138.1;transl_table=11
+MK797984.1	Genbank	gene	171501	171971	.	+	.	ID=gene-EST35_0258;Name=EST35_0258;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0258
+MK797984.1	Genbank	CDS	171501	171971	.	+	0	ID=cds-QCG76139.1;Parent=gene-EST35_0258;Dbxref=SEED:fig|6666666.410365.peg.235,NCBI_GP:QCG76139.1;Name=QCG76139.1;gbkey=CDS;locus_tag=EST35_0258;product=hypothetical protein;protein_id=QCG76139.1;transl_table=11
+MK797984.1	Genbank	gene	172055	172486	.	+	.	ID=gene-EST35_0259;Name=EST35_0259;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0259
+MK797984.1	Genbank	CDS	172055	172486	.	+	0	ID=cds-QCG76140.1;Parent=gene-EST35_0259;Dbxref=UniProtKB/TrEMBL:E3SIH8,NCBI_GP:QCG76140.1;Name=QCG76140.1;gbkey=CDS;locus_tag=EST35_0259;product=heat shock protein;protein_id=QCG76140.1;transl_table=11
+MK797984.1	Genbank	gene	172602	172904	.	+	.	ID=gene-EST35_0260;Name=EST35_0260;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0260
+MK797984.1	Genbank	CDS	172602	172904	.	+	0	ID=cds-QCG76141.1;Parent=gene-EST35_0260;Dbxref=UniProtKB/TrEMBL:A0A1I0ZS08,NCBI_GP:QCG76141.1;Name=QCG76141.1;Note=ATP-dependent Clp protease adapter protein ClpS;gbkey=CDS;locus_tag=EST35_0260;product=ATP-dependent Clp protease adapter protein;protein_id=QCG76141.1;transl_table=11
+MK797984.1	Genbank	gene	172979	173527	.	+	.	ID=gene-EST35_0261;Name=EST35_0261;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0261
+MK797984.1	Genbank	CDS	172979	173527	.	+	0	ID=cds-QCG76142.1;Parent=gene-EST35_0261;Dbxref=SEED:fig|6666666.410365.peg.238,NCBI_GP:QCG76142.1;Name=QCG76142.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0261;product=hypothetical protein;protein_id=QCG76142.1;transl_table=11
+MK797984.1	Genbank	gene	173547	173831	.	+	.	ID=gene-EST35_0262;Name=EST35_0262;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0262
+MK797984.1	Genbank	CDS	173547	173831	.	+	0	ID=cds-QCG76143.1;Parent=gene-EST35_0262;Dbxref=SEED:fig|6666666.410365.peg.239,NCBI_GP:QCG76143.1;Name=QCG76143.1;gbkey=CDS;locus_tag=EST35_0262;product=hypothetical protein;protein_id=QCG76143.1;transl_table=11
+MK797984.1	Genbank	gene	173841	174134	.	+	.	ID=gene-EST35_0263;Name=EST35_0263;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0263
+MK797984.1	Genbank	CDS	173841	174134	.	+	0	ID=cds-QCG76144.1;Parent=gene-EST35_0263;Dbxref=SEED:fig|6666666.410365.peg.240,NCBI_GP:QCG76144.1;Name=QCG76144.1;gbkey=CDS;locus_tag=EST35_0263;product=hypothetical protein;protein_id=QCG76144.1;transl_table=11
+MK797984.1	Genbank	gene	174202	174429	.	+	.	ID=gene-EST35_0264;Name=EST35_0264;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0264
+MK797984.1	Genbank	CDS	174202	174429	.	+	0	ID=cds-QCG76145.1;Parent=gene-EST35_0264;Dbxref=SEED:fig|6666666.410365.peg.241,NCBI_GP:QCG76145.1;Name=QCG76145.1;gbkey=CDS;locus_tag=EST35_0264;product=hypothetical protein;protein_id=QCG76145.1;transl_table=11
+MK797984.1	Genbank	gene	174475	175119	.	+	.	ID=gene-EST35_0265;Name=EST35_0265;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0265
+MK797984.1	Genbank	CDS	174475	175119	.	+	0	ID=cds-QCG76146.1;Parent=gene-EST35_0265;Dbxref=UniProtKB/TrEMBL:I3CH44,NCBI_GP:QCG76146.1;Name=QCG76146.1;gbkey=CDS;locus_tag=EST35_0265;product=FtsH-interacting integral membrane protein;protein_id=QCG76146.1;transl_table=11
+MK797984.1	Genbank	gene	175160	176890	.	+	.	ID=gene-EST35_0266;Name=EST35_0266;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0266
+MK797984.1	Genbank	CDS	175160	176890	.	+	0	ID=cds-QCG76147.1;Parent=gene-EST35_0266;Dbxref=SEED:fig|6666666.410365.peg.243,NCBI_GP:QCG76147.1;Name=QCG76147.1;Note=ESI-MS/MS%3B cell division protein FtsH;gbkey=CDS;locus_tag=EST35_0266;product=cell division protein;protein_id=QCG76147.1;transl_table=11
+MK797984.1	Genbank	gene	176918	178288	.	+	.	ID=gene-EST35_0267;Name=EST35_0267;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0267
+MK797984.1	Genbank	CDS	176918	178288	.	+	0	ID=cds-QCG76148.1;Parent=gene-EST35_0267;Dbxref=UniProtKB/TrEMBL:A0A0P0YMW4,NCBI_GP:QCG76148.1;Name=QCG76148.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0267;product=putative DNA ligase;protein_id=QCG76148.1;transl_table=11
+MK797984.1	Genbank	gene	178298	178459	.	+	.	ID=gene-EST35_0268;Name=EST35_0268;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0268
+MK797984.1	Genbank	CDS	178298	178459	.	+	0	ID=cds-QCG76149.1;Parent=gene-EST35_0268;Dbxref=SEED:fig|6666666.410365.peg.245,NCBI_GP:QCG76149.1;Name=QCG76149.1;gbkey=CDS;locus_tag=EST35_0268;product=hypothetical protein;protein_id=QCG76149.1;transl_table=11
+MK797984.1	Genbank	gene	178479	178988	.	+	.	ID=gene-EST35_0269;Name=EST35_0269;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0269
+MK797984.1	Genbank	CDS	178479	178988	.	+	0	ID=cds-QCG76150.1;Parent=gene-EST35_0269;Dbxref=UniProtKB/TrEMBL:A0A0L7L955,NCBI_GP:QCG76150.1;Name=QCG76150.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0269;product=hypothetical protein;protein_id=QCG76150.1;transl_table=11
+MK797984.1	Genbank	gene	179085	179858	.	+	.	ID=gene-EST35_0270;Name=EST35_0270;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0270
+MK797984.1	Genbank	CDS	179085	179858	.	+	0	ID=cds-QCG76151.1;Parent=gene-EST35_0270;Dbxref=UniProtKB/TrEMBL:A0A1S6UAP2,NCBI_GP:QCG76151.1;Name=QCG76151.1;gbkey=CDS;locus_tag=EST35_0270;product=DNA polymerase III;protein_id=QCG76151.1;transl_table=11
+MK797984.1	Genbank	gene	179881	180267	.	-	.	ID=gene-EST35_0271;Name=EST35_0271;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0271
+MK797984.1	Genbank	CDS	179881	180267	.	-	0	ID=cds-QCG76152.1;Parent=gene-EST35_0271;Dbxref=SEED:fig|6666666.410365.peg.248,NCBI_GP:QCG76152.1;Name=QCG76152.1;gbkey=CDS;locus_tag=EST35_0271;product=hypothetical protein;protein_id=QCG76152.1;transl_table=11
+MK797984.1	Genbank	gene	180349	181020	.	+	.	ID=gene-EST35_0272;Name=EST35_0272;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0272
+MK797984.1	Genbank	CDS	180349	181020	.	+	0	ID=cds-QCG76153.1;Parent=gene-EST35_0272;Dbxref=GO:0008462,SEED:fig|6666666.410365.peg.249,NCBI_GP:QCG76153.1;Name=QCG76153.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0272;product=ATP-dependent Clp protease proteolytic subunit;protein_id=QCG76153.1;transl_table=11
+MK797984.1	Genbank	gene	181230	181460	.	-	.	ID=gene-EST35_0273;Name=EST35_0273;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0273
+MK797984.1	Genbank	CDS	181230	181460	.	-	0	ID=cds-QCG76154.1;Parent=gene-EST35_0273;Dbxref=SEED:fig|6666666.410365.peg.250,NCBI_GP:QCG76154.1;Name=QCG76154.1;gbkey=CDS;locus_tag=EST35_0273;product=hypothetical protein;protein_id=QCG76154.1;transl_table=11
+MK797984.1	Genbank	gene	181548	181805	.	+	.	ID=gene-EST35_0274;Name=EST35_0274;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0274
+MK797984.1	Genbank	CDS	181548	181805	.	+	0	ID=cds-QCG76155.1;Parent=gene-EST35_0274;Dbxref=SEED:fig|6666666.410365.peg.251,NCBI_GP:QCG76155.1;Name=QCG76155.1;gbkey=CDS;locus_tag=EST35_0274;product=hypothetical protein;protein_id=QCG76155.1;transl_table=11
+MK797984.1	Genbank	gene	181966	182187	.	+	.	ID=gene-EST35_0275;Name=EST35_0275;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0275
+MK797984.1	Genbank	CDS	181966	182187	.	+	0	ID=cds-QCG76156.1;Parent=gene-EST35_0275;Dbxref=SEED:fig|6666666.410365.peg.252,NCBI_GP:QCG76156.1;Name=QCG76156.1;gbkey=CDS;locus_tag=EST35_0275;product=hypothetical protein;protein_id=QCG76156.1;transl_table=11
+MK797984.1	Genbank	gene	182184	183218	.	+	.	ID=gene-EST35_0276;Name=EST35_0276;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0276
+MK797984.1	Genbank	CDS	182184	183218	.	+	0	ID=cds-QCG76157.1;Parent=gene-EST35_0276;Dbxref=SEED:fig|6666666.410365.peg.253,NCBI_GP:QCG76157.1;Name=QCG76157.1;gbkey=CDS;locus_tag=EST35_0276;product=hypothetical protein;protein_id=QCG76157.1;transl_table=11
+MK797984.1	Genbank	gene	183218	183694	.	+	.	ID=gene-EST35_0277;Name=EST35_0277;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0277
+MK797984.1	Genbank	CDS	183218	183694	.	+	0	ID=cds-QCG76158.1;Parent=gene-EST35_0277;Dbxref=SEED:fig|6666666.410365.peg.254,NCBI_GP:QCG76158.1;Name=QCG76158.1;gbkey=CDS;locus_tag=EST35_0277;product=hypothetical protein;protein_id=QCG76158.1;transl_table=11
+MK797984.1	Genbank	gene	183672	184079	.	+	.	ID=gene-EST35_0278;Name=EST35_0278;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0278
+MK797984.1	Genbank	CDS	183672	184079	.	+	0	ID=cds-QCG76159.1;Parent=gene-EST35_0278;Dbxref=UniProtKB/TrEMBL:A0A1D8KUP7,NCBI_GP:QCG76159.1;Name=QCG76159.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0278;product=MazG;protein_id=QCG76159.1;transl_table=11
+MK797984.1	Genbank	gene	184039	184476	.	+	.	ID=gene-EST35_0279;Name=EST35_0279;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0279
+MK797984.1	Genbank	CDS	184039	184476	.	+	0	ID=cds-QCG76160.1;Parent=gene-EST35_0279;Dbxref=SEED:fig|6666666.410365.peg.255,NCBI_GP:QCG76160.1;Name=QCG76160.1;gbkey=CDS;locus_tag=EST35_0279;product=hypothetical protein;protein_id=QCG76160.1;transl_table=11
+MK797984.1	Genbank	gene	184524	184793	.	+	.	ID=gene-EST35_0280;Name=EST35_0280;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0280
+MK797984.1	Genbank	CDS	184524	184793	.	+	0	ID=cds-QCG76161.1;Parent=gene-EST35_0280;Dbxref=SEED:fig|6666666.410365.peg.256,NCBI_GP:QCG76161.1;Name=QCG76161.1;gbkey=CDS;locus_tag=EST35_0280;product=hypothetical protein;protein_id=QCG76161.1;transl_table=11
+MK797984.1	Genbank	gene	184808	185068	.	+	.	ID=gene-EST35_0281;Name=EST35_0281;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0281
+MK797984.1	Genbank	CDS	184808	185068	.	+	0	ID=cds-QCG76162.1;Parent=gene-EST35_0281;Dbxref=UniProtKB/TrEMBL:A0A1U8J3Y2,NCBI_GP:QCG76162.1;Name=QCG76162.1;gbkey=CDS;locus_tag=EST35_0281;product=polyubiquitin-like protein;protein_id=QCG76162.1;transl_table=11
+MK797984.1	Genbank	gene	185089	185301	.	+	.	ID=gene-EST35_0282;Name=EST35_0282;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0282
+MK797984.1	Genbank	CDS	185089	185301	.	+	0	ID=cds-QCG76163.1;Parent=gene-EST35_0282;Dbxref=SEED:fig|6666666.410365.peg.258,NCBI_GP:QCG76163.1;Name=QCG76163.1;gbkey=CDS;locus_tag=EST35_0282;product=hypothetical protein;protein_id=QCG76163.1;transl_table=11
+MK797984.1	Genbank	gene	185298	185633	.	+	.	ID=gene-EST35_0283;Name=EST35_0283;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0283
+MK797984.1	Genbank	CDS	185298	185633	.	+	0	ID=cds-QCG76164.1;Parent=gene-EST35_0283;Dbxref=UniProtKB/TrEMBL:A0A287NB37,NCBI_GP:QCG76164.1;Name=QCG76164.1;gbkey=CDS;locus_tag=EST35_0283;product=Endonuclease III-like protein;protein_id=QCG76164.1;transl_table=11
+MK797984.1	Genbank	gene	185626	185928	.	+	.	ID=gene-EST35_0284;Name=EST35_0284;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0284
+MK797984.1	Genbank	CDS	185626	185928	.	+	0	ID=cds-QCG76165.1;Parent=gene-EST35_0284;Dbxref=SEED:fig|6666666.410365.peg.260,NCBI_GP:QCG76165.1;Name=QCG76165.1;gbkey=CDS;locus_tag=EST35_0284;product=hypothetical protein;protein_id=QCG76165.1;transl_table=11
+MK797984.1	Genbank	gene	185952	186452	.	+	.	ID=gene-EST35_0285;Name=EST35_0285;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0285
+MK797984.1	Genbank	CDS	185952	186452	.	+	0	ID=cds-QCG76166.1;Parent=gene-EST35_0285;Dbxref=SEED:fig|6666666.410365.peg.261,NCBI_GP:QCG76166.1;Name=QCG76166.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0285;product=structural protein;protein_id=QCG76166.1;transl_table=11
+MK797984.1	Genbank	gene	186528	186824	.	+	.	ID=gene-EST35_0286;Name=EST35_0286;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0286
+MK797984.1	Genbank	CDS	186528	186824	.	+	0	ID=cds-QCG76167.1;Parent=gene-EST35_0286;Dbxref=SEED:fig|6666666.410365.peg.262,NCBI_GP:QCG76167.1;Name=QCG76167.1;gbkey=CDS;locus_tag=EST35_0286;product=hypothetical protein;protein_id=QCG76167.1;transl_table=11
+MK797984.1	Genbank	gene	186825	187532	.	+	.	ID=gene-EST35_0287;Name=EST35_0287;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0287
+MK797984.1	Genbank	CDS	186825	187532	.	+	0	ID=cds-QCG76168.1;Parent=gene-EST35_0287;Dbxref=SEED:fig|6666666.410365.peg.263,NCBI_GP:QCG76168.1;Name=QCG76168.1;gbkey=CDS;locus_tag=EST35_0287;product=hypothetical protein;protein_id=QCG76168.1;transl_table=11
+MK797984.1	Genbank	gene	187516	188025	.	+	.	ID=gene-EST35_0288;Name=EST35_0288;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0288
+MK797984.1	Genbank	CDS	187516	188025	.	+	0	ID=cds-QCG76169.1;Parent=gene-EST35_0288;Dbxref=SEED:fig|6666666.410365.peg.264,NCBI_GP:QCG76169.1;Name=QCG76169.1;gbkey=CDS;locus_tag=EST35_0288;product=hypothetical protein;protein_id=QCG76169.1;transl_table=11
+MK797984.1	Genbank	gene	188038	188379	.	+	.	ID=gene-EST35_0289;Name=EST35_0289;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0289
+MK797984.1	Genbank	CDS	188038	188379	.	+	0	ID=cds-QCG76170.1;Parent=gene-EST35_0289;Dbxref=SEED:fig|6666666.410365.peg.265,NCBI_GP:QCG76170.1;Name=QCG76170.1;gbkey=CDS;locus_tag=EST35_0289;product=hypothetical protein;protein_id=QCG76170.1;transl_table=11
+MK797984.1	Genbank	gene	188381	188707	.	+	.	ID=gene-EST35_0290;Name=EST35_0290;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0290
+MK797984.1	Genbank	CDS	188381	188707	.	+	0	ID=cds-QCG76171.1;Parent=gene-EST35_0290;Dbxref=UniProtKB/TrEMBL:A0A097EX11,NCBI_GP:QCG76171.1;Name=QCG76171.1;gbkey=CDS;locus_tag=EST35_0290;product=chaperonin;protein_id=QCG76171.1;transl_table=11
+MK797984.1	Genbank	gene	188721	189650	.	+	.	ID=gene-EST35_0291;Name=EST35_0291;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0291
+MK797984.1	Genbank	CDS	188721	189650	.	+	0	ID=cds-QCG76172.1;Parent=gene-EST35_0291;Dbxref=SEED:fig|6666666.410365.peg.267,NCBI_GP:QCG76172.1;Name=QCG76172.1;gbkey=CDS;locus_tag=EST35_0291;product=hypothetical protein;protein_id=QCG76172.1;transl_table=11
+MK797984.1	Genbank	gene	189652	190014	.	+	.	ID=gene-EST35_0292;Name=EST35_0292;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0292
+MK797984.1	Genbank	CDS	189652	190014	.	+	0	ID=cds-QCG76173.1;Parent=gene-EST35_0292;Dbxref=SEED:fig|6666666.410365.peg.268,NCBI_GP:QCG76173.1;Name=QCG76173.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0292;product=structural protein;protein_id=QCG76173.1;transl_table=11
+MK797984.1	Genbank	gene	190004	190600	.	+	.	ID=gene-EST35_0293;Name=EST35_0293;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0293
+MK797984.1	Genbank	CDS	190004	190600	.	+	0	ID=cds-QCG76174.1;Parent=gene-EST35_0293;Dbxref=SEED:fig|6666666.410365.peg.269,NCBI_GP:QCG76174.1;Name=QCG76174.1;gbkey=CDS;locus_tag=EST35_0293;product=hypothetical protein;protein_id=QCG76174.1;transl_table=11
+MK797984.1	Genbank	gene	190683	191456	.	-	.	ID=gene-EST35_0294;Name=EST35_0294;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0294
+MK797984.1	Genbank	CDS	190683	191456	.	-	0	ID=cds-QCG76175.1;Parent=gene-EST35_0294;Dbxref=GO:0003676,GO:0005524,GO:0016036,SEED:fig|6666666.410365.peg.270,NCBI_GP:QCG76175.1;Name=QCG76175.1;Note=Phosphate starvation-inducible protein PhoH%2C predicted ATPase;gbkey=CDS;locus_tag=EST35_0294;product=phosphate starvation-inducible protein;protein_id=QCG76175.1;transl_table=11
+MK797984.1	Genbank	gene	191633	192154	.	+	.	ID=gene-EST35_0295;Name=EST35_0295;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0295
+MK797984.1	Genbank	CDS	191633	192154	.	+	0	ID=cds-QCG76176.1;Parent=gene-EST35_0295;Dbxref=SEED:fig|6666666.410365.peg.271,NCBI_GP:QCG76176.1;Name=QCG76176.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0295;product=structural protein;protein_id=QCG76176.1;transl_table=11
+MK797984.1	Genbank	gene	192184	192885	.	+	.	ID=gene-EST35_0296;Name=EST35_0296;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0296
+MK797984.1	Genbank	CDS	192184	192885	.	+	0	ID=cds-QCG76177.1;Parent=gene-EST35_0296;Dbxref=SEED:fig|6666666.410365.peg.272,NCBI_GP:QCG76177.1;Name=QCG76177.1;gbkey=CDS;locus_tag=EST35_0296;product=hypothetical protein;protein_id=QCG76177.1;transl_table=11
+MK797984.1	Genbank	gene	192924	193613	.	+	.	ID=gene-EST35_0297;Name=EST35_0297;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0297
+MK797984.1	Genbank	CDS	192924	193613	.	+	0	ID=cds-QCG76178.1;Parent=gene-EST35_0297;Dbxref=GO:0006457,GO:0031072,GO:0051082,SEED:fig|6666666.410365.peg.273,NCBI_GP:QCG76178.1;Name=QCG76178.1;Note=chaperone protein DnaJ;gbkey=CDS;locus_tag=EST35_0297;product=chaperone protein;protein_id=QCG76178.1;transl_table=11
+MK797984.1	Genbank	gene	193623	195842	.	+	.	ID=gene-EST35_0298;Name=EST35_0298;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0298
+MK797984.1	Genbank	CDS	193623	195842	.	+	0	ID=cds-QCG76179.1;Parent=gene-EST35_0298;Dbxref=SEED:fig|6666666.410365.peg.274,NCBI_GP:QCG76179.1;Name=QCG76179.1;Note=ATP-dependent Clp protease ATP-binding subunit ClpA;gbkey=CDS;locus_tag=EST35_0298;product=ATP-dependent Clp protease ATP-binding subunit;protein_id=QCG76179.1;transl_table=11
+MK797984.1	Genbank	gene	195960	196394	.	+	.	ID=gene-EST35_0299;Name=EST35_0299;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0299
+MK797984.1	Genbank	CDS	195960	196394	.	+	0	ID=cds-QCG76180.1;Parent=gene-EST35_0299;Dbxref=SEED:fig|6666666.410365.peg.275,NCBI_GP:QCG76180.1;Name=QCG76180.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0299;product=structural protein;protein_id=QCG76180.1;transl_table=11
+MK797984.1	Genbank	gene	196408	203118	.	+	.	ID=gene-EST35_0300;Name=EST35_0300;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0300
+MK797984.1	Genbank	CDS	196408	203118	.	+	0	ID=cds-QCG76181.1;Parent=gene-EST35_0300;Dbxref=SEED:fig|6666666.410365.peg.276,NCBI_GP:QCG76181.1;Name=QCG76181.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0300;product=structural protein;protein_id=QCG76181.1;transl_table=11
+MK797984.1	Genbank	gene	203120	203506	.	+	.	ID=gene-EST35_0301;Name=EST35_0301;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0301
+MK797984.1	Genbank	CDS	203120	203506	.	+	0	ID=cds-QCG76182.1;Parent=gene-EST35_0301;Dbxref=SEED:fig|6666666.410365.peg.277,NCBI_GP:QCG76182.1;Name=QCG76182.1;gbkey=CDS;locus_tag=EST35_0301;product=hypothetical protein;protein_id=QCG76182.1;transl_table=11
+MK797984.1	Genbank	gene	203622	206642	.	+	.	ID=gene-EST35_0302;Name=EST35_0302;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0302
+MK797984.1	Genbank	CDS	203622	206642	.	+	0	ID=cds-QCG76183.1;Parent=gene-EST35_0302;Dbxref=SEED:fig|6666666.410365.peg.278,NCBI_GP:QCG76183.1;Name=QCG76183.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0302;product=structural protein;protein_id=QCG76183.1;transl_table=11
+MK797984.1	Genbank	gene	206646	208619	.	+	.	ID=gene-EST35_0303;Name=EST35_0303;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0303
+MK797984.1	Genbank	CDS	206646	208619	.	+	0	ID=cds-QCG76184.1;Parent=gene-EST35_0303;Dbxref=SEED:fig|6666666.410365.peg.279,NCBI_GP:QCG76184.1;Name=QCG76184.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0303;product=structural protein;protein_id=QCG76184.1;transl_table=11
+MK797984.1	Genbank	gene	208657	209292	.	+	.	ID=gene-EST35_0304;Name=EST35_0304;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0304
+MK797984.1	Genbank	CDS	208657	209292	.	+	0	ID=cds-QCG76185.1;Parent=gene-EST35_0304;Dbxref=UniProtKB/TrEMBL:A0A1E4S309,NCBI_GP:QCG76185.1;Name=QCG76185.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0304;product=hypothetical protein;protein_id=QCG76185.1;transl_table=11
+MK797984.1	Genbank	gene	209359	212043	.	+	.	ID=gene-EST35_0305;Name=EST35_0305;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0305
+MK797984.1	Genbank	CDS	209359	212043	.	+	0	ID=cds-QCG76186.1;Parent=gene-EST35_0305;Dbxref=SEED:fig|6666666.410365.peg.281,NCBI_GP:QCG76186.1;Name=QCG76186.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0305;product=structural protein;protein_id=QCG76186.1;transl_table=11
+MK797984.1	Genbank	gene	212216	212542	.	+	.	ID=gene-EST35_0306;Name=EST35_0306;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0306
+MK797984.1	Genbank	CDS	212216	212542	.	+	0	ID=cds-QCG76187.1;Parent=gene-EST35_0306;Dbxref=SEED:fig|6666666.410365.peg.282,NCBI_GP:QCG76187.1;Name=QCG76187.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0306;product=structural protein;protein_id=QCG76187.1;transl_table=11
+MK797984.1	Genbank	gene	212750	213322	.	+	.	ID=gene-EST35_0307;Name=EST35_0307;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0307
+MK797984.1	Genbank	CDS	212750	213322	.	+	0	ID=cds-QCG76188.1;Parent=gene-EST35_0307;Dbxref=SEED:fig|6666666.410365.peg.283,NCBI_GP:QCG76188.1;Name=QCG76188.1;gbkey=CDS;locus_tag=EST35_0307;product=hypothetical protein;protein_id=QCG76188.1;transl_table=11
+MK797984.1	Genbank	gene	213325	214272	.	+	.	ID=gene-EST35_0308;Name=EST35_0308;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0308
+MK797984.1	Genbank	CDS	213325	214272	.	+	0	ID=cds-QCG76189.1;Parent=gene-EST35_0308;Dbxref=UniProtKB/TrEMBL:A0A369AS77,NCBI_GP:QCG76189.1;Name=QCG76189.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0308;product=kelch-like protein;protein_id=QCG76189.1;transl_table=11
+MK797984.1	Genbank	gene	214275	216185	.	+	.	ID=gene-EST35_0309;Name=EST35_0309;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0309
+MK797984.1	Genbank	CDS	214275	216185	.	+	0	ID=cds-QCG76190.1;Parent=gene-EST35_0309;Dbxref=UniProtKB/TrEMBL:S5VMI9,NCBI_GP:QCG76190.1;Name=QCG76190.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0309;product=putative adhesin;protein_id=QCG76190.1;transl_table=11
+MK797984.1	Genbank	gene	216266	216541	.	+	.	ID=gene-EST35_0310;Name=EST35_0310;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0310
+MK797984.1	Genbank	CDS	216266	216541	.	+	0	ID=cds-QCG76191.1;Parent=gene-EST35_0310;Dbxref=SEED:fig|6666666.410365.peg.286,NCBI_GP:QCG76191.1;Name=QCG76191.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0310;product=structural protein;protein_id=QCG76191.1;transl_table=11
+MK797984.1	Genbank	gene	216595	219006	.	+	.	ID=gene-EST35_0311;Name=EST35_0311;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0311
+MK797984.1	Genbank	CDS	216595	219006	.	+	0	ID=cds-QCG76192.1;Parent=gene-EST35_0311;Dbxref=SEED:fig|6666666.410365.peg.287,NCBI_GP:QCG76192.1;Name=QCG76192.1;gbkey=CDS;locus_tag=EST35_0311;product=DNA polymerase;protein_id=QCG76192.1;transl_table=11
+MK797984.1	Genbank	gene	218999	220681	.	+	.	ID=gene-EST35_0312;Name=EST35_0312;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0312
+MK797984.1	Genbank	CDS	218999	220681	.	+	0	ID=cds-QCG76193.1;Parent=gene-EST35_0312;Dbxref=SEED:fig|6666666.410365.peg.288,NCBI_GP:QCG76193.1;Name=QCG76193.1;gbkey=CDS;locus_tag=EST35_0312;product=putative Hef-like homing endonuclease;protein_id=QCG76193.1;transl_table=11
+MK797984.1	Genbank	gene	220682	221821	.	+	.	ID=gene-EST35_0313;Name=EST35_0313;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0313
+MK797984.1	Genbank	CDS	220682	221821	.	+	0	ID=cds-QCG76194.1;Parent=gene-EST35_0313;Dbxref=UniProtKB/TrEMBL:A0A2L0UZV6,NCBI_GP:QCG76194.1;Name=QCG76194.1;gbkey=CDS;locus_tag=EST35_0313;product=DNA polymerase;protein_id=QCG76194.1;transl_table=11
+MK797984.1	Genbank	gene	221902	222648	.	+	.	ID=gene-EST35_0314;Name=EST35_0314;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0314
+MK797984.1	Genbank	CDS	221902	222648	.	+	0	ID=cds-QCG76195.1;Parent=gene-EST35_0314;Dbxref=SEED:fig|6666666.410365.peg.290,NCBI_GP:QCG76195.1;Name=QCG76195.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0314;product=structural protein;protein_id=QCG76195.1;transl_table=11
+MK797984.1	Genbank	gene	222652	222912	.	+	.	ID=gene-EST35_0315;Name=EST35_0315;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0315
+MK797984.1	Genbank	CDS	222652	222912	.	+	0	ID=cds-QCG76196.1;Parent=gene-EST35_0315;Dbxref=SEED:fig|6666666.410365.peg.291,NCBI_GP:QCG76196.1;Name=QCG76196.1;gbkey=CDS;locus_tag=EST35_0315;product=hypothetical protein;protein_id=QCG76196.1;transl_table=11
+MK797984.1	Genbank	gene	222985	224607	.	+	.	ID=gene-EST35_0316;Name=EST35_0316;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0316
+MK797984.1	Genbank	CDS	222985	224607	.	+	0	ID=cds-QCG76197.1;Parent=gene-EST35_0316;Dbxref=SEED:fig|6666666.410365.peg.292,NCBI_GP:QCG76197.1;Name=QCG76197.1;gbkey=CDS;locus_tag=EST35_0316;product=hypothetical protein;protein_id=QCG76197.1;transl_table=11
+MK797984.1	Genbank	gene	224607	225668	.	+	.	ID=gene-EST35_0317;Name=EST35_0317;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0317
+MK797984.1	Genbank	CDS	224607	225668	.	+	0	ID=cds-QCG76198.1;Parent=gene-EST35_0317;Dbxref=SEED:fig|6666666.410365.peg.293,NCBI_GP:QCG76198.1;Name=QCG76198.1;gbkey=CDS;locus_tag=EST35_0317;product=hypothetical protein;protein_id=QCG76198.1;transl_table=11
+MK797984.1	Genbank	gene	225753	226130	.	+	.	ID=gene-EST35_0318;Name=EST35_0318;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0318
+MK797984.1	Genbank	CDS	225753	226130	.	+	0	ID=cds-QCG76199.1;Parent=gene-EST35_0318;Dbxref=SEED:fig|6666666.410365.peg.294,NCBI_GP:QCG76199.1;Name=QCG76199.1;gbkey=CDS;locus_tag=EST35_0318;product=hypothetical protein;protein_id=QCG76199.1;transl_table=11
+MK797984.1	Genbank	gene	226145	226405	.	+	.	ID=gene-EST35_0319;Name=EST35_0319;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0319
+MK797984.1	Genbank	CDS	226145	226405	.	+	0	ID=cds-QCG76200.1;Parent=gene-EST35_0319;Dbxref=SEED:fig|6666666.410365.peg.295,NCBI_GP:QCG76200.1;Name=QCG76200.1;gbkey=CDS;locus_tag=EST35_0319;product=hypothetical protein;protein_id=QCG76200.1;transl_table=11
+MK797984.1	Genbank	gene	226406	226924	.	+	.	ID=gene-EST35_0320;Name=EST35_0320;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0320
+MK797984.1	Genbank	CDS	226406	226924	.	+	0	ID=cds-QCG76201.1;Parent=gene-EST35_0320;Dbxref=SEED:fig|6666666.410365.peg.296,NCBI_GP:QCG76201.1;Name=QCG76201.1;gbkey=CDS;locus_tag=EST35_0320;product=hypothetical protein;protein_id=QCG76201.1;transl_table=11
+MK797984.1	Genbank	gene	226936	227370	.	+	.	ID=gene-EST35_0321;Name=EST35_0321;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0321
+MK797984.1	Genbank	CDS	226936	227370	.	+	0	ID=cds-QCG76202.1;Parent=gene-EST35_0321;Dbxref=SEED:fig|6666666.410365.peg.297,NCBI_GP:QCG76202.1;Name=QCG76202.1;gbkey=CDS;locus_tag=EST35_0321;product=hypothetical protein;protein_id=QCG76202.1;transl_table=11
+MK797984.1	Genbank	gene	227441	228313	.	+	.	ID=gene-EST35_0322;Name=EST35_0322;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0322
+MK797984.1	Genbank	CDS	227441	228313	.	+	0	ID=cds-QCG76203.1;Parent=gene-EST35_0322;Dbxref=UniProtKB/TrEMBL:A0A1S5R3N0,NCBI_GP:QCG76203.1;Name=QCG76203.1;gbkey=CDS;locus_tag=EST35_0322;product=7-carboxy-7-deazaguanine synthase;protein_id=QCG76203.1;transl_table=11
+MK797984.1	Genbank	gene	228318	228737	.	+	.	ID=gene-EST35_0323;Name=EST35_0323;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0323
+MK797984.1	Genbank	CDS	228318	228737	.	+	0	ID=cds-QCG76204.1;Parent=gene-EST35_0323;Dbxref=SEED:fig|6666666.410365.peg.299,NCBI_GP:QCG76204.1;Name=QCG76204.1;gbkey=CDS;locus_tag=EST35_0323;product=hypothetical protein;protein_id=QCG76204.1;transl_table=11
+MK797984.1	Genbank	gene	228734	229345	.	+	.	ID=gene-EST35_0324;Name=EST35_0324;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0324
+MK797984.1	Genbank	CDS	228734	229345	.	+	0	ID=cds-QCG76205.1;Parent=gene-EST35_0324;Dbxref=SEED:fig|6666666.410365.peg.300,NCBI_GP:QCG76205.1;Name=QCG76205.1;gbkey=CDS;locus_tag=EST35_0324;product=hypothetical protein;protein_id=QCG76205.1;transl_table=11
+MK797984.1	Genbank	gene	229345	230331	.	+	.	ID=gene-EST35_0325;Name=EST35_0325;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0325
+MK797984.1	Genbank	CDS	229345	230331	.	+	0	ID=cds-QCG76206.1;Parent=gene-EST35_0325;Dbxref=UniProtKB/TrEMBL:K4F653,NCBI_GP:QCG76206.1;Name=QCG76206.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0325;product=RNaseH ribonuclease;protein_id=QCG76206.1;transl_table=11
+MK797984.1	Genbank	gene	230334	230792	.	+	.	ID=gene-EST35_0326;Name=EST35_0326;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0326
+MK797984.1	Genbank	CDS	230334	230792	.	+	0	ID=cds-QCG76207.1;Parent=gene-EST35_0326;Dbxref=SEED:fig|6666666.410365.peg.302,NCBI_GP:QCG76207.1;Name=QCG76207.1;gbkey=CDS;locus_tag=EST35_0326;product=hypothetical protein;protein_id=QCG76207.1;transl_table=11
+MK797984.1	Genbank	gene	230804	231094	.	+	.	ID=gene-EST35_0327;Name=EST35_0327;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0327
+MK797984.1	Genbank	CDS	230804	231094	.	+	0	ID=cds-QCG76208.1;Parent=gene-EST35_0327;Dbxref=SEED:fig|6666666.410365.peg.303,NCBI_GP:QCG76208.1;Name=QCG76208.1;gbkey=CDS;locus_tag=EST35_0327;product=hypothetical protein;protein_id=QCG76208.1;transl_table=11
+MK797984.1	Genbank	gene	231097	231642	.	+	.	ID=gene-EST35_0328;Name=EST35_0328;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0328
+MK797984.1	Genbank	CDS	231097	231642	.	+	0	ID=cds-QCG76209.1;Parent=gene-EST35_0328;Dbxref=SEED:fig|6666666.410365.peg.304,NCBI_GP:QCG76209.1;Name=QCG76209.1;gbkey=CDS;locus_tag=EST35_0328;product=hypothetical protein;protein_id=QCG76209.1;transl_table=11
+MK797984.1	Genbank	gene	231645	231845	.	+	.	ID=gene-EST35_0329;Name=EST35_0329;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0329
+MK797984.1	Genbank	CDS	231645	231845	.	+	0	ID=cds-QCG76210.1;Parent=gene-EST35_0329;Dbxref=SEED:fig|6666666.410365.peg.305,NCBI_GP:QCG76210.1;Name=QCG76210.1;gbkey=CDS;locus_tag=EST35_0329;product=hypothetical protein;protein_id=QCG76210.1;transl_table=11
+MK797984.1	Genbank	gene	231922	232215	.	+	.	ID=gene-EST35_0330;Name=EST35_0330;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0330
+MK797984.1	Genbank	CDS	231922	232215	.	+	0	ID=cds-QCG76211.1;Parent=gene-EST35_0330;Dbxref=SEED:fig|6666666.410365.peg.306,NCBI_GP:QCG76211.1;Name=QCG76211.1;gbkey=CDS;locus_tag=EST35_0330;product=hypothetical protein;protein_id=QCG76211.1;transl_table=11
+MK797984.1	Genbank	gene	232202	232552	.	+	.	ID=gene-EST35_0331;Name=EST35_0331;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0331
+MK797984.1	Genbank	CDS	232202	232552	.	+	0	ID=cds-QCG76212.1;Parent=gene-EST35_0331;Dbxref=SEED:fig|6666666.410365.peg.307,NCBI_GP:QCG76212.1;Name=QCG76212.1;gbkey=CDS;locus_tag=EST35_0331;product=hypothetical protein;protein_id=QCG76212.1;transl_table=11
+MK797984.1	Genbank	gene	232607	232981	.	+	.	ID=gene-EST35_0332;Name=EST35_0332;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0332
+MK797984.1	Genbank	CDS	232607	232981	.	+	0	ID=cds-QCG76213.1;Parent=gene-EST35_0332;Dbxref=SEED:fig|6666666.410365.peg.308,NCBI_GP:QCG76213.1;Name=QCG76213.1;gbkey=CDS;locus_tag=EST35_0332;product=hypothetical protein;protein_id=QCG76213.1;transl_table=11
+MK797984.1	Genbank	gene	232992	233300	.	+	.	ID=gene-EST35_0333;Name=EST35_0333;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0333
+MK797984.1	Genbank	CDS	232992	233300	.	+	0	ID=cds-QCG76214.1;Parent=gene-EST35_0333;Dbxref=SEED:fig|6666666.410365.peg.309,NCBI_GP:QCG76214.1;Name=QCG76214.1;gbkey=CDS;locus_tag=EST35_0333;product=hypothetical protein;protein_id=QCG76214.1;transl_table=11
+MK797984.1	Genbank	gene	233339	233875	.	+	.	ID=gene-EST35_0334;Name=EST35_0334;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0334
+MK797984.1	Genbank	CDS	233339	233875	.	+	0	ID=cds-QCG76215.1;Parent=gene-EST35_0334;Dbxref=SEED:fig|6666666.410365.peg.310,NCBI_GP:QCG76215.1;Name=QCG76215.1;gbkey=CDS;locus_tag=EST35_0334;product=hypothetical protein;protein_id=QCG76215.1;transl_table=11
+MK797984.1	Genbank	gene	234078	235193	.	+	.	ID=gene-EST35_0335;Name=EST35_0335;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0335
+MK797984.1	Genbank	CDS	234078	235193	.	+	0	ID=cds-QCG76216.1;Parent=gene-EST35_0335;Dbxref=UniProtKB/TrEMBL:Q30PM5,NCBI_GP:QCG76216.1;Name=QCG76216.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0335;product=ATPase;protein_id=QCG76216.1;transl_table=11
+MK797984.1	Genbank	gene	235263	235718	.	+	.	ID=gene-EST35_0336;Name=EST35_0336;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0336
+MK797984.1	Genbank	CDS	235263	235718	.	+	0	ID=cds-QCG76217.1;Parent=gene-EST35_0336;Dbxref=SEED:fig|6666666.410365.peg.312,NCBI_GP:QCG76217.1;Name=QCG76217.1;gbkey=CDS;locus_tag=EST35_0336;product=hypothetical protein;protein_id=QCG76217.1;transl_table=11
+MK797984.1	Genbank	gene	235720	236178	.	+	.	ID=gene-EST35_0337;Name=EST35_0337;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0337
+MK797984.1	Genbank	CDS	235720	236178	.	+	0	ID=cds-QCG76218.1;Parent=gene-EST35_0337;Dbxref=SEED:fig|6666666.410365.peg.313,NCBI_GP:QCG76218.1;Name=QCG76218.1;gbkey=CDS;locus_tag=EST35_0337;product=hypothetical protein;protein_id=QCG76218.1;transl_table=11
+MK797984.1	Genbank	gene	236175	236528	.	+	.	ID=gene-EST35_0338;Name=EST35_0338;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0338
+MK797984.1	Genbank	CDS	236175	236528	.	+	0	ID=cds-QCG76219.1;Parent=gene-EST35_0338;Dbxref=SEED:fig|6666666.410365.peg.314,NCBI_GP:QCG76219.1;Name=QCG76219.1;gbkey=CDS;locus_tag=EST35_0338;product=hypothetical protein;protein_id=QCG76219.1;transl_table=11
+MK797984.1	Genbank	gene	236528	238024	.	+	.	ID=gene-EST35_0339;Name=EST35_0339;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0339
+MK797984.1	Genbank	CDS	236528	238024	.	+	0	ID=cds-QCG76220.1;Parent=gene-EST35_0339;Dbxref=UniProtKB/TrEMBL:A0A0A8J9Y0,NCBI_GP:QCG76220.1;Name=QCG76220.1;gbkey=CDS;locus_tag=EST35_0339;product=putative homing endonuclease;protein_id=QCG76220.1;transl_table=11
+MK797984.1	Genbank	gene	238080	239264	.	+	.	ID=gene-EST35_0340;Name=EST35_0340;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0340
+MK797984.1	Genbank	CDS	238080	239264	.	+	0	ID=cds-QCG76221.1;Parent=gene-EST35_0340;Dbxref=SEED:fig|6666666.410365.peg.316,NCBI_GP:QCG76221.1;Name=QCG76221.1;gbkey=CDS;locus_tag=EST35_0340;product=hypothetical protein;protein_id=QCG76221.1;transl_table=11
+MK797984.1	Genbank	gene	239546	239788	.	+	.	ID=gene-EST35_0341;Name=EST35_0341;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0341
+MK797984.1	Genbank	CDS	239546	239788	.	+	0	ID=cds-QCG76222.1;Parent=gene-EST35_0341;Dbxref=SEED:fig|6666666.410365.peg.317,NCBI_GP:QCG76222.1;Name=QCG76222.1;gbkey=CDS;locus_tag=EST35_0341;product=hypothetical protein;protein_id=QCG76222.1;transl_table=11
+MK797984.1	Genbank	gene	239881	240201	.	-	.	ID=gene-EST35_0342;Name=EST35_0342;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0342
+MK797984.1	Genbank	CDS	239881	240201	.	-	0	ID=cds-QCG76223.1;Parent=gene-EST35_0342;Dbxref=SEED:fig|6666666.410365.peg.318,NCBI_GP:QCG76223.1;Name=QCG76223.1;gbkey=CDS;locus_tag=EST35_0342;product=hypothetical protein;protein_id=QCG76223.1;transl_table=11
+MK797984.1	Genbank	gene	240369	240608	.	-	.	ID=gene-EST35_0343;Name=EST35_0343;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0343
+MK797984.1	Genbank	CDS	240369	240608	.	-	0	ID=cds-QCG76224.1;Parent=gene-EST35_0343;Dbxref=SEED:fig|6666666.410365.peg.319,NCBI_GP:QCG76224.1;Name=QCG76224.1;gbkey=CDS;locus_tag=EST35_0343;product=hypothetical protein;protein_id=QCG76224.1;transl_table=11
+MK797984.1	Genbank	gene	240610	241350	.	-	.	ID=gene-EST35_0344;Name=EST35_0344;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0344
+MK797984.1	Genbank	CDS	240610	241350	.	-	0	ID=cds-QCG76225.1;Parent=gene-EST35_0344;Dbxref=SEED:fig|6666666.410365.peg.320,NCBI_GP:QCG76225.1;Name=QCG76225.1;gbkey=CDS;locus_tag=EST35_0344;product=hypothetical protein;protein_id=QCG76225.1;transl_table=11
+MK797984.1	Genbank	gene	241368	241670	.	-	.	ID=gene-EST35_0345;Name=EST35_0345;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0345
+MK797984.1	Genbank	CDS	241368	241670	.	-	0	ID=cds-QCG76226.1;Parent=gene-EST35_0345;Dbxref=UniProtKB/TrEMBL:A0A1S3PQW9,NCBI_GP:QCG76226.1;Name=QCG76226.1;gbkey=CDS;locus_tag=EST35_0345;product=translation initiation factor IF-2-like protein;protein_id=QCG76226.1;transl_table=11
+MK797984.1	Genbank	gene	241663	242265	.	-	.	ID=gene-EST35_0346;Name=EST35_0346;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0346
+MK797984.1	Genbank	CDS	241663	242265	.	-	0	ID=cds-QCG76227.1;Parent=gene-EST35_0346;Dbxref=UniProtKB/TrEMBL:A0A223W0A5,NCBI_GP:QCG76227.1;Name=QCG76227.1;gbkey=CDS;locus_tag=EST35_0346;product=HNH endonuclease family protein;protein_id=QCG76227.1;transl_table=11
+MK797984.1	Genbank	gene	242293	242520	.	-	.	ID=gene-EST35_0347;Name=EST35_0347;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0347
+MK797984.1	Genbank	CDS	242293	242520	.	-	0	ID=cds-QCG76228.1;Parent=gene-EST35_0347;Dbxref=SEED:fig|6666666.410365.peg.323,NCBI_GP:QCG76228.1;Name=QCG76228.1;gbkey=CDS;locus_tag=EST35_0347;product=hypothetical protein;protein_id=QCG76228.1;transl_table=11
+MK797984.1	Genbank	gene	242522	242770	.	-	.	ID=gene-EST35_0348;Name=EST35_0348;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0348
+MK797984.1	Genbank	CDS	242522	242770	.	-	0	ID=cds-QCG76229.1;Parent=gene-EST35_0348;Dbxref=SEED:fig|6666666.410365.peg.324,NCBI_GP:QCG76229.1;Name=QCG76229.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0348;product=structural protein;protein_id=QCG76229.1;transl_table=11
+MK797984.1	Genbank	gene	242891	243316	.	-	.	ID=gene-EST35_0349;Name=EST35_0349;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0349
+MK797984.1	Genbank	CDS	242891	243316	.	-	0	ID=cds-QCG76230.1;Parent=gene-EST35_0349;Dbxref=SEED:fig|6666666.410365.peg.325,NCBI_GP:QCG76230.1;Name=QCG76230.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0349;product=structural protein;protein_id=QCG76230.1;transl_table=11
+MK797984.1	Genbank	gene	243388	244134	.	-	.	ID=gene-EST35_0350;Name=EST35_0350;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0350
+MK797984.1	Genbank	CDS	243388	244134	.	-	0	ID=cds-QCG76231.1;Parent=gene-EST35_0350;Dbxref=SEED:fig|6666666.410365.peg.326,NCBI_GP:QCG76231.1;Name=QCG76231.1;gbkey=CDS;locus_tag=EST35_0350;product=hypothetical protein;protein_id=QCG76231.1;transl_table=11
+MK797984.1	Genbank	gene	244127	245086	.	-	.	ID=gene-EST35_0351;Name=EST35_0351;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0351
+MK797984.1	Genbank	CDS	244127	245086	.	-	0	ID=cds-QCG76232.1;Parent=gene-EST35_0351;Dbxref=SEED:fig|6666666.410365.peg.327,NCBI_GP:QCG76232.1;Name=QCG76232.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0351;product=structural protein;protein_id=QCG76232.1;transl_table=11
+MK797984.1	Genbank	gene	245086	245979	.	-	.	ID=gene-EST35_0352;Name=EST35_0352;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0352
+MK797984.1	Genbank	CDS	245086	245979	.	-	0	ID=cds-QCG76233.1;Parent=gene-EST35_0352;Dbxref=SEED:fig|6666666.410365.peg.328,NCBI_GP:QCG76233.1;Name=QCG76233.1;gbkey=CDS;locus_tag=EST35_0352;product=hypothetical protein;protein_id=QCG76233.1;transl_table=11
+MK797984.1	Genbank	gene	246116	246734	.	+	.	ID=gene-EST35_0353;Name=EST35_0353;gbkey=Gene;gene_biotype=lncRNA;locus_tag=EST35_0353
+MK797984.1	Genbank	lnc_RNA	246116	246734	.	+	.	ID=rna-EST35_0353;Parent=gene-EST35_0353;Note=ncRNA004%3B Annotation based on RNA-Seq data;gbkey=ncRNA;locus_tag=EST35_0353;product=putative lncRNA
+MK797984.1	Genbank	exon	246116	246734	.	+	.	ID=exon-EST35_0353-1;Parent=rna-EST35_0353;Note=ncRNA004%3B Annotation based on RNA-Seq data;gbkey=ncRNA;locus_tag=EST35_0353;product=putative lncRNA
+MK797984.1	Genbank	gene	247298	247426	.	-	.	ID=gene-EST35_0354;Name=EST35_0354;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0354
+MK797984.1	Genbank	CDS	247298	247426	.	-	0	ID=cds-QCG76234.1;Parent=gene-EST35_0354;Dbxref=SEED:fig|6666666.410365.peg.329,NCBI_GP:QCG76234.1;Name=QCG76234.1;gbkey=CDS;locus_tag=EST35_0354;product=hypothetical protein;protein_id=QCG76234.1;transl_table=11
+MK797984.1	Genbank	gene	247789	248010	.	+	.	ID=gene-EST35_0355;Name=EST35_0355;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0355
+MK797984.1	Genbank	CDS	247789	248010	.	+	0	ID=cds-QCG76235.1;Parent=gene-EST35_0355;Dbxref=SEED:fig|6666666.410365.peg.330,NCBI_GP:QCG76235.1;Name=QCG76235.1;gbkey=CDS;locus_tag=EST35_0355;product=hypothetical protein;protein_id=QCG76235.1;transl_table=11
+MK797984.1	Genbank	gene	248007	248225	.	+	.	ID=gene-EST35_0356;Name=EST35_0356;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0356
+MK797984.1	Genbank	CDS	248007	248225	.	+	0	ID=cds-QCG76236.1;Parent=gene-EST35_0356;Dbxref=SEED:fig|6666666.410365.peg.331,NCBI_GP:QCG76236.1;Name=QCG76236.1;gbkey=CDS;locus_tag=EST35_0356;product=hypothetical protein;protein_id=QCG76236.1;transl_table=11
+MK797984.1	Genbank	gene	248222	248431	.	+	.	ID=gene-EST35_0357;Name=EST35_0357;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0357
+MK797984.1	Genbank	CDS	248222	248431	.	+	0	ID=cds-QCG76237.1;Parent=gene-EST35_0357;Dbxref=SEED:fig|6666666.410365.peg.332,NCBI_GP:QCG76237.1;Name=QCG76237.1;gbkey=CDS;locus_tag=EST35_0357;product=hypothetical protein;protein_id=QCG76237.1;transl_table=11
+MK797984.1	Genbank	gene	248434	248631	.	+	.	ID=gene-EST35_0358;Name=EST35_0358;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0358
+MK797984.1	Genbank	CDS	248434	248631	.	+	0	ID=cds-QCG76238.1;Parent=gene-EST35_0358;Dbxref=SEED:fig|6666666.410365.peg.333,NCBI_GP:QCG76238.1;Name=QCG76238.1;gbkey=CDS;locus_tag=EST35_0358;product=hypothetical protein;protein_id=QCG76238.1;transl_table=11
+MK797984.1	Genbank	gene	248735	249889	.	+	.	ID=gene-EST35_0359;Name=EST35_0359;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0359
+MK797984.1	Genbank	CDS	248735	249889	.	+	0	ID=cds-QCG76239.1;Parent=gene-EST35_0359;Dbxref=UniProtKB/TrEMBL:A0A2L0UZP4,NCBI_GP:QCG76239.1;Name=QCG76239.1;gbkey=CDS;locus_tag=EST35_0359;product=thioredoxin;protein_id=QCG76239.1;transl_table=11
+MK797984.1	Genbank	gene	249933	250490	.	+	.	ID=gene-EST35_0360;Name=EST35_0360;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0360
+MK797984.1	Genbank	CDS	249933	250490	.	+	0	ID=cds-QCG76240.1;Parent=gene-EST35_0360;Dbxref=SEED:fig|6666666.410365.peg.335,NCBI_GP:QCG76240.1;Name=QCG76240.1;gbkey=CDS;locus_tag=EST35_0360;product=hypothetical protein;protein_id=QCG76240.1;transl_table=11
+MK797984.1	Genbank	gene	250456	250866	.	+	.	ID=gene-EST35_0361;Name=EST35_0361;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0361
+MK797984.1	Genbank	CDS	250456	250866	.	+	0	ID=cds-QCG76241.1;Parent=gene-EST35_0361;Dbxref=NCBI_GP:QCG76241.1;Name=QCG76241.1;gbkey=CDS;locus_tag=EST35_0361;product=hypothetical protein;protein_id=QCG76241.1;transl_table=11
+MK797984.1	Genbank	gene	250869	251735	.	+	.	ID=gene-EST35_0362;Name=EST35_0362;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0362
+MK797984.1	Genbank	CDS	250869	251735	.	+	0	ID=cds-QCG76242.1;Parent=gene-EST35_0362;Dbxref=SEED:fig|6666666.410365.peg.336,NCBI_GP:QCG76242.1;Name=QCG76242.1;gbkey=CDS;locus_tag=EST35_0362;product=hypothetical protein;protein_id=QCG76242.1;transl_table=11
+MK797984.1	Genbank	gene	251735	252637	.	+	.	ID=gene-EST35_0363;Name=EST35_0363;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0363
+MK797984.1	Genbank	CDS	251735	252637	.	+	0	ID=cds-QCG76243.1;Parent=gene-EST35_0363;Dbxref=SEED:fig|6666666.410365.peg.337,NCBI_GP:QCG76243.1;Name=QCG76243.1;gbkey=CDS;locus_tag=EST35_0363;product=hypothetical protein;protein_id=QCG76243.1;transl_table=11
+MK797984.1	Genbank	gene	252640	253146	.	+	.	ID=gene-EST35_0364;Name=EST35_0364;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0364
+MK797984.1	Genbank	CDS	252640	253146	.	+	0	ID=cds-QCG76244.1;Parent=gene-EST35_0364;Dbxref=SEED:fig|6666666.410365.peg.338,NCBI_GP:QCG76244.1;Name=QCG76244.1;gbkey=CDS;locus_tag=EST35_0364;product=hypothetical protein;protein_id=QCG76244.1;transl_table=11
+MK797984.1	Genbank	gene	253136	253441	.	+	.	ID=gene-EST35_0365;Name=EST35_0365;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0365
+MK797984.1	Genbank	CDS	253136	253441	.	+	0	ID=cds-QCG76245.1;Parent=gene-EST35_0365;Dbxref=SEED:fig|6666666.410365.peg.339,NCBI_GP:QCG76245.1;Name=QCG76245.1;gbkey=CDS;locus_tag=EST35_0365;product=hypothetical protein;protein_id=QCG76245.1;transl_table=11
+MK797984.1	Genbank	gene	253511	253981	.	+	.	ID=gene-EST35_0366;Name=EST35_0366;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0366
+MK797984.1	Genbank	CDS	253511	253981	.	+	0	ID=cds-QCG76246.1;Parent=gene-EST35_0366;Dbxref=SEED:fig|6666666.410365.peg.340,NCBI_GP:QCG76246.1;Name=QCG76246.1;gbkey=CDS;locus_tag=EST35_0366;product=hypothetical protein;protein_id=QCG76246.1;transl_table=11
+MK797984.1	Genbank	gene	253941	254180	.	+	.	ID=gene-EST35_0367;Name=EST35_0367;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0367
+MK797984.1	Genbank	CDS	253941	254180	.	+	0	ID=cds-QCG76247.1;Parent=gene-EST35_0367;Dbxref=NCBI_GP:QCG76247.1;Name=QCG76247.1;gbkey=CDS;locus_tag=EST35_0367;product=hypothetical protein;protein_id=QCG76247.1;transl_table=11
+MK797984.1	Genbank	gene	254191	254757	.	+	.	ID=gene-EST35_0368;Name=EST35_0368;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0368
+MK797984.1	Genbank	CDS	254191	254757	.	+	0	ID=cds-QCG76248.1;Parent=gene-EST35_0368;Dbxref=UniProtKB/TrEMBL:D6RRT8,NCBI_GP:QCG76248.1;Name=QCG76248.1;gbkey=CDS;locus_tag=EST35_0368;product=putative cell wall hydrolase;protein_id=QCG76248.1;transl_table=11
+MK797984.1	Genbank	gene	254771	255001	.	+	.	ID=gene-EST35_0369;Name=EST35_0369;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0369
+MK797984.1	Genbank	CDS	254771	255001	.	+	0	ID=cds-QCG76249.1;Parent=gene-EST35_0369;Dbxref=SEED:fig|6666666.410365.peg.342,NCBI_GP:QCG76249.1;Name=QCG76249.1;gbkey=CDS;locus_tag=EST35_0369;product=hypothetical protein;protein_id=QCG76249.1;transl_table=11
+MK797984.1	Genbank	gene	254982	255281	.	+	.	ID=gene-EST35_0370;Name=EST35_0370;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0370
+MK797984.1	Genbank	CDS	254982	255281	.	+	0	ID=cds-QCG76250.1;Parent=gene-EST35_0370;Dbxref=SEED:fig|6666666.410365.peg.343,NCBI_GP:QCG76250.1;Name=QCG76250.1;gbkey=CDS;locus_tag=EST35_0370;product=hypothetical protein;protein_id=QCG76250.1;transl_table=11
+MK797984.1	Genbank	gene	255356	255715	.	+	.	ID=gene-EST35_0371;Name=EST35_0371;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0371
+MK797984.1	Genbank	CDS	255356	255715	.	+	0	ID=cds-QCG76251.1;Parent=gene-EST35_0371;Dbxref=NCBI_GP:QCG76251.1;Name=QCG76251.1;gbkey=CDS;locus_tag=EST35_0371;product=hypothetical protein;protein_id=QCG76251.1;transl_table=11
+MK797984.1	Genbank	gene	255900	256511	.	+	.	ID=gene-EST35_0372;Name=EST35_0372;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0372
+MK797984.1	Genbank	CDS	255900	256511	.	+	0	ID=cds-QCG76252.1;Parent=gene-EST35_0372;Dbxref=SEED:fig|6666666.410365.peg.345,NCBI_GP:QCG76252.1;Name=QCG76252.1;gbkey=CDS;locus_tag=EST35_0372;product=hypothetical protein;protein_id=QCG76252.1;transl_table=11
+MK797984.1	Genbank	gene	256505	257113	.	+	.	ID=gene-EST35_0373;Name=EST35_0373;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0373
+MK797984.1	Genbank	CDS	256505	257113	.	+	0	ID=cds-QCG76253.1;Parent=gene-EST35_0373;Dbxref=SEED:fig|6666666.410365.peg.346,NCBI_GP:QCG76253.1;Name=QCG76253.1;gbkey=CDS;locus_tag=EST35_0373;product=hypothetical protein;protein_id=QCG76253.1;transl_table=11
+MK797984.1	Genbank	gene	257106	257585	.	+	.	ID=gene-EST35_0374;Name=EST35_0374;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0374
+MK797984.1	Genbank	CDS	257106	257585	.	+	0	ID=cds-QCG76254.1;Parent=gene-EST35_0374;Dbxref=SEED:fig|6666666.410365.peg.347,NCBI_GP:QCG76254.1;Name=QCG76254.1;gbkey=CDS;locus_tag=EST35_0374;product=hypothetical protein;protein_id=QCG76254.1;transl_table=11
+MK797984.1	Genbank	gene	257620	257997	.	+	.	ID=gene-EST35_0375;Name=EST35_0375;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0375
+MK797984.1	Genbank	CDS	257620	257997	.	+	0	ID=cds-QCG76255.1;Parent=gene-EST35_0375;Dbxref=SEED:fig|6666666.410365.peg.348,NCBI_GP:QCG76255.1;Name=QCG76255.1;gbkey=CDS;locus_tag=EST35_0375;product=hypothetical protein;protein_id=QCG76255.1;transl_table=11
+MK797984.1	Genbank	gene	257994	258620	.	+	.	ID=gene-EST35_0376;Name=EST35_0376;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0376
+MK797984.1	Genbank	CDS	257994	258620	.	+	0	ID=cds-QCG76256.1;Parent=gene-EST35_0376;Dbxref=SEED:fig|6666666.410365.peg.349,NCBI_GP:QCG76256.1;Name=QCG76256.1;gbkey=CDS;locus_tag=EST35_0376;product=hypothetical protein;protein_id=QCG76256.1;transl_table=11
+MK797984.1	Genbank	gene	258631	258960	.	+	.	ID=gene-EST35_0377;Name=EST35_0377;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0377
+MK797984.1	Genbank	CDS	258631	258960	.	+	0	ID=cds-QCG76257.1;Parent=gene-EST35_0377;Dbxref=SEED:fig|6666666.410365.peg.350,NCBI_GP:QCG76257.1;Name=QCG76257.1;gbkey=CDS;locus_tag=EST35_0377;product=hypothetical protein;protein_id=QCG76257.1;transl_table=11
+MK797984.1	Genbank	gene	258950	260377	.	+	.	ID=gene-EST35_0378;Name=EST35_0378;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0378
+MK797984.1	Genbank	CDS	258950	260377	.	+	0	ID=cds-QCG76258.1;Parent=gene-EST35_0378;Dbxref=UniProtKB/TrEMBL:A0A292GDQ9,NCBI_GP:QCG76258.1;Name=QCG76258.1;gbkey=CDS;locus_tag=EST35_0378;product=ATPase;protein_id=QCG76258.1;transl_table=11
+MK797984.1	Genbank	gene	260383	260646	.	+	.	ID=gene-EST35_0379;Name=EST35_0379;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0379
+MK797984.1	Genbank	CDS	260383	260646	.	+	0	ID=cds-QCG76259.1;Parent=gene-EST35_0379;Dbxref=SEED:fig|6666666.410365.peg.352,NCBI_GP:QCG76259.1;Name=QCG76259.1;gbkey=CDS;locus_tag=EST35_0379;product=hypothetical protein;protein_id=QCG76259.1;transl_table=11
+MK797984.1	Genbank	gene	260677	261429	.	-	.	ID=gene-EST35_0380;Name=EST35_0380;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0380
+MK797984.1	Genbank	CDS	260677	261429	.	-	0	ID=cds-QCG76260.1;Parent=gene-EST35_0380;Dbxref=SEED:fig|6666666.410365.peg.353,NCBI_GP:QCG76260.1;Name=QCG76260.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0380;product=structural protein;protein_id=QCG76260.1;transl_table=11
+MK797984.1	Genbank	gene	261410	262099	.	-	.	ID=gene-EST35_0381;Name=EST35_0381;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0381
+MK797984.1	Genbank	CDS	261410	262099	.	-	0	ID=cds-QCG76261.1;Parent=gene-EST35_0381;Dbxref=SEED:fig|6666666.410365.peg.354,NCBI_GP:QCG76261.1;Name=QCG76261.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0381;product=structural protein;protein_id=QCG76261.1;transl_table=11
+MK797984.1	Genbank	gene	262106	262300	.	-	.	ID=gene-EST35_0382;Name=EST35_0382;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0382
+MK797984.1	Genbank	CDS	262106	262300	.	-	0	ID=cds-QCG76262.1;Parent=gene-EST35_0382;Dbxref=SEED:fig|6666666.410365.peg.355,NCBI_GP:QCG76262.1;Name=QCG76262.1;gbkey=CDS;locus_tag=EST35_0382;product=hypothetical protein;protein_id=QCG76262.1;transl_table=11
+MK797984.1	Genbank	gene	262386	263366	.	+	.	ID=gene-EST35_0383;Name=EST35_0383;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0383
+MK797984.1	Genbank	CDS	262386	263366	.	+	0	ID=cds-QCG76263.1;Parent=gene-EST35_0383;Dbxref=SEED:fig|6666666.410365.peg.356,NCBI_GP:QCG76263.1;Name=QCG76263.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0383;product=structural protein;protein_id=QCG76263.1;transl_table=11
+MK797984.1	Genbank	gene	263470	263712	.	+	.	ID=gene-EST35_0384;Name=EST35_0384;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0384
+MK797984.1	Genbank	CDS	263470	263712	.	+	0	ID=cds-QCG76264.1;Parent=gene-EST35_0384;Dbxref=SEED:fig|6666666.410365.peg.357,NCBI_GP:QCG76264.1;Name=QCG76264.1;gbkey=CDS;locus_tag=EST35_0384;product=hypothetical protein;protein_id=QCG76264.1;transl_table=11
+MK797984.1	Genbank	gene	263829	264914	.	+	.	ID=gene-EST35_0385;Name=EST35_0385;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0385
+MK797984.1	Genbank	CDS	263829	264914	.	+	0	ID=cds-QCG76265.1;Parent=gene-EST35_0385;Dbxref=SEED:fig|6666666.410365.peg.358,NCBI_GP:QCG76265.1;Name=QCG76265.1;gbkey=CDS;locus_tag=EST35_0385;product=hypothetical protein;protein_id=QCG76265.1;transl_table=11
+MK797984.1	Genbank	gene	264942	265154	.	+	.	ID=gene-EST35_0386;Name=EST35_0386;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0386
+MK797984.1	Genbank	CDS	264942	265154	.	+	0	ID=cds-QCG76266.1;Parent=gene-EST35_0386;Dbxref=NCBI_GP:QCG76266.1;Name=QCG76266.1;gbkey=CDS;locus_tag=EST35_0386;product=hypothetical protein;protein_id=QCG76266.1;transl_table=11
+MK797984.1	Genbank	gene	265346	265672	.	+	.	ID=gene-EST35_0387;Name=EST35_0387;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0387
+MK797984.1	Genbank	CDS	265346	265672	.	+	0	ID=cds-QCG76267.1;Parent=gene-EST35_0387;Dbxref=SEED:fig|6666666.410365.peg.359,NCBI_GP:QCG76267.1;Name=QCG76267.1;gbkey=CDS;locus_tag=EST35_0387;product=hypothetical protein;protein_id=QCG76267.1;transl_table=11
+MK797984.1	Genbank	gene	265675	266001	.	+	.	ID=gene-EST35_0388;Name=EST35_0388;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0388
+MK797984.1	Genbank	CDS	265675	266001	.	+	0	ID=cds-QCG76268.1;Parent=gene-EST35_0388;Dbxref=SEED:fig|6666666.410365.peg.360,NCBI_GP:QCG76268.1;Name=QCG76268.1;gbkey=CDS;locus_tag=EST35_0388;product=hypothetical protein;protein_id=QCG76268.1;transl_table=11
+MK797984.1	Genbank	gene	266011	266268	.	+	.	ID=gene-EST35_0389;Name=EST35_0389;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0389
+MK797984.1	Genbank	CDS	266011	266268	.	+	0	ID=cds-QCG76269.1;Parent=gene-EST35_0389;Dbxref=SEED:fig|6666666.410365.peg.361,NCBI_GP:QCG76269.1;Name=QCG76269.1;gbkey=CDS;locus_tag=EST35_0389;product=hypothetical protein;protein_id=QCG76269.1;transl_table=11
+MK797984.1	Genbank	gene	266265	266573	.	+	.	ID=gene-EST35_0390;Name=EST35_0390;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0390
+MK797984.1	Genbank	CDS	266265	266573	.	+	0	ID=cds-QCG76270.1;Parent=gene-EST35_0390;Dbxref=SEED:fig|6666666.410365.peg.362,NCBI_GP:QCG76270.1;Name=QCG76270.1;gbkey=CDS;locus_tag=EST35_0390;product=hypothetical protein;protein_id=QCG76270.1;transl_table=11
+MK797984.1	Genbank	gene	266570	267055	.	+	.	ID=gene-EST35_0391;Name=EST35_0391;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0391
+MK797984.1	Genbank	CDS	266570	267055	.	+	0	ID=cds-QCG76271.1;Parent=gene-EST35_0391;Dbxref=SEED:fig|6666666.410365.peg.363,NCBI_GP:QCG76271.1;Name=QCG76271.1;gbkey=CDS;locus_tag=EST35_0391;product=hypothetical protein;protein_id=QCG76271.1;transl_table=11
+MK797984.1	Genbank	gene	267059	267253	.	+	.	ID=gene-EST35_0392;Name=EST35_0392;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0392
+MK797984.1	Genbank	CDS	267059	267253	.	+	0	ID=cds-QCG76272.1;Parent=gene-EST35_0392;Dbxref=NCBI_GP:QCG76272.1;Name=QCG76272.1;gbkey=CDS;locus_tag=EST35_0392;product=hypothetical protein;protein_id=QCG76272.1;transl_table=11
+MK797984.1	Genbank	gene	267558	267631	.	+	.	ID=gene-EST35_0393;Name=EST35_0393;gbkey=Gene;gene_biotype=tRNA;locus_tag=EST35_0393
+MK797984.1	Genbank	tRNA	267558	267631	.	+	.	ID=rna-EST35_0393;Parent=gene-EST35_0393;Dbxref=SEED:fig|6666666.410365.rna.1;codons=AUG;gbkey=tRNA;locus_tag=EST35_0393;product=tRNA-Met
+MK797984.1	Genbank	exon	267558	267631	.	+	.	ID=exon-EST35_0393-1;Parent=rna-EST35_0393;Dbxref=SEED:fig|6666666.410365.rna.1;codons=AUG;gbkey=tRNA;locus_tag=EST35_0393;product=tRNA-Met
+MK797984.1	Genbank	gene	267657	267738	.	+	.	ID=gene-EST35_0394;Name=EST35_0394;gbkey=Gene;gene_biotype=tRNA;locus_tag=EST35_0394
+MK797984.1	Genbank	tRNA	267657	267738	.	+	.	ID=rna-EST35_0394;Parent=gene-EST35_0394;Dbxref=SEED:fig|6666666.410365.rna.2;codons=UUA;gbkey=tRNA;locus_tag=EST35_0394;product=tRNA-Leu
+MK797984.1	Genbank	exon	267657	267738	.	+	.	ID=exon-EST35_0394-1;Parent=rna-EST35_0394;Dbxref=SEED:fig|6666666.410365.rna.2;codons=UUA;gbkey=tRNA;locus_tag=EST35_0394;product=tRNA-Leu
+MK797984.1	Genbank	gene	267792	267864	.	+	.	ID=gene-EST35_0395;Name=EST35_0395;gbkey=Gene;gene_biotype=tRNA;locus_tag=EST35_0395
+MK797984.1	Genbank	tRNA	267792	267864	.	+	.	ID=rna-EST35_0395;Parent=gene-EST35_0395;Dbxref=SEED:fig|6666666.410365.rna.3;codons=AAC;gbkey=tRNA;locus_tag=EST35_0395;product=tRNA-Asn
+MK797984.1	Genbank	exon	267792	267864	.	+	.	ID=exon-EST35_0395-1;Parent=rna-EST35_0395;Dbxref=SEED:fig|6666666.410365.rna.3;codons=AAC;gbkey=tRNA;locus_tag=EST35_0395;product=tRNA-Asn
+MK797984.1	Genbank	gene	267894	267966	.	+	.	ID=gene-EST35_0396;Name=EST35_0396;gbkey=Gene;gene_biotype=tRNA;locus_tag=EST35_0396
+MK797984.1	Genbank	tRNA	267894	267966	.	+	.	ID=rna-EST35_0396;Parent=gene-EST35_0396;Dbxref=SEED:fig|6666666.410365.rna.4;codons=ACA;gbkey=tRNA;locus_tag=EST35_0396;product=tRNA-Thr
+MK797984.1	Genbank	exon	267894	267966	.	+	.	ID=exon-EST35_0396-1;Parent=rna-EST35_0396;Dbxref=SEED:fig|6666666.410365.rna.4;codons=ACA;gbkey=tRNA;locus_tag=EST35_0396;product=tRNA-Thr
+MK797984.1	Genbank	gene	268039	268112	.	+	.	ID=gene-EST35_0397;Name=EST35_0397;gbkey=Gene;gene_biotype=tRNA;locus_tag=EST35_0397
+MK797984.1	Genbank	tRNA	268039	268112	.	+	.	ID=rna-EST35_0397;Parent=gene-EST35_0397;Dbxref=SEED:fig|6666666.410365.rna.5;codons=AUG;gbkey=tRNA;locus_tag=EST35_0397;product=tRNA-Met
+MK797984.1	Genbank	exon	268039	268112	.	+	.	ID=exon-EST35_0397-1;Parent=rna-EST35_0397;Dbxref=SEED:fig|6666666.410365.rna.5;codons=AUG;gbkey=tRNA;locus_tag=EST35_0397;product=tRNA-Met
+MK797984.1	Genbank	gene	268166	268247	.	+	.	ID=gene-EST35_0398;Name=EST35_0398;gbkey=Gene;gene_biotype=tRNA;locus_tag=EST35_0398
+MK797984.1	Genbank	tRNA	268166	268247	.	+	.	ID=rna-EST35_0398;Parent=gene-EST35_0398;Dbxref=SEED:fig|6666666.410365.rna.6;codons=UUA;gbkey=tRNA;locus_tag=EST35_0398;product=tRNA-Leu
+MK797984.1	Genbank	exon	268166	268247	.	+	.	ID=exon-EST35_0398-1;Parent=rna-EST35_0398;Dbxref=SEED:fig|6666666.410365.rna.6;codons=UUA;gbkey=tRNA;locus_tag=EST35_0398;product=tRNA-Leu
+MK797984.1	Genbank	gene	268279	268467	.	+	.	ID=gene-EST35_0399;Name=EST35_0399;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0399
+MK797984.1	Genbank	CDS	268279	268467	.	+	0	ID=cds-QCG76273.1;Parent=gene-EST35_0399;Dbxref=SEED:fig|6666666.410365.peg.364,NCBI_GP:QCG76273.1;Name=QCG76273.1;gbkey=CDS;locus_tag=EST35_0399;product=hypothetical protein;protein_id=QCG76273.1;transl_table=11
+MK797984.1	Genbank	gene	268477	268638	.	+	.	ID=gene-EST35_0400;Name=EST35_0400;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0400
+MK797984.1	Genbank	CDS	268477	268638	.	+	0	ID=cds-QCG76274.1;Parent=gene-EST35_0400;Dbxref=NCBI_GP:QCG76274.1;Name=QCG76274.1;gbkey=CDS;locus_tag=EST35_0400;product=hypothetical protein;protein_id=QCG76274.1;transl_table=11
+MK797984.1	Genbank	gene	268761	268910	.	+	.	ID=gene-EST35_0401;Name=EST35_0401;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0401
+MK797984.1	Genbank	CDS	268761	268910	.	+	0	ID=cds-QCG76275.1;Parent=gene-EST35_0401;Dbxref=SEED:fig|6666666.410365.peg.365,NCBI_GP:QCG76275.1;Name=QCG76275.1;gbkey=CDS;locus_tag=EST35_0401;product=hypothetical protein;protein_id=QCG76275.1;transl_table=11
+MK797984.1	Genbank	gene	268886	269092	.	+	.	ID=gene-EST35_0402;Name=EST35_0402;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0402
+MK797984.1	Genbank	CDS	268886	269092	.	+	0	ID=cds-QCG76276.1;Parent=gene-EST35_0402;Dbxref=UniProtKB/TrEMBL:A0A2B4SHK7,NCBI_GP:QCG76276.1;Name=QCG76276.1;gbkey=CDS;locus_tag=EST35_0402;product=saccharopine dehydrogenase-like oxidoreductase;protein_id=QCG76276.1;transl_table=11
+MK797984.1	Genbank	gene	269195	269268	.	+	.	ID=gene-EST35_0403;Name=EST35_0403;gbkey=Gene;gene_biotype=tRNA;locus_tag=EST35_0403
+MK797984.1	Genbank	tRNA	269195	269268	.	+	.	ID=rna-EST35_0403;Parent=gene-EST35_0403;Dbxref=SEED:fig|6666666.410365.rna.7;codons=AGA;gbkey=tRNA;locus_tag=EST35_0403;product=tRNA-Arg
+MK797984.1	Genbank	exon	269195	269268	.	+	.	ID=exon-EST35_0403-1;Parent=rna-EST35_0403;Dbxref=SEED:fig|6666666.410365.rna.7;codons=AGA;gbkey=tRNA;locus_tag=EST35_0403;product=tRNA-Arg
+MK797984.1	Genbank	gene	269540	269782	.	+	.	ID=gene-EST35_0404;Name=EST35_0404;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0404
+MK797984.1	Genbank	CDS	269540	269782	.	+	0	ID=cds-QCG76277.1;Parent=gene-EST35_0404;Dbxref=SEED:fig|6666666.410365.peg.366,NCBI_GP:QCG76277.1;Name=QCG76277.1;gbkey=CDS;locus_tag=EST35_0404;product=hypothetical protein;protein_id=QCG76277.1;transl_table=11
+MK797984.1	Genbank	gene	269811	270143	.	+	.	ID=gene-EST35_0405;Name=EST35_0405;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0405
+MK797984.1	Genbank	CDS	269811	270143	.	+	0	ID=cds-QCG76278.1;Parent=gene-EST35_0405;Dbxref=SEED:fig|6666666.410365.peg.367,NCBI_GP:QCG76278.1;Name=QCG76278.1;gbkey=CDS;locus_tag=EST35_0405;product=hypothetical protein;protein_id=QCG76278.1;transl_table=11
+MK797984.1	Genbank	gene	270167	270240	.	+	.	ID=gene-EST35_0406;Name=EST35_0406;gbkey=Gene;gene_biotype=tRNA;locus_tag=EST35_0406
+MK797984.1	Genbank	tRNA	270167	270240	.	+	.	ID=rna-EST35_0406;Parent=gene-EST35_0406;Dbxref=SEED:fig|6666666.410365.rna.8;codons=AUG;gbkey=tRNA;locus_tag=EST35_0406;product=tRNA-Met
+MK797984.1	Genbank	exon	270167	270240	.	+	.	ID=exon-EST35_0406-1;Parent=rna-EST35_0406;Dbxref=SEED:fig|6666666.410365.rna.8;codons=AUG;gbkey=tRNA;locus_tag=EST35_0406;product=tRNA-Met
+MK797984.1	Genbank	gene	270253	270326	.	+	.	ID=gene-EST35_0407;Name=EST35_0407;gbkey=Gene;gene_biotype=tRNA;locus_tag=EST35_0407
+MK797984.1	Genbank	tRNA	270253	270326	.	+	.	ID=rna-EST35_0407;Parent=gene-EST35_0407;Dbxref=SEED:fig|6666666.410365.rna.9;codons=CCA;gbkey=tRNA;locus_tag=EST35_0407;product=tRNA-Pro
+MK797984.1	Genbank	exon	270253	270326	.	+	.	ID=exon-EST35_0407-1;Parent=rna-EST35_0407;Dbxref=SEED:fig|6666666.410365.rna.9;codons=CCA;gbkey=tRNA;locus_tag=EST35_0407;product=tRNA-Pro
+MK797984.1	Genbank	gene	270339	270411	.	+	.	ID=gene-EST35_0408;Name=EST35_0408;gbkey=Gene;gene_biotype=tRNA;locus_tag=EST35_0408
+MK797984.1	Genbank	tRNA	270339	270411	.	+	.	ID=rna-EST35_0408;Parent=gene-EST35_0408;Dbxref=SEED:fig|6666666.410365.rna.10;codons=GGA;gbkey=tRNA;locus_tag=EST35_0408;product=tRNA-Gly
+MK797984.1	Genbank	exon	270339	270411	.	+	.	ID=exon-EST35_0408-1;Parent=rna-EST35_0408;Dbxref=SEED:fig|6666666.410365.rna.10;codons=GGA;gbkey=tRNA;locus_tag=EST35_0408;product=tRNA-Gly
+MK797984.1	Genbank	gene	270448	270624	.	+	.	ID=gene-EST35_0409;Name=EST35_0409;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0409
+MK797984.1	Genbank	CDS	270448	270624	.	+	0	ID=cds-QCG76279.1;Parent=gene-EST35_0409;Dbxref=SEED:fig|6666666.410365.peg.368,NCBI_GP:QCG76279.1;Name=QCG76279.1;gbkey=CDS;locus_tag=EST35_0409;product=hypothetical protein;protein_id=QCG76279.1;transl_table=11
+MK797984.1	Genbank	gene	270672	270860	.	+	.	ID=gene-EST35_0410;Name=EST35_0410;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0410
+MK797984.1	Genbank	CDS	270672	270860	.	+	0	ID=cds-QCG76280.1;Parent=gene-EST35_0410;Dbxref=SEED:fig|6666666.410365.peg.369,NCBI_GP:QCG76280.1;Name=QCG76280.1;gbkey=CDS;locus_tag=EST35_0410;product=hypothetical protein;protein_id=QCG76280.1;transl_table=11
+MK797984.1	Genbank	gene	270970	271137	.	+	.	ID=gene-EST35_0411;Name=EST35_0411;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0411
+MK797984.1	Genbank	CDS	270970	271137	.	+	0	ID=cds-QCG76281.1;Parent=gene-EST35_0411;Dbxref=SEED:fig|6666666.410365.peg.370,NCBI_GP:QCG76281.1;Name=QCG76281.1;gbkey=CDS;locus_tag=EST35_0411;product=hypothetical protein;protein_id=QCG76281.1;transl_table=11
+MK797984.1	Genbank	gene	271227	271586	.	+	.	ID=gene-EST35_0412;Name=EST35_0412;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0412
+MK797984.1	Genbank	CDS	271227	271586	.	+	0	ID=cds-QCG76282.1;Parent=gene-EST35_0412;Dbxref=SEED:fig|6666666.410365.peg.371,NCBI_GP:QCG76282.1;Name=QCG76282.1;Note=ESI-MS/MS;gbkey=CDS;locus_tag=EST35_0412;product=structural protein;protein_id=QCG76282.1;transl_table=11
+MK797984.1	Genbank	gene	271601	271687	.	+	.	ID=gene-EST35_0413;Name=EST35_0413;gbkey=Gene;gene_biotype=tRNA;locus_tag=EST35_0413
+MK797984.1	Genbank	tRNA	271601	271687	.	+	.	ID=rna-EST35_0413;Parent=gene-EST35_0413;Dbxref=SEED:fig|6666666.410365.rna.11;codons=UCA;gbkey=tRNA;locus_tag=EST35_0413;product=tRNA-Ser
+MK797984.1	Genbank	exon	271601	271687	.	+	.	ID=exon-EST35_0413-1;Parent=rna-EST35_0413;Dbxref=SEED:fig|6666666.410365.rna.11;codons=UCA;gbkey=tRNA;locus_tag=EST35_0413;product=tRNA-Ser
+MK797984.1	Genbank	gene	271696	271782	.	+	.	ID=gene-EST35_0414;Name=EST35_0414;gbkey=Gene;gene_biotype=tRNA;locus_tag=EST35_0414
+MK797984.1	Genbank	tRNA	271696	271782	.	+	.	ID=rna-EST35_0414;Parent=gene-EST35_0414;Dbxref=SEED:fig|6666666.410365.rna.12;codons=AGC;gbkey=tRNA;locus_tag=EST35_0414;product=tRNA-Ser
+MK797984.1	Genbank	exon	271696	271782	.	+	.	ID=exon-EST35_0414-1;Parent=rna-EST35_0414;Dbxref=SEED:fig|6666666.410365.rna.12;codons=AGC;gbkey=tRNA;locus_tag=EST35_0414;product=tRNA-Ser
+MK797984.1	Genbank	gene	272154	272369	.	+	.	ID=gene-EST35_0415;Name=EST35_0415;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0415
+MK797984.1	Genbank	CDS	272154	272369	.	+	0	ID=cds-QCG76283.1;Parent=gene-EST35_0415;Dbxref=SEED:fig|6666666.410365.peg.372,NCBI_GP:QCG76283.1;Name=QCG76283.1;gbkey=CDS;locus_tag=EST35_0415;product=hypothetical protein;protein_id=QCG76283.1;transl_table=11
+MK797984.1	Genbank	gene	272389	272592	.	+	.	ID=gene-EST35_0416;Name=EST35_0416;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0416
+MK797984.1	Genbank	CDS	272389	272592	.	+	0	ID=cds-QCG76284.1;Parent=gene-EST35_0416;Dbxref=SEED:fig|6666666.410365.peg.373,NCBI_GP:QCG76284.1;Name=QCG76284.1;gbkey=CDS;locus_tag=EST35_0416;product=hypothetical protein;protein_id=QCG76284.1;transl_table=11
+MK797984.1	Genbank	gene	272583	272846	.	+	.	ID=gene-EST35_0417;Name=EST35_0417;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0417
+MK797984.1	Genbank	CDS	272583	272846	.	+	0	ID=cds-QCG76285.1;Parent=gene-EST35_0417;Dbxref=SEED:fig|6666666.410365.peg.374,NCBI_GP:QCG76285.1;Name=QCG76285.1;gbkey=CDS;locus_tag=EST35_0417;product=hypothetical protein;protein_id=QCG76285.1;transl_table=11
+MK797984.1	Genbank	gene	272843	272992	.	+	.	ID=gene-EST35_0418;Name=EST35_0418;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0418
+MK797984.1	Genbank	CDS	272843	272992	.	+	0	ID=cds-QCG76286.1;Parent=gene-EST35_0418;Dbxref=SEED:fig|6666666.410365.peg.375,NCBI_GP:QCG76286.1;Name=QCG76286.1;gbkey=CDS;locus_tag=EST35_0418;product=hypothetical protein;protein_id=QCG76286.1;transl_table=11
+MK797984.1	Genbank	gene	273005	273355	.	+	.	ID=gene-EST35_0419;Name=EST35_0419;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0419
+MK797984.1	Genbank	CDS	273005	273355	.	+	0	ID=cds-QCG76287.1;Parent=gene-EST35_0419;Dbxref=SEED:fig|6666666.410365.peg.376,NCBI_GP:QCG76287.1;Name=QCG76287.1;gbkey=CDS;locus_tag=EST35_0419;product=hypothetical protein;protein_id=QCG76287.1;transl_table=11
+MK797984.1	Genbank	gene	273356	273535	.	+	.	ID=gene-EST35_0420;Name=EST35_0420;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0420
+MK797984.1	Genbank	CDS	273356	273535	.	+	0	ID=cds-QCG76288.1;Parent=gene-EST35_0420;Dbxref=SEED:fig|6666666.410365.peg.377,NCBI_GP:QCG76288.1;Name=QCG76288.1;gbkey=CDS;locus_tag=EST35_0420;product=hypothetical protein;protein_id=QCG76288.1;transl_table=11
+MK797984.1	Genbank	gene	273532	273750	.	+	.	ID=gene-EST35_0421;Name=EST35_0421;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0421
+MK797984.1	Genbank	CDS	273532	273750	.	+	0	ID=cds-QCG76289.1;Parent=gene-EST35_0421;Dbxref=SEED:fig|6666666.410365.peg.378,NCBI_GP:QCG76289.1;Name=QCG76289.1;gbkey=CDS;locus_tag=EST35_0421;product=hypothetical protein;protein_id=QCG76289.1;transl_table=11
+MK797984.1	Genbank	gene	273747	274265	.	+	.	ID=gene-EST35_0422;Name=EST35_0422;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0422
+MK797984.1	Genbank	CDS	273747	274265	.	+	0	ID=cds-QCG76290.1;Parent=gene-EST35_0422;Dbxref=SEED:fig|6666666.410365.peg.379,NCBI_GP:QCG76290.1;Name=QCG76290.1;gbkey=CDS;locus_tag=EST35_0422;product=hypothetical protein;protein_id=QCG76290.1;transl_table=11
+MK797984.1	Genbank	gene	274327	274965	.	+	.	ID=gene-EST35_0423;Name=EST35_0423;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0423
+MK797984.1	Genbank	CDS	274327	274965	.	+	0	ID=cds-QCG76291.1;Parent=gene-EST35_0423;Dbxref=SEED:fig|6666666.410365.peg.380,NCBI_GP:QCG76291.1;Name=QCG76291.1;gbkey=CDS;locus_tag=EST35_0423;product=hypothetical protein;protein_id=QCG76291.1;transl_table=11
+MK797984.1	Genbank	gene	275072	275302	.	+	.	ID=gene-EST35_0424;Name=EST35_0424;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0424
+MK797984.1	Genbank	CDS	275072	275302	.	+	0	ID=cds-QCG76292.1;Parent=gene-EST35_0424;Dbxref=UniProtKB/TrEMBL:A0A2Z5EJ10,NCBI_GP:QCG76292.1;Name=QCG76292.1;gbkey=CDS;locus_tag=EST35_0424;product=DksA/TraR family C4-type zinc finger protein;protein_id=QCG76292.1;transl_table=11
+MK797984.1	Genbank	gene	275299	275544	.	+	.	ID=gene-EST35_0425;Name=EST35_0425;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0425
+MK797984.1	Genbank	CDS	275299	275544	.	+	0	ID=cds-QCG76293.1;Parent=gene-EST35_0425;Dbxref=SEED:fig|6666666.410365.peg.382,NCBI_GP:QCG76293.1;Name=QCG76293.1;gbkey=CDS;locus_tag=EST35_0425;product=hypothetical protein;protein_id=QCG76293.1;transl_table=11
+MK797984.1	Genbank	gene	275667	275855	.	+	.	ID=gene-EST35_0426;Name=EST35_0426;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0426
+MK797984.1	Genbank	CDS	275667	275855	.	+	0	ID=cds-QCG76294.1;Parent=gene-EST35_0426;Dbxref=SEED:fig|6666666.410365.peg.383,NCBI_GP:QCG76294.1;Name=QCG76294.1;gbkey=CDS;locus_tag=EST35_0426;product=hypothetical protein;protein_id=QCG76294.1;transl_table=11
+MK797984.1	Genbank	gene	275953	276066	.	+	.	ID=gene-EST35_0427;Name=EST35_0427;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0427
+MK797984.1	Genbank	CDS	275953	276066	.	+	0	ID=cds-QCG76295.1;Parent=gene-EST35_0427;Dbxref=SEED:fig|6666666.410365.peg.384,NCBI_GP:QCG76295.1;Name=QCG76295.1;gbkey=CDS;locus_tag=EST35_0427;product=hypothetical protein;protein_id=QCG76295.1;transl_table=11
+MK797984.1	Genbank	gene	276126	276275	.	+	.	ID=gene-EST35_0428;Name=EST35_0428;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0428
+MK797984.1	Genbank	CDS	276126	276275	.	+	0	ID=cds-QCG76296.1;Parent=gene-EST35_0428;Dbxref=SEED:fig|6666666.410365.peg.385,NCBI_GP:QCG76296.1;Name=QCG76296.1;gbkey=CDS;locus_tag=EST35_0428;product=hypothetical protein;protein_id=QCG76296.1;transl_table=11
+MK797984.1	Genbank	gene	276399	276620	.	+	.	ID=gene-EST35_0429;Name=EST35_0429;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0429
+MK797984.1	Genbank	CDS	276399	276620	.	+	0	ID=cds-QCG76297.1;Parent=gene-EST35_0429;Dbxref=SEED:fig|6666666.410365.peg.386,NCBI_GP:QCG76297.1;Name=QCG76297.1;gbkey=CDS;locus_tag=EST35_0429;product=hypothetical protein;protein_id=QCG76297.1;transl_table=11
+MK797984.1	Genbank	gene	276631	276807	.	+	.	ID=gene-EST35_0430;Name=EST35_0430;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0430
+MK797984.1	Genbank	CDS	276631	276807	.	+	0	ID=cds-QCG76298.1;Parent=gene-EST35_0430;Dbxref=SEED:fig|6666666.410365.peg.387,NCBI_GP:QCG76298.1;Name=QCG76298.1;gbkey=CDS;locus_tag=EST35_0430;product=hypothetical protein;protein_id=QCG76298.1;transl_table=11
+MK797984.1	Genbank	gene	276795	277091	.	+	.	ID=gene-EST35_0431;Name=EST35_0431;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0431
+MK797984.1	Genbank	CDS	276795	277091	.	+	0	ID=cds-QCG76299.1;Parent=gene-EST35_0431;Dbxref=SEED:fig|6666666.410365.peg.388,NCBI_GP:QCG76299.1;Name=QCG76299.1;gbkey=CDS;locus_tag=EST35_0431;product=hypothetical protein;protein_id=QCG76299.1;transl_table=11
+MK797984.1	Genbank	gene	277095	277376	.	+	.	ID=gene-EST35_0432;Name=EST35_0432;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0432
+MK797984.1	Genbank	CDS	277095	277376	.	+	0	ID=cds-QCG76300.1;Parent=gene-EST35_0432;Dbxref=SEED:fig|6666666.410365.peg.389,NCBI_GP:QCG76300.1;Name=QCG76300.1;gbkey=CDS;locus_tag=EST35_0432;product=hypothetical protein;protein_id=QCG76300.1;transl_table=11
+MK797984.1	Genbank	gene	277390	278001	.	+	.	ID=gene-EST35_0433;Name=EST35_0433;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0433
+MK797984.1	Genbank	CDS	277390	278001	.	+	0	ID=cds-QCG76301.1;Parent=gene-EST35_0433;Dbxref=SEED:fig|6666666.410365.peg.390,NCBI_GP:QCG76301.1;Name=QCG76301.1;gbkey=CDS;locus_tag=EST35_0433;product=tRNA(Ile)-lysidine synthetase;protein_id=QCG76301.1;transl_table=11
+MK797984.1	Genbank	gene	277994	278113	.	+	.	ID=gene-EST35_0434;Name=EST35_0434;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0434
+MK797984.1	Genbank	CDS	277994	278113	.	+	0	ID=cds-QCG76302.1;Parent=gene-EST35_0434;Dbxref=SEED:fig|6666666.410365.peg.391,NCBI_GP:QCG76302.1;Name=QCG76302.1;gbkey=CDS;locus_tag=EST35_0434;product=hypothetical protein;protein_id=QCG76302.1;transl_table=11
+MK797984.1	Genbank	gene	278110	278457	.	+	.	ID=gene-EST35_0435;Name=EST35_0435;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0435
+MK797984.1	Genbank	CDS	278110	278457	.	+	0	ID=cds-QCG76303.1;Parent=gene-EST35_0435;Dbxref=SEED:fig|6666666.410365.peg.392,NCBI_GP:QCG76303.1;Name=QCG76303.1;gbkey=CDS;locus_tag=EST35_0435;product=hypothetical protein;protein_id=QCG76303.1;transl_table=11
+MK797984.1	Genbank	gene	278670	279002	.	+	.	ID=gene-EST35_0436;Name=EST35_0436;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0436
+MK797984.1	Genbank	CDS	278670	279002	.	+	0	ID=cds-QCG76304.1;Parent=gene-EST35_0436;Dbxref=SEED:fig|6666666.410365.peg.393,NCBI_GP:QCG76304.1;Name=QCG76304.1;gbkey=CDS;locus_tag=EST35_0436;product=hypothetical protein;protein_id=QCG76304.1;transl_table=11
+MK797984.1	Genbank	gene	279051	279392	.	+	.	ID=gene-EST35_0437;Name=EST35_0437;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0437
+MK797984.1	Genbank	CDS	279051	279392	.	+	0	ID=cds-QCG76305.1;Parent=gene-EST35_0437;Dbxref=SEED:fig|6666666.410365.peg.394,NCBI_GP:QCG76305.1;Name=QCG76305.1;gbkey=CDS;locus_tag=EST35_0437;product=hypothetical protein;protein_id=QCG76305.1;transl_table=11
+MK797984.1	Genbank	gene	279365	279724	.	+	.	ID=gene-EST35_0438;Name=EST35_0438;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0438
+MK797984.1	Genbank	CDS	279365	279724	.	+	0	ID=cds-QCG76306.1;Parent=gene-EST35_0438;Dbxref=SEED:fig|6666666.410365.peg.395,NCBI_GP:QCG76306.1;Name=QCG76306.1;gbkey=CDS;locus_tag=EST35_0438;product=hypothetical protein;protein_id=QCG76306.1;transl_table=11
+MK797984.1	Genbank	gene	279684	279899	.	+	.	ID=gene-EST35_0439;Name=EST35_0439;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0439
+MK797984.1	Genbank	CDS	279684	279899	.	+	0	ID=cds-QCG76307.1;Parent=gene-EST35_0439;Dbxref=NCBI_GP:QCG76307.1;Name=QCG76307.1;gbkey=CDS;locus_tag=EST35_0439;product=hypothetical protein;protein_id=QCG76307.1;transl_table=11
+MK797984.1	Genbank	gene	279874	280197	.	+	.	ID=gene-EST35_0440;Name=EST35_0440;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0440
+MK797984.1	Genbank	CDS	279874	280197	.	+	0	ID=cds-QCG76308.1;Parent=gene-EST35_0440;Dbxref=SEED:fig|6666666.410365.peg.396,NCBI_GP:QCG76308.1;Name=QCG76308.1;gbkey=CDS;locus_tag=EST35_0440;product=hypothetical protein;protein_id=QCG76308.1;transl_table=11
+MK797984.1	Genbank	gene	280194	280688	.	+	.	ID=gene-EST35_0441;Name=EST35_0441;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0441
+MK797984.1	Genbank	CDS	280194	280688	.	+	0	ID=cds-QCG76309.1;Parent=gene-EST35_0441;Dbxref=UniProtKB/TrEMBL:A0A2R5F8B1,NCBI_GP:QCG76309.1;Name=QCG76309.1;gbkey=CDS;locus_tag=EST35_0441;product=peptidase M23;protein_id=QCG76309.1;transl_table=11
+MK797984.1	Genbank	gene	280681	281022	.	+	.	ID=gene-EST35_0442;Name=EST35_0442;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0442
+MK797984.1	Genbank	CDS	280681	281022	.	+	0	ID=cds-QCG76310.1;Parent=gene-EST35_0442;Dbxref=SEED:fig|6666666.410365.peg.398,NCBI_GP:QCG76310.1;Name=QCG76310.1;gbkey=CDS;locus_tag=EST35_0442;product=hypothetical protein;protein_id=QCG76310.1;transl_table=11
+MK797984.1	Genbank	gene	281024	281347	.	+	.	ID=gene-EST35_0443;Name=EST35_0443;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0443
+MK797984.1	Genbank	CDS	281024	281347	.	+	0	ID=cds-QCG76311.1;Parent=gene-EST35_0443;Dbxref=SEED:fig|6666666.410365.peg.399,NCBI_GP:QCG76311.1;Name=QCG76311.1;gbkey=CDS;locus_tag=EST35_0443;product=hypothetical protein;protein_id=QCG76311.1;transl_table=11
+MK797984.1	Genbank	gene	281459	281752	.	+	.	ID=gene-EST35_0444;Name=EST35_0444;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0444
+MK797984.1	Genbank	CDS	281459	281752	.	+	0	ID=cds-QCG76312.1;Parent=gene-EST35_0444;Dbxref=SEED:fig|6666666.410365.peg.400,NCBI_GP:QCG76312.1;Name=QCG76312.1;gbkey=CDS;locus_tag=EST35_0444;product=hypothetical protein;protein_id=QCG76312.1;transl_table=11
+MK797984.1	Genbank	gene	281781	282074	.	+	.	ID=gene-EST35_0445;Name=EST35_0445;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0445
+MK797984.1	Genbank	CDS	281781	282074	.	+	0	ID=cds-QCG76313.1;Parent=gene-EST35_0445;Dbxref=SEED:fig|6666666.410365.peg.401,NCBI_GP:QCG76313.1;Name=QCG76313.1;gbkey=CDS;locus_tag=EST35_0445;product=hypothetical protein;protein_id=QCG76313.1;transl_table=11
+MK797984.1	Genbank	gene	282157	282303	.	+	.	ID=gene-EST35_0446;Name=EST35_0446;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0446
+MK797984.1	Genbank	CDS	282157	282303	.	+	0	ID=cds-QCG76314.1;Parent=gene-EST35_0446;Dbxref=NCBI_GP:QCG76314.1;Name=QCG76314.1;gbkey=CDS;locus_tag=EST35_0446;product=hypothetical protein;protein_id=QCG76314.1;transl_table=11
+MK797984.1	Genbank	gene	282296	282559	.	+	.	ID=gene-EST35_0447;Name=EST35_0447;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0447
+MK797984.1	Genbank	CDS	282296	282559	.	+	0	ID=cds-QCG76315.1;Parent=gene-EST35_0447;Dbxref=SEED:fig|6666666.410365.peg.402,NCBI_GP:QCG76315.1;Name=QCG76315.1;gbkey=CDS;locus_tag=EST35_0447;product=hypothetical protein;protein_id=QCG76315.1;transl_table=11
+MK797984.1	Genbank	gene	282587	282880	.	+	.	ID=gene-EST35_0448;Name=EST35_0448;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0448
+MK797984.1	Genbank	CDS	282587	282880	.	+	0	ID=cds-QCG76316.1;Parent=gene-EST35_0448;Dbxref=SEED:fig|6666666.410365.peg.403,NCBI_GP:QCG76316.1;Name=QCG76316.1;gbkey=CDS;locus_tag=EST35_0448;product=hypothetical protein;protein_id=QCG76316.1;transl_table=11
+MK797984.1	Genbank	gene	282877	283158	.	+	.	ID=gene-EST35_0449;Name=EST35_0449;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0449
+MK797984.1	Genbank	CDS	282877	283158	.	+	0	ID=cds-QCG76317.1;Parent=gene-EST35_0449;Dbxref=SEED:fig|6666666.410365.peg.404,NCBI_GP:QCG76317.1;Name=QCG76317.1;gbkey=CDS;locus_tag=EST35_0449;product=hypothetical protein;protein_id=QCG76317.1;transl_table=11
+MK797984.1	Genbank	gene	283228	283533	.	+	.	ID=gene-EST35_0450;Name=EST35_0450;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0450
+MK797984.1	Genbank	CDS	283228	283533	.	+	0	ID=cds-QCG76318.1;Parent=gene-EST35_0450;Dbxref=SEED:fig|6666666.410365.peg.405,NCBI_GP:QCG76318.1;Name=QCG76318.1;gbkey=CDS;locus_tag=EST35_0450;product=hypothetical protein;protein_id=QCG76318.1;transl_table=11
+MK797984.1	Genbank	gene	283521	283802	.	+	.	ID=gene-EST35_0451;Name=EST35_0451;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0451
+MK797984.1	Genbank	CDS	283521	283802	.	+	0	ID=cds-QCG76319.1;Parent=gene-EST35_0451;Dbxref=SEED:fig|6666666.410365.peg.406,NCBI_GP:QCG76319.1;Name=QCG76319.1;gbkey=CDS;locus_tag=EST35_0451;product=hypothetical protein;protein_id=QCG76319.1;transl_table=11
+MK797984.1	Genbank	gene	283818	284126	.	+	.	ID=gene-EST35_0452;Name=EST35_0452;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0452
+MK797984.1	Genbank	CDS	283818	284126	.	+	0	ID=cds-QCG76320.1;Parent=gene-EST35_0452;Dbxref=SEED:fig|6666666.410365.peg.407,NCBI_GP:QCG76320.1;Name=QCG76320.1;gbkey=CDS;locus_tag=EST35_0452;product=hypothetical protein;protein_id=QCG76320.1;transl_table=11
+MK797984.1	Genbank	gene	284147	284398	.	+	.	ID=gene-EST35_0453;Name=EST35_0453;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0453
+MK797984.1	Genbank	CDS	284147	284398	.	+	0	ID=cds-QCG76321.1;Parent=gene-EST35_0453;Dbxref=SEED:fig|6666666.410365.peg.408,NCBI_GP:QCG76321.1;Name=QCG76321.1;gbkey=CDS;locus_tag=EST35_0453;product=hypothetical protein;protein_id=QCG76321.1;transl_table=11
+MK797984.1	Genbank	gene	284563	284799	.	+	.	ID=gene-EST35_0454;Name=EST35_0454;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0454
+MK797984.1	Genbank	CDS	284563	284799	.	+	0	ID=cds-QCG76322.1;Parent=gene-EST35_0454;Dbxref=SEED:fig|6666666.410365.peg.409,NCBI_GP:QCG76322.1;Name=QCG76322.1;gbkey=CDS;locus_tag=EST35_0454;product=hypothetical protein;protein_id=QCG76322.1;transl_table=11
+MK797984.1	Genbank	gene	284741	285067	.	+	.	ID=gene-EST35_0455;Name=EST35_0455;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0455
+MK797984.1	Genbank	CDS	284741	285067	.	+	0	ID=cds-QCG76323.1;Parent=gene-EST35_0455;Dbxref=UniProtKB/TrEMBL:A0A0V0X9U5,NCBI_GP:QCG76323.1;Name=QCG76323.1;gbkey=CDS;locus_tag=EST35_0455;product=CLIP-associating protein 1;protein_id=QCG76323.1;transl_table=11
+MK797984.1	Genbank	gene	285064	285318	.	+	.	ID=gene-EST35_0456;Name=EST35_0456;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0456
+MK797984.1	Genbank	CDS	285064	285318	.	+	0	ID=cds-QCG76324.1;Parent=gene-EST35_0456;Dbxref=NCBI_GP:QCG76324.1;Name=QCG76324.1;gbkey=CDS;locus_tag=EST35_0456;product=hypothetical protein;protein_id=QCG76324.1;transl_table=11
+MK797984.1	Genbank	gene	285321	285602	.	+	.	ID=gene-EST35_0457;Name=EST35_0457;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0457
+MK797984.1	Genbank	CDS	285321	285602	.	+	0	ID=cds-QCG76325.1;Parent=gene-EST35_0457;Dbxref=SEED:fig|6666666.410365.peg.411,NCBI_GP:QCG76325.1;Name=QCG76325.1;gbkey=CDS;locus_tag=EST35_0457;product=hypothetical protein;protein_id=QCG76325.1;transl_table=11
+MK797984.1	Genbank	gene	285589	285873	.	+	.	ID=gene-EST35_0458;Name=EST35_0458;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0458
+MK797984.1	Genbank	CDS	285589	285873	.	+	0	ID=cds-QCG76326.1;Parent=gene-EST35_0458;Dbxref=SEED:fig|6666666.410365.peg.412,NCBI_GP:QCG76326.1;Name=QCG76326.1;gbkey=CDS;locus_tag=EST35_0458;product=hypothetical protein;protein_id=QCG76326.1;transl_table=11
+MK797984.1	Genbank	gene	285870	286145	.	+	.	ID=gene-EST35_0459;Name=EST35_0459;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0459
+MK797984.1	Genbank	CDS	285870	286145	.	+	0	ID=cds-QCG76327.1;Parent=gene-EST35_0459;Dbxref=SEED:fig|6666666.410365.peg.413,NCBI_GP:QCG76327.1;Name=QCG76327.1;gbkey=CDS;locus_tag=EST35_0459;product=hypothetical protein;protein_id=QCG76327.1;transl_table=11
+MK797984.1	Genbank	gene	286146	286427	.	+	.	ID=gene-EST35_0460;Name=EST35_0460;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0460
+MK797984.1	Genbank	CDS	286146	286427	.	+	0	ID=cds-QCG76328.1;Parent=gene-EST35_0460;Dbxref=SEED:fig|6666666.410365.peg.414,NCBI_GP:QCG76328.1;Name=QCG76328.1;gbkey=CDS;locus_tag=EST35_0460;product=hypothetical protein;protein_id=QCG76328.1;transl_table=11
+MK797984.1	Genbank	gene	286516	286638	.	+	.	ID=gene-EST35_0461;Name=EST35_0461;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EST35_0461
+MK797984.1	Genbank	CDS	286516	286638	.	+	0	ID=cds-QCG76329.1;Parent=gene-EST35_0461;Dbxref=SEED:fig|6666666.410365.peg.415,NCBI_GP:QCG76329.1;Name=QCG76329.1;gbkey=CDS;locus_tag=EST35_0461;product=hypothetical protein;protein_id=QCG76329.1;transl_table=11
+
